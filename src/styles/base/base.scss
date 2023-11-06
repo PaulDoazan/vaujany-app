@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .bg__color__1 {
+    background: #e0ffcd;
+  }
+  
+  .bg__color__2 {
+    background: #fdffcd;
+  }
+  
+  .bg__color__3 {
+    background: #ffebbb;
+  }
+  
+  .bg__color__4 {
+    background: #ffcab0;
+  }
+  
+  .nbScreen__select {
+    position: absolute;
+    top: 4vh;
+    right: 1vw;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 1em 0.5em;
+    transform: translate(-50%, -50%);
+  }
+  
+  .screens__container__1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .screens__container__2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .screens__container__4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  }
+  
+  .frame__rotate__left {
+    transform: rotate(90deg);
+  }
+  
+  .frame__rotate__right {
+    transform: rotate(-90deg);
+  }
+  
+  .frame__reverse {
+    transform: rotate(180deg);
+  }
+
+  .frame__container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
