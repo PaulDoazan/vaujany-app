@@ -8,32 +8,6 @@ body {
       monospace;
   }
   
-  .bg__color__1 {
-    background: #e0ffcd;
-  }
-  
-  .bg__color__2 {
-    background: #fdffcd;
-  }
-  
-  .bg__color__3 {
-    background: #ffebbb;
-  }
-  
-  .bg__color__4 {
-    background: #ffcab0;
-  }
-  
-  .nbScreen__select {
-    position: absolute;
-    top: 4vh;
-    right: 1vw;
-    border: 5px solid black;
-    border-radius: 50%;
-    padding: 1em 0.5em;
-    transform: translate(-50%, -50%);
-  }
-  
   .screens__container__1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

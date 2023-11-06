@@ -4,7 +4,7 @@ import Menu from './Menu'
 
 export default function Frame({ id, arrLength }) {
     const [currentGame, setCurrentGame] = useState(null)
-    let fullClass = `frame frame__${id} bg__color__${id + 1}`
+    let fullClass = `frame frame__${id}`
     if (arrLength === 4 && id < arrLength / 2) {
         fullClass += ' frame__reverse'
     } else if (arrLength === 2 && id === 0) {

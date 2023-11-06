@@ -1,10 +1,16 @@
 import React from 'react'
+import BtnLang from './BtnLang'
+import BtnHome from './BtnHome'
+import BtnBack from './BtnBack'
 
 export default function Menu() {
     return (
         <div className="menu__container">
-            <div className="btn__home">Home</div>
-            <div className="btn__back">Back</div>
+            <BtnHome />
+            <BtnBack />
+            <BtnLang lang={"fr"} />
+            <BtnLang lang={"en"} />
+            <BtnLang lang={"nl"} />
         </div>
     )
 }

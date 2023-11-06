@@ -11,8 +11,15 @@ function App() {
   }
 
   const handleNbScreenChange = (e) => {
-    setNbScreen(e.target.value);
+    console.log(e);
+    if (e.key === 'e') {
+      setNbScreen(1);
+    } else if (e.key === 'r') {
+      setNbScreen(4);
+    }
   }
+
+  window.addEventListener('keydown', handleNbScreenChange)
 
   return (
     <>
@@ -22,11 +29,6 @@ function App() {
           return <Frame key={index} id={index} arrLength={arr.length} />
         })}
       </div>
-      <select name="nbScreens" id="nbScreen-select" className='nbScreen__select' onChange={handleNbScreenChange}>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="4">4</option>
-      </select>
     </>
   )
 }
