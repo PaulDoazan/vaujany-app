@@ -7,6 +7,7 @@ import Games from './games/Games'
 
 
 export default function Frame({ id, arrLength }) {
+
     const [currentPage, setCurrentPage] = useState('home')
 
     let fullClass = `frame frame__${id}`

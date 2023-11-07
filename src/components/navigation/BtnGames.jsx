@@ -5,6 +5,6 @@ export default function BtnGames({ changePage }) {
         changePage('games')
     }
     return (
-        <div onMouseDown={handleClick} onTouchDown={handleClick}>BtnGames</div>
+        <div onMouseDown={handleClick} onTouchStart={handleClick}>BtnGames</div>
     )
 }

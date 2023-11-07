@@ -5,6 +5,6 @@ export default function BtnExplore({ changePage }) {
         changePage('explore')
     }
     return (
-        <div onMouseDown={handleClick} onTouchDown={handleClick}>BtnExplore</div>
+        <div onMouseDown={handleClick} onTouchStart={handleClick}>BtnExplore</div>
     )
 }

@@ -1,0 +1,36 @@
+{
+    "flowers": [
+        {
+            "previous": "explore",
+            "slug": "achillea_millefolium",
+            "file_name": "achillea_millefolium.jpg",
+            "title_latin": "achillea millefolium",
+            "title_fr": "achillée millefeuille",
+            "title_en": "yarrow"
+        },
+        {
+            "previous": "explore",
+            "slug": "carum_carvi",
+            "file_name": "carum_carvi.jpg",
+            "title_latin": "carum carvi",
+            "title_fr": "cumin des pres",
+            "title_en": "cumin"
+        },
+        {
+            "previous": "explore",
+            "slug": "geranium_robertianum",
+            "file_name": "geranium_robertianum.jpg",
+            "title_latin": "geranium_robertianum",
+            "title_fr": "géranium herbe à robert",
+            "title_en": "geranium"
+        },
+        {
+            "previous": "explore",
+            "slug": "origanum_vulgare",
+            "file_name": "origanum_vulgare.jpg",
+            "title_latin": "origanum vulgare",
+            "title_fr": "origan vulgaire",
+            "title_en": "oregano"
+        }
+    ]
+}
