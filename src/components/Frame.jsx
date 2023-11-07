@@ -4,6 +4,7 @@ import Home from './Home'
 import Explore from './exploration/Explore'
 import Games from './games/Games'
 import { LangProvider, NavigationProvider, NavigationContext } from '../utils/context'
+import Game from './games/Game'
 
 
 export default function Frame({ id, arrLength }) {
@@ -31,6 +32,7 @@ export default function Frame({ id, arrLength }) {
                             {currentPage.category === 'home' && <Home />}
                             {currentPage.category === 'explore' && <Explore />}
                             {currentPage.category === 'games' && <Games />}
+                            {currentPage.category === 'game' && <Game />}
                         </div>
                     </div>
                 </div>

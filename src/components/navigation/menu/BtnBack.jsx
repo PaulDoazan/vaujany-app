@@ -8,7 +8,12 @@ export default function BtnBack() {
     const handlePreviousPage = () => {
         if (currentPage.category === 'home') return
         if (currentPage.element) {
-            changePage({ category: currentPage.category, element: null })
+            if (currentPage.category === "flowersInfo") {
+                changePage({ category: currentPage.category, element: null })
+            } else {
+                changePage({ category: navigation_configs[currentPage.category].previous, element: null })
+            }
+
         } else {
             changePage({ category: navigation_configs[currentPage.category].previous, element: null })
         }

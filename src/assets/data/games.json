@@ -1,0 +1,34 @@
+{
+    "games": [
+        {
+            "slug": "etagement",
+            "title_fr": "étagement",
+            "title_en": "scales",
+            "title_nl": "bluck"
+        },
+        {
+            "slug": "toxique",
+            "title_fr": "toxique ?",
+            "title_en": "toxic ?",
+            "title_nl": "bluck ?"
+        },
+        {
+            "slug": "memory",
+            "title_fr": "memory",
+            "title_en": "memory",
+            "title_nl": "bluck"
+        },
+        {
+            "slug": "qui-est-ce",
+            "title_fr": "qui est-ce ?",
+            "title_en": "guess who ?",
+            "title_nl": "bluck ?"
+        },
+        {
+            "slug": "quiz",
+            "title_fr": "quiz",
+            "title_en": "quiz",
+            "title_nl": "bluck"
+        }
+    ]
+}
