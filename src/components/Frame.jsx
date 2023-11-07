@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import Menu from './navigation/menu/Menu'
 import Home from './Home'
+import Explore from './exploration/Explore'
 
 
 export default function Frame({ id, arrLength }) {
     const [currentPage, setCurrentPage] = useState('home')
+
     let fullClass = `frame frame__${id}`
     if (arrLength === 4 && id < arrLength / 2) {
         fullClass += ' frame__reverse'
@@ -14,16 +16,20 @@ export default function Frame({ id, arrLength }) {
         fullClass += ' frame__rotate__right'
     }
 
+    const handleChangePage = (value) => {
+        setCurrentPage(value)
+    }
     return (
         <>
             <div className={fullClass}>
                 <div className="frame__container">
                     <div className="menu__wrapper">
-                        <Menu />
+                        <Menu changePage={handleChangePage} />
                     </div>
 
                     <div className="home__wrapper">
-                        <Home />
+                        {currentPage === 'home' && <Home changePage={handleChangePage} />}
+                        {currentPage === 'explore' && <Explore />}
                     </div>
                 </div>
             </div>

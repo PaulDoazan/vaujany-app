@@ -11,7 +11,6 @@ function App() {
   }
 
   const handleNbScreenChange = (e) => {
-    console.log(e);
     if (e.key === 'e') {
       setNbScreen(1);
     } else if (e.key === 'r') {

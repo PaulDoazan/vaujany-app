@@ -1,7 +1,10 @@
 import React from 'react'
 
-export default function BtnExplore() {
+export default function BtnExplore({ changePage }) {
+    const handleClick = () => {
+        changePage('explore')
+    }
     return (
-        <div>BtnExplore</div>
+        <div onClick={handleClick}>BtnExplore</div>
     )
 }
