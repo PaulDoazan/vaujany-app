@@ -17,7 +17,7 @@ export const LangProvider = ({ children }) => {
 }
 
 export const NavigationProvider = ({ children }) => {
-    const [currentPage, setCurrentPage] = useState('home')
+    const [currentPage, setCurrentPage] = useState({ category: 'home', element: null })
     const changePage = (value) => {
         setCurrentPage(value)
     }

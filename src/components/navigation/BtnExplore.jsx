@@ -5,7 +5,7 @@ export default function BtnExplore() {
     const { changePage } = useContext(NavigationContext)
 
     const handleClick = () => {
-        changePage('explore')
+        changePage({ category: 'explore', element: null })
     }
     return (
         <div onTouchEnd={handleClick}>BtnExplore</div>

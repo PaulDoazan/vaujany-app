@@ -28,9 +28,9 @@ export default function Frame({ id, arrLength }) {
                         </div>
 
                         <div className="home__wrapper">
-                            {currentPage === 'home' && <Home />}
-                            {currentPage === 'explore' && <Explore />}
-                            {currentPage === 'games' && <Games />}
+                            {currentPage.category === 'home' && <Home />}
+                            {currentPage.category === 'explore' && <Explore />}
+                            {currentPage.category === 'games' && <Games />}
                         </div>
                     </div>
                 </div>

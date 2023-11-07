@@ -5,7 +5,7 @@ export default function BtnHome() {
     const { changePage } = useContext(NavigationContext)
 
     const handleChangePage = () => {
-        changePage('home')
+        changePage({ category: 'home', element: null })
     }
 
     return (

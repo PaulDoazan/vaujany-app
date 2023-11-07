@@ -6,7 +6,12 @@ export default function BtnBack() {
     const { currentPage } = useContext(NavigationContext)
     const { changePage } = useContext(NavigationContext)
     const handlePreviousPage = () => {
-        changePage(navigation_configs[currentPage].previous)
+        if (currentPage.category === 'home') return
+        if (currentPage.element) {
+            changePage({ category: currentPage.category, element: null })
+        } else {
+            changePage({ category: navigation_configs[currentPage.category].previous, element: null })
+        }
     }
     return (
         <div onTouchEnd={handlePreviousPage} className="btn__back btn__navigation">
