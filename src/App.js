@@ -15,6 +15,10 @@ function App() {
       setNbScreen(1);
     } else if (e.key === 'r') {
       setNbScreen(4);
+    } else if (e.target.value === '1') {
+      setNbScreen(e.target.value);
+    } else if (e.target.value === '4') {
+      setNbScreen(e.target.value);
     }
   }
 
@@ -28,6 +32,11 @@ function App() {
           return <Frame key={index} id={index} arrLength={arr.length} />
         })}
       </div>
+
+      <select name="nbScreens" id="nbScreen-select" className='nbScreen__select' onChange={handleNbScreenChange}>
+        <option value="1">1</option>
+        <option value="4">4</option>
+      </select>
     </>
   )
 }

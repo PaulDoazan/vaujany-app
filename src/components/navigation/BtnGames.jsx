@@ -1,7 +1,10 @@
 import React from 'react'
 
-export default function BtnGames() {
+export default function BtnGames({ changePage }) {
+    const handleClick = () => {
+        changePage('games')
+    }
     return (
-        <div>BtnGames</div>
+        <div onMouseDown={handleClick} onTouchDown={handleClick}>BtnGames</div>
     )
 }

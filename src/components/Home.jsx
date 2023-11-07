@@ -10,7 +10,7 @@ export default function Home({ changePage }) {
         <div className="home__container">
             <h1>La flore autour de Vaujany</h1>
             <BtnExplore changePage={handleChangePage} />
-            <BtnGames />
+            <BtnGames changePage={handleChangePage} />
         </div>
     )
 }

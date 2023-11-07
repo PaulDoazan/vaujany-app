@@ -1,0 +1,11 @@
+{
+    "home": {
+        "previous": null
+    },
+    "explore": {
+        "previous": "home"
+    },
+    "games": {
+        "previous": "home"
+    }
+}
