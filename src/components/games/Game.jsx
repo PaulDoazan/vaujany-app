@@ -8,8 +8,11 @@ export default function Game() {
     const { lang } = useContext(LangContext)
 
     const currentGame = dataGames.games.find(el => el.slug === currentPage.element)
-    // Reste à implementer l'overlay pour les gameplay
+
     return (
-        <div>Dans le jeu{currentGame && currentGame[`title_${lang}`]}</div>
+        <>
+
+            Dans le jeu{currentGame[`title_${lang}`]}
+        </>
     )
 }

@@ -4,31 +4,41 @@
             "slug": "etagement",
             "title_fr": "étagement",
             "title_en": "scales",
-            "title_nl": "bluck"
+            "title_nl": "bluck",
+            "color": "#D5C389",
+            "img_presentation": "etagement.png"
         },
         {
             "slug": "toxique",
             "title_fr": "toxique ?",
             "title_en": "toxic ?",
-            "title_nl": "bluck ?"
+            "title_nl": "bluck ?",
+            "color": "#FFB559",
+            "img_presentation": "toxic.png"
         },
         {
             "slug": "memory",
             "title_fr": "memory",
             "title_en": "memory",
-            "title_nl": "bluck"
+            "title_nl": "bluck",
+            "color": "#E8D262",
+            "img_presentation": "memory.png"
         },
         {
             "slug": "qui-est-ce",
             "title_fr": "qui est-ce ?",
             "title_en": "guess who ?",
-            "title_nl": "bluck ?"
+            "title_nl": "bluck ?",
+            "color": "#52774E",
+            "img_presentation": "quiestce.png"
         },
         {
             "slug": "quiz",
             "title_fr": "quiz",
             "title_en": "quiz",
-            "title_nl": "bluck"
+            "title_nl": "bluck",
+            "color": "#E07CAD",
+            "img_presentation": "quiz.png"
         }
     ]
 }
