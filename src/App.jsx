@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Frame from './components/Frame';
+import Frame from './app/components/Frame';
 
-function App() {
+export default function App() {
   const [nbScreen, setNbScreen] = useState(1)
 
   const screens = []
@@ -11,7 +11,6 @@ function App() {
   }
 
   const handleNbScreenChange = (e) => {
-    console.log(e);
     if (e.key === 'e') {
       setNbScreen(1);
     } else if (e.key === 'r') {
@@ -23,7 +22,6 @@ function App() {
 
   return (
     <>
-
       <div className={`screens__container__${screens.length}`}>
         {screens.map((el, index, arr) => {
           return <Frame key={index} id={index} arrLength={arr.length} />
@@ -32,5 +30,3 @@ function App() {
     </>
   )
 }
-
-export default App;

@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Menu from './navigation/menu/Menu'
 import Home from './Home'
-
+import { useSelector } from 'react-redux'
 
 export default function Frame({ id, arrLength }) {
-    const [currentPage, setCurrentPage] = useState('home')
+    const currentPage = useSelector((state) => state[`navigation_${id}`].value)
+
     let fullClass = `frame frame__${id}`
     if (arrLength === 4 && id < arrLength / 2) {
         fullClass += ' frame__reverse'
