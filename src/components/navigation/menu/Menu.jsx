@@ -3,22 +3,15 @@ import BtnLang from './BtnLang'
 import BtnHome from './BtnHome'
 import BtnBack from './BtnBack'
 
-export default function Menu({ changePage, previousPage }) {
-    const handleChangePage = (value) => {
-        changePage(value)
-    }
-
-    const handlePreviousPage = () => {
-        previousPage()
-    }
+export default function Menu() {
     return (
         <div className="menu__container">
-            <BtnHome changePage={handleChangePage} />
-            <BtnBack previousPage={handlePreviousPage} />
+            <BtnHome />
+            <BtnBack />
 
-            <BtnLang lang={"fr"} />
-            <BtnLang lang={"en"} />
-            <BtnLang lang={"nl"} />
+            <BtnLang language={"fr"} />
+            <BtnLang language={"en"} />
+            <BtnLang language={"nl"} />
         </div>
     )
 }

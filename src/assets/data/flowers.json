@@ -6,7 +6,8 @@
             "file_name": "achillea_millefolium.jpg",
             "title_latin": "achillea millefolium",
             "title_fr": "achillée millefeuille",
-            "title_en": "yarrow"
+            "title_en": "yarrow",
+            "title_nl": "bluck"
         },
         {
             "previous": "explore",
@@ -14,7 +15,8 @@
             "file_name": "carum_carvi.jpg",
             "title_latin": "carum carvi",
             "title_fr": "cumin des pres",
-            "title_en": "cumin"
+            "title_en": "cumin",
+            "title_nl": "bluck"
         },
         {
             "previous": "explore",
@@ -22,7 +24,8 @@
             "file_name": "geranium_robertianum.jpg",
             "title_latin": "geranium_robertianum",
             "title_fr": "géranium herbe à robert",
-            "title_en": "geranium"
+            "title_en": "geranium",
+            "title_nl": "bluck"
         },
         {
             "previous": "explore",
@@ -30,7 +33,8 @@
             "file_name": "origanum_vulgare.jpg",
             "title_latin": "origanum vulgare",
             "title_fr": "origan vulgaire",
-            "title_en": "oregano"
+            "title_en": "oregano",
+            "title_nl": "bluck"
         }
     ]
 }

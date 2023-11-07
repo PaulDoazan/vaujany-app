@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { NavigationContext } from '../../utils/context'
 
-export default function BtnGames({ changePage }) {
+export default function BtnGames() {
+    const { changePage } = useContext(NavigationContext)
+
     const handleClick = () => {
         changePage('games')
     }
     return (
-        <div onMouseDown={handleClick} onTouchStart={handleClick}>BtnGames</div>
+        <div onTouchEnd={handleClick}>BtnGames</div>
     )
 }

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Frame from './components/Frame';
+import { NavigationProvider } from './utils/context';
 
 function App() {
   const [nbScreen, setNbScreen] = useState(1)
@@ -29,7 +30,7 @@ function App() {
 
       <div className={`screens__container__${screens.length}`}>
         {screens.map((el, index, arr) => {
-          return <Frame key={index} id={index} arrLength={arr.length} />
+          return <NavigationProvider><Frame key={index} id={index} arrLength={arr.length} /></NavigationProvider>
         })}
       </div>
 
