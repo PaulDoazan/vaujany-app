@@ -8,6 +8,7 @@ export default function Menu() {
         <div className="menu__container">
             <BtnHome />
             <BtnBack />
+
             <BtnLang lang={"fr"} />
             <BtnLang lang={"en"} />
             <BtnLang lang={"nl"} />

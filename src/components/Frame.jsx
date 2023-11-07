@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import Menu from './Menu'
+import Menu from './navigation/menu/Menu'
+import Home from './Home'
 
 
 export default function Frame({ id, arrLength }) {
-    const [currentGame, setCurrentGame] = useState(null)
+    const [currentPage, setCurrentPage] = useState('home')
     let fullClass = `frame frame__${id}`
     if (arrLength === 4 && id < arrLength / 2) {
         fullClass += ' frame__reverse'
@@ -13,21 +14,16 @@ export default function Frame({ id, arrLength }) {
         fullClass += ' frame__rotate__right'
     }
 
-    const onBtnClick = (e) => {
-        if (currentGame === e.target.dataset.game) {
-            setCurrentGame(null)
-        } else {
-            setCurrentGame(e.target.dataset.game)
-        }
-
-    }
-
     return (
         <>
             <div className={fullClass}>
                 <div className="frame__container">
                     <div className="menu__wrapper">
                         <Menu />
+                    </div>
+
+                    <div className="home__wrapper">
+                        <Home />
                     </div>
                 </div>
             </div>

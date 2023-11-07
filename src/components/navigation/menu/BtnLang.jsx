@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BtnLang({ lang }) {
     return (
-        <div className="btn__lang__wrapper btn__navigation">
+        <div className="btn__lang__container btn__navigation">
             {lang.toUpperCase()}
         </div>
     )
