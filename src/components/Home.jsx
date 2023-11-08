@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import BtnExplore from './navigation/BtnExplore'
 import BtnGames from './navigation/BtnGames'
 

@@ -1,15 +1,18 @@
 {
     "home": {
-        "previous": null
+        "previous": null,
+        "backgroundColor": "#AAB8A8"
     },
     "explore": {
-        "previous": "home"
+        "previous": "home",
+        "backgroundColor": "#7AA269"
     },
     "flowerInfos": {
         "previous": "explore"
     },
     "gamesHome": {
-        "previous": "home"
+        "previous": "home",
+        "backgroundColor": "#A3CCED"
     },
     "gameInstruction": {
         "previous": "gamesHome"

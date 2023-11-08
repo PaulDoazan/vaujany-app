@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import dataGames from '../../assets/data/games.json'
 import GameButton from './GameButton'
 

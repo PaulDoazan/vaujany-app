@@ -3,6 +3,7 @@
         {
             "previous": "explore",
             "slug": "achillea_millefolium",
+            "backgroundColor": "#E2B7CE",
             "file_name": "achillea_millefolium.jpg",
             "title_latin": "achillea millefolium",
             "title_fr": "achillée millefeuille",
@@ -12,6 +13,7 @@
         {
             "previous": "explore",
             "slug": "carum_carvi",
+            "backgroundColor": "#F2F4E2",
             "file_name": "carum_carvi.jpg",
             "title_latin": "carum carvi",
             "title_fr": "cumin des pres",
@@ -21,6 +23,7 @@
         {
             "previous": "explore",
             "slug": "geranium_robertianum",
+            "backgroundColor": "#ECE7EC",
             "file_name": "geranium_robertianum.jpg",
             "title_latin": "geranium_robertianum",
             "title_fr": "géranium herbe à robert",
@@ -30,6 +33,7 @@
         {
             "previous": "explore",
             "slug": "origanum_vulgare",
+            "backgroundColor": "#AF5F81",
             "file_name": "origanum_vulgare.jpg",
             "title_latin": "origanum vulgare",
             "title_fr": "origan vulgaire",
