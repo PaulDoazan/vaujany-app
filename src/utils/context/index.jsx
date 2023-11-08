@@ -10,9 +10,10 @@ export const LangContext = createContext()
 export const NavigationContext = createContext()
 
 const getColor = (pageObject) => {
-    console.log(allPages);
+    console.log(pageObject.element);
     if (pageObject.element) {
-        return allPages.find(el => el.slug === pageObject.element).backgroundColor
+        const result = allPages.find(el => el.slug === pageObject.element)
+        return result.backgroundColor
     } else {
         return allPages.find(el => el.slug === pageObject.category).backgroundColor
     }
@@ -48,7 +49,7 @@ function concatData() {
     let newArr = []
 
     for (const key in pages) {
-        newArr.push({ slug: key, ...pages[key] })
+        if (pages[key].backgroundColor) newArr.push({ slug: key, ...pages[key] })
     }
 
     newArr = newArr.concat(dataFlowers.flowers)
