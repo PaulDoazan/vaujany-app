@@ -9,13 +9,14 @@ export default function BtnBack() {
         if (currentPage.category === 'home') return
         if (currentPage.element) {
             if (currentPage.category === "explore") {
-                changePage({ category: currentPage.category, element: null })
+                changePage({ category: currentPage.category })
             } else {
-                changePage({ category: navigation_configs[currentPage.category].previous, element: null })
+                const el = currentPage.category === currentPage.element ? currentPage.element : null
+                changePage({ category: navigation_configs[currentPage.category].previous, element: el })
             }
 
         } else {
-            changePage({ category: navigation_configs[currentPage.category].previous, element: null })
+            changePage({ category: navigation_configs[currentPage.category].previous })
         }
     }
     return (

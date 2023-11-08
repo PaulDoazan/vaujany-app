@@ -1,12 +1,12 @@
 import React from 'react'
 import dataGames from '../../assets/data/games.json'
-import GameCard from './GameCard'
+import GameButton from './GameButton'
 
-export default function Games() {
+export default function GamesHome() {
     return (
         <>
             {dataGames.games.map(game => {
-                return <GameCard key={game.slug} data={game} />
+                return <GameButton key={game.slug} data={game} />
             })}
         </>
     )

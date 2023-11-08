@@ -1,15 +1,15 @@
 {
     "games": [
         {
-            "slug": "etagement",
+            "slug": "levels",
             "title_fr": "étagement",
-            "title_en": "scales",
+            "title_en": "levels",
             "title_nl": "bluck",
             "color": "#D5C389",
             "img_presentation": "etagement.png"
         },
         {
-            "slug": "toxique",
+            "slug": "toxic",
             "title_fr": "toxique ?",
             "title_en": "toxic ?",
             "title_nl": "bluck ?",
@@ -25,7 +25,7 @@
             "img_presentation": "memory.png"
         },
         {
-            "slug": "qui-est-ce",
+            "slug": "guesswho",
             "title_fr": "qui est-ce ?",
             "title_en": "guess who ?",
             "title_nl": "bluck ?",

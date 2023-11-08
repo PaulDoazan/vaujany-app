@@ -8,10 +8,25 @@
     "flowerInfos": {
         "previous": "explore"
     },
-    "games": {
+    "gamesHome": {
         "previous": "home"
     },
-    "game": {
-        "previous": "games"
+    "gameInstruction": {
+        "previous": "gamesHome"
+    },
+    "quiz": {
+        "previous": "gameInstruction"
+    },
+    "memory": {
+        "previous": "gameInstruction"
+    },
+    "guesswho": {
+        "previous": "gameInstruction"
+    },
+    "levels": {
+        "previous": "gameInstruction"
+    },
+    "toxic": {
+        "previous": "gameInstruction"
     }
 }

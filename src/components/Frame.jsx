@@ -2,9 +2,14 @@ import React, { useState, useContext } from 'react'
 import Menu from './navigation/menu/Menu'
 import Home from './Home'
 import Explore from './exploration/Explore'
-import Games from './games/Games'
+import GamesHome from './games/GamesHome'
 import { LangProvider, NavigationProvider, NavigationContext } from '../utils/context'
-import Game from './games/Game'
+import GameInstruction from './games/GameInstruction'
+import Memory from './games/gamesComponents/Memory'
+import Quiz from './games/gamesComponents/Quiz'
+import Toxic from './games/gamesComponents/Toxic'
+import Levels from './games/gamesComponents/Levels'
+import GuessWho from './games/gamesComponents/GuessWho'
 
 
 export default function Frame({ id, arrLength }) {
@@ -31,8 +36,13 @@ export default function Frame({ id, arrLength }) {
                         <div className="home__wrapper">
                             {currentPage.category === 'home' && <Home />}
                             {currentPage.category === 'explore' && <Explore />}
-                            {currentPage.category === 'games' && <Games />}
-                            {currentPage.category === 'game' && <Game />}
+                            {currentPage.category === 'gamesHome' && <GamesHome />}
+                            {currentPage.category === 'gameInstruction' && <GameInstruction />}
+                            {currentPage.category === 'memory' && <Memory />}
+                            {currentPage.category === 'quiz' && <Quiz />}
+                            {currentPage.category === 'toxic' && <Toxic />}
+                            {currentPage.category === 'levels' && <Levels />}
+                            {currentPage.category === 'guesswho' && <GuessWho />}
                         </div>
                     </div>
                 </div>

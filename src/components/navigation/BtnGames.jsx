@@ -5,7 +5,7 @@ export default function BtnGames() {
     const { changePage } = useContext(NavigationContext)
 
     const handleClick = () => {
-        changePage({ category: 'games', element: null })
+        changePage({ category: 'gamesHome', element: null })
     }
     return (
         <div onTouchEnd={handleClick}>BtnGames</div>
