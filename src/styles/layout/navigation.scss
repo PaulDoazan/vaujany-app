@@ -6,7 +6,8 @@
 }
 
 .menu__container {
-    transition: background-color 0.3s;
+    transition: background-color $color-transition-duration;
+    transition: color $color-transition-duration;
     width: 100%;
     height: 100%;
     display: flex;
@@ -23,10 +24,16 @@
     margin-bottom: 50%;
 }
 
+.btn__home__path {
+    transition: all $color-transition-duration;
+}
+
 .btn__lang__container {
+    transition: background-color $color-transition-duration;
+    transition: color $color-transition-duration;
     width: 61%;
     height: 4%;
-    font-size: 120%;
+    font-size: 70%;
     border: 2px solid white;
     border-radius: 50%;
     display: flex;

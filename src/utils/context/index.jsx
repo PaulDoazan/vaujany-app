@@ -9,14 +9,13 @@ const allPages = concatData()
 export const LangContext = createContext()
 export const NavigationContext = createContext()
 
-const getColor = (pageObject) => {
-    console.log(pageObject.element);
-    if (pageObject.element) {
-        const result = allPages.find(el => el.slug === pageObject.element)
-        return result.backgroundColor
-    } else {
-        return allPages.find(el => el.slug === pageObject.category).backgroundColor
-    }
+const getColors = (pageObject) => {
+    let target = pageObject.element ? pageObject.element : pageObject.category
+
+    const result = allPages.find(el => el.slug === target)
+    const color = result.color ? result.color : '#fff'
+
+    return { bgColor: result.backgroundColor, color: color }
 }
 
 export const LangProvider = ({ children }) => {
@@ -33,9 +32,11 @@ export const LangProvider = ({ children }) => {
 }
 
 export const NavigationProvider = ({ children }) => {
-    const [currentPage, setCurrentPage] = useState({ category: 'home' })
+    const [currentPage, setCurrentPage] = useState({ category: 'home', backgroundColor: '#AAB8A8', color: '#fff' })
+
     const changePage = (value) => {
-        setCurrentPage({ backgroundColor: getColor(value), ...value })
+        const { bgColor, color } = getColors(value);
+        setCurrentPage({ backgroundColor: bgColor, color: color, ...value })
     }
 
     return (

@@ -6,6 +6,7 @@ import { NavigationContext } from '../../../utils/context'
 
 export default function Menu() {
     const { currentPage } = useContext(NavigationContext)
+
     return (
         <div className="menu__container" style={{ 'backgroundColor': currentPage.backgroundColor }}>
             <BtnHome />
