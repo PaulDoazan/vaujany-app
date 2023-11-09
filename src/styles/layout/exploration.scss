@@ -1,0 +1,17 @@
+.flower__card__wrapper {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.flower__card__title {
+    pointer-events: auto;
+    position: absolute;
+}
+
+.flower__card__image {
+    pointer-events: auto;
+    position: absolute;
+    object-fit: cover;
+}

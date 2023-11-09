@@ -9,10 +9,18 @@ export default function BtnLang({ language }) {
         switchLang(language)
     }
 
-    const { backgroundColor, color } = lang === language ? { backgroundColor: currentPage.color, color: currentPage.backgroundColor } : { backgroundColor: currentPage.backgroundColor, color: currentPage.color }
+    const { backgroundColor, color, fontFamily } = lang === language ? {
+        fontFamily: 'Copperplate30',
+        backgroundColor: currentPage.color,
+        color: currentPage.backgroundColor
+    } : {
+        fontFamily: 'Copperplate29',
+        backgroundColor: currentPage.backgroundColor,
+        color: currentPage.color
+    }
 
     return (
-        <div onTouchEnd={handleChangeLang} className="btn__lang__container btn__navigation" style={{ 'backgroundColor': backgroundColor, 'borderColor': color, 'color': color }}>
+        <div onTouchEnd={handleChangeLang} className="btn__lang__container btn__navigation" style={{ 'fontFamily': fontFamily, 'backgroundColor': backgroundColor, 'borderColor': color, 'color': color }}>
             {language.toUpperCase()}
         </div>
     )

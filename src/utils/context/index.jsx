@@ -36,6 +36,7 @@ export const NavigationProvider = ({ children }) => {
 
     const changePage = (value) => {
         const { bgColor, color } = getColors(value);
+
         setCurrentPage({ backgroundColor: bgColor, color: color, ...value })
     }
 

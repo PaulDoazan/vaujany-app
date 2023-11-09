@@ -29,10 +29,6 @@ export default function Frame({ id, arrLength }) {
             <LangProvider>
                 <div className={fullClass}>
                     <div className="frame__container">
-                        <div className="menu__wrapper">
-                            <Menu />
-                        </div>
-
                         <div className="home__wrapper">
                             {currentPage.category === 'home' && <Home />}
                             {currentPage.category === 'explore' && <Explore />}
@@ -43,6 +39,9 @@ export default function Frame({ id, arrLength }) {
                             {currentPage.category === 'toxic' && <Toxic />}
                             {currentPage.category === 'levels' && <Levels />}
                             {currentPage.category === 'guesswho' && <GuessWho />}
+                        </div>
+                        <div className="menu__wrapper">
+                            <Menu />
                         </div>
                     </div>
                 </div>

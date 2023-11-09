@@ -10,8 +10,8 @@ export default function Explore() {
     return (
         <>
             {currentPage.element && <FlowerInfos data={currentPage.element} />}
-            {dataFlowers.flowers.map(flower => {
-                return <FlowerCard key={flower.slug} data={flower} />
+            {dataFlowers.flowers.map((flower, index) => {
+                return <FlowerCard key={flower.slug} data={flower} index={index} />
             })}
         </>
     )
