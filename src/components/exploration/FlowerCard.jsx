@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import { LangContext, NavigationContext } from '../../utils/context'
 
 export default function FlowerCard({ data, index, isDragging, deltaX }) {
-    console.log(deltaX);
     const { lang } = useContext(LangContext)
     const { changePage } = useContext(NavigationContext)
 
