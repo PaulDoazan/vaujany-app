@@ -5,8 +5,12 @@ import { LangContext } from '../../utils/context'
 export default function FlowerInfos({ data }) {
     const { lang } = useContext(LangContext)
     const currentFlower = dataFlowers.flowers.find(el => el.slug === data)
+
+    const handleTouch = (e) => {
+        e.stopPropagation()
+    }
     return (
-        <div className='flower__info__container'>
+        <div onTouchStart={handleTouch} onTouchMove={handleTouch} onTouchEnd={handleTouch} className='flower__info__container'>
             {currentFlower[`title_${lang}`]}
         </div>
     )

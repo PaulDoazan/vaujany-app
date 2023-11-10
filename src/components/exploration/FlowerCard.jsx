@@ -1,12 +1,13 @@
 import React, { useContext } from 'react'
 import { LangContext, NavigationContext } from '../../utils/context'
 
-export default function FlowerCard({ data, index }) {
+export default function FlowerCard({ data, index, isDragging, deltaX }) {
+    console.log(deltaX);
     const { lang } = useContext(LangContext)
     const { changePage } = useContext(NavigationContext)
 
     const handleClick = (e) => {
-        e.stopPropagation();
+        if (isDragging) return
         changePage({ category: "explore", element: data.slug })
     }
 
@@ -26,8 +27,10 @@ export default function FlowerCard({ data, index }) {
     const positionX = originX + Math.floor(index / 3) * (imgWidth + gapX)
     const positionY = originY + (index % 3) * (imgHeight + gapY)
 
+    const currentX = positionX + deltaX + imgWidth - 0.05
+
     const imageStyle = {
-        left: `${positionX}%`,
+        left: `${positionX + deltaX}%`,
         top: `${positionY}%`,
         width: `${imgWidth}%`,
         height: `${imgHeight}%`,
@@ -45,7 +48,7 @@ export default function FlowerCard({ data, index }) {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        left: `${positionX + imgWidth - 0.05}%`,
+        left: `${currentX}%`,
         top: `${positionY + imgHeight}%`,
         backgroundColor: data.backgroundColor,
         transformOrigin: 'top left',
@@ -71,7 +74,7 @@ export default function FlowerCard({ data, index }) {
                 {data[`title_${lang}`]}<br />
                 <div style={titleLatinStyle}>{data[`title_latin`]}</div>
             </div>
-            <img onTouchEnd={handleClick} className="flower__card__image" src={"/images/flowers/" + data.file_name} alt="" style={imageStyle} />
+            <img onTouchEnd={handleClick} className="flower__card__image" src={"/images/flowers/" + data.thumbnail} alt="" style={imageStyle} />
         </div>
     )
 }
