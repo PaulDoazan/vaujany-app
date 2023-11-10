@@ -31,7 +31,7 @@ export default function Frame({ id, arrLength }) {
                     <div className="frame__container">
                         <div className="home__wrapper">
                             {currentPage.category === 'home' && <Home />}
-                            {currentPage.category === 'explore' && <Explore />}
+                            {currentPage.category === 'explore' && <Explore id={id} />}
                             {currentPage.category === 'gamesHome' && <GamesHome />}
                             {currentPage.category === 'gameInstruction' && <GameInstruction />}
                             {currentPage.category === 'memory' && <Memory />}

@@ -13,6 +13,15 @@
     height: 100%;
 }
 
+.white__gradient__slice {
+    position: absolute;
+    pointer-events: none;
+    right: 0;
+    background: linear-gradient(to left, #fff, #fff 70%, rgba(255, 255, 255, 0.5) 80%, rgba(255, 255, 255, 0) 90%);
+    width: 12%;
+    height: 100%;
+}
+
 .flower__card__title {
     pointer-events: auto;
     position: absolute;
@@ -22,4 +31,43 @@
     pointer-events: auto;
     position: absolute;
     object-fit: cover;
+}
+
+.explore__slider__container {
+    pointer-events: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    & .slider__line{
+        pointer-events: none;
+        width: 20%;
+        position: absolute;
+        left: 50.5%;
+        transform: translate(-50%, -50%);
+        bottom: 7%;
+        height: 2px;
+        background-color: #7AA269;
+    } 
+
+    & .slider__line__zone__touch {
+        pointer-events: auto;
+        width: 21%;
+        position: absolute;
+        left: 50.5%;
+        transform: translate(-50%, 50%);
+        bottom: 7.2%;
+        height: 4%;
+        background-color:rgba(255, 255, 255, 0);
+    }
+}
+
+.slider__cursor{
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: #7AA269;
 }
