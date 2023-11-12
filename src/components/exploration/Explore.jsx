@@ -22,14 +22,14 @@ export default function Explore({ id }) {
             // keep the element within the area of it's parent
 
             listeners: {
-                // call this function on every dragmove event
-                resume() {
+                resume(event) {
+                    // console.log(`resume : ${deltaX}`);
                     setOriginX(deltaX)
+                    // console.log(originX);
                 },
                 move(event) {
                     setIsDragging(true)
-                    let endX = event.clientX;
-                    let distance = originX + ((endX - event.clientX0) / 1920) * 100
+                    let distance = deltaX + (event.dx / 1920) * 100
 
                     if (distance > 0) distance = 0
 
