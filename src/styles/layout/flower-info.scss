@@ -23,4 +23,31 @@
 .flower__infos__data__container {
     width: 63.4%;
     height: 100%;
+    padding: 4%;
+}
+
+.flower__info__title {
+    font-family: 'Copperplate29';
+}
+
+.flower__info__title__lang {
+    font-size: 5vw;
+    line-height: 0.6;
+}
+
+.flower__info__title__latin {
+    font-size: 3vw;
+}
+
+.flower__info__caracteristics {
+    margin-top: 9.3%;
+    display: flex;
+}
+
+.flower__info__caracteristics__titles {
+    margin-left: 3.2%;
+}
+
+.flower__info__caracteristics__contents {
+    margin-left: 4%;
 }

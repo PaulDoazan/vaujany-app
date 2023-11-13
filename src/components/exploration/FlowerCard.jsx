@@ -9,6 +9,7 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
     const positionY = useRef(0)
 
     const titleRef = useRef()
+    const imgRef = useRef()
     const animation = useRef()
     const wrapperRef = useRef()
     const titleContentRef = useRef()
@@ -25,7 +26,6 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
                     duration: 0.7,
                     ease: "back.in"
                 }).call(() => {
-                    console.log('callback');
                     titleRef.current.style.flexDirection = 'row'
                     titleRef.current.style.justifyContent = 'left'
 
@@ -39,16 +39,17 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
                     width: `100%`,
                     top: null,
                     bottom: `${-gapY}%`,
-                    duration: 1,
-                    ease: "in"
+                    duration: 1
                 })
 
-                animation.current.to(`.card__title-${data.slug}`, {
-                    width: `100%`,
-                    top: null,
-                    bottom: `${-gapY}%`,
-                    duration: 1,
-                    ease: "in"
+                animation.current.to(`.card__image-${data.slug}`, {
+                    opacity: 0,
+                    duration: 0.7
+                }, '<')
+
+                animation.current.to(`.flower__info__container`, {
+                    opacity: 1,
+                    duration: 0.7
                 })
 
                 // width: `100%`,
@@ -71,7 +72,6 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
                 });
             }
         } else {
-            console.log('else');
             titleRef.current.style.left = `${currentX.current}%`
             titleRef.current.style.top = `${positionY.current + imgHeight}%`
             titleRef.current.style.bottom = null
@@ -86,6 +86,7 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
             titleLatinRef.current.style.marginLeft = null
 
             wrapperRef.current.style.opacity = 1
+            imgRef.current.style.opacity = 1
         }
     }, [currentPage])
 
@@ -94,7 +95,7 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
         changePage({ category: "explore", element: data.slug })
     }
 
-    // En  pourcentage respectif de innerWidth et innerHeight
+    // En pourcentage respectif de innerWidth et innerHeight
     const originX = 4
     const originY = 7.1
 
@@ -153,7 +154,7 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
 
     return (
         <div ref={wrapperRef} className={`flower__card__wrapper card__wrapper-${data.slug}`} >
-            <img onTouchEnd={handleClick} className="flower__card__image" src={"/images/flowers/" + data.thumbnail} alt="" style={imageStyle} />
+            <img ref={imgRef} onTouchEnd={handleClick} className={`flower__card__image card__image-${data.slug}`} src={"/images/flowers/" + data.thumbnail} alt="" style={imageStyle} />
 
             <div ref={titleRef} className={`flower__card__title card__title-${data.slug}`} style={titleStyle} onTouchEnd={handleClick}>
                 <div ref={titleContentRef} className="title__content">
