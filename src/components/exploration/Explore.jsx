@@ -3,15 +3,25 @@ import dataFlowers from '../../assets/data/flowers.json'
 import FlowerCard from './FlowerCard'
 import FlowerInfos from './FlowerInfos'
 import { NavigationContext } from '../../utils/context'
-import gsap from 'gsap'
 import interact from 'interactjs'
 import ExploreSlider from './ExploreSlider'
 
 export default function Explore({ id }) {
     const { currentPage } = useContext(NavigationContext)
-    const [isDragging, setIsDragging] = useState(false)
-    const [originX, setOriginX] = useState(0)
+    const [carouselIsDragging, setCarouselIsDragging] = useState(false)
+    const [cursorIsDragging, setCursorIsDragging] = useState(false)
     const [deltaX, setDeltaX] = useState(0)
+
+    // a card is 23.5% as wide as innerWidth, and 3 represents the number of grid rows
+    const maxValue = useRef(- 4.2 - 23.5 * (Math.ceil(dataFlowers.flowers.length / 3) - 3))
+
+    const handleCursorRatio = (value) => {
+        setDeltaX(value * maxValue.current)
+    }
+
+    const handleCursorDragging = (value) => {
+        setCursorIsDragging(value)
+    }
 
     interact(`.draggable-${id}`)
         .draggable({
@@ -19,54 +29,42 @@ export default function Explore({ id }) {
             inertia: {
                 resistance: 3
             },
-            // keep the element within the area of it's parent
-
             listeners: {
-                resume(event) {
-                    // console.log(`resume : ${deltaX}`);
-                    setOriginX(deltaX)
-                    // console.log(originX);
-                },
                 move(event) {
-                    setIsDragging(true)
                     let distance = deltaX + (event.dx / 1920) * 100
 
-                    if (distance > 0) distance = 0
+                    if (distance > 0) {
+                        distance = 0
+                    } else if (distance < maxValue.current) {
+                        distance = maxValue.current
+                    }
 
-                    // a card is 23.5% as wide as innerWidth, and 3 represents the number of grid rows
-                    const max = - 4.2 - 23.5 * (Math.ceil(dataFlowers.flowers.length / 3) - 3)
-                    if (distance < max) distance = max
                     setDeltaX(distance)
-                },
-
-                // call this function on every dragend event
-                end(event) {
-                    setOriginX(deltaX)
                 }
             }
         })
 
     const handleStart = (e) => {
-        setIsDragging(false)
+        setCarouselIsDragging(false)
     }
 
     const handleMove = (e) => {
-        setIsDragging(true)
+        setCarouselIsDragging(true)
     }
 
     const handleEnd = (e) => {
-        setIsDragging(false)
+        setCarouselIsDragging(false)
     }
 
     return (
         <>
             <div className={`draggable-${id} draggable__container`} onTouchStart={handleStart} onTouchMove={handleMove} onTouchEnd={handleEnd}>
                 {dataFlowers.flowers.map((flower, index) => {
-                    return <FlowerCard key={flower.slug} data={flower} index={index} isDragging={isDragging} deltaX={deltaX} />
+                    return <FlowerCard key={flower.slug} data={flower} index={index} isDragging={carouselIsDragging || cursorIsDragging} deltaX={deltaX} />
                 })}
                 <div className="white__gradient__slice"></div>
             </div>
-            <ExploreSlider deltaX={deltaX} />
+            <ExploreSlider id={id} deltaX={deltaX} handleCursorDragging={handleCursorDragging} handleCursorRatio={handleCursorRatio} carouselIsDragging={carouselIsDragging} maxValue={maxValue} />
             {currentPage.element && <FlowerInfos data={currentPage.element} />}
         </>
     )
