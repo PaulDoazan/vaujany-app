@@ -31,6 +31,7 @@ export default function Explore({ id }) {
             },
             listeners: {
                 move(event) {
+                    if (currentPage.element) return
                     let distance = deltaX + (event.dx / 1920) * 100
 
                     if (distance > 0) {
@@ -64,7 +65,7 @@ export default function Explore({ id }) {
                 })}
                 <div className="white__gradient__slice"></div>
             </div>
-            <ExploreSlider id={id} deltaX={deltaX} handleCursorDragging={handleCursorDragging} handleCursorRatio={handleCursorRatio} carouselIsDragging={carouselIsDragging} maxValue={maxValue} />
+            {!currentPage.element && <ExploreSlider id={id} deltaX={deltaX} handleCursorDragging={handleCursorDragging} handleCursorRatio={handleCursorRatio} carouselIsDragging={carouselIsDragging} maxValue={maxValue} />}
             {currentPage.element && <FlowerInfos data={currentPage.element} />}
         </>
     )

@@ -11,7 +11,14 @@ export default function FlowerInfos({ data }) {
     }
     return (
         <div onTouchStart={handleTouch} onTouchMove={handleTouch} onTouchEnd={handleTouch} className='flower__info__container'>
-            {currentFlower[`title_${lang}`]}
+            {/* <div className="flower__info__img__container">
+                <img src={"/images/flowers/" + currentFlower.full} />
+            </div>
+            <div className="flower__infos__data__container">
+                <div className="flower__info__title">
+                    {currentFlower[`title_${lang}`]}
+                </div>
+            </div> */}
         </div>
     )
 }
