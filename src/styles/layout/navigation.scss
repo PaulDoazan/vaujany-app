@@ -16,6 +16,19 @@
     background-color: $color-green-spring;
 }
 
+.menu__bottom__content {
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu__bottom__image {
+    width: 100%;
+}
+
+
 .btn__navigation {
     margin-top: 20%;
 }

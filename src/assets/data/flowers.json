@@ -6,6 +6,7 @@
             "backgroundColor": "#E2B7CE",
             "color": "#fff",
             "full": "achillea_millefolium.jpg",
+            "menuImage": "achillea_millefolium_menu.png",
             "thumbnail": "achillea_millefolium_thumbnail.jpg",
             "title_latin": "achillea millefolium",
             "fr": {
@@ -45,6 +46,7 @@
             "backgroundColor": "#7AA269",
             "color": "#fff",
             "full": "alchemilla_alpina.jpg",
+            "menuImage": "alchemilla_alpina_menu.png",
             "thumbnail": "alchemilla_alpina_thumbnail.jpg",
             "title_latin": "alchemilla alpina",
             "fr": {
@@ -77,6 +79,7 @@
             "backgroundColor": "#A49582",
             "color": "#fff",
             "full": "angelica_sylvestris.jpg",
+            "menuImage": "",
             "thumbnail": "angelica_sylvestris_thumbnail.jpg",
             "title_latin": "angelica sylvestris",
             "fr": {
@@ -109,6 +112,7 @@
             "backgroundColor": "#DAB662",
             "color": "#fff",
             "full": "arnica_montana.jpg",
+            "menuImage": "arnica_menu.png",
             "thumbnail": "arnica_montana_thumbnail.jpg",
             "title_latin": "arnica montana",
             "fr": {
@@ -141,6 +145,7 @@
             "backgroundColor": "#C14534",
             "color": "#fff",
             "full": "papaver_rhoeas.jpg",
+            "menuImage": "",
             "thumbnail": "papaver_rhoeas_thumbnail.jpg",
             "title_latin": "papaver rhoeas",
             "fr": {
@@ -173,6 +178,7 @@
             "backgroundColor": "#F2F4E2",
             "color": "#000",
             "full": "carum_carvi.jpg",
+            "menuImage": "carum_carvi_menu.png",
             "thumbnail": "carum_carvi_thumbnail.jpg",
             "title_latin": "carum carvi",
             "fr": {
@@ -205,6 +211,7 @@
             "backgroundColor": "#F4F2BA",
             "color": "#000",
             "full": "digitalis_grandiflora.jpg",
+            "menuImage": "digitalis_grandiflora_menu.png",
             "thumbnail": "digitalis_grandiflora_thumbnail.jpg",
             "title_latin": "digitalis grandiflora",
             "fr": {
@@ -237,6 +244,7 @@
             "backgroundColor": "#CC9966",
             "color": "#fff",
             "full": "euphrasia_minima.jpg",
+            "menuImage": "",
             "thumbnail": "euphrasia_minima_thumbnail.jpg",
             "title_latin": "euphrasia minima",
             "fr": {
@@ -269,6 +277,7 @@
             "backgroundColor": "#99A299",
             "color": "#fff",
             "full": "artemisia_eriantha.jpg",
+            "menuImage": "artemisia_eriantha_menu.png",
             "thumbnail": "artemisia_eriantha_thumbnail.jpg",
             "title_latin": "artemisia eriantha",
             "fr": {
@@ -301,6 +310,7 @@
             "backgroundColor": "#D5C389",
             "color": "#fff",
             "full": "gentiana_lutea.jpg",
+            "menuImage": "gentiana_lutea_menu.png",
             "thumbnail": "gentiana_lutea_thumbnail.jpg",
             "title_latin": "gentiana lutea",
             "fr": {
@@ -333,6 +343,7 @@
             "backgroundColor": "#ECE7EC",
             "color": "#000",
             "full": "geranium_robertianum.jpg",
+            "menuImage": "geranium_robertianum_menu.png",
             "thumbnail": "geranium_robertianum_thumbnail.jpg",
             "title_latin": "geranium robertianum",
             "fr": {
@@ -365,6 +376,7 @@
             "backgroundColor": "#52774E",
             "color": "#fff",
             "full": "plantago_major.jpg",
+            "menuImage": "plantago_major_menu.png",
             "thumbnail": "plantago_major_thumbnail.jpg",
             "title_latin": "plantago major",
             "fr": {
@@ -397,6 +409,7 @@
             "backgroundColor": "#E07CAD",
             "color": "#fff",
             "full": "sempervivum_montanum.jpg",
+            "menuImage": "sempervivum_montanum_menu.png",
             "thumbnail": "sempervivum_montanum_thumbnail.jpg",
             "title_latin": "sempervivum montanum",
             "fr": {
@@ -429,6 +442,7 @@
             "backgroundColor": "#FDFB7E",
             "color": "#000",
             "full": "leontodon_pyrenaicus.jpeg",
+            "menuImage": "leontodon_pyrenaicus_menu.png",
             "thumbnail": "leontodon_pyrenaicus_thumbnail.jpg",
             "title_latin": "leontodon pyrenaicus",
             "fr": {
@@ -461,6 +475,7 @@
             "backgroundColor": "#E8D262",
             "color": "#fff",
             "full": "hypericum_richeri.jpg",
+            "menuImage": "hypericum_richeri_menu.png",
             "thumbnail": "hypericum_richeri_thumbnail.jpg",
             "title_latin": "hypericum richeri",
             "fr": {
@@ -493,6 +508,7 @@
             "backgroundColor": "#AF5F81",
             "color": "#fff",
             "full": "origanum_vulgare.jpg",
+            "menuImage": "origanum_vulgare_menu.png",
             "thumbnail": "origanum_vulgare_thumbnail.jpg",
             "title_latin": "origanum vulgare",
             "fr": {
@@ -525,6 +541,7 @@
             "backgroundColor": "#D2CAB6",
             "color": "#fff",
             "full": "sedum_album.jpg",
+            "menuImage": "sedum_album_menu.png",
             "thumbnail": "sedum_album_thumbnail.jpg",
             "title_latin": "sedum album",
             "fr": {
@@ -557,6 +574,7 @@
             "backgroundColor": "#A3CCED",
             "color": "#fff",
             "full": "rhyteuma_spicatum.jpg",
+            "menuImage": "rhyteuma_spicatum_menu.png",
             "thumbnail": "rhyteuma_spicatum_thumbnail.jpg",
             "title_latin": "rhyteuma spicatum",
             "fr": {
@@ -589,6 +607,7 @@
             "backgroundColor": "#F4F3E9",
             "color": "#000",
             "full": "spirea_ulmaria.jpg",
+            "menuImage": "spirea_ulmaria_menu.png",
             "thumbnail": "spirea_ulmaria_thumbnail.jpg",
             "title_latin": "filipendula ulmaria ou spirea ulmaria",
             "fr": {
@@ -621,6 +640,7 @@
             "backgroundColor": "#79B676",
             "color": "#fff",
             "full": "rumex_pseudalpinus.jpg",
+            "menuImage": "rumex_pseudalpinus_menu.png",
             "thumbnail": "rumex_pseudalpinus_thumbnail.jpg",
             "title_latin": "rumex pseudalpinus",
             "fr": {
@@ -653,6 +673,7 @@
             "backgroundColor": "#D36D52",
             "color": "#fff",
             "full": "saxifraga_stellaris.jpg",
+            "menuImage": "saxifraga_stellaris_menu.png",
             "thumbnail": "saxifraga_stellaris_thumbnail.jpg",
             "title_latin": "saxifraga stellaris",
             "fr": {
@@ -685,6 +706,7 @@
             "backgroundColor": "#99A299",
             "color": "#fff",
             "full": "polygonatum_odoratum.jpg",
+            "menuImage": "polygonatum_odoratum_menu.png",
             "thumbnail": "polygonatum_odoratum_thumbnail.jpg",
             "title_latin": "polygonatum odoratum",
             "fr": {
@@ -717,6 +739,7 @@
             "backgroundColor": "#E3B0CB",
             "color": "#fff",
             "full": "thymus_serpyllum.jpg",
+            "menuImage": "thymus_serpyllum_menu.png",
             "thumbnail": "thymus_serpyllum_thumbnail.jpg",
             "title_latin": "thymus serpyllum",
             "fr": {
@@ -749,6 +772,7 @@
             "backgroundColor": "#FFB559",
             "color": "#fff",
             "full": "tussilago_farfara.jpg",
+            "menuImage": "tussilago_farfara_menu.png",
             "thumbnail": "tussilago_farfara_thumbnail.jpg",
             "title_latin": "tussilago farfara",
             "fr": {
@@ -781,6 +805,7 @@
             "backgroundColor": "#B99FBE",
             "color": "#fff",
             "full": "viola_canina.jpg",
+            "menuImage": "viola_canina_menu.png",
             "thumbnail": "viola_canina_thumbnail.jpg",
             "title_latin": "viola canina",
             "fr": {

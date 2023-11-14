@@ -21,6 +21,7 @@ body {
   }
   
   .screens__container__1 {
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -37,6 +38,7 @@ body {
   }
   
   .screens__container__4 {
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);

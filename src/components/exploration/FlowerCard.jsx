@@ -16,7 +16,10 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
     const titleLatinRef = useRef()
 
     useEffect(() => {
-        if (animation.current) animation.current.kill();
+        if (animation.current) {
+            animation.current.kill();
+            gsap.killTweensOf(`.card__wrapper-${data.slug}`);
+        }
         if (currentPage.element) {
             if (data.slug === currentPage.element) {
                 animation.current = gsap.timeline()
@@ -39,7 +42,8 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
                     width: `100%`,
                     top: null,
                     bottom: `${-gapY}%`,
-                    duration: 1
+                    duration: 1,
+                    ease: "power1.out"
                 })
 
                 animation.current.to(`.card__image-${data.slug}`, {
@@ -52,19 +56,12 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
                     duration: 0.7
                 })
 
-                // width: `100%`,
-
-                // titleRef.current.style.left = 0
-                // titleRef.current.style.top = null
-                // titleRef.current.style.bottom = `${-gapY}%`
-                // titleRef.current.style.width = `100%`
-                // titleRef.current.style.flexDirection = 'row'
-                // titleRef.current.style.justifyContent = 'left'
-
-                // titleContentRef.current.style.marginLeft = '6vh'
-                // titleContentRef.current.style.fontSize = '2vw'
-
-                // titleLatinRef.current.style.marginLeft = '1vh'
+                animation.current.fromTo(`.menu__bottom__image`, {
+                    opacity: 0
+                }, {
+                    opacity: 1,
+                    duration: 0.7
+                }, '<')
             } else {
                 gsap.to(`.card__wrapper-${data.slug}`, {
                     opacity: 0,
@@ -92,7 +89,7 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
 
     const handleClick = (e) => {
         if (isDragging) return
-        changePage({ category: "explore", element: data.slug })
+        changePage({ category: "explore", element: data.slug, menuImage: data.menuImage })
     }
 
     // En pourcentage respectif de innerWidth et innerHeight

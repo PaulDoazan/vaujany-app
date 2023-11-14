@@ -3,6 +3,7 @@ import BtnLang from './BtnLang'
 import BtnHome from './BtnHome'
 import BtnBack from './BtnBack'
 import { NavigationContext } from '../../../utils/context'
+import BottomContent from './BottomContent'
 
 export default function Menu() {
     const { currentPage } = useContext(NavigationContext)
@@ -15,6 +16,8 @@ export default function Menu() {
             <BtnLang language={"fr"} />
             <BtnLang language={"en"} />
             <BtnLang language={"nl"} />
+
+            <BottomContent />
         </div>
     )
 }
