@@ -8,7 +8,19 @@
         "backgroundColor": "#7AA269"
     },
     "flowerInfos": {
-        "previous": "explore"
+        "previous": "explore",
+        "fr": {
+            "medical": "propriétés médicinales",
+            "cooking": "propriétés culinaires"
+        },
+        "en": {
+            "medical": "medical properties",
+            "cooking": "cooking properties"
+        },
+        "nl": {
+            "medical": "bluck de bluck",
+            "cooking": "bloock de blaack"
+        }
     },
     "gamesHome": {
         "previous": "home",
