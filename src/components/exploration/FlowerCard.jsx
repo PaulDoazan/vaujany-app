@@ -158,7 +158,7 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
 
             <div ref={titleRef} className={`flower__card__title card__title-${data.slug}`} style={titleStyle} onTouchEnd={handleClick}>
                 <div ref={titleContentRef} className="title__content">
-                    {data[`title_${lang}`]}
+                    {data[lang].title}
                 </div>
                 <div ref={titleLatinRef} className="title__latin__content" style={titleLatinStyle}>{data[`title_latin`]}</div>
             </div>

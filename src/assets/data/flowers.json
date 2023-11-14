@@ -8,9 +8,36 @@
             "full": "achillea_millefolium.jpg",
             "thumbnail": "achillea_millefolium_thumbnail.jpg",
             "title_latin": "achillea millefolium",
-            "title_fr": "achillée millefeuille",
-            "title_en": "yarrow",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "achillée millefeuille",
+                "family": "Astéracées.",
+                "bloom": "Printemps-été-automne.",
+                "height": "15 à 80 cm.",
+                "habitat": "Pousse dans les pâturages, prairies, haies, en bordure de route, de préférence au soleil, jusqu’à 2500 m d’altitude.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -20,9 +47,29 @@
             "full": "alchemilla_alpina.jpg",
             "thumbnail": "alchemilla_alpina_thumbnail.jpg",
             "title_latin": "alchemilla alpina",
-            "title_fr": "alchémille des Alpes",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "alchémille des Alpes"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -32,9 +79,29 @@
             "full": "angelica_sylvestris.jpg",
             "thumbnail": "angelica_sylvestris_thumbnail.jpg",
             "title_latin": "angelica sylvestris",
-            "title_fr": "Angélique Sylvestre",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Angélique Sylvestre"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -44,9 +111,29 @@
             "full": "arnica_montana.jpg",
             "thumbnail": "arnica_montana_thumbnail.jpg",
             "title_latin": "arnica montana",
-            "title_fr": "arnica",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Arnica"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -56,9 +143,29 @@
             "full": "papaver_rhoeas.jpg",
             "thumbnail": "papaver_rhoeas_thumbnail.jpg",
             "title_latin": "papaver rhoeas",
-            "title_fr": "coquelicot",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Coquelicot"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -68,9 +175,29 @@
             "full": "carum_carvi.jpg",
             "thumbnail": "carum_carvi_thumbnail.jpg",
             "title_latin": "carum carvi",
-            "title_fr": "cumin des pres",
-            "title_en": "cumin",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Cumin des prés"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -80,9 +207,29 @@
             "full": "digitalis_grandiflora.jpg",
             "thumbnail": "digitalis_grandiflora_thumbnail.jpg",
             "title_latin": "digitalis grandiflora",
-            "title_fr": "digitale à grandes fleurs",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Digitale à grandes fleurs"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -92,9 +239,29 @@
             "full": "euphrasia_minima.jpg",
             "thumbnail": "euphrasia_minima_thumbnail.jpg",
             "title_latin": "euphrasia minima",
-            "title_fr": "euphraise naine",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Euphraise naine"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -104,9 +271,29 @@
             "full": "artemisia_eriantha.jpg",
             "thumbnail": "artemisia_eriantha_thumbnail.jpg",
             "title_latin": "artemisia eriantha",
-            "title_fr": "génépi bourru",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Génépi Bourru"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -116,9 +303,29 @@
             "full": "gentiana_lutea.jpg",
             "thumbnail": "gentiana_lutea_thumbnail.jpg",
             "title_latin": "gentiana lutea",
-            "title_fr": "gentiane Jaune",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Gentiane Jaune"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -128,9 +335,29 @@
             "full": "geranium_robertianum.jpg",
             "thumbnail": "geranium_robertianum_thumbnail.jpg",
             "title_latin": "geranium robertianum",
-            "title_fr": "géranium herbe à robert",
-            "title_en": "geranium",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Géranium Herbe à Robert"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -140,9 +367,29 @@
             "full": "plantago_major.jpg",
             "thumbnail": "plantago_major_thumbnail.jpg",
             "title_latin": "plantago major",
-            "title_fr": "grand plantain",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Grand Plantain"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -152,9 +399,29 @@
             "full": "sempervivum_montanum.jpg",
             "thumbnail": "sempervivum_montanum_thumbnail.jpg",
             "title_latin": "sempervivum montanum",
-            "title_fr": "joubarbe des montagnes",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Joubarbe des Montagnes"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -164,9 +431,29 @@
             "full": "leontodon_pyrenaicus.jpeg",
             "thumbnail": "leontodon_pyrenaicus_thumbnail.jpg",
             "title_latin": "leontodon pyrenaicus",
-            "title_fr": "liondent helvétique",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Liondent Helvétique"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -176,9 +463,29 @@
             "full": "hypericum_richeri.jpg",
             "thumbnail": "hypericum_richeri_thumbnail.jpg",
             "title_latin": "hypericum richeri",
-            "title_fr": "millepertuis de Richer ",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Millepertuis de Richer"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -188,9 +495,29 @@
             "full": "origanum_vulgare.jpg",
             "thumbnail": "origanum_vulgare_thumbnail.jpg",
             "title_latin": "origanum vulgare",
-            "title_fr": "origan vulgaire",
-            "title_en": "oregano",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Origan Vulgaire"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -200,9 +527,29 @@
             "full": "sedum_album.jpg",
             "thumbnail": "sedum_album_thumbnail.jpg",
             "title_latin": "sedum album",
-            "title_fr": "orpin blanc",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Orpin Blanc"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -212,9 +559,29 @@
             "full": "rhyteuma_spicatum.jpg",
             "thumbnail": "rhyteuma_spicatum_thumbnail.jpg",
             "title_latin": "rhyteuma spicatum",
-            "title_fr": "raiponce en épi",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Raiponce en épi"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -224,9 +591,29 @@
             "full": "spirea_ulmaria.jpg",
             "thumbnail": "spirea_ulmaria_thumbnail.jpg",
             "title_latin": "filipendula ulmaria ou spirea ulmaria",
-            "title_fr": "reine des prés",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Reine des prés"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -236,9 +623,29 @@
             "full": "rumex_pseudalpinus.jpg",
             "thumbnail": "rumex_pseudalpinus_thumbnail.jpg",
             "title_latin": "rumex pseudalpinus",
-            "title_fr": "rhubarbe des moines",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Rhubarbe des Moines"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -248,9 +655,29 @@
             "full": "saxifraga_stellaris.jpg",
             "thumbnail": "saxifraga_stellaris_thumbnail.jpg",
             "title_latin": "saxifraga stellaris",
-            "title_fr": "saxiféage étoilée",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Saxiféage étoilée"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -260,9 +687,29 @@
             "full": "polygonatum_odoratum.jpg",
             "thumbnail": "polygonatum_odoratum_thumbnail.jpg",
             "title_latin": "polygonatum odoratum",
-            "title_fr": "sceau de salomon odorant",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Sceau de Salomon odorant"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -272,9 +719,29 @@
             "full": "thymus_serpyllum.jpg",
             "thumbnail": "thymus_serpyllum_thumbnail.jpg",
             "title_latin": "thymus serpyllum",
-            "title_fr": "serpolet",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Serpolet"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -284,9 +751,29 @@
             "full": "tussilago_farfara.jpg",
             "thumbnail": "tussilago_farfara_thumbnail.jpg",
             "title_latin": "tussilago farfara",
-            "title_fr": "tussilage",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Tussilage"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         },
         {
             "previous": "explore",
@@ -296,9 +783,29 @@
             "full": "viola_canina.jpg",
             "thumbnail": "viola_canina_thumbnail.jpg",
             "title_latin": "viola canina",
-            "title_fr": "violette des chiens",
-            "title_en": "burg",
-            "title_nl": "bluck"
+            "fr": {
+                "title": "Violette des chiens"
+            },
+            "en": {
+                "title": "yarrow",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            },
+            "nl": {
+                "title": "bluck",
+                "family": "Family.",
+                "bloom": "Season.",
+                "height": "... cm.",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
+            }
         }
     ]
 }

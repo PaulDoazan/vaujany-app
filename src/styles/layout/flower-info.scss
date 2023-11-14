@@ -1,10 +1,10 @@
 .flower__info__container{
     overflow: hidden;
     display: flex;
-    width: 96%;
+    width: 95.9%;
     height: 100%;
     position: absolute;
-    left: 4%;
+    left: 4.2%;
     background-color: rgba(255,255,255,1);
     opacity: 0;
 }
@@ -44,10 +44,33 @@
     display: flex;
 }
 
+.flower__info__caracteristics__icons {
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+}
+
+.flower__info__icon {
+    margin: 5% auto;
+    width: 100%;
+
+    & img {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .flower__info__caracteristics__titles {
     margin-left: 3.2%;
+    font-family: 'FuturaPTMedium';
+    font-size: 1.3vw;
+}
+
+.flower__info__caracteristics__titles__element {
+    margin-bottom: 11%;
 }
 
 .flower__info__caracteristics__contents {
+    font-family: 'FuturaPTBook';
     margin-left: 4%;
 }
