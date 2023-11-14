@@ -40,33 +40,37 @@
     font-size: 3vw;
 }
 
-.flower__info__caracteristics {
-    margin-top: 9.3%;
-    display: flex;
-}
-
 .flower__info__caracteristics__section {
     font-family: 'FuturaPTMedium';
     font-size: 1.3vw;
 }
 
+.caracteristics__section__1 {
+    position: absolute;
+    top: 25%;
+}
+
 .caracteristics__section__2 {
-    margin-left: 2.5vw;
+    position: absolute;
+    left: 10%;
+    top: 25%;
 }
 
 .caracteristics__section__3 {
-    margin-left: 2vw;
+    position: absolute;
+    left: 20%;
+    top: 25%;
 }
 
 .flower__info__caracteristics__titles__element {
     margin-bottom: 1vh;
     display: flex;
     align-items: baseline;
-    height: 15%; 
+    height: 3vh;
 }
 
 .flower__info__icon {
-    height: 90%;
+    height: 80%;
     margin: 0 auto;
 
     & img {
@@ -96,6 +100,7 @@
     margin-top: 1.5%;
     left: 50%;
     width: 33%;
+    top: 24%;
 }
 
 .flower__info__specification__section {
