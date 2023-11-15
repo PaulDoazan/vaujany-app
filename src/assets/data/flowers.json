@@ -1298,10 +1298,10 @@
                     "dimensions": {
                         "width": "18%",
                         "thirdParagraphWidth": "102%",
-                        "imgWidth": "45%",
-                        "top": "51.6vh",
+                        "imgWidth": "50%",
+                        "top": "46vh",
                         "questionLeft": "33vw",
-                        "left": "-41.7%"
+                        "left": "-46.5%"
                     }
                 }
             },
@@ -1325,10 +1325,10 @@
                     "dimensions": {
                         "width": "18%",
                         "thirdParagraphWidth": "102%",
-                        "imgWidth": "45%",
-                        "top": "51.6vh",
+                        "imgWidth": "50%",
+                        "top": "46vh",
                         "questionLeft": "33vw",
-                        "left": "-41.7%"
+                        "left": "-46.5%"
                     }
                 }
             }
