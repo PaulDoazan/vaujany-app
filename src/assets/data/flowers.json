@@ -50,7 +50,14 @@
             "thumbnail": "alchemilla_alpina_thumbnail.jpg",
             "title_latin": "alchemilla alpina",
             "fr": {
-                "title": "alchémille des Alpes"
+                "title": "alchémille des Alpes",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -79,11 +86,18 @@
             "backgroundColor": "#A49582",
             "color": "#fff",
             "full": "angelica_sylvestris.jpg",
-            "menuImage": "",
+            "menuImage": "angelica_sylvestris_menu.png",
             "thumbnail": "angelica_sylvestris_thumbnail.jpg",
             "title_latin": "angelica sylvestris",
             "fr": {
-                "title": "Angélique Sylvestre"
+                "title": "Angélique Sylvestre",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -116,7 +130,26 @@
             "thumbnail": "arnica_montana_thumbnail.jpg",
             "title_latin": "arnica montana",
             "fr": {
-                "title": "Arnica"
+                "title": "Arnica",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": "Plante toxique !",
+                "didYouKnow": {
+                    "image": "arnica_didYouKnow.png",
+                    "imageEmpty": "arnica_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Appelée aussi Panacée des montagnes, Herbe des chutes ou Tabac des Savoyards."
+                    ],
+                    "dimensions": {
+                        "width": "23%",
+                        "top": "62vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "en": {
                 "title": "yarrow",
@@ -126,7 +159,19 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "Toxic !",
+                "didYouKnow": {
+                    "image": "arnica_didYouKnow.png",
+                    "imageEmpty": "arnica_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "top": "62vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "nl": {
                 "title": "bluck",
@@ -136,7 +181,19 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "Toxic bluck !",
+                "didYouKnow": {
+                    "image": "arnica_didYouKnow.png",
+                    "imageEmpty": "arnica_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "top": "62vh",
+                        "left": "-33.66%"
+                    }
+                }
             }
         },
         {
@@ -145,11 +202,18 @@
             "backgroundColor": "#C14534",
             "color": "#fff",
             "full": "papaver_rhoeas.jpg",
-            "menuImage": "",
+            "menuImage": "papaver_rhoeas_menu.png",
             "thumbnail": "papaver_rhoeas_thumbnail.jpg",
             "title_latin": "papaver rhoeas",
             "fr": {
-                "title": "Coquelicot"
+                "title": "Coquelicot",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": "Plante très faiblement toxique, surtout le suc laiteux !"
             },
             "en": {
                 "title": "yarrow",
@@ -159,7 +223,7 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "Lorem ipsum dolor sit amet"
             },
             "nl": {
                 "title": "bluck",
@@ -169,7 +233,7 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "Lorem ipsum dolor sit amet"
             }
         },
         {
@@ -182,7 +246,14 @@
             "thumbnail": "carum_carvi_thumbnail.jpg",
             "title_latin": "carum carvi",
             "fr": {
-                "title": "Cumin des prés"
+                "title": "Cumin des prés",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -215,7 +286,27 @@
             "thumbnail": "digitalis_grandiflora_thumbnail.jpg",
             "title_latin": "digitalis grandiflora",
             "fr": {
-                "title": "Digitale à grandes fleurs"
+                "title": "Digitale à grandes fleurs",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": "Plante toxique !",
+                "didYouKnow": {
+                    "image": "digitalis_grandiflora_didYouKnow.png",
+                    "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "On lui a attribué à tort des propriétés contre la folie. Ce traitement, administré au peintre Van Gogh, lui aurait provoqué des troubles visuels, et notamment la coloration jaune de la vision, ce qui expliquerait l’utilisation massive de jaune dans ses œuvres à la fin de sa vie."
+                    ],
+                    "dimensions": {
+                        "width": "19%",
+                        "containerTop": "4vh",
+                        "top": "49vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "en": {
                 "title": "yarrow",
@@ -225,7 +316,19 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "Toxic !",
+                "didYouKnow": {
+                    "image": "digitalis_grandiflora_didYouKnow.png",
+                    "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    ],
+                    "dimensions": {
+                        "width": "23%",
+                        "top": "49vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "nl": {
                 "title": "bluck",
@@ -235,7 +338,19 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "Toxic bluck !",
+                "didYouKnow": {
+                    "image": "digitalis_grandiflora_didYouKnow.png",
+                    "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    ],
+                    "dimensions": {
+                        "width": "23%",
+                        "top": "49vh",
+                        "left": "-33.66%"
+                    }
+                }
             }
         },
         {
@@ -244,11 +359,18 @@
             "backgroundColor": "#CC9966",
             "color": "#fff",
             "full": "euphrasia_minima.jpg",
-            "menuImage": "",
+            "menuImage": "euphrasia_minima_menu.png",
             "thumbnail": "euphrasia_minima_thumbnail.jpg",
             "title_latin": "euphrasia minima",
             "fr": {
-                "title": "Euphraise naine"
+                "title": "Euphraise naine",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -281,7 +403,14 @@
             "thumbnail": "artemisia_eriantha_thumbnail.jpg",
             "title_latin": "artemisia eriantha",
             "fr": {
-                "title": "Génépi Bourru"
+                "title": "Génépi Bourru",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -314,7 +443,27 @@
             "thumbnail": "gentiana_lutea_thumbnail.jpg",
             "title_latin": "gentiana lutea",
             "fr": {
-                "title": "Gentiane Jaune"
+                "title": "Gentiane Jaune",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "gentiana_lutea_didYouKnow.png",
+                    "imageEmpty": "gentiana_lutea_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Appelée aussi gratte-ciel végétal.",
+                        "Le clin d’œil du météorologiste : elle indique, soi-disant, la hauteur de neige de l’hiver suivant : plus elle est haute, plus le manteau blanc sera épais."
+                    ],
+                    "dimensions": {
+                        "width": "20%",
+                        "top": "49vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "en": {
                 "title": "yarrow",
@@ -324,7 +473,20 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "gentiana_lutea_didYouKnow.png",
+                    "imageEmpty": "gentiana_lutea_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    ],
+                    "dimensions": {
+                        "width": "20%",
+                        "top": "49vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "nl": {
                 "title": "bluck",
@@ -334,7 +496,20 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "gentiana_lutea_didYouKnow.png",
+                    "imageEmpty": "gentiana_lutea_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    ],
+                    "dimensions": {
+                        "width": "20%",
+                        "top": "49vh",
+                        "left": "-33.66%"
+                    }
+                }
             }
         },
         {
@@ -347,7 +522,14 @@
             "thumbnail": "geranium_robertianum_thumbnail.jpg",
             "title_latin": "geranium robertianum",
             "fr": {
-                "title": "Géranium Herbe à Robert"
+                "title": "Géranium Herbe à Robert",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -380,7 +562,27 @@
             "thumbnail": "plantago_major_thumbnail.jpg",
             "title_latin": "plantago major",
             "fr": {
-                "title": "Grand Plantain"
+                "title": "Grand Plantain",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "plantago_major_didYouKnow.png",
+                    "imageEmpty": "plantago_major_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Appelé aussi plantain des oiseaux (pour ses graines).",
+                        "Le clin d’œil des « peaux-rouges » : Les Indiens d’Amérique du Nord l’avaient surnommé « trace de l’homme blanc » car avant l’arrivée des immigrants européens, les graines de cette plante étaient inconnues au pays des Geronimo."
+                    ],
+                    "dimensions": {
+                        "width": "20%",
+                        "top": " 47.2vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "en": {
                 "title": "yarrow",
@@ -390,7 +592,20 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "plantago_major_didYouKnow.png",
+                    "imageEmpty": "plantago_major_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    ],
+                    "dimensions": {
+                        "width": "20%",
+                        "top": " 47.2vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "nl": {
                 "title": "bluck",
@@ -400,7 +615,20 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "plantago_major_didYouKnow.png",
+                    "imageEmpty": "plantago_major_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    ],
+                    "dimensions": {
+                        "width": "20%",
+                        "top": "47.2vh",
+                        "left": "-33.66%"
+                    }
+                }
             }
         },
         {
@@ -413,7 +641,26 @@
             "thumbnail": "sempervivum_montanum_thumbnail.jpg",
             "title_latin": "sempervivum montanum",
             "fr": {
-                "title": "Joubarbe des Montagnes"
+                "title": "Joubarbe des Montagnes",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "sempervivum_montanum_didYouKnow.png",
+                    "imageEmpty": "sempervivum_montanum_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Ses différents noms définissent parfaitement son usage : « herbes-aux-coupures»«herbes-aux-brûlures» ou « herbes-aux-cors », du fait de ses propriétés cicatrisantes et apaisantes."
+                    ],
+                    "dimensions": {
+                        "width": "19%",
+                        "top": "53.5vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "en": {
                 "title": "yarrow",
@@ -423,7 +670,19 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "sempervivum_montanum_didYouKnow.png",
+                    "imageEmpty": "sempervivum_montanum_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    ],
+                    "dimensions": {
+                        "width": "19%",
+                        "top": "53.5vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "nl": {
                 "title": "bluck",
@@ -433,7 +692,19 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "sempervivum_montanum_didYouKnow.png",
+                    "imageEmpty": "sempervivum_montanum_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    ],
+                    "dimensions": {
+                        "width": "19%",
+                        "top": "53.5vh",
+                        "left": "-33.66%"
+                    }
+                }
             }
         },
         {
@@ -446,7 +717,14 @@
             "thumbnail": "leontodon_pyrenaicus_thumbnail.jpg",
             "title_latin": "leontodon pyrenaicus",
             "fr": {
-                "title": "Liondent Helvétique"
+                "title": "Liondent Helvétique",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -479,7 +757,28 @@
             "thumbnail": "hypericum_richeri_thumbnail.jpg",
             "title_latin": "hypericum richeri",
             "fr": {
-                "title": "Millepertuis de Richer"
+                "title": "Millepertuis de Richer",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": "Plante peu toxique!",
+                "toxicParagraph": "(photosensibilisante, éviter de consommer simultanément avec d’autres antidépresseurs)",
+                "didYouKnow": {
+                    "image": "hypericum_richeri_didYouKnow.png",
+                    "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Appelé aussi herbe percée, chasse diable ou Herbe de la Saint-Jean.",
+                        "Le Millepertuis cueilli la nuit de la Saint-Jean est aussi considéré comme une herbe magique censée protéger des sorcières et des fantômes, mais aussi pour éloigner de sa maison maladie et tristesse."
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "top": "45vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "en": {
                 "title": "yarrow",
@@ -489,7 +788,21 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "[...]",
+                "toxicParagraph": "[...]",
+                "didYouKnow": {
+                    "image": "hypericum_richeri_didYouKnow.png",
+                    "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua censée protéger des sorcières et des fantômes, mais aussi pour éloigner de sa maison maladie et tristesse."
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "top": "45vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "nl": {
                 "title": "bluck",
@@ -499,7 +812,21 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "[...]",
+                "toxicParagraph": "[...]",
+                "didYouKnow": {
+                    "image": "hypericum_richeri_didYouKnow.png",
+                    "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua censée protéger des sorcières et des fantômes, mais aussi pour éloigner de sa maison maladie et tristesse."
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "top": "45vh",
+                        "left": "-33.66%"
+                    }
+                }
             }
         },
         {
@@ -512,7 +839,31 @@
             "thumbnail": "origanum_vulgare_thumbnail.jpg",
             "title_latin": "origanum vulgare",
             "fr": {
-                "title": "Origan Vulgaire"
+                "title": "Origan Vulgaire",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "origanum_vulgare_didYouKnow.png",
+                    "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Appelé aussi marjolaine des montagnes ou thé rouge.",
+                        "Son goût agréable donne de très bonnes infusions, c’est le « thé rouge » des Scandinaves. En montagne, on l’utilise régulièrement comme substitut du thé.",
+                        "Le clin d’œil du pizzaïolo : c’est sa cousine la marjolaine cultivée, qui ne pousse pas spontanément sous nos climats, qu’on étale sur nos pizzas."
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "thirdParagraphWidth": "80%",
+                        "imgWidth": "45%",
+                        "top": "51.6vh",
+                        "questionLeft": "30vw",
+                        "left": "-41.7%"
+                    }
+                }
             },
             "en": {
                 "title": "yarrow",
@@ -522,7 +873,24 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "origanum_vulgare_didYouKnow.png",
+                    "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Appelé aussi marjolaine des montagnes ou thé rouge.",
+                        "Son goût agréable donne de très bonnes infusions, c’est le « thé rouge » des Scandinaves. En montagne, on l’utilise régulièrement comme substitut du thé.",
+                        "Le clin d’œil du pizzaïolo : c’est sa cousine la marjolaine cultivée, qui ne pousse pas spontanément sous nos climats, qu’on étale sur nos pizzas."
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "thirdParagraphWidth": "80%",
+                        "imgWidth": "45%",
+                        "top": "51.6vh",
+                        "questionLeft": "30vw",
+                        "left": "-41.7%"
+                    }
+                }
             },
             "nl": {
                 "title": "bluck",
@@ -532,7 +900,24 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "origanum_vulgare_didYouKnow.png",
+                    "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Appelé aussi marjolaine des montagnes ou thé rouge.",
+                        "Son goût agréable donne de très bonnes infusions, c’est le « thé rouge » des Scandinaves. En montagne, on l’utilise régulièrement comme substitut du thé.",
+                        "Le clin d’œil du pizzaïolo : c’est sa cousine la marjolaine cultivée, qui ne pousse pas spontanément sous nos climats, qu’on étale sur nos pizzas."
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "thirdParagraphWidth": "80%",
+                        "imgWidth": "45%",
+                        "top": "51.6vh",
+                        "questionLeft": "30vw",
+                        "left": "-41.7%"
+                    }
+                }
             }
         },
         {
@@ -545,7 +930,14 @@
             "thumbnail": "sedum_album_thumbnail.jpg",
             "title_latin": "sedum album",
             "fr": {
-                "title": "Orpin Blanc"
+                "title": "Orpin Blanc",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -578,7 +970,14 @@
             "thumbnail": "rhyteuma_spicatum_thumbnail.jpg",
             "title_latin": "rhyteuma spicatum",
             "fr": {
-                "title": "Raiponce en épi"
+                "title": "Raiponce en épi",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -611,7 +1010,14 @@
             "thumbnail": "spirea_ulmaria_thumbnail.jpg",
             "title_latin": "filipendula ulmaria ou spirea ulmaria",
             "fr": {
-                "title": "Reine des prés"
+                "title": "Reine des prés",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -644,7 +1050,14 @@
             "thumbnail": "rumex_pseudalpinus_thumbnail.jpg",
             "title_latin": "rumex pseudalpinus",
             "fr": {
-                "title": "Rhubarbe des Moines"
+                "title": "Rhubarbe des Moines",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -677,7 +1090,14 @@
             "thumbnail": "saxifraga_stellaris_thumbnail.jpg",
             "title_latin": "saxifraga stellaris",
             "fr": {
-                "title": "Saxiféage étoilée"
+                "title": "Saxiféage étoilée",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -710,7 +1130,14 @@
             "thumbnail": "polygonatum_odoratum_thumbnail.jpg",
             "title_latin": "polygonatum odoratum",
             "fr": {
-                "title": "Sceau de Salomon odorant"
+                "title": "Sceau de Salomon odorant",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",
@@ -743,7 +1170,28 @@
             "thumbnail": "thymus_serpyllum_thumbnail.jpg",
             "title_latin": "thymus serpyllum",
             "fr": {
-                "title": "Serpolet"
+                "title": "Serpolet",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "thymus_serpyllum_didYouKnow.png",
+                    "imageEmpty": "thymus_serpyllum_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Souvent nommé « thym », le serpolet est un de ses proches parents. Il est moins parfumé, mais constitue un excellent condiment s’il n’est pas cuit.",
+                        "On hachera donc les feuilles dans des salades ou avec du fromage blanc, mais on peut également utilisé les fleurs, elles aussi aromatiques et décoratives."
+                    ],
+                    "dimensions": {
+                        "containerTop": "4vh",
+                        "width": "20%",
+                        "top": "42.6vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "en": {
                 "title": "yarrow",
@@ -753,7 +1201,21 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "thymus_serpyllum_didYouKnow.png",
+                    "imageEmpty": "thymus_serpyllum_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    ],
+                    "dimensions": {
+                        "containerTop": "4vh",
+                        "width": "20%",
+                        "top": "42.6vh",
+                        "left": "-33.66%"
+                    }
+                }
             },
             "nl": {
                 "title": "bluck",
@@ -763,7 +1225,21 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "thymus_serpyllum_didYouKnow.png",
+                    "imageEmpty": "thymus_serpyllum_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    ],
+                    "dimensions": {
+                        "containerTop": "4vh",
+                        "width": "20%",
+                        "top": "42.6vh",
+                        "left": "-33.66%"
+                    }
+                }
             }
         },
         {
@@ -776,7 +1252,31 @@
             "thumbnail": "tussilago_farfara_thumbnail.jpg",
             "title_latin": "tussilago farfara",
             "fr": {
-                "title": "Tussilage"
+                "title": "Tussilage",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "tussilago_farfara_didYouKnow.png",
+                    "imageEmpty": "tussilago_farfara_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Appelé aussi Pas d’âne ou Chasse toux. On utilise la fleur et la feuille.",
+                        "Autrefois en montagne, le tussilage était utilisé en mélange dans le tabac. Aujourd’hui on l’utilise surtout en infusion et en sirop pour soigner les bronches.",
+                        "Recette beignets de tussilage : Cueillez les feuilles de tussilage, les nettoyer soigneusement. Préparez une pâte à frire avec de la farine, de l’eau et du sel. Trempez-y les feuilles, puis faites frire des deux côtés dans une poêle remplie d’huile. Posez ensuite sur un papier absorbant. À déguster chaud !"
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "thirdParagraphWidth": "102%",
+                        "imgWidth": "50%",
+                        "top": "46vh",
+                        "questionLeft": "33vw",
+                        "left": "-46.5%"
+                    }
+                }
             },
             "en": {
                 "title": "yarrow",
@@ -786,7 +1286,24 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "tussilago_farfara_didYouKnow.png",
+                    "imageEmpty": "tussilago_farfara_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Appelé aussi Pas d’âne ou Chasse toux. On utilise la fleur et la feuille.",
+                        "Autrefois en montagne, le tussilage était utilisé en mélange dans le tabac. Aujourd’hui on l’utilise surtout en infusion et en sirop pour soigner les bronches.",
+                        "Recette beignets de tussilage : Cueillez les feuilles de tussilage, les nettoyer soigneusement. Préparez une pâte à frire avec de la farine, de l’eau et du sel. Trempez-y les feuilles, puis faites frire des deux côtés dans une poêle remplie d’huile. Posez ensuite sur un papier absorbant. À déguster chaud !"
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "thirdParagraphWidth": "102%",
+                        "imgWidth": "45%",
+                        "top": "51.6vh",
+                        "questionLeft": "33vw",
+                        "left": "-41.7%"
+                    }
+                }
             },
             "nl": {
                 "title": "bluck",
@@ -796,7 +1313,24 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": null,
+                "didYouKnow": {
+                    "image": "tussilago_farfara_didYouKnow.png",
+                    "imageEmpty": "tussilago_farfara_empty_didYouKnow.png",
+                    "paragraphs": [
+                        "Appelé aussi Pas d’âne ou Chasse toux. On utilise la fleur et la feuille.",
+                        "Autrefois en montagne, le tussilage était utilisé en mélange dans le tabac. Aujourd’hui on l’utilise surtout en infusion et en sirop pour soigner les bronches.",
+                        "Recette beignets de tussilage : Cueillez les feuilles de tussilage, les nettoyer soigneusement. Préparez une pâte à frire avec de la farine, de l’eau et du sel. Trempez-y les feuilles, puis faites frire des deux côtés dans une poêle remplie d’huile. Posez ensuite sur un papier absorbant. À déguster chaud !"
+                    ],
+                    "dimensions": {
+                        "width": "18%",
+                        "thirdParagraphWidth": "102%",
+                        "imgWidth": "45%",
+                        "top": "51.6vh",
+                        "questionLeft": "33vw",
+                        "left": "-41.7%"
+                    }
+                }
             }
         },
         {
@@ -809,7 +1343,14 @@
             "thumbnail": "viola_canina_thumbnail.jpg",
             "title_latin": "viola canina",
             "fr": {
-                "title": "Violette des chiens"
+                "title": "Violette des chiens",
+                "family": "...",
+                "bloom": "...",
+                "height": "...",
+                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "toxic": null
             },
             "en": {
                 "title": "yarrow",

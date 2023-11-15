@@ -67,6 +67,7 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
                     duration: 0.7
                 }, '<')
             } else {
+                // wrapperRef.current.style.pointerEvents = 'none'
                 gsap.to(`.card__wrapper-${data.slug}`, {
                     opacity: 0,
                     duration: 0.7
@@ -88,12 +89,13 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
             titleLatinRef.current.style.fontSize = '1vw'
 
             wrapperRef.current.style.opacity = 1
+            // wrapperRef.current.style.pointerEvents = 'auto'
             imgRef.current.style.opacity = 1
         }
     }, [currentPage])
 
     const handleClick = (e) => {
-        if (isDragging) return
+        if (isDragging || currentPage.element) return
         changePage({ category: "explore", element: data.slug, menuImage: data.menuImage })
     }
 
@@ -150,13 +152,9 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
         fontSize: '80%',
     }
 
-    // const imagePath = process.env.NODE_ENV === "production"
-    //     ? "https://prod-images-cdn.com"
-    //     : "http://localhost:8000";
-
     return (
         <div ref={wrapperRef} className={`flower__card__wrapper card__wrapper-${data.slug}`} >
-            <img ref={imgRef} onTouchEnd={handleClick} className={`flower__card__image card__image-${data.slug}`} src={"/images/flowers/" + data.thumbnail} alt="" style={imageStyle} />
+            <img ref={imgRef} onTouchEnd={handleClick} className={`flower__card__image card__image-${data.slug}`} src={"/images/flowers/thumbnails/" + data.thumbnail} alt="" style={imageStyle} />
 
             <div ref={titleRef} className={`flower__card__title card__title-${data.slug}`} style={titleStyle} onTouchEnd={handleClick}>
                 <div ref={titlesContainerRef} className="flower__card__titles__container">

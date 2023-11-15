@@ -15,7 +15,8 @@
             "height": "Hauteur",
             "habitat": "Habitat",
             "medical": "propriétés médicinales",
-            "cooking": "propriétés culinaires"
+            "cooking": "propriétés culinaires",
+            "didYouKnow": "Le saviez-vous ?"
         },
         "en": {
             "family": "Family",
@@ -23,7 +24,8 @@
             "height": "Height",
             "habitat": "Habitat",
             "medical": "medical properties",
-            "cooking": "cooking properties"
+            "cooking": "cooking properties",
+            "didYouKnow": "Did you know ?"
         },
         "nl": {
             "family": "Famibluck",
@@ -31,7 +33,8 @@
             "height": "Hautbluck",
             "habitat": "Habibluck",
             "medical": "bluck de bluck",
-            "cooking": "bloock de blaack"
+            "cooking": "bloock de blaack",
+            "didYouKnow": "Blick de bluck ?"
         }
     },
     "gamesHome": {

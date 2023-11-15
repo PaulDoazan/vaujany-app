@@ -60,13 +60,48 @@
     position: absolute;
     left: 20%;
     top: 25%;
+    width: 20%;
 }
 
-.flower__info__caracteristics__titles__element {
+.flower__info__caracteristics__element {
     margin-bottom: 1vh;
     display: flex;
     align-items: baseline;
     height: 3vh;
+    width: 100%;
+}
+
+.flower__info__last__element {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.flower__info__toxic__content {
+    margin-top: 20%;
+    margin-left: -70%;
+    display: flex;
+    align-items: center;
+    color: $color-cinnabar;
+}
+
+.flower__info__toxic__content__img {
+     height: 4.6vh;
+}
+
+.flower__info__toxic__content__text {
+    margin-left: 0.8vw;
+}
+
+.flower__info__toxic__content__title {
+}
+
+.content__title__not__centered {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flower__info__toxic__content__paragraph {
+    font-family: 'FuturaPTBook';
 }
 
 .flower__info__icon {
@@ -85,10 +120,6 @@
 .flower__info__caracteristics__contents {
     font-family: 'FuturaPTBook';
     margin-left: 4%;
-}
-
-.caracteristics__section__3 {
-    width: 24%;
 }
 
 .fake__icon {
@@ -117,4 +148,54 @@
     margin-bottom: 5%;
     font-family: 'FuturaPTBook';
     font-size: 2.5vh;
+}
+
+.didYouKnow__wrapper {
+    width: 100%;
+    position: absolute;
+    left: -33.66%; 
+}
+
+.didYouKnow__container {
+    width: 100%;
+    position: relative;
+    & img {
+        width: 37%;
+    }
+}
+
+.didYouKnow__image {
+    transition: opacity $opacity-transition-duration;
+    position: absolute;
+}
+
+.didYouKnow__paragraphs__container {
+    transition: opacity $opacity-transition-duration;
+    position: relative;
+    top: 3vh;
+    line-height: 2vh;
+    margin-left: 2vw;
+    font-size: 1vw;
+    font-family: 'FuturaPTBook';
+    width: 18%;
+    position: absolute;
+}
+
+.didYouKnow__paragraph {
+    padding-bottom: 2vh;
+}
+
+.didYouKnow__question {
+    font-size: 2vw;
+    position: absolute;
+    font-family: 'Copperplate29';
+    left: 25vw;
+    top: 68vh;
+}
+
+.didYouKnow__p__2 {
+    position: absolute;
+    top: 0;
+    left: 13vw;
+    width: 80%;
 }
