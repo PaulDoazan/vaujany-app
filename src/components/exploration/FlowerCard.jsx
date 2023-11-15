@@ -9,6 +9,7 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
     const positionY = useRef(0)
 
     const titleRef = useRef()
+    const titlesContainerRef = useRef()
     const imgRef = useRef()
     const animation = useRef()
     const wrapperRef = useRef()
@@ -29,6 +30,8 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
                     duration: 0.7,
                     ease: "back.in"
                 }).call(() => {
+                    titlesContainerRef.current.style.display = 'flex'
+                    titlesContainerRef.current.style.alignItems = 'baseline'
                     titleRef.current.style.flexDirection = 'row'
                     titleRef.current.style.justifyContent = 'left'
 
@@ -36,6 +39,7 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
                     titleContentRef.current.style.fontSize = '2vw'
 
                     titleLatinRef.current.style.marginLeft = '1vh'
+                    titleLatinRef.current.style.fontSize = '1.4vw'
                 })
 
                 animation.current.to(`.card__title-${data.slug}`, {
@@ -75,12 +79,13 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
             titleRef.current.style.width = `${titleWidth - paddingTitle * 2}%`
             titleRef.current.style.flexDirection = 'column'
             titleRef.current.style.justifyContent = 'center'
+            titlesContainerRef.current.style.display = 'block'
 
             titleContentRef.current.style.marginLeft = null
             titleContentRef.current.style.fontSize = '1.3vw'
 
-            titleLatinRef.current.style.textTransform = 'lowercase'
             titleLatinRef.current.style.marginLeft = null
+            titleLatinRef.current.style.fontSize = '1vw'
 
             wrapperRef.current.style.opacity = 1
             imgRef.current.style.opacity = 1
@@ -154,10 +159,12 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
             <img ref={imgRef} onTouchEnd={handleClick} className={`flower__card__image card__image-${data.slug}`} src={"/images/flowers/" + data.thumbnail} alt="" style={imageStyle} />
 
             <div ref={titleRef} className={`flower__card__title card__title-${data.slug}`} style={titleStyle} onTouchEnd={handleClick}>
-                <div ref={titleContentRef} className="title__content">
-                    {data[lang].title}
+                <div ref={titlesContainerRef} className="flower__card__titles__container">
+                    <div ref={titleContentRef} className="title__content">
+                        {data[lang].title}
+                    </div>
+                    <div ref={titleLatinRef} className="title__latin__content" style={titleLatinStyle}>{data[`title_latin`]}</div>
                 </div>
-                <div ref={titleLatinRef} className="title__latin__content" style={titleLatinStyle}>{data[`title_latin`]}</div>
             </div>
         </div>
     )

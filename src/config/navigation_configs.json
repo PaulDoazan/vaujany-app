@@ -10,14 +10,26 @@
     "flowerInfos": {
         "previous": "explore",
         "fr": {
+            "family": "Famille",
+            "bloom": "Floraison",
+            "height": "Hauteur",
+            "habitat": "Habitat",
             "medical": "propriétés médicinales",
             "cooking": "propriétés culinaires"
         },
         "en": {
+            "family": "Family",
+            "bloom": "Bloom",
+            "height": "Height",
+            "habitat": "Habitat",
             "medical": "medical properties",
             "cooking": "cooking properties"
         },
         "nl": {
+            "family": "Famibluck",
+            "bloom": "Floraibluck",
+            "height": "Hautbluck",
+            "habitat": "Habibluck",
             "medical": "bluck de bluck",
             "cooking": "bloock de blaack"
         }
