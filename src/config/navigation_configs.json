@@ -4,18 +4,21 @@
         "backgroundColor": "#AAB8A8",
         "fr": {
             "explore": "Explorer",
+            "exploreDescription": "Explorer les fleurs de&nbsp;nos montagnes…",
             "play": "Jouer",
-            "description": "Explorer les fleurs de&nbsp;nos montagnes…"
+            "playDescription": "S’amuser… Chercher… Deviner…"
         },
         "en": {
             "explore": "Explore",
+            "exploreDescription": "Explorer les fleurs de&nbsp;nos montagnes…",
             "play": "Play",
-            "description": "Explorer les fleurs de&nbsp;nos montagnes…"
+            "playDescription": "Have fun..."
         },
         "nl": {
             "explore": "BLuck",
+            "exploreDescription": "Explorer les fleurs de&nbsp;nos montagnes…",
             "play": "bluck",
-            "description": "Explorer les fleurs de&nbsp;nos montagnes…"
+            "playDescription": "Have bluck bluck bluck..."
         }
     },
     "explore": {

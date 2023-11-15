@@ -1,3 +1,4 @@
+import parse from 'html-react-parser';
 import React, { useContext } from 'react'
 import { LangContext, NavigationContext } from '../../utils/context'
 import navigation_configs from '../../config/navigation_configs.json'
@@ -18,7 +19,7 @@ export default function BtnExplore() {
                     {navigation_configs.home[lang].explore}
                 </div>
                 <div className="home__button__description">
-                    {navigation_configs.home[lang].description}
+                    {parse(navigation_configs.home[lang].exploreDescription)}
                 </div>
             </div>
             <img className="home__button__image" src="images/icons/homePlayBtn.png" alt="" style={{ height: '136%' }} />
