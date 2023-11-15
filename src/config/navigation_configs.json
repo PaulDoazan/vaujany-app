@@ -1,7 +1,22 @@
 {
     "home": {
         "previous": null,
-        "backgroundColor": "#AAB8A8"
+        "backgroundColor": "#AAB8A8",
+        "fr": {
+            "explore": "Explorer",
+            "play": "Jouer",
+            "description": "Explorer les fleurs de&nbsp;nos montagnes…"
+        },
+        "en": {
+            "explore": "Explore",
+            "play": "Play",
+            "description": "Explorer les fleurs de&nbsp;nos montagnes…"
+        },
+        "nl": {
+            "explore": "BLuck",
+            "play": "bluck",
+            "description": "Explorer les fleurs de&nbsp;nos montagnes…"
+        }
     },
     "explore": {
         "previous": "home",

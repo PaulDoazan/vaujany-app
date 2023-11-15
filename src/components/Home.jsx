@@ -9,7 +9,6 @@ export default function Home({ changePage }) {
     return (
         <div className="home__container">
             <div className="home__left__slice"></div>
-
             <img src="images/flowers/full/hypericum_richeri.jpg" alt="" className="home__image" />
 
             <div className="home__content">
