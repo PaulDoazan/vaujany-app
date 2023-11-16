@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vaujany-app/static/css/main.34f666bf.css",
-    "main.js": "/vaujany-app/static/js/main.739bbbbd.js",
+    "main.js": "/vaujany-app/static/js/main.4cee6add.js",
     "static/media/FuturaPTMedium.otf": "/vaujany-app/static/media/FuturaPTMedium.7af6976ce738bec1704e.otf",
     "static/media/FuturaPTBook.otf": "/vaujany-app/static/media/FuturaPTBook.bc305be0a88a100ad836.otf",
     "static/media/Copperplate-Gothic-Std-30-BC.ttf": "/vaujany-app/static/media/Copperplate-Gothic-Std-30-BC.5ddb73d102736455adde.ttf",
     "static/media/Copperplate-Gothic-Std-29-BC.ttf": "/vaujany-app/static/media/Copperplate-Gothic-Std-29-BC.3123841ae7d0dcd5ec87.ttf",
     "index.html": "/vaujany-app/index.html",
     "main.34f666bf.css.map": "/vaujany-app/static/css/main.34f666bf.css.map",
-    "main.739bbbbd.js.map": "/vaujany-app/static/js/main.739bbbbd.js.map"
+    "main.4cee6add.js.map": "/vaujany-app/static/js/main.4cee6add.js.map"
   },
   "entrypoints": [
     "static/css/main.34f666bf.css",
-    "static/js/main.739bbbbd.js"
+    "static/js/main.4cee6add.js"
   ]
 }
