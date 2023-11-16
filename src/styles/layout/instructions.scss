@@ -16,20 +16,50 @@
 
 .game__instructions__content {
     position: absolute;
-    width: 20%;
+    width: 24%;
     left: 36.1%;
 }
 
 .game__instructions__title {
     font-family: 'Copperplate30';
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 .game__instructions__rules__title {
     font-family: 'Copperplate29';
     font-size: 2.5vw;
+    margin-bottom: 5vh;
 }
 
 .game__instructions__goals {
+    font-family: 'FuturaPTDemi';
+    font-size: 1.6vw;
     width: 100%;
+    margin-bottom: 3vh;
+}
+
+.game__instructions__explanation {
+    font-family: 'FuturaPTBook';
+    font-size: 1.6vw;
+    width: 100%;
+}
+
+.game__instructions__btn__play {
+    position: absolute;
+    right: 5%;
+    width: 20%;
+}
+
+.game__instructions__btn__play__image {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    width: 100%;
+}
+
+.game__instructions__btn__play__title {
+    position: absolute;
+    transform: translate(-50%, -150%);
+    font-size: 1.8vw;
+    color: $color-white;
+    font-family: 'FuturaPTBook';
 }

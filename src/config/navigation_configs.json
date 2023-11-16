@@ -66,13 +66,16 @@
         "previous": "gamesHome",
         "mainClass": ".game__instructions__container",
         "fr": {
-            "rulesTitle": "Règles du jeu"
+            "rulesTitle": "Règles du jeu",
+            "play": "JOUER"
         },
         "en": {
-            "rulesTitle": "Game rules"
+            "rulesTitle": "Game rules",
+            "play": "PLAY"
         },
         "nl": {
-            "rulesTitle": "[...]"
+            "rulesTitle": "[...]",
+            "play": "[...]"
         }
     },
     "quiz": {

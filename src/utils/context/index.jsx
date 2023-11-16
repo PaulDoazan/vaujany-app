@@ -39,7 +39,8 @@ export const NavigationProvider = ({ children }) => {
     const changePage = (value) => {
         const { bgColor, color } = getColors(value);
 
-        console.log(currentPage.category, value.category);
+        if (currentPage.category === value.category) return
+
         if (currentPage.category === 'home' && value.category === 'gamesHome' || currentPage.category === 'gamesHome' && value.category === 'home') {
             setCurrentPage({ noAnimation: true, backgroundColor: bgColor, color: color, ...value })
             return

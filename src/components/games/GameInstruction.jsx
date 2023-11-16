@@ -10,17 +10,16 @@ export default function GameInstruction() {
     const { lang } = useContext(LangContext)
 
     const currentGame = dataGames.games.find(el => el.slug === currentPage.element)
-    // const animation = useRef()
 
     const displayGame = () => {
-        // animation.current = gsap.timeline()
-        // animation.current.to('.game__instructions__container', { opacity: 0, duration: 0.5 }).call(() => {
-        //     changePage({ category: currentGame.slug, element: currentGame.slug })
-        // })
         changePage({ category: currentGame.slug, element: currentGame.slug })
     }
 
     const contentStyle = {
+        bottom: currentGame.presentationDimensions.bottom
+    }
+
+    const btnStyle = {
         bottom: currentGame.presentationDimensions.bottom
     }
 
@@ -48,7 +47,14 @@ export default function GameInstruction() {
                     <div className="game__instructions__goals">
                         {currentGame[lang].goal}
                     </div>
-                    <div onTouchEnd={displayGame} className="btn-play">JOUER</div>
+                    <div className="game__instructions__explanation">
+                        {currentGame[lang].explanation}
+                    </div>
+
+                </div>
+                <div onTouchEnd={displayGame} className="game__instructions__btn__play" style={btnStyle}>
+                    <img className="game__instructions__btn__play__image" src={`images/icons/${currentGame.btnPlayBackground}`} alt="" />
+                    <div className="game__instructions__btn__play__title">{navigation_configs.gameInstruction[lang].play}</div>
                 </div>
             </div>
 
