@@ -43,6 +43,9 @@
     font-size: 1.6vw;
     width: 100%;
 
+    & p:not(:last-child) {
+        margin-bottom: 3vh;
+    }
     & b {
         font-family: 'FuturaPTDemi';
     }
@@ -66,4 +69,32 @@
     font-size: 1.8vw;
     color: $color-white;
     font-family: 'FuturaPTBook';
+}
+
+.game__instructions__btn__level {
+    position: absolute;
+    right: 10%;
+    width: 15%;
+}
+
+.game__instructions__btn__level__image {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    width: 100%;
+}
+
+.game__instructions__btn__level__title {
+    position: absolute;
+    transform: translate(-50%, -150%);
+    font-size: 1.8vw;
+    font-family: 'FuturaPTBook';
+}
+
+.game__instructions__examples {
+    font-size: 1.6vw;
+    font-family: 'FuturaPTLight';
+    color: $color-hippie-green;
+    & p {
+        margin-top: 3vh;
+    }
 }

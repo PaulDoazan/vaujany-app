@@ -39,7 +39,6 @@ export const NavigationProvider = ({ children }) => {
     const changePage = (value) => {
         const { bgColor, color } = getColors(value);
 
-        console.log(currentPage, value);
         // all cases when transition fadeIn fadeOut between pages should be avoided
         if (currentPage.category === 'home' && value.category === 'home') return
 
@@ -51,7 +50,6 @@ export const NavigationProvider = ({ children }) => {
             return
         } else if (currentPage.category === 'gamesHome' && value.category === 'home') {
             animation.current = gsap.timeline()
-            console.log('here');
             animation.current.to('.game__content', { opacity: 0, duration: 0.5 }).call(() => {
                 setCurrentPage({ noAnimation: true, backgroundColor: bgColor, color: color, ...value })
             })

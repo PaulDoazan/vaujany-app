@@ -13,24 +13,35 @@
                 "title": "Étagement",
                 "description": "Placer les plantes dans leurs habitats naturels.",
                 "goal": "Objectif : placer correctement dans les cases les différents types de plantes en fonction de leur habitat naturel.",
-                "explanation": "En montagne, la végétation <b>change en fonction de l’altitude</b>. On parle d’<b>étagement de la végétation</b>, un phénomène essentiellement dû à la baisse de la température avec l’augmentation de l’altitude, généralement d’environ <b>-1 degré tous les 200 mètres</b>. Ainsi, la montagne peut être divisée en sections horizontales."
+                "explanation": [
+                    "En montagne, la végétation <b>change en fonction de l’altitude</b>. On parle d’<b>étagement de la végétation</b>, un phénomène essentiellement dû à la baisse de la température avec l’augmentation de l’altitude, généralement d’environ <b>-1 degré tous les 200 mètres</b>. Ainsi, la montagne peut être divisée en sections horizontales."
+                ]
             },
             "en": {
                 "title": "Levels",
                 "description": "[...]",
                 "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "explanation": [
+                    "Lorem ipsum"
+                ]
             },
             "nl": {
                 "title": "Bluck",
                 "description": "[...]",
                 "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "explanation": [
+                    "Lorem ipsum"
+                ]
             }
         },
         {
             "slug": "toxic",
             "backgroundColor": "#FFB559",
+            "btnLevelsBackground": [
+                "easy",
+                "medium",
+                "expert"
+            ],
             "imgPresentation": "toxic.png",
             "presentationDimensions": {
                 "bottom": "24.8%",
@@ -39,28 +50,39 @@
             "fr": {
                 "title": "Toxique ?",
                 "description": "Mettez vos reflex à l’épreuve pour éviter les plantes toxiques !",
-                "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "goal": "Objectif : éliminer les 5 plantes toxiques en les plaçant dans les cases.",
+                "explanation": [
+                    "Profitez de cette expérience pour développer vos compétences en matière de sécurité en plein air."
+                ]
             },
             "en": {
                 "title": "Toxic ?",
                 "description": "[...]",
                 "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "explanation": [
+                    "Lorem ipsum"
+                ]
             },
             "nl": {
                 "title": "Bluck",
                 "description": "[...]",
                 "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "explanation": [
+                    "Lorem ipsum"
+                ]
             }
         },
         {
             "slug": "guesswho",
             "backgroundColor": "#52774E",
             "imgPresentation": "guesswho.png",
+            "btnLevelsBackground": [
+                "easy",
+                "medium",
+                "expert"
+            ],
             "presentationDimensions": {
-                "bottom": "14.3%",
+                "bottom": "8.3%",
                 "imgLeft": "-3%",
                 "imgTop": "14%",
                 "scale": "1.1"
@@ -68,26 +90,41 @@
             "fr": {
                 "title": "Qui est-ce ?",
                 "description": "Quelle plante se cache derrière les indices ?",
-                "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "goal": "Objectif : deviner quelle plante mystère a été choisie en posant des questions stratégiques qui vous aideront à éliminer progressivement les plantes incorrectes.",
+                "explanation": [
+                    "Cliquez sur une question pour révéler la réponse associée et ainsi <b>éliminer les plantes qui ne correspondent pas à cette réponse</b>. Continuez à poser des questions et à éliminer les plantes incorrectes jusqu’à ce qu’il ne reste que la dernière !"
+                ],
+                "examples": [
+                    "Exemple : « Est-ce que la plante est rose ? ».",
+                    "Si la réponse à la question est OUI, dans ce cas, le joueur peut retourner toutes les plantes qui ne sont pas roses en cliquant dessus. Si la réponse est NON, alors il pourra seulement retourner les plantes qui sont roses."
+                ]
             },
             "en": {
                 "title": "Guess who ?",
                 "description": "[...]",
                 "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "explanation": [
+                    "Lorem ipsum"
+                ]
             },
             "nl": {
                 "title": "Bluck",
                 "description": "[...]",
                 "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "explanation": [
+                    "Lorem ipsum"
+                ]
             }
         },
         {
             "slug": "memory",
             "backgroundColor": "#E8D262",
             "imgPresentation": "memory.png",
+            "btnLevelsBackground": [
+                "easy",
+                "medium",
+                "expert"
+            ],
             "presentationDimensions": {
                 "bottom": "17.5%",
                 "imgLeft": "-4%"
@@ -95,20 +132,28 @@
             "fr": {
                 "title": "Memory",
                 "description": "Associez l’image et sa description.",
-                "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "goal": "Objectif : trouver toutes les paires.",
+                "explanation": [
+                    "Toutes les cartes sont <b>faces cachées</b> sur la table. Retournez deux cartes. Si <b>l’image qui apparaît sur la carte correspond à sa description</b>, le joueur gagne les cartes et en retourne à nouveau deux.",
+                    "Si les deux cartes ne vont pas ensemble, elles reviennent en position cachée.",
+                    "Celui qui a une bonne mémoire <b>se souviendra de l’emplacement des cartes</b> déjà retournées et pourra les utiliser lorsqu’il en aura besoin pour former une paire."
+                ]
             },
             "en": {
                 "title": "Memory",
                 "description": "[...]",
                 "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "explanation": [
+                    "Lorem ipsum"
+                ]
             },
             "nl": {
                 "title": "Bluck",
                 "description": "[...]",
                 "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "explanation": [
+                    "Lorem ipsum"
+                ]
             }
         },
         {
@@ -125,20 +170,26 @@
             "fr": {
                 "title": "Quiz",
                 "description": "Testez vos connaissances et défiez vos amis !",
-                "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "goal": "Objectif : répondre correctement aux questions posées.",
+                "explanation": [
+                    "<b>Affrontez-vous, défiez-vous, testez-vous…</b></br>Seul où a plusieurs, répondez à une multitude de questions pour tester vos connaissances."
+                ]
             },
             "en": {
                 "title": "Quiz",
                 "description": "[...]",
                 "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "explanation": [
+                    "Lorem ipsum"
+                ]
             },
             "nl": {
                 "title": "Bluck",
                 "description": "[...]",
                 "goal": "Lorem ipsum",
-                "explanation": "Lorem ipsum"
+                "explanation": [
+                    "Lorem ipsum"
+                ]
             }
         }
     ]

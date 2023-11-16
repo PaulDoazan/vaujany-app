@@ -12,8 +12,6 @@ export default function FlowerInfos({ data }) {
         e.stopPropagation()
     }
 
-    console.log(currentFlower[lang].family);
-
     return (
         <div onTouchStart={handleTouch} onTouchMove={handleTouch} onTouchEnd={handleTouch} className='flower__info__container'>
             <div className="flower__info__img__container">

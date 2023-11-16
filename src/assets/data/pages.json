@@ -67,15 +67,30 @@
         "mainClass": ".game__instructions__container",
         "fr": {
             "rulesTitle": "Règles du jeu",
-            "play": "JOUER"
+            "play": "JOUER",
+            "levels": [
+                "FACILE",
+                "INTERMÉDIAIRE",
+                "EXPERT"
+            ]
         },
         "en": {
             "rulesTitle": "Game rules",
-            "play": "PLAY"
+            "play": "PLAY",
+            "levels": [
+                "EASY",
+                "MEDIUM",
+                "EXPERT"
+            ]
         },
         "nl": {
             "rulesTitle": "[...]",
-            "play": "[...]"
+            "play": "[...]",
+            "levels": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
         }
     },
     "quiz": {

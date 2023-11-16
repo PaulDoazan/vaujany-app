@@ -12,8 +12,8 @@ export default function GameInstruction() {
 
     const currentGame = dataGames.games.find(el => el.slug === currentPage.element)
 
-    const displayGame = () => {
-        changePage({ category: currentGame.slug, element: currentGame.slug })
+    const displayGame = (e, level) => {
+        changePage({ category: currentGame.slug, element: currentGame.slug, level: level })
     }
 
     const contentStyle = {
@@ -34,6 +34,8 @@ export default function GameInstruction() {
         gsap.fromTo('.game__instructions__container', { opacity: 0 }, { opacity: 1, duration: 0.5 })
     }, [])
 
+    // top: `${66 + index * 8}%`,
+
     return (
         <>
             <div className="game__instructions__container">
@@ -49,16 +51,32 @@ export default function GameInstruction() {
                         {currentGame[lang].goal}
                     </div>
                     <div className="game__instructions__explanation">
-                        {parse(currentGame[lang].explanation)}
+                        {currentGame[lang].explanation.map(el => {
+                            return <p>{parse(el)}</p>
+                        })
+                        }
                     </div>
-
+                    {currentGame[lang].examples &&
+                        <div className="game__instructions__examples">
+                            {currentGame[lang].examples.map(el => {
+                                return <p>{parse(el)}</p>
+                            })
+                            }
+                        </div>
+                    }
                 </div>
-                <div onTouchEnd={displayGame} className="game__instructions__btn__play" style={btnStyle}>
-                    <img className="game__instructions__btn__play__image" src={`images/icons/${currentGame.btnPlayBackground}`} alt="" />
-                    <div className="game__instructions__btn__play__title">{pages.gameInstruction[lang].play}</div>
-                </div>
+                {currentGame.btnPlayBackground ?
+                    <div onTouchEnd={displayGame} className="game__instructions__btn__play" style={btnStyle}>
+                        <img className="game__instructions__btn__play__image" src={`images/icons/${currentGame.btnPlayBackground}`} alt="" />
+                        <div className="game__instructions__btn__play__title">{pages.gameInstruction[lang].play}</div>
+                    </div> : currentGame.btnLevelsBackground.map((el, index, arr) => {
+                        return <div onTouchEnd={(e) => { displayGame(e, index) }} className="game__instructions__btn__level" style={{ marginBottom: `${(arr.length - index - 1) * 5}%`, ...btnStyle }}>
+                            <img className="game__instructions__btn__level__image" src={`images/icons/${currentGame.btnLevelsBackground[index]}.svg`} alt="" />
+                            <div className="game__instructions__btn__level__title">{pages.gameInstruction[lang].levels[index]}</div>
+                        </div>
+                    })
+                }
             </div>
-
         </>
     )
 }
