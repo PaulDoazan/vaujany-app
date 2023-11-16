@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { LangContext, NavigationContext } from '../../utils/context'
 import dataGames from '../../assets/data/games.json'
 
@@ -12,12 +12,13 @@ export default function GameInstruction() {
     const displayGame = () => {
         changePage({ category: currentGame.slug, element: currentGame.slug })
     }
+
     return (
         <>
-            <div className="game-instructions">
-                Dans le jeu{currentGame[`title_${lang}`]}
+            <div className="game__instructions">
+                Dans le jeu{currentGame[lang].title}
             </div>
-            <div onTouchEnd={displayGame} className="btn-play">JOUER</div>
+            <div onTouchEnd={displayGame} className="btn__play">JOUER</div>
         </>
     )
 }
