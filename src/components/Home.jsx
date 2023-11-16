@@ -12,9 +12,11 @@ export default function Home({ changePage }) {
 
     useEffect(() => {
         if (currentPage.noAnimation) {
+            gsap.to('.home__sub__container', { opacity: 1, duration: 1 })
             return
         }
-        gsap.fromTo('.home__container', { opacity: 0 }, { opacity: 1, duration: 0.5 })
+        gsap.to('.home__sub__container', { opacity: 1, duration: 1 })
+        gsap.to('.home__container', { opacity: 1, duration: 0.5 })
     }, [])
 
     return (
@@ -22,17 +24,19 @@ export default function Home({ changePage }) {
             <div className="home__left__slice"></div>
             <img src="images/flowers/full/hypericum_richeri.jpg" alt="" className="home__image" />
 
-            <div className="home__content">
-                <div className="home__title home__title__1">La</div>
-                <div className="home__title home__title__2">Flore</div>
-                <div className="home__title home__title__3">autour</div>
-                <div className="home__title home__title__5">
-                    <span className="home__title home__title__4">de </span>
-                    Vaujany
+            <div className="home__sub__container">
+                <div className="home__content">
+                    <div className="home__title home__title__1">La</div>
+                    <div className="home__title home__title__2">Flore</div>
+                    <div className="home__title home__title__3">autour</div>
+                    <div className="home__title home__title__5">
+                        <span className="home__title home__title__4">de </span>
+                        Vaujany
+                    </div>
                 </div>
+                <BtnExplore changePage={handleChangePage} />
+                <BtnGames changePage={handleChangePage} />
             </div>
-            <BtnExplore changePage={handleChangePage} />
-            <BtnGames changePage={handleChangePage} />
 
         </ div >
     )

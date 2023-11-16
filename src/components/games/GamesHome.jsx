@@ -8,8 +8,12 @@ export default function GamesHome() {
     const { currentPage } = useContext(NavigationContext)
 
     useEffect(() => {
-        if (currentPage.noAnimation) return
-        gsap.fromTo('.games__container', { opacity: 0 }, { opacity: 1, duration: 0.5 })
+        if (currentPage.noAnimation) {
+            gsap.to('.game__content', { opacity: 1, duration: 1 })
+            return
+        }
+        gsap.to('.game__content', { opacity: 1, duration: 1 })
+        gsap.to('.games__container', { opacity: 1, duration: 0.5 })
     }, [])
     return (
         <>
