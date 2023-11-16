@@ -59,7 +59,8 @@ const imgs = [
 
 function App() {
   const [nbScreen, setNbScreen] = useState(1)
-  const { imagesPreloaded } = useImagePreloader(imgs)
+  // const { imagesPreloaded } = useImagePreloader(imgs)
+  const imagesPreloaded = true
 
   const screens = []
 
