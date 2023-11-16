@@ -1,0 +1,35 @@
+.game__instructions__container {
+    opacity: 0;
+}
+
+.game__instructions__container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.game__instructions__image {
+    position: absolute;
+    height: 100%;
+    top: 2%;
+}
+
+.game__instructions__content {
+    position: absolute;
+    width: 20%;
+    left: 36.1%;
+}
+
+.game__instructions__title {
+    font-family: 'Copperplate30';
+    font-size: 4vw;
+}
+
+.game__instructions__rules__title {
+    font-family: 'Copperplate29';
+    font-size: 2.5vw;
+}
+
+.game__instructions__goals {
+    width: 100%;
+}

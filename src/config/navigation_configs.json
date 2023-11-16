@@ -1,6 +1,7 @@
 {
     "home": {
         "previous": null,
+        "mainClass": ".home__container",
         "backgroundColor": "#AAB8A8",
         "fr": {
             "explore": "Explorer",
@@ -23,6 +24,7 @@
     },
     "explore": {
         "previous": "home",
+        "mainClass": ".explore__container",
         "backgroundColor": "#7AA269"
     },
     "flowerInfos": {
@@ -57,24 +59,40 @@
     },
     "gamesHome": {
         "previous": "home",
+        "mainClass": ".games__container",
         "backgroundColor": "#A3CCED"
     },
     "gameInstruction": {
-        "previous": "gamesHome"
+        "previous": "gamesHome",
+        "mainClass": ".game__instructions__container",
+        "fr": {
+            "rulesTitle": "Règles du jeu"
+        },
+        "en": {
+            "rulesTitle": "Game rules"
+        },
+        "nl": {
+            "rulesTitle": "[...]"
+        }
     },
     "quiz": {
-        "previous": "gameInstruction"
+        "previous": "gameInstruction",
+        "mainClass": ".quiz__container"
     },
     "memory": {
-        "previous": "gameInstruction"
+        "previous": "gameInstruction",
+        "mainClass": ".memory__container"
     },
     "guesswho": {
-        "previous": "gameInstruction"
+        "previous": "gameInstruction",
+        "mainClass": ".guesswho__container"
     },
     "levels": {
-        "previous": "gameInstruction"
+        "previous": "gameInstruction",
+        "mainClass": ".levels__container"
     },
     "toxic": {
-        "previous": "gameInstruction"
+        "previous": "gameInstruction",
+        "mainClass": ".toxic__container"
     }
 }

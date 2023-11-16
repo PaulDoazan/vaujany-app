@@ -1,8 +1,9 @@
-import { createContext, useState } from "react";
+import { createContext, useRef, useState } from "react";
 
 import dataFlowers from '../../assets/data/flowers.json'
 import dataGames from '../../assets/data/games.json'
 import pages from '../../config/navigation_configs.json'
+import gsap from "gsap";
 
 const allPages = concatData()
 
@@ -33,11 +34,35 @@ export const LangProvider = ({ children }) => {
 
 export const NavigationProvider = ({ children }) => {
     const [currentPage, setCurrentPage] = useState({ category: 'home', backgroundColor: '#AAB8A8', color: '#fff' })
+    const animation = useRef()
 
     const changePage = (value) => {
         const { bgColor, color } = getColors(value);
 
-        setCurrentPage({ backgroundColor: bgColor, color: color, ...value })
+        console.log(currentPage.category, value.category);
+        if (currentPage.category === 'home' && value.category === 'gamesHome' || currentPage.category === 'gamesHome' && value.category === 'home') {
+            setCurrentPage({ noAnimation: true, backgroundColor: bgColor, color: color, ...value })
+            return
+        }
+
+        if (currentPage.category === 'explore' && value.element) {
+            setCurrentPage({ noAnimation: true, backgroundColor: bgColor, color: color, ...value })
+            return
+        }
+
+        if (currentPage.element && currentPage.category === 'explore') {
+            setCurrentPage({ noAnimation: true, backgroundColor: bgColor, color: color, ...value })
+            return
+        }
+
+        if (pages[currentPage.category].mainClass) {
+            animation.current = gsap.timeline()
+            animation.current.to(pages[currentPage.category].mainClass, { opacity: 0, duration: 0.5 }).call(() => {
+                setCurrentPage({ backgroundColor: bgColor, color: color, ...value })
+            })
+        } else {
+            setCurrentPage({ noAnimation: true, backgroundColor: bgColor, color: color, ...value })
+        }
     }
 
     return (

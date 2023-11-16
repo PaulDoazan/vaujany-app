@@ -6,6 +6,10 @@
     background-color: $color-white;
 }
 
+.home__container {
+    opacity: 0;
+}
+
 .home__left__slice {
     position: absolute;
     width: 4%;

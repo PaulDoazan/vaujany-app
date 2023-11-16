@@ -4,85 +4,124 @@
             "slug": "levels",
             "backgroundColor": "#D5C389",
             "imgPresentation": "etagement.png",
+            "presentationDimensions": {
+                "bottom": "14.4%",
+                "imgLeft": "-12%"
+            },
             "fr": {
                 "title": "Étagement",
-                "description": "Placer les plantes dans leurs habitats naturels."
+                "description": "Placer les plantes dans leurs habitats naturels.",
+                "goal": "Objectif : placer correctement dans les cases les différents types de plantes en fonction de leur habitat naturel."
             },
             "en": {
                 "title": "Levels",
-                "description": "[...]"
+                "description": "[...]",
+                "goal": "Lorem ipsum"
             },
             "nl": {
                 "title": "Bluck",
-                "description": "[...]"
+                "description": "[...]",
+                "goal": "Lorem ipsum"
             }
         },
         {
             "slug": "toxic",
             "backgroundColor": "#FFB559",
             "imgPresentation": "toxic.png",
+            "presentationDimensions": {
+                "bottom": "24.8%",
+                "imgLeft": "-3%"
+            },
             "fr": {
                 "title": "Toxique ?",
-                "description": "Mettez vos reflex à l’épreuve pour éviter les plantes toxiques !"
+                "description": "Mettez vos reflex à l’épreuve pour éviter les plantes toxiques !",
+                "goal": "Lorem ipsum"
             },
             "en": {
                 "title": "Toxic ?",
-                "description": "[...]"
+                "description": "[...]",
+                "goal": "Lorem ipsum"
             },
             "nl": {
                 "title": "Bluck",
-                "description": "[...]"
+                "description": "[...]",
+                "goal": "Lorem ipsum"
             }
         },
         {
             "slug": "guesswho",
             "backgroundColor": "#52774E",
             "imgPresentation": "guesswho.png",
+            "presentationDimensions": {
+                "bottom": "14.3%",
+                "imgLeft": "-3%",
+                "imgTop": "14%",
+                "scale": "1.1"
+            },
             "fr": {
                 "title": "Qui est-ce ?",
-                "description": "Quelle plante se cache derrière les indices ?"
+                "description": "Quelle plante se cache derrière les indices ?",
+                "goal": "Lorem ipsum"
             },
             "en": {
                 "title": "Guess who ?",
-                "description": "[...]"
+                "description": "[...]",
+                "goal": "Lorem ipsum"
             },
             "nl": {
                 "title": "Bluck",
-                "description": "[...]"
+                "description": "[...]",
+                "goal": "Lorem ipsum"
             }
         },
         {
             "slug": "memory",
             "backgroundColor": "#E8D262",
             "imgPresentation": "memory.png",
+            "presentationDimensions": {
+                "bottom": "17.5%",
+                "imgLeft": "-4%"
+            },
             "fr": {
                 "title": "Memory",
-                "description": "Associez l’image et sa description."
+                "description": "Associez l’image et sa description.",
+                "goal": "Lorem ipsum"
             },
             "en": {
                 "title": "Memory",
-                "description": "[...]"
+                "description": "[...]",
+                "goal": "Lorem ipsum"
             },
             "nl": {
                 "title": "Bluck",
-                "description": "[...]"
+                "description": "[...]",
+                "goal": "Lorem ipsum"
             }
         },
         {
             "slug": "quiz",
             "backgroundColor": "#E07CAD",
             "imgPresentation": "quiz.png",
+            "presentationDimensions": {
+                "bottom": "23.4%",
+                "imgLeft": "1%",
+                "imgTop": "9%",
+                "scale": "1.1"
+            },
             "fr": {
                 "title": "Quiz",
-                "description": "Testez vos connaissances et défiez vos amis !"
+                "description": "Testez vos connaissances et défiez vos amis !",
+                "goal": "Lorem ipsum"
             },
             "en": {
                 "title": "Quiz",
-                "description": "[...]"
+                "description": "[...]",
+                "goal": "Lorem ipsum"
             },
             "nl": {
                 "title": "Bluck",
-                "description": "[...]"
+                "description": "[...]",
+                "goal": "Lorem ipsum"
             }
         }
     ]
