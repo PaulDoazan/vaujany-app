@@ -9,9 +9,9 @@ export default function GamesHome() {
                 <div className="home__left__slice"></div>
                 <img src="images/flowers/full/hypericum_richeri.jpg" alt="" className="home__image" />
 
-                <div className="home__content">
-                    {dataGames.games.map(game => {
-                        return <GameButton key={game.slug} data={game} />
+                <div className="game__content">
+                    {dataGames.games.map((game, index) => {
+                        return <GameButton key={game.slug} data={game} index={index} />
                     })}
                 </div>
 

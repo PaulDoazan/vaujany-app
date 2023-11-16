@@ -10,7 +10,7 @@ function preloadImage(src) {
             reject(src)
         }
         img.src = src
-        console.log(src);
+
         window[src] = img;
     })
 }

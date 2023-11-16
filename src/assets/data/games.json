@@ -3,42 +3,87 @@
         {
             "slug": "levels",
             "backgroundColor": "#D5C389",
-            "title_fr": "étagement",
-            "title_en": "levels",
-            "title_nl": "bluck",
-            "img_presentation": "etagement.png"
+            "imgPresentation": "etagement.png",
+            "fr": {
+                "title": "Étagement",
+                "description": "Placer les plantes dans leurs habitats naturels."
+            },
+            "en": {
+                "title": "Levels",
+                "description": "[...]"
+            },
+            "nl": {
+                "title": "Bluck",
+                "description": "[...]"
+            }
         },
         {
             "slug": "toxic",
             "backgroundColor": "#FFB559",
-            "title_fr": "toxique ?",
-            "title_en": "toxic ?",
-            "title_nl": "bluck ?",
-            "img_presentation": "toxic.png"
-        },
-        {
-            "slug": "memory",
-            "backgroundColor": "#E8D262",
-            "title_fr": "memory",
-            "title_en": "memory",
-            "title_nl": "bluck",
-            "img_presentation": "memory.png"
+            "imgPresentation": "toxic.png",
+            "fr": {
+                "title": "Toxique ?",
+                "description": "Mettez vos reflex à l’épreuve pour éviter les plantes toxiques !"
+            },
+            "en": {
+                "title": "Toxic ?",
+                "description": "[...]"
+            },
+            "nl": {
+                "title": "Bluck",
+                "description": "[...]"
+            }
         },
         {
             "slug": "guesswho",
             "backgroundColor": "#52774E",
-            "title_fr": "qui est-ce ?",
-            "title_en": "guess who ?",
-            "title_nl": "bluck ?",
-            "img_presentation": "quiestce.png"
+            "imgPresentation": "guesswho.png",
+            "fr": {
+                "title": "Qui est-ce ?",
+                "description": "Quelle plante se cache derrière les indices ?"
+            },
+            "en": {
+                "title": "Guess who ?",
+                "description": "[...]"
+            },
+            "nl": {
+                "title": "Bluck",
+                "description": "[...]"
+            }
+        },
+        {
+            "slug": "memory",
+            "backgroundColor": "#E8D262",
+            "imgPresentation": "memory.png",
+            "fr": {
+                "title": "Memory",
+                "description": "Associez l’image et sa description."
+            },
+            "en": {
+                "title": "Memory",
+                "description": "[...]"
+            },
+            "nl": {
+                "title": "Bluck",
+                "description": "[...]"
+            }
         },
         {
             "slug": "quiz",
             "backgroundColor": "#E07CAD",
-            "title_fr": "quiz",
-            "title_en": "quiz",
-            "title_nl": "bluck",
-            "img_presentation": "quiz.png"
+            "imgPresentation": "quiz.png",
+            "fr": {
+                "title": "Quiz",
+                "description": "Testez vos connaissances et défiez vos amis !"
+            },
+            "en": {
+                "title": "Quiz",
+                "description": "[...]"
+            },
+            "nl": {
+                "title": "Bluck",
+                "description": "[...]"
+            }
         }
     ]
 }
