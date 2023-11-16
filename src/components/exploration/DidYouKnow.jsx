@@ -22,10 +22,10 @@ export default function DidYouKnow({ currentFlower, lang }) {
                         opacity: visible ? 1 : 0,
                         width: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.imgWidth && currentFlower[lang].didYouKnow.dimensions.imgWidth
                     }
-                } className="didYouKnow__image" src={`/images/flowers/didYouKnow/${currentFlower[lang].didYouKnow.image}`} />
+                } className="didYouKnow__image" src={`images/flowers/didYouKnow/${currentFlower[lang].didYouKnow.image}`} />
                 <img style={{
                     width: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.imgWidth && currentFlower[lang].didYouKnow.dimensions.imgWidth
-                }} className="didYouKnow__image" src={`/images/flowers/didYouKnow/${currentFlower[lang].didYouKnow.imageEmpty}`} />
+                }} className="didYouKnow__image" src={`images/flowers/didYouKnow/${currentFlower[lang].didYouKnow.imageEmpty}`} />
                 <div className="didYouKnow__paragraphs__container" style={{
                     width: currentFlower[lang].didYouKnow.dimensions.width,
                     top: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.containerTop && currentFlower[lang].didYouKnow.dimensions.containerTop,

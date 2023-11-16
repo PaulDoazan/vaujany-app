@@ -83,7 +83,7 @@ export default function FlowerInfos({ data }) {
                             <span className="flower__info__icon fake__icon"><img src="images/icons/habitat.svg" alt="" /></span>
                             {currentFlower[lang].toxic &&
                                 <div className={`flower__info__toxic__content ${currentFlower[lang].toxicParagraph && 'content__title__not__centered'}`}>
-                                    <img className="flower__info__toxic__content__img" src="/images/icons/toxic.svg" alt="" />
+                                    <img className="flower__info__toxic__content__img" src="images/icons/toxic.svg" alt="" />
                                     <div className="flower__info__toxic__content__text">
                                         <div className={`flower__info__toxic__content__title`}>
                                             {currentFlower[lang].toxic}
