@@ -2,7 +2,7 @@ import { createContext, useRef, useState } from "react";
 
 import dataFlowers from '../../assets/data/flowers.json'
 import dataGames from '../../assets/data/games.json'
-import pages from '../../config/navigation_configs.json'
+import pages from '../../assets/data/pages.json'
 import gsap from "gsap";
 
 const allPages = concatData()

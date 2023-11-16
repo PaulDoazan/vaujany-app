@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import { LangContext, NavigationContext } from '../../utils/context'
 import dataGames from '../../assets/data/games.json'
-import navigation_configs from '../../config/navigation_configs.json'
+import pages from '../../assets/data/pages.json'
 import gsap from 'gsap'
 
 export default function GameInstruction() {
@@ -42,7 +42,7 @@ export default function GameInstruction() {
                         {currentGame[lang].title}
                     </div>
                     <div className="game__instructions__rules__title">
-                        {navigation_configs.gameInstruction[lang].rulesTitle}
+                        {pages.gameInstruction[lang].rulesTitle}
                     </div>
                     <div className="game__instructions__goals">
                         {currentGame[lang].goal}
@@ -54,7 +54,7 @@ export default function GameInstruction() {
                 </div>
                 <div onTouchEnd={displayGame} className="game__instructions__btn__play" style={btnStyle}>
                     <img className="game__instructions__btn__play__image" src={`images/icons/${currentGame.btnPlayBackground}`} alt="" />
-                    <div className="game__instructions__btn__play__title">{navigation_configs.gameInstruction[lang].play}</div>
+                    <div className="game__instructions__btn__play__title">{pages.gameInstruction[lang].play}</div>
                 </div>
             </div>
 

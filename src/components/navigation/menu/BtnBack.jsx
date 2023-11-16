@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { NavigationContext } from '../../../utils/context'
-import navigation_configs from '../../../config/navigation_configs.json'
+import pages from '../../../assets/data/pages.json'
 
 export default function BtnBack() {
     const { changePage, currentPage } = useContext(NavigationContext)
@@ -12,11 +12,11 @@ export default function BtnBack() {
                 changePage({ category: currentPage.category })
             } else {
                 const el = currentPage.category === currentPage.element ? currentPage.element : null
-                changePage({ category: navigation_configs[currentPage.category].previous, element: el })
+                changePage({ category: pages[currentPage.category].previous, element: el })
             }
 
         } else {
-            changePage({ category: navigation_configs[currentPage.category].previous })
+            changePage({ category: pages[currentPage.category].previous })
         }
     }
     return (

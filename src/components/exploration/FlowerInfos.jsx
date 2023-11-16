@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import dataFlowers from '../../assets/data/flowers.json'
 import { LangContext } from '../../utils/context'
-import navigation_configs from '../../config/navigation_configs.json'
+import pages from '../../assets/data/pages.json'
 import DidYouKnow from './DidYouKnow'
 
 export default function FlowerInfos({ data }) {
@@ -47,19 +47,19 @@ export default function FlowerInfos({ data }) {
 
                 <div className="flower__info__caracteristics__section caracteristics__section__2">
                     <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__real__title">{navigation_configs.flowerInfos[lang].family}</span>
+                        <span className="flower__info__real__title">{pages.flowerInfos[lang].family}</span>
                         <span className=" flower__info__icon fake__icon"><img src="/images/icons/family.svg" alt="" /></span>
                     </div>
                     <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__real__title">{navigation_configs.flowerInfos[lang].bloom}</span>
+                        <span className="flower__info__real__title">{pages.flowerInfos[lang].bloom}</span>
                         <span className=" flower__info__icon fake__icon"><img src="/images/icons/bloom.svg" alt="" /></span>
                     </div>
                     <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__real__title">{navigation_configs.flowerInfos[lang].height}</span>
+                        <span className="flower__info__real__title">{pages.flowerInfos[lang].height}</span>
                         <span className=" flower__info__icon fake__icon"><img src="/images/icons/height.svg" alt="" /></span>
                     </div>
                     <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__real__title">{navigation_configs.flowerInfos[lang].habitat}</span>
+                        <span className="flower__info__real__title">{pages.flowerInfos[lang].habitat}</span>
                         <span className=" flower__info__icon fake__icon"><img src="/images/icons/habitat.svg" alt="" /></span>
                     </div>
                 </div>
@@ -101,12 +101,12 @@ export default function FlowerInfos({ data }) {
                 </div>
                 <div className="flower__info__specification">
                     <div className="flower__info__specification__section">
-                        <p className="flower__info__specification__title">{navigation_configs.flowerInfos[lang].medical}</p>
+                        <p className="flower__info__specification__title">{pages.flowerInfos[lang].medical}</p>
                         <p className="flower__info__specification__content">{currentFlower[lang].medical}</p>
                         <p className="flower__info__specification__content">{currentFlower[lang].medical}</p>
                     </div>
                     <div className="">
-                        <p className="flower__info__specification__title">{navigation_configs.flowerInfos[lang].cooking}</p>
+                        <p className="flower__info__specification__title">{pages.flowerInfos[lang].cooking}</p>
                         <p className="flower__info__specification__content">{currentFlower[lang].cooking}</p>
                     </div>
                 </div>

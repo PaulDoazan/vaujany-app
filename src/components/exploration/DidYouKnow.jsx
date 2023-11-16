@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import navigation_configs from '../../config/navigation_configs.json'
+import pages from '../../assets/data/pages.json'
 
 export default function DidYouKnow({ currentFlower, lang }) {
     const [visible, setVisible] = useState(true)
@@ -39,7 +39,7 @@ export default function DidYouKnow({ currentFlower, lang }) {
                 </div>
 
             </div>
-            <div className="didYouKnow__question" style={{ color: currentFlower.color === "#000" ? currentFlower.color : currentFlower.backgroundColor, left: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.questionLeft ? currentFlower[lang].didYouKnow.dimensions.questionLeft : '25vw' }}>{navigation_configs.flowerInfos[lang].didYouKnow}</div>
+            <div className="didYouKnow__question" style={{ color: currentFlower.color === "#000" ? currentFlower.color : currentFlower.backgroundColor, left: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.questionLeft ? currentFlower[lang].didYouKnow.dimensions.questionLeft : '25vw' }}>{pages.flowerInfos[lang].didYouKnow}</div>
         </div>
     )
 }
