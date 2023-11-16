@@ -42,6 +42,10 @@
     font-family: 'FuturaPTBook';
     font-size: 1.6vw;
     width: 100%;
+
+    & b {
+        font-family: 'FuturaPTDemi';
+    }
 }
 
 .game__instructions__btn__play {

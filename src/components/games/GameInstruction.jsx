@@ -1,3 +1,4 @@
+import parse from 'html-react-parser';
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import { LangContext, NavigationContext } from '../../utils/context'
 import dataGames from '../../assets/data/games.json'
@@ -48,7 +49,7 @@ export default function GameInstruction() {
                         {currentGame[lang].goal}
                     </div>
                     <div className="game__instructions__explanation">
-                        {currentGame[lang].explanation}
+                        {parse(currentGame[lang].explanation)}
                     </div>
 
                 </div>

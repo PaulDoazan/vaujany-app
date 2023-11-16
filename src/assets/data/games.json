@@ -13,7 +13,7 @@
                 "title": "Étagement",
                 "description": "Placer les plantes dans leurs habitats naturels.",
                 "goal": "Objectif : placer correctement dans les cases les différents types de plantes en fonction de leur habitat naturel.",
-                "explanation": "En montagne, la végétation change en fonction de l’altitude. On parle d’étagement de la végétation, un phénomène essentiellement dû à la baisse de la température avec l’augmentation de l’altitude, généralement d’environ -1 degré tous les 200 mètres. Ainsi, la montagne peut être divisée en sections horizontales."
+                "explanation": "En montagne, la végétation <b>change en fonction de l’altitude</b>. On parle d’<b>étagement de la végétation</b>, un phénomène essentiellement dû à la baisse de la température avec l’augmentation de l’altitude, généralement d’environ <b>-1 degré tous les 200 mètres</b>. Ainsi, la montagne peut être divisée en sections horizontales."
             },
             "en": {
                 "title": "Levels",
