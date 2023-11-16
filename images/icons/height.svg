@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13.266" height="18.688" viewBox="0 0 13.266 18.688">
+  <line id="Ligne_1" data-name="Ligne 1" x2="1" transform="translate(0 18.188)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Ligne_2" data-name="Ligne 2" x2="7.886" transform="translate(3.253 18.188)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="2.253 2.253"/>
+  <line id="Ligne_3" data-name="Ligne 3" x2="1" transform="translate(12.266 18.188)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Ligne_4" data-name="Ligne 4" x2="1" transform="translate(0 0.5)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Ligne_5" data-name="Ligne 5" x2="7.886" transform="translate(3.253 0.5)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="2.253 2.253"/>
+  <line id="Ligne_6" data-name="Ligne 6" x2="1" transform="translate(12.266 0.5)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Ligne_7" data-name="Ligne 7" y1="16.545" transform="translate(6.633 1.643)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="Tracé_25" data-name="Tracé 25" d="M12.094,67.2,10.4,65.5,8.7,67.2v-1.44l1.7-1.695,1.695,1.695Z" transform="translate(-3.766 -63.56)" fill="#1d1d1b"/>
+</svg>
