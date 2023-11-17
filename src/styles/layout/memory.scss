@@ -1,0 +1,60 @@
+.memory__container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    perspective: 100vh;
+}
+
+.is__flipped {
+    transform: rotateY(180deg);
+}
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card__text__back {
+    width: 110.3%;
+    // transform: translateX(-9%);
+}
+
+.card__image__back {
+    width: 102%;
+    // transform: translate(-1%, -1%);
+}
+
+.memory__card__flower__image {
+    width: 100%;
+}
+
+.memory__card__title__background {
+    position: absolute;
+    width: 110.3%;
+    transform: translateX(-9%);
+}
+
+.memory__card__title {
+    width: 100%;
+    height: 100%;
+}
+
+.memory__card__title__text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Copperplate30';
+    font-size: 1.2vw;
+}
+
+.card__face__back {
+    transform: rotateY(180deg);
+}

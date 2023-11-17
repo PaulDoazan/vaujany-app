@@ -5,6 +5,8 @@ import dataGames from '../../assets/data/games.json'
 import pages from '../../assets/data/pages.json'
 import gsap from "gsap";
 
+
+const gamesSlug = dataGames.games.map(el => el.slug)
 const allPages = concatData()
 
 export const LangContext = createContext()
@@ -38,6 +40,14 @@ export const NavigationProvider = ({ children }) => {
 
     const changePage = (value) => {
         const { bgColor, color } = getColors(value);
+
+        // transition between game and game Instructions 
+        if (currentPage.element && gamesSlug.includes(currentPage.element)) {
+            animation.current = gsap.timeline()
+            animation.current.to(pages[currentPage.element].mainClass, { opacity: 0, duration: 0.5 }).call(() => {
+                setCurrentPage({ backgroundColor: bgColor, color: color, ...value })
+            })
+        }
 
         // all cases when transition fadeIn fadeOut between pages should be avoided
         if (currentPage.category === 'home' && value.category === 'home') return

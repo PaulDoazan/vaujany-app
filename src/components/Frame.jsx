@@ -5,11 +5,11 @@ import Explore from './exploration/Explore'
 import GamesHome from './games/GamesHome'
 import { LangProvider, NavigationContext } from '../utils/context'
 import GameInstruction from './games/GameInstruction'
-import Memory from './games/gamesComponents/Memory'
-import Quiz from './games/gamesComponents/Quiz'
-import Toxic from './games/gamesComponents/Toxic'
-import Levels from './games/gamesComponents/Levels'
-import GuessWho from './games/gamesComponents/GuessWho'
+import Memory from './games/gamesComponents/memory/Memory'
+import Quiz from './games/gamesComponents/quiz/Quiz'
+import Toxic from './games/gamesComponents/toxic/Toxic'
+import Levels from './games/gamesComponents/levels/Levels'
+import GuessWho from './games/gamesComponents/guesswho/GuessWho'
 
 
 export default function Frame({ id, arrLength }) {

@@ -7,7 +7,6 @@ import gsap from 'gsap'
 
 export default function GameInstruction() {
     const { currentPage, changePage } = useContext(NavigationContext)
-
     const { lang } = useContext(LangContext)
 
     const currentGame = dataGames.games.find(el => el.slug === currentPage.element)

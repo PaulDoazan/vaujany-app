@@ -8,6 +8,7 @@
             "full": "achillea_millefolium.jpg",
             "menuImage": "achillea_millefolium_menu.png",
             "thumbnail": "achillea_millefolium_thumbnail.jpg",
+            "imageMemory": "achillea_millefolium_memory.png",
             "title_latin": "achillea millefolium",
             "fr": {
                 "title": "achillée millefeuille",
@@ -48,6 +49,7 @@
             "full": "alchemilla_alpina.jpg",
             "menuImage": "alchemilla_alpina_menu.png",
             "thumbnail": "alchemilla_alpina_thumbnail.jpg",
+            "imageMemory": "alchemilla_alpina_memory.png",
             "title_latin": "alchemilla alpina",
             "fr": {
                 "title": "alchémille des Alpes",
@@ -88,6 +90,7 @@
             "full": "angelica_sylvestris.jpg",
             "menuImage": "angelica_sylvestris_menu.png",
             "thumbnail": "angelica_sylvestris_thumbnail.jpg",
+            "imageMemory": "angelica_sylvestris_memory.png",
             "title_latin": "angelica sylvestris",
             "fr": {
                 "title": "Angélique Sylvestre",
@@ -128,6 +131,7 @@
             "full": "arnica_montana.jpg",
             "menuImage": "arnica_menu.png",
             "thumbnail": "arnica_montana_thumbnail.jpg",
+            "imageMemory": "arnica_montana_memory.png",
             "title_latin": "arnica montana",
             "fr": {
                 "title": "Arnica",
@@ -284,6 +288,7 @@
             "full": "digitalis_grandiflora.jpg",
             "menuImage": "digitalis_grandiflora_menu.png",
             "thumbnail": "digitalis_grandiflora_thumbnail.jpg",
+            "imageMemory": "digitalis_grandiflora_memory.png",
             "title_latin": "digitalis grandiflora",
             "fr": {
                 "title": "Digitale à grandes fleurs",
@@ -401,6 +406,7 @@
             "full": "artemisia_eriantha.jpg",
             "menuImage": "artemisia_eriantha_menu.png",
             "thumbnail": "artemisia_eriantha_thumbnail.jpg",
+            "imageMemory": "artemisia_eriantha_memory.png",
             "title_latin": "artemisia eriantha",
             "fr": {
                 "title": "Génépi Bourru",
@@ -441,6 +447,7 @@
             "full": "gentiana_lutea.jpg",
             "menuImage": "gentiana_lutea_menu.png",
             "thumbnail": "gentiana_lutea_thumbnail.jpg",
+            "imageMemory": "gentiana_lutea_memory.png",
             "title_latin": "gentiana lutea",
             "fr": {
                 "title": "Gentiane Jaune",
@@ -520,6 +527,7 @@
             "full": "geranium_robertianum.jpg",
             "menuImage": "geranium_robertianum_menu.png",
             "thumbnail": "geranium_robertianum_thumbnail.jpg",
+            "imageMemory": "geranium_robertianum_memory.png",
             "title_latin": "geranium robertianum",
             "fr": {
                 "title": "Géranium Herbe à Robert",
@@ -560,6 +568,7 @@
             "full": "plantago_major.jpg",
             "menuImage": "plantago_major_menu.png",
             "thumbnail": "plantago_major_thumbnail.jpg",
+            "imageMemory": "plantago_major_memory.png",
             "title_latin": "plantago major",
             "fr": {
                 "title": "Grand Plantain",
@@ -639,6 +648,7 @@
             "full": "sempervivum_montanum.jpg",
             "menuImage": "sempervivum_montanum_menu.png",
             "thumbnail": "sempervivum_montanum_thumbnail.jpg",
+            "imageMemory": "sempervivum_montanum_memory.png",
             "title_latin": "sempervivum montanum",
             "fr": {
                 "title": "Joubarbe des Montagnes",
@@ -715,6 +725,7 @@
             "full": "leontodon_pyrenaicus.jpeg",
             "menuImage": "leontodon_pyrenaicus_menu.png",
             "thumbnail": "leontodon_pyrenaicus_thumbnail.jpg",
+            "imageMemory": "leontodon_pyrenaicus_memory.png",
             "title_latin": "leontodon pyrenaicus",
             "fr": {
                 "title": "Liondent Helvétique",
@@ -755,6 +766,7 @@
             "full": "hypericum_richeri.jpg",
             "menuImage": "hypericum_richeri_menu.png",
             "thumbnail": "hypericum_richeri_thumbnail.jpg",
+            "imageMemory": "hypericum_richeri_memory.png",
             "title_latin": "hypericum richeri",
             "fr": {
                 "title": "Millepertuis de Richer",
@@ -837,6 +849,7 @@
             "full": "origanum_vulgare.jpg",
             "menuImage": "origanum_vulgare_menu.png",
             "thumbnail": "origanum_vulgare_thumbnail.jpg",
+            "imageMemory": "origanum_vulgare_memory.png",
             "title_latin": "origanum vulgare",
             "fr": {
                 "title": "Origan Vulgaire",
@@ -968,6 +981,7 @@
             "full": "rhyteuma_spicatum.jpg",
             "menuImage": "rhyteuma_spicatum_menu.png",
             "thumbnail": "rhyteuma_spicatum_thumbnail.jpg",
+            "imageMemory": "rhyteuma_spicatum_memory.png",
             "title_latin": "rhyteuma spicatum",
             "fr": {
                 "title": "Raiponce en épi",
@@ -1168,6 +1182,7 @@
             "full": "thymus_serpyllum.jpg",
             "menuImage": "thymus_serpyllum_menu.png",
             "thumbnail": "thymus_serpyllum_thumbnail.jpg",
+            "imageMemory": "thymus_serpyllum_memory.png",
             "title_latin": "thymus serpyllum",
             "fr": {
                 "title": "Serpolet",
@@ -1341,6 +1356,7 @@
             "full": "viola_canina.jpg",
             "menuImage": "viola_canina_menu.png",
             "thumbnail": "viola_canina_thumbnail.jpg",
+            "imageMemory": "viola_canina_memory.png",
             "title_latin": "viola canina",
             "fr": {
                 "title": "Violette des chiens",
