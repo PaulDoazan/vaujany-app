@@ -6,8 +6,12 @@
     perspective: 100vh;
 }
 
-.is__flipped {
+.is__flipped__from__left {
     transform: rotateY(180deg);
+}
+
+.is__flipped__from__right {
+    transform: rotateY(-180deg);
 }
 
 .card__face {
@@ -20,12 +24,10 @@
 
 .card__text__back {
     width: 110.3%;
-    // transform: translateX(-9%);
 }
 
 .card__image__back {
     width: 102%;
-    // transform: translate(-1%, -1%);
 }
 
 .memory__card__flower__image {

@@ -32,7 +32,7 @@ export default function MemoryCard({ flower, index, layout, handleTouchStart }) 
     }
 
     return (
-        <div className={`memory__card ${flower.slug} ${flower.img ? 'img' : 'title'} is__flipped`} style={{ ...cardStyle }} onTouchStart={onTouchStart}>
+        <div className={`memory__card ${flower.slug} ${flower.img ? 'img is__flipped__from__right' : 'title is__flipped__from__left'}`} style={{ ...cardStyle }} onTouchStart={onTouchStart}>
             {flower.img ?
                 <MemoryCardImage flower={flower} />
                 :

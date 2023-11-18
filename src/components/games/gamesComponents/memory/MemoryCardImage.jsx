@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 export default function MemoryCardImage({ flower }) {
     return (
         <>
-            <div class="card__face card__face__back">
+            <div className="card__face card__face__back" >
                 <img className='card__image__back' src={`images/flowers/memory/imgBack.png`} alt="" />
             </div>
             <div className="memory__card__image card__face">

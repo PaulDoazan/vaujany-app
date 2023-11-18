@@ -36,60 +36,78 @@ export default function Memory() {
 
     // gamePlay
     let cardsPicked = []
+    let typeCardPicked = null
     let animationPlaying = false
     const timeline = gsap.timeline()
     let duration = 0.6
     // const marginLeft = (96 - (8 + 2.7) * (layouts[`level_${currentPage.level}`].nbPairCards / 2)) / 2
 
     const checkCards = async () => {
+        if (cardsPicked[0].classList.contains('img')) cardsPicked.reverse()
+        animationPlaying = true
+
         if (cardsPicked[0].classList[1] === cardsPicked[1].classList[1]) {
             // SUCCESS
             pairsFound++
             animationPlaying = true
-            if (cardsPicked[0].classList.contains('img')) cardsPicked.reverse()
+
             timeline.call(() => {
                 cardsPicked[0].style.zIndex = pairsFound
                 cardsPicked[1].style.zIndex = pairsFound
             }).to(cardsPicked[0], {
                 transform: `scale(0.8)`,
                 top: '83.5%',
-                left: `${80 - pairsFound * 2}%`,
-                duration: duration,
-                ease: "power1.in"
+                left: `${80 - pairsFound / 2}%`,
+                duration: duration
             }, `-=${duration / 2}`)
             timeline.to(cardsPicked[1], {
                 transform: `scale(0.8)`,
                 top: '83.5%',
-                left: `${80 - 8 * 0.8 - pairsFound * 2}%`,
-                duration: duration,
-                ease: "power1.in"
+                left: `${80 - 8 - pairsFound / 2}%`,
+                duration: duration
             }).call(() => {
                 animationPlaying = false
+                gsap.to('.card__image__back', { opacity: 1 })
+                gsap.to('.card__text__back', { opacity: 1 })
                 cardsPicked = []
             })
-
         } else {
             // FAIL
-            console.log('fail')
+            cardsPicked[0].classList.add('is__flipped__from__left')
+            cardsPicked[1].classList.add('is__flipped__from__right')
+            gsap.to('.card__image__back', { opacity: 1 })
+            gsap.to('.card__text__back', { opacity: 1 })
             cardsPicked = []
+            setTimeout(() => {
+                animationPlaying = false
+            }, 1000)
         }
-
     }
 
     const handleTouchStart = (e) => {
-        if (animationPlaying) return
+        if (animationPlaying || cardsPicked.length === 2) return
         if (cardsPicked.length === 1) {
             if ((cardsPicked[0].classList.contains('img') && e.currentTarget.classList.contains('img'))
-                || cardsPicked[0].classList.contains('title') && e.currentTarget.classList.contains('title')) {
+                || (cardsPicked[0].classList.contains('title') && e.currentTarget.classList.contains('title'))) {
                 return
             }
         }
 
-        e.currentTarget.classList.remove('is__flipped')
+        if (e.currentTarget.classList.contains('img')) {
+            if (cardsPicked.length === 0) gsap.to('.card__image__back', { opacity: 0.3 })
+            e.currentTarget.classList.remove('is__flipped__from__right')
+        } else {
+            if (cardsPicked.length === 0) gsap.to('.card__text__back', { opacity: 0.3 })
+            e.currentTarget.classList.remove('is__flipped__from__left')
+        }
+
         cardsPicked.push(e.currentTarget)
+        typeCardPicked = cardsPicked[0].classList[2]
 
         if (cardsPicked.length >= 2) {
-            checkCards()
+            setTimeout(() => {
+                checkCards()
+            }, 1500)
         }
     }
 
