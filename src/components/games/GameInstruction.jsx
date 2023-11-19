@@ -9,6 +9,10 @@ export default function GameInstruction() {
     const { currentPage, changePage } = useContext(NavigationContext)
     const { lang } = useContext(LangContext)
 
+    if (currentPage.refresh) {
+        changePage({ ...currentPage, category: currentPage.element, refresh: null })
+    }
+
     const currentGame = dataGames.games.find(el => el.slug === currentPage.element)
 
     const displayGame = (e, level) => {
@@ -30,6 +34,7 @@ export default function GameInstruction() {
     }
 
     useEffect(() => {
+        if (currentPage.refresh) return
         gsap.fromTo('.game__instructions__container', { opacity: 0 }, { opacity: 1, duration: 0.5 })
     }, [])
 

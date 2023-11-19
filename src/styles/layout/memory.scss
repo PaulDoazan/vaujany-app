@@ -1,5 +1,6 @@
 .memory__container {
     position: absolute;
+    overflow: hidden;
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -60,3 +61,55 @@
 .card__face__back {
     transform: rotateY(180deg);
 }
+
+.memory__result__container {
+    text-align: center;
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.memory__result__bravo {
+    font-family: 'Copperplate30';
+    font-size: 4vw;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.memory__result__congratulations {
+    font-family: 'Copperplate30';
+    font-size: 3vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.memory__restart__button {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.memory__restart__button__image {
+    position: absolute;
+    width: 100%;
+}
+
+.memory__restart__button__text {
+    font-family: 'FuturaPTBook';
+    position: absolute;
+    font-size: 1.7vw;
+}
+

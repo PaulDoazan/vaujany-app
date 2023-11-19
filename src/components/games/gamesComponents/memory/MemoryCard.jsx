@@ -11,14 +11,8 @@ export default function MemoryCard({ flower, index, layout, handleTouchStart }) 
     const marginTop = 10.5
     const top = (height + gapY) * (Math.floor(index / (layout.nbPairCards / 2)))
 
-    // let rotation
-    // if (isFlipped) {
-    //     rotation = 180
-    // } else {
-    //     rotation = 0
-    // }
     const cardStyle = {
-        transition: 'transform 1s',
+        transition: 'transform 0.7s',
         transformStyle: 'preserve-3d',
         width: `${width}%`,
         height: `${height}%`,
@@ -27,18 +21,19 @@ export default function MemoryCard({ flower, index, layout, handleTouchStart }) 
         top: `${marginTop + top}%`
     }
 
+    console.log(`${marginLeft + (index % (layout.nbPairCards / 2)) * (width + gapX)}%`);
+
     const onTouchStart = (e) => {
         handleTouchStart(e)
     }
 
     return (
-        <div className={`memory__card ${flower.slug} ${flower.img ? 'img is__flipped__from__right' : 'title is__flipped__from__left'}`} style={{ ...cardStyle }} onTouchStart={onTouchStart}>
+        <div className={`memory__card ${flower.slug} ${flower.img ? 'img is__flipped__from__right' : 'title is__flipped__from__left'}`} style={cardStyle} onTouchStart={onTouchStart}>
             {flower.img ?
                 <MemoryCardImage flower={flower} />
                 :
                 <MemoryCardTitle flower={flower} />
             }
-
         </div>
     )
 }

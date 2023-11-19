@@ -1,38 +1,46 @@
 import gsap from 'gsap'
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect, useReducer, useState } from 'react'
 import { NavigationContext } from '../../../../utils/context'
 import MemoryCard from './MemoryCard'
 import flowersData from '../../../../assets/data/flowers.json'
+import MemoryResult from './MemoryResult'
+import Paillettes from '../Paillettes'
 
 const layouts = {
     level_0: {
-        nbPairCards: 6,
+        nbPairCards: 1,
     },
     level_1: {
-        nbPairCards: 12,
+        nbPairCards: 10,
     },
     level_2: {
-        nbPairCards: 16,
+        nbPairCards: 14,
     }
 }
 
 export default function Memory() {
     let pairsFound = 0
+
+    const [deck, setDeck] = useState([])
     const { currentPage } = useContext(NavigationContext)
 
-    let flowers = flowersData.flowers.filter(el => el.imageMemory)
-    shuffleArray(flowers)
-    flowers = flowers.splice(0, layouts[`level_${currentPage.level}`].nbPairCards)
-    const flowersSlug = flowers.map(el => { return { slug: el.slug } })
-    const flowersImg = flowers.map(el => { return { slug: el.slug, img: el.imageMemory } })
+    const restart = () => {
+        const newDeck = []
+        let flowers = flowersData.flowers.filter(el => el.imageMemory)
+        shuffleArray(flowers)
+        flowers = flowers.splice(0, layouts[`level_${currentPage.level}`].nbPairCards)
+        const flowersSlug = flowers.map(el => { return { slug: el.slug } })
+        const flowersImg = flowers.map(el => { return { slug: el.slug, img: el.imageMemory } })
 
-    shuffleArray(flowersSlug)
-    shuffleArray(flowersImg)
-    let deck = [];
-    flowers.forEach((el, ind) => {
-        deck.push(flowersImg[ind])
-        deck.push(flowersSlug[ind])
-    })
+        shuffleArray(flowersSlug)
+        shuffleArray(flowersImg)
+        flowers.forEach((el, ind) => {
+            newDeck.push(flowersImg[ind])
+            newDeck.push(flowersSlug[ind])
+        })
+
+        setDeck(newDeck)
+    }
 
     // gamePlay
     let cardsPicked = []
@@ -40,7 +48,6 @@ export default function Memory() {
     let animationPlaying = false
     const timeline = gsap.timeline()
     let duration = 0.6
-    // const marginLeft = (96 - (8 + 2.7) * (layouts[`level_${currentPage.level}`].nbPairCards / 2)) / 2
 
     const checkCards = async () => {
         if (cardsPicked[0].classList.contains('img')) cardsPicked.reverse()
@@ -59,28 +66,37 @@ export default function Memory() {
                 top: '83.5%',
                 left: `${80 - pairsFound / 2}%`,
                 duration: duration
-            }, `-=${duration / 2}`)
+            })
             timeline.to(cardsPicked[1], {
                 transform: `scale(0.8)`,
                 top: '83.5%',
                 left: `${80 - 8 - pairsFound / 2}%`,
                 duration: duration
-            }).call(() => {
+            }, `-=${duration / 2}`).call(() => {
                 animationPlaying = false
                 gsap.to('.card__image__back', { opacity: 1 })
                 gsap.to('.card__text__back', { opacity: 1 })
                 cardsPicked = []
             })
+
+            if (pairsFound === layouts[`level_${currentPage.level}`].nbPairCards) {
+                timeline.to(".memory__result__container", {
+                    opacity: 1,
+                    pointerEvents: 'auto',
+                    duration: duration
+                })
+            }
         } else {
             // FAIL
             cardsPicked[0].classList.add('is__flipped__from__left')
             cardsPicked[1].classList.add('is__flipped__from__right')
-            gsap.to('.card__image__back', { opacity: 1 })
-            gsap.to('.card__text__back', { opacity: 1 })
+
             cardsPicked = []
             setTimeout(() => {
+                gsap.to('.card__image__back', { opacity: 1 })
+                gsap.to('.card__text__back', { opacity: 1 })
                 animationPlaying = false
-            }, 1000)
+            }, 400)
         }
     }
 
@@ -111,15 +127,22 @@ export default function Memory() {
         }
     }
 
+    const refreshGame = () => {
+        restart()
+    }
+
     useEffect(() => {
+        restart()
         gsap.fromTo('.memory__container', { opacity: 0 }, { opacity: 1, duration: 0.5 })
     }, [])
 
     return (
         <div className='memory__container'>
             {deck.map((el, index) => {
-                return <MemoryCard flower={el} index={index} handleTouchStart={handleTouchStart} layout={layouts[`level_${currentPage.level}`]} />
+                return <MemoryCard key={index} flower={el} index={index} handleTouchStart={handleTouchStart} layout={layouts[`level_${currentPage.level}`]} />
             })}
+            <MemoryResult handleRefresh={refreshGame} />
+            <Paillettes />
         </div>
     )
 }

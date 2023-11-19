@@ -89,7 +89,7 @@ function App() {
         {screens.map((el, index, arr) => {
           return <NavigationProvider><Frame key={index} id={index} arrLength={arr.length} /></NavigationProvider>
         })}
-      </div> : <div>IS LOADING</div>}
+      </div> : <div className="">IS LOADING</div>}
 
       {/* <select name="nbScreens" id="nbScreen-select" className='nbScreen__select' onChange={handleNbScreenChange}>
         <option value="1">1</option>
