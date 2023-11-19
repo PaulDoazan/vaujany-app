@@ -21,8 +21,6 @@ export default function MemoryCard({ flower, index, layout, handleTouchStart }) 
         top: `${marginTop + top}%`
     }
 
-    console.log(`${marginLeft + (index % (layout.nbPairCards / 2)) * (width + gapX)}%`);
-
     const onTouchStart = (e) => {
         handleTouchStart(e)
     }

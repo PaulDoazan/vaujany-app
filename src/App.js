@@ -91,10 +91,10 @@ function App() {
         })}
       </div> : <div className="">IS LOADING</div>}
 
-      {/* <select name="nbScreens" id="nbScreen-select" className='nbScreen__select' onChange={handleNbScreenChange}>
+      <select name="nbScreens" id="nbScreen-select" className='nbScreen__select' onChange={handleNbScreenChange}>
         <option value="1">1</option>
         <option value="4">4</option>
-      </select> */}
+      </select>
     </>
   )
 }

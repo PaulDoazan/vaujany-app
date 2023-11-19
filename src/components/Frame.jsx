@@ -3,7 +3,7 @@ import Menu from './navigation/menu/Menu'
 import Home from './Home'
 import Explore from './exploration/Explore'
 import GamesHome from './games/GamesHome'
-import { LangProvider, NavigationContext } from '../utils/context'
+import { ConfettiProvider, LangProvider, NavigationContext } from '../utils/context'
 import GameInstruction from './games/GameInstruction'
 import Memory from './games/gamesComponents/memory/Memory'
 import Quiz from './games/gamesComponents/quiz/Quiz'
@@ -29,17 +29,19 @@ export default function Frame({ id, arrLength }) {
             <LangProvider>
                 <div className={fullClass}>
                     <div className="frame__container">
-                        <div className="home__wrapper">
-                            {currentPage.category === 'home' && <Home />}
-                            {currentPage.category === 'explore' && <Explore id={id} />}
-                            {currentPage.category === 'gamesHome' && <GamesHome />}
-                            {currentPage.category === 'gameInstruction' && <GameInstruction />}
-                            {currentPage.category === 'memory' && <Memory />}
-                            {currentPage.category === 'quiz' && <Quiz />}
-                            {currentPage.category === 'toxic' && <Toxic />}
-                            {currentPage.category === 'levels' && <Levels />}
-                            {currentPage.category === 'guesswho' && <GuessWho />}
-                        </div>
+                        <ConfettiProvider>
+                            <div className="home__wrapper">
+                                {currentPage.category === 'home' && <Home />}
+                                {currentPage.category === 'explore' && <Explore id={id} />}
+                                {currentPage.category === 'gamesHome' && <GamesHome />}
+                                {currentPage.category === 'gameInstruction' && <GameInstruction />}
+                                {currentPage.category === 'memory' && <Memory />}
+                                {currentPage.category === 'quiz' && <Quiz />}
+                                {currentPage.category === 'toxic' && <Toxic />}
+                                {currentPage.category === 'levels' && <Levels />}
+                                {currentPage.category === 'guesswho' && <GuessWho />}
+                            </div>
+                        </ConfettiProvider>
                         <div className="menu__wrapper">
                             <Menu />
                         </div>

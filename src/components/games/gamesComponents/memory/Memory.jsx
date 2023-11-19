@@ -1,10 +1,9 @@
 import gsap from 'gsap'
-import React, { useContext, useEffect, useReducer, useState } from 'react'
-import { NavigationContext } from '../../../../utils/context'
+import React, { useContext, useEffect, useReducer, useRef, useState } from 'react'
+import { ConfettiContext, NavigationContext } from '../../../../utils/context'
 import MemoryCard from './MemoryCard'
 import flowersData from '../../../../assets/data/flowers.json'
 import MemoryResult from './MemoryResult'
-import Paillettes from '../Paillettes'
 
 const layouts = {
     level_0: {
@@ -23,6 +22,7 @@ export default function Memory() {
 
     const [deck, setDeck] = useState([])
     const { currentPage } = useContext(NavigationContext)
+    const { fireConfetti } = useContext(ConfettiContext)
 
     const restart = () => {
         const newDeck = []
@@ -85,6 +85,7 @@ export default function Memory() {
                     pointerEvents: 'auto',
                     duration: duration
                 })
+                fireConfetti(true)
             }
         } else {
             // FAIL
@@ -142,7 +143,6 @@ export default function Memory() {
                 return <MemoryCard key={index} flower={el} index={index} handleTouchStart={handleTouchStart} layout={layouts[`level_${currentPage.level}`]} />
             })}
             <MemoryResult handleRefresh={refreshGame} />
-            <Paillettes />
         </div>
     )
 }

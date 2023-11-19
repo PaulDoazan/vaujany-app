@@ -11,6 +11,7 @@ const allPages = concatData()
 
 export const LangContext = createContext()
 export const NavigationContext = createContext()
+export const ConfettiContext = createContext()
 
 const getColors = (pageObject) => {
     let target = pageObject.element ? pageObject.element : pageObject.category
@@ -19,6 +20,19 @@ const getColors = (pageObject) => {
     const color = result.color ? result.color : '#fff'
 
     return { bgColor: result.backgroundColor, color: color }
+}
+
+export const ConfettiProvider = ({ children }) => {
+    const [fired, setFired] = useState(false)
+    const fireConfetti = (value) => {
+        setFired(value)
+    }
+
+    return (
+        <ConfettiContext.Provider value={{ fired, fireConfetti }}>
+            {children}
+        </ConfettiContext.Provider>
+    )
 }
 
 export const LangProvider = ({ children }) => {

@@ -6,7 +6,6 @@ import { NavigationContext } from '../../utils/context'
 
 export default function GamesHome() {
     const { currentPage } = useContext(NavigationContext)
-    console.log(currentPage);
 
     useEffect(() => {
         if (currentPage.noAnimation) {
