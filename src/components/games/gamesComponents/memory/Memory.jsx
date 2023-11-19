@@ -4,10 +4,11 @@ import { ConfettiContext, NavigationContext } from '../../../../utils/context'
 import MemoryCard from './MemoryCard'
 import flowersData from '../../../../assets/data/flowers.json'
 import MemoryResult from './MemoryResult'
+import { confetti } from 'tsparticles-confetti'
 
 const layouts = {
     level_0: {
-        nbPairCards: 1,
+        nbPairCards: 6,
     },
     level_1: {
         nbPairCards: 10,
@@ -23,6 +24,8 @@ export default function Memory() {
     const [deck, setDeck] = useState([])
     const { currentPage } = useContext(NavigationContext)
     const { fireConfetti } = useContext(ConfettiContext)
+
+    const canvasRef = useRef()
 
     const restart = () => {
         const newDeck = []
@@ -133,7 +136,10 @@ export default function Memory() {
     }
 
     useEffect(() => {
-        restart()
+        restart();
+        (async () => {
+            canvasRef.confettis = canvasRef.confettis || await confetti.create(canvasRef.current, { resize: true });
+        })()
         gsap.fromTo('.memory__container', { opacity: 0 }, { opacity: 1, duration: 0.5 })
     }, [])
 

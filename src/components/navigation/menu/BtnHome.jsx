@@ -1,10 +1,12 @@
 import React, { useContext } from 'react'
-import { NavigationContext } from '../../../utils/context'
+import { ConfettiContext, NavigationContext } from '../../../utils/context'
 
 export default function BtnHome() {
     const { changePage, currentPage } = useContext(NavigationContext)
+    const { fireConfetti } = useContext(ConfettiContext)
 
     const handleChangePage = () => {
+        fireConfetti(false)
         changePage({ category: 'home', element: null })
     }
 

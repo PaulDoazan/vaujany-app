@@ -10,6 +10,7 @@ import Quiz from './games/gamesComponents/quiz/Quiz'
 import Toxic from './games/gamesComponents/toxic/Toxic'
 import Levels from './games/gamesComponents/levels/Levels'
 import GuessWho from './games/gamesComponents/guesswho/GuessWho'
+import Confettis from './games/gamesComponents/Confettis'
 
 
 export default function Frame({ id, arrLength }) {
@@ -28,8 +29,8 @@ export default function Frame({ id, arrLength }) {
         <>
             <LangProvider>
                 <div className={fullClass}>
-                    <div className="frame__container">
-                        <ConfettiProvider>
+                    <ConfettiProvider>
+                        <div className="frame__container">
                             <div className="home__wrapper">
                                 {currentPage.category === 'home' && <Home />}
                                 {currentPage.category === 'explore' && <Explore id={id} />}
@@ -41,11 +42,12 @@ export default function Frame({ id, arrLength }) {
                                 {currentPage.category === 'levels' && <Levels />}
                                 {currentPage.category === 'guesswho' && <GuessWho />}
                             </div>
-                        </ConfettiProvider>
-                        <div className="menu__wrapper">
-                            <Menu />
+                            <Confettis canvasId={id} />
+                            <div className="menu__wrapper">
+                                <Menu />
+                            </div>
                         </div>
-                    </div>
+                    </ConfettiProvider>
                 </div>
             </LangProvider>
         </>

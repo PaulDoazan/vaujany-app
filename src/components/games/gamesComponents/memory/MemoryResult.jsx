@@ -1,10 +1,9 @@
 import parse from 'html-react-parser'
 import React, { useContext, useEffect, useState } from 'react'
 import { ConfettiContext, NavigationContext } from '../../../../utils/context'
-import Confettis from '../Confettis'
 
 export default function MemoryResult() {
-    const { fired, fireConfetti } = useContext(ConfettiContext)
+    const { fireConfetti } = useContext(ConfettiContext)
     const { currentPage, changePage } = useContext(NavigationContext)
     const handleStart = () => {
         fireConfetti(false)
@@ -20,7 +19,6 @@ export default function MemoryResult() {
                 <img className="memory__restart__button__image" src={`images/icons/memoryBtnBackground.svg`} alt="" />
                 <div className="memory__restart__button__text">NOUVELLE PARTIE</div>
             </div>
-            {fired && <Confettis />}
         </div>
     )
 }

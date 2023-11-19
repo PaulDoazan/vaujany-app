@@ -1,11 +1,13 @@
 import React, { useContext } from 'react'
-import { NavigationContext } from '../../../utils/context'
+import { ConfettiContext, NavigationContext } from '../../../utils/context'
 import pages from '../../../assets/data/pages.json'
 
 export default function BtnBack() {
     const { changePage, currentPage } = useContext(NavigationContext)
+    const { fireConfetti } = useContext(ConfettiContext)
 
     const handlePreviousPage = () => {
+        fireConfetti(false)
         if (currentPage.category === 'home') return
         if (currentPage.element) {
             if (currentPage.category === "explore") {

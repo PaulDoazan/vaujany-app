@@ -58,7 +58,7 @@ export const NavigationProvider = ({ children }) => {
         // transition between game and game Instructions 
         if (currentPage.element && gamesSlug.includes(currentPage.element)) {
             animation.current = gsap.timeline()
-            animation.current.to(pages[currentPage.element].mainClass, { opacity: 0, duration: 0.5 }).call(() => {
+            animation.current.to(`${pages[currentPage.element].mainClass}`, { opacity: 0, duration: 0.5 }).call(() => {
                 setCurrentPage({ backgroundColor: bgColor, color: color, ...value })
             })
         }
