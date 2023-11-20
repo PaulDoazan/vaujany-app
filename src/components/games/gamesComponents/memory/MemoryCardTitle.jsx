@@ -9,7 +9,8 @@ export default function MemoryCardTitle({ flower }) {
     return (
         <>
             <div className="card__face card__face__back">
-                <img className='card__back card__text__back' src={`images/flowers/memory/textBack.png`} alt="" />
+                <div className="card__text__back__white"></div>
+                <img className='card__text__back' src={`images/flowers/memory/textBack.png`} alt="" />
             </div>
             <div className="memory__card__title card__face">
                 <img className='memory__card__title__background' src={`images/icons/memoryCardTitleBackground.png`} alt="" />

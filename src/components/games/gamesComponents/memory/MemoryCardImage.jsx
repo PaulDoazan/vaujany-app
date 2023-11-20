@@ -4,6 +4,7 @@ export default function MemoryCardImage({ flower }) {
     return (
         <>
             <div className="card__face card__face__back" >
+                <div className="card__image__back__white"></div>
                 <img className='card__image__back' src={`images/flowers/memory/imgBack.png`} alt="" />
             </div>
             <div className="memory__card__image card__face">

@@ -77,8 +77,8 @@ export default function Memory() {
                 duration: duration
             }, `-=${duration / 2}`).call(() => {
                 animationPlaying = false
-                gsap.to('.card__image__back', { opacity: 1 })
-                gsap.to('.card__text__back', { opacity: 1 })
+                gsap.to('.card__image__back__white', { opacity: 0 })
+                gsap.to('.card__text__back__white', { opacity: 0 })
                 cardsPicked = []
             })
 
@@ -87,8 +87,9 @@ export default function Memory() {
                     opacity: 1,
                     pointerEvents: 'auto',
                     duration: duration
+                }).call(() => {
+                    fireConfetti(true)
                 })
-                fireConfetti(true)
             }
         } else {
             // FAIL
@@ -97,8 +98,8 @@ export default function Memory() {
 
             cardsPicked = []
             setTimeout(() => {
-                gsap.to('.card__image__back', { opacity: 1 })
-                gsap.to('.card__text__back', { opacity: 1 })
+                gsap.to('.card__image__back__white', { opacity: 0 })
+                gsap.to('.card__text__back__white', { opacity: 0 })
                 animationPlaying = false
             }, 400)
         }
@@ -114,10 +115,10 @@ export default function Memory() {
         }
 
         if (e.currentTarget.classList.contains('img')) {
-            if (cardsPicked.length === 0) gsap.to('.card__image__back', { opacity: 0.3 })
+            if (cardsPicked.length === 0) gsap.to('.card__image__back__white', { opacity: 1 })
             e.currentTarget.classList.remove('is__flipped__from__right')
         } else {
-            if (cardsPicked.length === 0) gsap.to('.card__text__back', { opacity: 0.3 })
+            if (cardsPicked.length === 0) gsap.to('.card__text__back__white', { opacity: 1 })
             e.currentTarget.classList.remove('is__flipped__from__left')
         }
 

@@ -107,7 +107,67 @@
     },
     "levels": {
         "previous": "gameInstruction",
-        "mainClass": ".levels__container"
+        "mainClass": ".levels__container",
+        "fr": {
+            "slots": [
+                {
+                    "title": "La Haute-Montagne",
+                    "height": "Au-delà de 3000m"
+                },
+                {
+                    "title": "Étages subalpin et alpin",
+                    "height": "De 2000 à 3000m"
+                },
+                {
+                    "title": "La forêt ou étage montagnard",
+                    "height": "De 800 à 1700m"
+                },
+                {
+                    "title": "La vallée ou l’étage collinéen",
+                    "height": "De 0 à 800m"
+                }
+            ]
+        },
+        "en": {
+            "slots": [
+                {
+                    "title": "[...]",
+                    "height": "[...]"
+                },
+                {
+                    "title": "[...]",
+                    "height": "[...]"
+                },
+                {
+                    "title": "[...]",
+                    "height": "[...]"
+                },
+                {
+                    "title": "[...]",
+                    "height": "[...]"
+                }
+            ]
+        },
+        "nl": {
+            "slots": [
+                {
+                    "title": "[...]",
+                    "height": "[...]"
+                },
+                {
+                    "title": "[...]",
+                    "height": "[...]"
+                },
+                {
+                    "title": "[...]",
+                    "height": "[...]"
+                },
+                {
+                    "title": "[...]",
+                    "height": "[...]"
+                }
+            ]
+        }
     },
     "toxic": {
         "previous": "gameInstruction",

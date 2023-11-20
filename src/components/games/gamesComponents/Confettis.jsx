@@ -19,13 +19,13 @@ export default function Confettis({ canvasId }) {
             setTimeout(() => {
                 canvasRef.confettis({
                     origin: myOrigin,
-                    spread: 270,
+                    spread: 270 * (window.innerWidth / 1920),
                     ticks: 200,
-                    gravity: 1,
-                    decay: 0.94,
+                    gravity: 1 * (window.innerWidth / 1920),
+                    decay: 0.93 + (0.01) * (window.innerWidth / 1920),
                     startVelocity: 20,
                     particleCount: count,
-                    scalar: 3,
+                    scalar: 4 * (window.innerWidth / 1920),
                     shapes: ["image"],
                     shapeOptions: options,
                 });

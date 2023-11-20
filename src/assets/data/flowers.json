@@ -10,6 +10,7 @@
             "thumbnail": "achillea_millefolium_thumbnail.jpg",
             "imageMemory": "achillea_millefolium_memory.png",
             "title_latin": "achillea millefolium",
+            "level": 0,
             "fr": {
                 "title": "achillée millefeuille",
                 "family": "Astéracées.",
@@ -133,6 +134,7 @@
             "thumbnail": "arnica_montana_thumbnail.jpg",
             "imageMemory": "arnica_montana_memory.png",
             "title_latin": "arnica montana",
+            "level": 2,
             "fr": {
                 "title": "Arnica",
                 "family": "...",
@@ -209,6 +211,7 @@
             "menuImage": "papaver_rhoeas_menu.png",
             "thumbnail": "papaver_rhoeas_thumbnail.jpg",
             "title_latin": "papaver rhoeas",
+            "level": 0,
             "fr": {
                 "title": "Coquelicot",
                 "family": "...",
@@ -290,6 +293,7 @@
             "thumbnail": "digitalis_grandiflora_thumbnail.jpg",
             "imageMemory": "digitalis_grandiflora_memory.png",
             "title_latin": "digitalis grandiflora",
+            "level": 1,
             "fr": {
                 "title": "Digitale à grandes fleurs",
                 "family": "...",
@@ -408,6 +412,7 @@
             "thumbnail": "artemisia_eriantha_thumbnail.jpg",
             "imageMemory": "artemisia_eriantha_memory.png",
             "title_latin": "artemisia eriantha",
+            "level": 3,
             "fr": {
                 "title": "Génépi Bourru",
                 "family": "...",
@@ -449,6 +454,7 @@
             "thumbnail": "gentiana_lutea_thumbnail.jpg",
             "imageMemory": "gentiana_lutea_memory.png",
             "title_latin": "gentiana lutea",
+            "level": 2,
             "fr": {
                 "title": "Gentiane Jaune",
                 "family": "...",
@@ -650,6 +656,7 @@
             "thumbnail": "sempervivum_montanum_thumbnail.jpg",
             "imageMemory": "sempervivum_montanum_memory.png",
             "title_latin": "sempervivum montanum",
+            "level": 2,
             "fr": {
                 "title": "Joubarbe des Montagnes",
                 "family": "...",
@@ -851,6 +858,7 @@
             "thumbnail": "origanum_vulgare_thumbnail.jpg",
             "imageMemory": "origanum_vulgare_memory.png",
             "title_latin": "origanum vulgare",
+            "level": 0,
             "fr": {
                 "title": "Origan Vulgaire",
                 "family": "...",
@@ -983,6 +991,7 @@
             "thumbnail": "rhyteuma_spicatum_thumbnail.jpg",
             "imageMemory": "rhyteuma_spicatum_memory.png",
             "title_latin": "rhyteuma spicatum",
+            "level": 1,
             "fr": {
                 "title": "Raiponce en épi",
                 "family": "...",
