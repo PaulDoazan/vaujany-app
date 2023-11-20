@@ -16,6 +16,7 @@ export default function Levels() {
     const [deck, setDeck] = useState([])
 
     const restart = () => {
+        currentDrag.current = []
         const newDeck = []
         let flowers = flowersData.flowers.filter(el => el.level !== undefined)
         shuffleArray(flowers)
@@ -66,7 +67,7 @@ export default function Levels() {
         })
 
     function dragStartListener(event) {
-        currentDrag.current = event.target;
+        gsap.ticker.remove(moveBack)
         const draggables = document.querySelectorAll('.drag-drop')
 
         let biggest = draggables[0]
@@ -92,28 +93,42 @@ export default function Levels() {
     }
 
     function moveBack() {
-        const x = currentDrag.current.getAttribute('data-x')
-        const y = currentDrag.current.getAttribute('data-y')
-        const currentX = gsap.utils.interpolate(x, 0, 0.1)
-        const currentY = gsap.utils.interpolate(y, 0, 0.1)
+        currentDrag.current.map(el => {
+            const x = el.getAttribute('data-x')
+            const y = el.getAttribute('data-y')
+            const currentX = gsap.utils.interpolate(x, 0, 0.1)
+            const currentY = gsap.utils.interpolate(y, 0, 0.1)
 
-        currentDrag.current.style.transform = 'translate(' + currentX + 'px, ' + currentY + 'px)'
-        currentDrag.current.setAttribute('data-x', currentX)
-        currentDrag.current.setAttribute('data-y', currentY)
+            el.style.transform = 'translate(' + currentX + 'px, ' + currentY + 'px)'
+            el.setAttribute('data-x', currentX)
+            el.setAttribute('data-y', currentY)
+        })
 
-        if (currentX - x < 1) gsap.ticker.remove(moveBack);
+        let movingBack = false
+        for (let i = 0; i < currentDrag.current.length; i++) {
+            const element = currentDrag.current[i];
+            if (Math.abs(gsap.utils.interpolate(element.getAttribute('data-x'), 0, 0.1)) > 1) {
+                movingBack = true
+                break
+            }
+        }
+
+        if (!movingBack) {
+            currentDrag.current = []
+            gsap.ticker.remove(moveBack)
+        }
     }
 
     function dragEndListener(event) {
         var target = event.target
-        // keep the dragged position in the data-x/data-y attributes
 
-        // translate the element
-        // target.style.transform = 'translate(0px, 0px)'
         // target.setAttribute('data-x', 0)
         // target.setAttribute('data-y', 0)
 
         // gsap.to(event.target, { transform: 'translate(0, 0)', duration: 0.5 })
+
+        console.log(currentDrag.current);
+        currentDrag.current.push(event.target)
         gsap.ticker.add(moveBack);
     }
 
