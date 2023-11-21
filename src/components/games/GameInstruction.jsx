@@ -55,15 +55,15 @@ export default function GameInstruction() {
                         {currentGame[lang].goal}
                     </div>
                     <div className="game__instructions__explanation">
-                        {currentGame[lang].explanation.map(el => {
-                            return <p>{parse(el)}</p>
+                        {currentGame[lang].explanation.map((el, index) => {
+                            return <p key={index}>{parse(el)}</p>
                         })
                         }
                     </div>
                     {currentGame[lang].examples &&
                         <div className="game__instructions__examples">
-                            {currentGame[lang].examples.map(el => {
-                                return <p>{parse(el)}</p>
+                            {currentGame[lang].examples.map((el, index) => {
+                                return <p key={index}>{parse(el)}</p>
                             })
                             }
                         </div>
@@ -74,7 +74,7 @@ export default function GameInstruction() {
                         <img className="game__instructions__btn__play__image" src={`images/icons/${currentGame.btnPlayBackground}`} alt="" />
                         <div className="game__instructions__btn__play__title">{pages.gameInstruction[lang].play}</div>
                     </div> : currentGame.btnLevelsBackground.map((el, index, arr) => {
-                        return <div onTouchEnd={(e) => { displayGame(e, index) }} className="game__instructions__btn__level" style={{ marginBottom: `${(arr.length - index - 1) * 5}%`, ...btnStyle }}>
+                        return <div key={index} onTouchEnd={(e) => { displayGame(e, index) }} className="game__instructions__btn__level" style={{ marginBottom: `${(arr.length - index - 1) * 5}%`, ...btnStyle }}>
                             <img className="game__instructions__btn__level__image" src={`images/icons/${currentGame.btnLevelsBackground[index]}.svg`} alt="" />
                             <div className="game__instructions__btn__level__title">{pages.gameInstruction[lang].levels[index]}</div>
                         </div>

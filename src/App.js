@@ -98,7 +98,7 @@ function App() {
 
       <div className={`screens__container__${screens.length}`}>
         {screens.map((el, index, arr) => {
-          return <NavigationProvider><Frame key={index} id={index} arrLength={arr.length} /></NavigationProvider>
+          return <NavigationProvider key={index}><Frame key={index} id={index} arrLength={arr.length} /></NavigationProvider>
         })}
       </div>
     </>
