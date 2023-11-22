@@ -1,15 +1,16 @@
 import gsap from 'gsap'
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import flowersData from '../../../../assets/data/flowers.json'
-import { shuffleArray } from '../../../../utils/utils'
+import { shuffleArray, getDistance } from '../../../../utils/utils'
 import LevelsSlot from './LevelsSlot'
 import LevelsThumbnail from './LevelsThumbnail'
 import interact from 'interactjs'
-import { ConfettiContext } from '../../../../utils/context'
+import { ConfettiContext, NavigationContext } from '../../../../utils/context'
 import LevelsResult from './LevelsResult'
 import FlowerInfoGame from '../FlowerInfoGame'
 
 export default function Levels() {
+    const { currentPage } = useContext(NavigationContext)
     const { fireConfetti } = useContext(ConfettiContext)
     const timeline = gsap.timeline()
     let duration = 0.6
@@ -47,7 +48,9 @@ export default function Levels() {
         setDeck(newDeck)
     }
 
-    interact('.drag-drop')
+    console.log(currentPage.category);
+
+    interact(`.drag-drop_${currentPage.category}`)
         .draggable({
             inertia: false,
             modifiers: [
@@ -68,7 +71,7 @@ export default function Levels() {
     function dragStartListener(event) {
         if (dragElement.current.length === 1) return
         dragElement.current.push(event.target)
-        draggables.current = document.querySelectorAll('.drag-drop')
+        draggables.current = document.querySelectorAll(`.drag-drop_${currentPage.category}`)
         const iconsInfo = document.querySelectorAll('.flower__info__icon')
         iconsInfo.forEach((el) => {
             el.style.opacity = 0
@@ -290,11 +293,4 @@ export default function Levels() {
 
         </>
     )
-}
-
-function getDistance(x1, x2, y1, y2) {
-    const a = x1 - x2
-    const b = y1 - y2
-
-    return Math.sqrt(a * a + b * b)
 }
