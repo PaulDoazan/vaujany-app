@@ -1,5 +1,4 @@
-import React, { useContext, useState } from 'react'
-import { LangContext } from '../../../../utils/context'
+import React from 'react'
 import FlowerCardGame from '../FlowerCardGame'
 
 export default function LevelsThumbnail({ data, index, dimensions, handleOverlay }) {
@@ -19,7 +18,7 @@ export default function LevelsThumbnail({ data, index, dimensions, handleOverlay
     }
 
     const iconStyle = {
-        zIndex: 99999,
+        zIndex: 999,
         position: `absolute`,
         left: `${originX + 11}%`,
         top: `${originY - 3}%`,

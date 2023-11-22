@@ -5,11 +5,79 @@
 .flower__info__game__overlay {
     pointer-events: none;
     opacity: 0;
+    transition: opacity 0.3s;
     z-index: 99999;
     position: fixed;
     left: 0;
     top: 0;
+    width: 96.4%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.flower__info__game__container {
+    position: relative;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.flower__info__game__wrapper {
+    position: absolute;
+    top: 38%;
+    right: 40%;
+    width: 17%;
+    height: 100%;
+}
+
+.flower__info__game__circle {
+    position: absolute;
+    width: 100%;
+}
+
+.flower__info__game__illustration {
+    position: absolute;
+    transform: translate(-50%, -25%);
+}
+
+.flower__info__game__cross {
+    position: absolute;
+    width: 25%;
+    left: 78%;
+    top: 2%;
+}
+
+.flower__info__game__content {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 14%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flower__info__game__title {
+    width: 70%;
+    font-family: 'Copperplate30';
+    font-size: 1.8vw;
+    line-height: 0.8;
+}
+
+.flower__info__game__latin {
+    width: 70%;
+    font-family: 'Copperplate29';
+    font-size: 1.2vw;
+}
+
+.flower__info__game__paragraph {
+    width: 80%;
+    margin-top: 1vh;
+    font-family: 'FuturaPTBook';
+    font-size: 1vw;
+
+    & span {
+        font-family: 'FuturaPTDemi';
+    }
 }

@@ -71,7 +71,8 @@ export default function Levels() {
         draggables.current = document.querySelectorAll('.drag-drop')
         const iconsInfo = document.querySelectorAll('.flower__info__icon')
         iconsInfo.forEach((el) => {
-            el.style.display = 'none'
+            el.style.opacity = 0
+            el.style.pointerEvents = 'none'
         })
 
         let biggest = draggables.current[0]
@@ -255,40 +256,39 @@ export default function Levels() {
         const iconsInfo = document.querySelectorAll('.flower__info__icon')
         iconsInfo.forEach((el, index) => {
             if (!draggables.current[index].inSlot) {
-                el.style.display = 'block'
+                el.style.opacity = 1
+                el.style.pointerEvents = 'auto'
             }
         })
     }
 
     const handleOverlay = (e) => {
         const overlays = document.querySelectorAll('.flower__info__game__overlay')
-        console.log(e.currentTarget);
         if (e.currentTarget.classList.contains('flower__info__icon')) {
             overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.opacity = 1
             overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.pointerEvents = 'auto'
         } else {
-            // overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.opacity = 0
-            // overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.pointerEvents = 'none'
+            e.currentTarget.style.opacity = 0
+            e.currentTarget.style.pointerEvents = 'none'
         }
     }
 
     return (
-        <div className='levels__container'>
-            <img className="levels__container__image__background" src="images/illustrations/levelsGameImageBackground.jpg" alt="" />
-            <img className="levels__container__dashPoints" src="images/illustrations/dashPoints.png" alt="" />
+        <>
+            <div className='levels__container'>
+                <img className="levels__container__image__background" src="images/illustrations/levelsGameImageBackground.jpg" alt="" />
+                <img className="levels__container__dashPoints" src="images/illustrations/dashPoints.png" alt="" />
 
-            {deck.map((el, index) => {
-                return <LevelsSlot key={index} index={index} dimensions={{ slotX: slotX, slotY: slotY, gapY: gapY }} />
-            })}
+                {deck.map((el, index) => {
+                    return <LevelsSlot key={index} index={index} dimensions={{ slotX: slotX, slotY: slotY, gapY: gapY }} />
+                })}
 
-            {deck.map((el, index) => {
-                return <>
-                    <LevelsThumbnail key={index} data={el} index={index} dimensions={{ thumbnailX: thumbnailX, slotY: slotY, gapY: gapY }} handleOverlay={handleOverlay} />
-                    <FlowerInfoGame data={el} handleOverlay={handleOverlay} />
-                </>
-            })}
-            <LevelsResult />
-        </div>
+                {deck.map((el, index) => <LevelsThumbnail key={index} data={el} index={index} dimensions={{ thumbnailX: thumbnailX, slotY: slotY, gapY: gapY }} handleOverlay={handleOverlay} />)}
+                <LevelsResult />
+                {deck.map((el, index) => <FlowerInfoGame data={el} index={index} handleOverlay={handleOverlay} />)}
+            </div>
+
+        </>
     )
 }
 
