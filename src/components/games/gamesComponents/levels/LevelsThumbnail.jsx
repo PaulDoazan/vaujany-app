@@ -1,10 +1,8 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import { LangContext } from '../../../../utils/context'
 import FlowerCardGame from '../FlowerCardGame'
 
-export default function LevelsThumbnail({ data, index, dimensions }) {
-    const { lang } = useContext(LangContext)
-
+export default function LevelsThumbnail({ data, index, dimensions, handleOverlay }) {
     const imgWidth = 7.9
     const imgHeight = 14.3
 
@@ -20,7 +18,20 @@ export default function LevelsThumbnail({ data, index, dimensions }) {
         height: `${imgHeight}%`,
     }
 
+    const iconStyle = {
+        zIndex: 99999,
+        position: `absolute`,
+        left: `${originX + 11}%`,
+        top: `${originY - 3}%`,
+        width: `3%`,
+        height: 'auto',
+    }
+
     return (
-        <FlowerCardGame data={data} cardStyle={cardStyle} index={index} dataOrigin={{ x: originX, y: originY }} />
+        <>
+            <FlowerCardGame data={data} cardStyle={cardStyle} index={index} dataOrigin={{ x: originX, y: originY }} />
+            <img className={`flower__info__icon flower__info__icon__${index}`} dataindex={index} src="images/icons/flowerInfoIcon.svg" alt="" onTouchStart={handleOverlay} style={iconStyle} />
+        </>
+
     )
 }

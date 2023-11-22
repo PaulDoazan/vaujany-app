@@ -21,7 +21,7 @@ export default function LevelsSlot({ index, dimensions }) {
 
     return (
         <div className="levels__slot__container">
-            <img className={`dropzone_${index}`} src="images/icons/levelsSlot.jpg" alt="" style={slotStyle} />
+            <img className={`dropzone`} src="images/icons/levelsSlot.jpg" alt="" style={slotStyle} />
             <div className="levels__slot__description" style={descriptionStyle}>
                 <div className="levels__slot__title">{pages.levels[lang].slots[index].title}</div>
                 <div className="levels__slot__height">{pages.levels[lang].slots[index].height}</div>

@@ -76,3 +76,18 @@
 .drag-drop {
     touch-action: none;
 }
+
+.levels__result__container {
+    text-align: center;
+    position: absolute;
+    pointer-events: none;
+    left: 25%;
+    width: 75%;
+    height: 100%;
+    opacity: 0;
+}
+
+.levels__restart__button__image {
+    position: absolute;
+    width: 120%;
+}

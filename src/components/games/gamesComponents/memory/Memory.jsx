@@ -132,10 +132,6 @@ export default function Memory() {
         }
     }
 
-    const refreshGame = () => {
-        restart()
-    }
-
     useEffect(() => {
         restart();
         (async () => {
@@ -149,7 +145,7 @@ export default function Memory() {
             {deck.map((el, index) => {
                 return <MemoryCard key={index} flower={el} index={index} handleTouchStart={handleTouchStart} layout={layouts[`level_${currentPage.level}`]} />
             })}
-            <MemoryResult handleRefresh={refreshGame} />
+            <MemoryResult />
         </div>
     )
 }

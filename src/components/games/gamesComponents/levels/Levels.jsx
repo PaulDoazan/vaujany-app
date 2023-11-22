@@ -1,12 +1,19 @@
 import gsap from 'gsap'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import flowersData from '../../../../assets/data/flowers.json'
 import { shuffleArray } from '../../../../utils/utils'
 import LevelsSlot from './LevelsSlot'
 import LevelsThumbnail from './LevelsThumbnail'
 import interact from 'interactjs'
+import { ConfettiContext } from '../../../../utils/context'
+import LevelsResult from './LevelsResult'
+import FlowerInfoGame from '../FlowerInfoGame'
 
 export default function Levels() {
+    const { fireConfetti } = useContext(ConfettiContext)
+    const timeline = gsap.timeline()
+    let duration = 0.6
+
     const tweens = useRef()
     const dragElement = useRef()
     const draggables = useRef()
@@ -60,9 +67,12 @@ export default function Levels() {
 
     function dragStartListener(event) {
         if (dragElement.current.length === 1) return
-        console.log(event.target.inSlot)
         dragElement.current.push(event.target)
         draggables.current = document.querySelectorAll('.drag-drop')
+        const iconsInfo = document.querySelectorAll('.flower__info__icon')
+        iconsInfo.forEach((el) => {
+            el.style.display = 'none'
+        })
 
         let biggest = draggables.current[0]
 
@@ -112,13 +122,11 @@ export default function Levels() {
             event.target.style.left = `${closestSlot.x}%`
             event.target.style.top = `${closestSlot.y}%`
 
-            // update the posiion attributes
+            // update the position attributes
             event.target.setAttribute('data-x', closestSlot.x)
             event.target.setAttribute('data-y', closestSlot.y)
 
             event.target.setAttribute('isDragging', '')
-
-
 
             if (event.target.inSlot && slots.current[`slot_${event.target.inSlot.index}`]) {
                 slots.current[`slot_${event.target.inSlot.index}`] = null
@@ -132,15 +140,12 @@ export default function Levels() {
                 dragElement.current[0].inSlot = null
                 gsap.ticker.add(moveBack);
             } else {
+                displayIcons()
                 dragElement.current = []
             }
 
             slots.current[`slot_${closestSlot.index}`] = closestSlot
-            // closestSlot.tg.inSlot = closestSlot
-
-            if ((deck.length - 1) - closestSlot.index === parseInt(event.target.getAttribute('dataLevel'))) {
-                console.log('Success')
-            }
+            check()
             return
         }
 
@@ -148,11 +153,57 @@ export default function Levels() {
         gsap.ticker.add(moveBack);
     }
 
-    function getDistance(x1, x2, y1, y2) {
-        const a = x1 - x2
-        const b = y1 - y2
+    function check() {
+        for (let i = 0; i < 4; i++) {
+            if (!slots.current[`slot_${i}`]) {
+                return
+            }
+        }
 
-        return Math.sqrt(a * a + b * b)
+        let wrongs = []
+        for (let n = 0; n < 4; n++) {
+            if (slots.current[`slot_${n}`].index != 3 - parseInt(slots.current[`slot_${n}`].tg.getAttribute('dataLevel'))) {
+                slots.current[`slot_${n}`].tg.setAttribute('isMovingBack', true)
+                dragElement.current.push(slots.current[`slot_${n}`].tg)
+                wrongs.push(slots.current[`slot_${n}`].tg)
+            }
+        }
+
+        if (wrongs.length) {
+            gsap.ticker.add(moveBack);
+        } else {
+            fireConfetti(true)
+            timeline.to('.levels__container__image__background', {
+                opacity: 0.3,
+                duration: duration
+            })
+            timeline.to('.levels__container__dashPoints', {
+                opacity: 0,
+                duration: duration
+            })
+            timeline.to('.dropzone', {
+                css: { left: "10%" },
+                duration: duration,
+                ease: "power1.out"
+            })
+            timeline.to('.flower__card__game', {
+                css: { left: "10%" },
+                duration: duration,
+                ease: "power1.out"
+            }, `-=${duration}`)
+            timeline.to('.levels__slot__description', {
+                css: { left: "25%" },
+                duration: duration,
+                ease: "power1.out"
+            }, `-=${duration}`)
+            timeline.to(".levels__result__container", {
+                opacity: 1,
+                pointerEvents: 'auto',
+                duration: duration
+            }).call(() => {
+                fireConfetti(true)
+            })
+        }
     }
 
     function moveBack() {
@@ -180,20 +231,44 @@ export default function Levels() {
         }
 
         if (!movingBack) {
-            const el = dragElement.current[0]
-            if (el.inSlot) {
-                slots.current[`slot_${el.inSlot.index}`] = null;
-            }
+            dragElement.current.map(el => {
+                if (el.inSlot) {
+                    slots.current[`slot_${el.inSlot.index}`] = null;
+                }
 
-            el.inSlot = null
-            el.style.left = `${el.getAttribute('dataOriginX')}%`
-            el.style.top = `${el.getAttribute('dataOriginY')}%`
-            el.setAttribute('data-x', el.getAttribute('dataOriginX'))
-            el.setAttribute('data-y', el.getAttribute('dataOriginY'))
-            el.setAttribute('isDragging', '')
-            el.setAttribute('isMovingBack', '')
+                el.inSlot = null
+                el.style.left = `${el.getAttribute('dataOriginX')}%`
+                el.style.top = `${el.getAttribute('dataOriginY')}%`
+                el.setAttribute('data-x', el.getAttribute('dataOriginX'))
+                el.setAttribute('data-y', el.getAttribute('dataOriginY'))
+                el.setAttribute('isDragging', '')
+                el.setAttribute('isMovingBack', '')
+            })
+
+            displayIcons()
             dragElement.current = []
             gsap.ticker.remove(moveBack)
+        }
+    }
+
+    function displayIcons() {
+        const iconsInfo = document.querySelectorAll('.flower__info__icon')
+        iconsInfo.forEach((el, index) => {
+            if (!draggables.current[index].inSlot) {
+                el.style.display = 'block'
+            }
+        })
+    }
+
+    const handleOverlay = (e) => {
+        const overlays = document.querySelectorAll('.flower__info__game__overlay')
+        console.log(e.currentTarget);
+        if (e.currentTarget.classList.contains('flower__info__icon')) {
+            overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.opacity = 1
+            overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.pointerEvents = 'auto'
+        } else {
+            // overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.opacity = 0
+            // overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.pointerEvents = 'none'
         }
     }
 
@@ -207,8 +282,19 @@ export default function Levels() {
             })}
 
             {deck.map((el, index) => {
-                return <LevelsThumbnail key={index} data={el} index={index} dimensions={{ thumbnailX: thumbnailX, slotY: slotY, gapY: gapY }} />
+                return <>
+                    <LevelsThumbnail key={index} data={el} index={index} dimensions={{ thumbnailX: thumbnailX, slotY: slotY, gapY: gapY }} handleOverlay={handleOverlay} />
+                    <FlowerInfoGame data={el} handleOverlay={handleOverlay} />
+                </>
             })}
+            <LevelsResult />
         </div>
     )
+}
+
+function getDistance(x1, x2, y1, y2) {
+    const a = x1 - x2
+    const b = y1 - y2
+
+    return Math.sqrt(a * a + b * b)
 }

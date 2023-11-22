@@ -130,7 +130,7 @@ export default function FlowerCard({ data, index, isDragging, deltaX }) {
     const titleStyle = {
         padding: `${paddingTitle}%`,
         lineHeight: `${lineHeightTitle}%`,
-        fontFamily: "Copperplate29",
+        fontFamily: "Copperplate30",
         fontSize: '1.3vw',
         display: 'flex',
         flexDirection: 'column',
