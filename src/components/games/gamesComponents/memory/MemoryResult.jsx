@@ -1,10 +1,20 @@
 import parse from 'html-react-parser'
 import React, { useContext, useEffect, useState } from 'react'
 import { ConfettiContext, NavigationContext } from '../../../../utils/context'
+import dataGames from '../../../../assets/data/games.json'
 
 export default function MemoryResult() {
     const { fireConfetti } = useContext(ConfettiContext)
     const { currentPage, changePage } = useContext(NavigationContext)
+
+    const currentGame = dataGames.games.find(el => el.slug === currentPage.element)
+
+    const imageStyle = {
+        left: currentGame.presentationDimensions.imgLeft,
+        transform: currentGame.presentationDimensions.scale && `scale(${currentGame.presentationDimensions.scale})`,
+        top: currentGame.presentationDimensions.imgTop && `${currentGame.presentationDimensions.imgTop}`
+    }
+
     const handleStart = () => {
         fireConfetti(false)
         changePage({ backgroundColor: '#E8D262', color: '#fff', category: 'gameInstruction', element: 'memory', level: currentPage.level, refresh: true })
@@ -12,6 +22,7 @@ export default function MemoryResult() {
 
     return (
         <div className="memory__result__container">
+            <img style={imageStyle} className="game__instructions__image" src={`images/illustrations/${currentGame.slug}.png`} alt="" />
             <div className="memory__result__bravo">BRAVO !</div>
             <div className="memory__result__congratulations">{parse(`Vous avez terminé le jeu avec brio ! La montagne n’a plus
                 de secrets pour vous&nbsp!`)}</div>
