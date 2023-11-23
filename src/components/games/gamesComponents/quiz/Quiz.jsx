@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import QuizTitleFlower from './QuizTitleFlower'
 import QuizParagraphs from './QuizParagraphs'
 import QuizChoices from './QuizChoices'
+import QuizAnswerComment from './QuizAnswerComment'
 
 
 export default function Quiz() {
@@ -17,10 +18,7 @@ export default function Quiz() {
             <QuizTitleFlower questionNb={currentQuestionNb} />
             <QuizParagraphs questionNb={currentQuestionNb} />
             <QuizChoices questionNb={currentQuestionNb} />
-
-            <div className="quiz__answer__comment">
-
-            </div>
+            <QuizAnswerComment questionNb={currentQuestionNb} />
 
             <div className="quiz__next__question__button">
 
