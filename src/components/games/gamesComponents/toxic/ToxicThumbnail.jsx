@@ -1,12 +1,12 @@
 import React from 'react'
 import FlowerCardGame from '../FlowerCardGame'
 
-export default function ToxicThumbnail({ data, index, coordinates }) {
+export default function ToxicThumbnail({ data, index, coords }) {
     const imgWidth = 7.9
     const imgHeight = 14.3
 
-    const originX = coordinates.x
-    const originY = coordinates.y
+    const originX = coords.x
+    const originY = coords.y
 
     const cardStyle = {
         zIndex: 1,

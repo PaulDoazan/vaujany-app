@@ -13,15 +13,15 @@ export default function Toxic() {
     const [deck, setDeck] = useState([])
 
     const slots = useRef()
-    const toxicFlowersRef = useRef()
+    const toxicFlowersRef = useRef([])
     const dragElement = useRef()
     const draggables = useRef()
     const tweens = useRef()
 
-    const slotX = 42.8
-    const slotY = 10.5
-    const gapY = 21.4
-    const thumbnailX = 80
+    const slotX = 76.2
+    const slotY = 7.1
+    const gapY = 17.2
+    const thumbnailX = 30
 
     const restart = () => {
         slots.current = { slot_0: null, slot_1: null, slot_2: null, slot_3: null, slot_4: null }
@@ -104,49 +104,49 @@ export default function Toxic() {
     function dragEndListener(event) {
         if (!dragElement.current.length || !event.target.getAttribute('isDragging')) return
 
-        // let closestSlot = { dist: 100, index: 0 }
-        // for (let i = 0; i < draggables.current.length; i++) {
-        //     const dist = getDistance(slotX, parseFloat(event.target.getAttribute('data-x')), slotY + i * gapY, parseFloat(event.target.getAttribute('data-y')))
-        //     if (dist < closestSlot.dist) {
-        //         closestSlot = { dist: dist, index: i, x: slotX, y: slotY + i * gapY, tg: event.target }
-        //     }
-        // }
+        let closestSlot = { dist: 100, index: 0 }
+        for (let i = 0; i < draggables.current.length; i++) {
+            const dist = getDistance(slotX, parseFloat(event.target.getAttribute('data-x')), slotY + i * gapY, parseFloat(event.target.getAttribute('data-y')))
+            if (dist < closestSlot.dist) {
+                closestSlot = { dist: dist, index: i, x: slotX, y: slotY + i * gapY, tg: event.target }
+            }
+        }
 
-        // if (closestSlot.dist < 10) {
-        //     event.target.style.left = `${closestSlot.x}%`
-        //     event.target.style.top = `${closestSlot.y}%`
+        if (closestSlot.dist < 10) {
+            event.target.style.left = `${closestSlot.x}%`
+            event.target.style.top = `${closestSlot.y}%`
 
-        //     // update the position attributes
-        //     event.target.setAttribute('data-x', closestSlot.x)
-        //     event.target.setAttribute('data-y', closestSlot.y)
+            // update the position attributes
+            event.target.setAttribute('data-x', closestSlot.x)
+            event.target.setAttribute('data-y', closestSlot.y)
 
-        //     event.target.setAttribute('isDragging', '')
+            event.target.setAttribute('isDragging', '')
 
-        //     if (event.target.inSlot && slots.current[`slot_${event.target.inSlot.index}`]) {
-        //         slots.current[`slot_${event.target.inSlot.index}`] = null
-        //     }
-        //     event.target.inSlot = closestSlot
-        //     // slot already filled
-        //     const slotFilled = slots.current[`slot_${closestSlot.index}`]
-        //     if (slotFilled) {
-        //         dragElement.current[0] = slotFilled.tg
-        //         dragElement.current[0].setAttribute('isMovingBack', true)
-        //         dragElement.current[0].inSlot = null
-        //         gsap.ticker.add(moveBack);
-        //     } else {
-        //         dragElement.current = []
-        //     }
+            if (event.target.inSlot && slots.current[`slot_${event.target.inSlot.index}`]) {
+                slots.current[`slot_${event.target.inSlot.index}`] = null
+            }
+            event.target.inSlot = closestSlot
+            // slot already filled
+            const slotFilled = slots.current[`slot_${closestSlot.index}`]
+            if (slotFilled) {
+                dragElement.current[0] = slotFilled.tg
+                dragElement.current[0].setAttribute('isMovingBack', true)
+                dragElement.current[0].inSlot = null
+                gsap.ticker.add(moveBack);
+            } else {
+                dragElement.current = []
+            }
 
-        //     slots.current[`slot_${closestSlot.index}`] = closestSlot
-        //     check()
-        //     return
-        // }
+            slots.current[`slot_${closestSlot.index}`] = closestSlot
+            check()
+            return
+        }
 
         event.target.setAttribute('isMovingBack', true)
-        gsap.ticker.add(moveToxicBack);
+        gsap.ticker.add(moveBack);
     }
 
-    function moveToxicBack() {
+    function moveBack() {
         dragElement.current.map(el => {
             console.log(el);
             const x = el.getAttribute('data-x')
@@ -187,7 +187,7 @@ export default function Toxic() {
             })
 
             dragElement.current = []
-            gsap.ticker.remove(moveToxicBack)
+            gsap.ticker.remove(moveBack)
         }
     }
 
@@ -202,10 +202,10 @@ export default function Toxic() {
     return (
         <div className='toxic__container'>
             {toxicFlowersRef.current.map((el, index) => {
-                return <ToxicSlot key={index} index={index} dimensions={{ slotX: slotX, slotY: slotY, gapY: gapY }} />
+                return <ToxicSlot key={index} index={index} coords={{ slotX: slotX, slotY: slotY, gapY: gapY }} />
             })}
 
-            {deck.map((el, index) => <ToxicThumbnail key={index} data={el} index={index} coordinates={{ x: thumbnailX, y: slotY }} />)}
+            {deck.map((el, index) => <ToxicThumbnail key={index} data={el} index={index} coords={{ x: thumbnailX, y: slotY }} />)}
             <ToxicResult />
         </div>
     )
