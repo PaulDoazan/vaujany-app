@@ -1,0 +1,137 @@
+{
+    "question_0": {
+        "answer": [
+            2
+        ],
+        "pictures": [
+            "quiz_image_0_0.jpg"
+        ],
+        "backgroundColors": [
+            "#ECE7EC",
+            "#D5C389",
+            "#99A299"
+        ],
+        "fr": {
+            "title": "La Rhubarbe<br>des moines",
+            "paragraphs": [
+                "En redescendant au village à la fin de l’été, les vaujaniats utilisaient ces feuilles pour garder un aliment au frais. Lequel ?",
+                "Lors des alpages sur les hauteurs de la montagne, les familles s’occupaient de traire les animaux qui vivaient avec eux pour produire du lait, du fromage et du beurre."
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Ils enveloppaient leurs fromages dans les feuilles de la rhubarbe des moines pour mieux les conserver. Ils pouvaient ainsi les vendre, les échanger ou se nourrir le reste de l’année."
+                ]
+            },
+            "choiceTitles": [
+                "LE LAIT",
+                "LE BEURRE",
+                "LE FROMAGE"
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
+    },
+    "question_1": {
+        "answer": [
+            1
+        ],
+        "fr": {}
+    },
+    "question_2": {
+        "answer": [
+            0,
+            1,
+            2
+        ],
+        "fr": {}
+    },
+    "question_3": {
+        "answer": [
+            0
+        ],
+        "fr": {}
+    },
+    "question_4": {
+        "answer": [
+            2
+        ],
+        "fr": {}
+    },
+    "question_5": {
+        "answer": [
+            1
+        ],
+        "fr": {}
+    },
+    "question_6": {
+        "answer": [
+            0
+        ],
+        "fr": {}
+    },
+    "question_7": {
+        "answer": [
+            0
+        ],
+        "fr": {}
+    },
+    "question_8": {
+        "answer": [
+            0
+        ],
+        "fr": {}
+    },
+    "question_9": {
+        "answer": [
+            0
+        ],
+        "fr": {}
+    },
+    "question_10": {
+        "answer": [
+            0
+        ],
+        "fr": {}
+    },
+    "question_11": {
+        "answer": [
+            2
+        ],
+        "fr": {}
+    }
+}
