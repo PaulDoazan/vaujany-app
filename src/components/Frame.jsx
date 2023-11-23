@@ -1,4 +1,4 @@
-import React, { useContext, useReducer } from 'react'
+import React, { useContext } from 'react'
 import Menu from './navigation/menu/Menu'
 import Home from './Home'
 import Explore from './exploration/Explore'

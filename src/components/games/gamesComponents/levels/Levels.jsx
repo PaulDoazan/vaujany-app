@@ -48,8 +48,6 @@ export default function Levels() {
         setDeck(newDeck)
     }
 
-    console.log(currentPage.category);
-
     interact(`.drag-drop_${currentPage.category}`)
         .draggable({
             inertia: false,

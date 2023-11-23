@@ -145,6 +145,7 @@
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Plante toxique !",
+                "toxicDescription": "Plante toxique !<br>Ingérée, elle devient un véritable poison et provoque vertiges, vomissements, maux de tête, convulsions et parfois même la mort.",
                 "didYouKnow": {
                     "image": "arnica_didYouKnow.png",
                     "imageEmpty": "arnica_empty_didYouKnow.png",
@@ -167,6 +168,7 @@
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Toxic !",
+                "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "arnica_didYouKnow.png",
                     "imageEmpty": "arnica_empty_didYouKnow.png",
@@ -189,6 +191,7 @@
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Toxic bluck !",
+                "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "arnica_didYouKnow.png",
                     "imageEmpty": "arnica_empty_didYouKnow.png",
@@ -222,7 +225,8 @@
                 "habitat": "On le rencontre partout et pousse dans les champs labourés et aux bords des routes. Il aime la compagnie des poacées (graminées) qui leur a valu leur destruction par les pesticides !",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Plante très faiblement toxique, surtout le suc laiteux !"
+                "toxic": "Plante très faiblement toxique, surtout le suc laiteux&nbsp;!",
+                "toxicDescription": "Plante très faiblement toxique, surtout le suc laiteux&nbsp;!"
             },
             "en": {
                 "title": "yarrow",
@@ -232,7 +236,8 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Lorem ipsum dolor sit amet"
+                "toxic": "Lorem ipsum dolor sit amet",
+                "toxicDescription": "[...]"
             },
             "nl": {
                 "title": "bluck",
@@ -242,7 +247,8 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Lorem ipsum dolor sit amet"
+                "toxic": "Lorem ipsum dolor sit amet",
+                "toxicDescription": "[...]"
             }
         },
         {
@@ -306,6 +312,7 @@
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Plante toxique !",
+                "toxicDescription": "Plante extrêmement toxique, qui a valu aux sorcières leur si mauvaise réputation.",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
@@ -329,6 +336,7 @@
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Toxic !",
+                "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
@@ -351,6 +359,7 @@
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Toxic bluck !",
+                "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
@@ -455,6 +464,7 @@
             "full": "gentiana_lutea.jpg",
             "menuImage": "gentiana_lutea_menu.png",
             "thumbnail": "gentiana_lutea_thumbnail.jpg",
+            "thumbnailPosition": "30% center",
             "imageMemory": "gentiana_lutea_memory.png",
             "title_latin": "gentiana lutea",
             "level": 2,
@@ -789,6 +799,7 @@
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Plante peu toxique !",
                 "toxicParagraph": "(photosensibilisante, éviter de consommer simultanément avec d’autres antidépresseurs)",
+                "toxicDescription": "Plante peu toxique !</br>(photosensibilisante, éviter de consommer simultanément avec d’autres antidépresseurs)",
                 "didYouKnow": {
                     "image": "hypericum_richeri_didYouKnow.png",
                     "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
@@ -813,6 +824,7 @@
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "[...]",
                 "toxicParagraph": "[...]",
+                "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "hypericum_richeri_didYouKnow.png",
                     "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
@@ -837,6 +849,7 @@
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "[...]",
                 "toxicParagraph": "[...]",
+                "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "hypericum_richeri_didYouKnow.png",
                     "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
@@ -872,7 +885,8 @@
                 "habitat": "Pousse sur les versants bien ensoleillés, essentiellement dans les pelouses sèches. Également aux bords des chemins et abords des villages.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null,
+                "toxic": "[...]",
+                "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "origanum_vulgare_didYouKnow.png",
                     "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
@@ -899,7 +913,8 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null,
+                "toxic": "[...]",
+                "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "origanum_vulgare_didYouKnow.png",
                     "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
@@ -926,7 +941,8 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null,
+                "toxic": "[...]",
+                "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "origanum_vulgare_didYouKnow.png",
                     "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
@@ -994,6 +1010,7 @@
             "full": "rhyteuma_spicatum.jpg",
             "menuImage": "rhyteuma_spicatum_menu.png",
             "thumbnail": "rhyteuma_spicatum_thumbnail.jpg",
+            "thumbnailPosition": "center left",
             "imageMemory": "rhyteuma_spicatum_memory.png",
             "title_latin": "rhyteuma spicatum",
             "level": 1,
@@ -1165,7 +1182,8 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "[...]",
+                "toxicDescription": "Plante toxique ! Il ne faut jamais consommer les baies qui peuvent être mortelles."
             },
             "en": {
                 "title": "yarrow",
@@ -1175,7 +1193,8 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "[...]",
+                "toxicDescription": "[...]"
             },
             "nl": {
                 "title": "bluck",
@@ -1185,7 +1204,8 @@
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "toxic": "[...]",
+                "toxicDescription": "[...]"
             }
         },
         {

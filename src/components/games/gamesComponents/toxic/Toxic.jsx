@@ -6,11 +6,15 @@ import ToxicSlot from './ToxicSlot'
 import ToxicResult from './ToxicResult'
 import ToxicThumbnail from './ToxicThumbnail'
 import interact from 'interactjs'
-import { NavigationContext } from '../../../../utils/context'
+import { ConfettiContext, NavigationContext } from '../../../../utils/context'
 
 export default function Toxic() {
     const { currentPage } = useContext(NavigationContext)
+    const { fireConfetti } = useContext(ConfettiContext)
     const [deck, setDeck] = useState([])
+
+    const timeline = gsap.timeline()
+    let duration = 0.6
 
     const slots = useRef()
     const toxicFlowersRef = useRef([])
@@ -21,7 +25,6 @@ export default function Toxic() {
     const slotX = 76.2
     const slotY = 7.1
     const gapY = 17.2
-    const thumbnailX = 30
 
     const restart = () => {
         slots.current = { slot_0: null, slot_1: null, slot_2: null, slot_3: null, slot_4: null }
@@ -34,8 +37,11 @@ export default function Toxic() {
         shuffleArray(toxicFlowers)
         shuffleArray(nonToxicFlowers)
 
-        toxicFlowers = nonToxicFlowers.splice(0, 5)
-        nonToxicFlowers = nonToxicFlowers.splice(0, 5)
+        toxicFlowers = toxicFlowers.splice(0, 5)
+        let maxNonToxicFlowers = 6
+        if (currentPage.level === 1) maxNonToxicFlowers = 11
+        if (currentPage.level === 2) maxNonToxicFlowers = 16
+        nonToxicFlowers = nonToxicFlowers.splice(0, maxNonToxicFlowers)
 
         let flowers = [...toxicFlowers, ...nonToxicFlowers]
         shuffleArray(flowers)
@@ -74,6 +80,7 @@ export default function Toxic() {
         })
 
         event.target.style.zIndex = (parseInt(biggest.style.zIndex) + 1).toString()
+        event.target.style.transform = `rotateZ(0deg)`
 
         event.target.offset = {
             x: (event.x0 / window.innerWidth) * 100 - parseFloat(event.target.getAttribute('dataOriginX')),
@@ -84,7 +91,7 @@ export default function Toxic() {
     }
 
     function dragMoveListener(event) {
-        if (dragElement.current.length && dragElement.current[0].getAttribute('dataSlug') != event.target.getAttribute('dataSlug')) return
+        if (dragElement.current.length && dragElement.current[0].getAttribute('dataSlug') !== event.target.getAttribute('dataSlug')) return
         if (!event.target.getAttribute('isDragging')) return
         if (event.target.getAttribute('isMovingBack')) return
         const target = event.target
@@ -138,17 +145,20 @@ export default function Toxic() {
             }
 
             slots.current[`slot_${closestSlot.index}`] = closestSlot
-            check()
+            setTimeout(check, 300)
             return
         }
 
-        event.target.setAttribute('isMovingBack', true)
-        gsap.ticker.add(moveBack);
+        if (dragElement.current[0].inSlot) {
+            slots.current[`slot_${dragElement.current[0].inSlot.index}`] = null;
+        }
+        dragElement.current[0].inSlot = null
+        dragElement.current = []
+        event.target.setAttribute('isDragging', '')
     }
 
     function moveBack() {
         dragElement.current.map(el => {
-            console.log(el);
             const x = el.getAttribute('data-x')
             const y = el.getAttribute('data-y')
             const currentX = gsap.utils.interpolate(x, parseFloat(el.getAttribute('dataOriginX')), 0.2)
@@ -192,7 +202,75 @@ export default function Toxic() {
     }
 
     function check() {
+        for (let i = 0; i < 5; i++) {
+            if (!slots.current[`slot_${i}`]) {
+                return
+            }
+        }
 
+        let wrongs = []
+        for (let n = 0; n < 5; n++) {
+            if (!slots.current[`slot_${n}`].tg.getAttribute('datatoxic')) {
+                dragElement.current.push(slots.current[`slot_${n}`].tg)
+                wrongs.push(slots.current[`slot_${n}`].tg)
+            }
+        }
+
+        if (wrongs.length) {
+            gsap.ticker.add(moveBack);
+        } else {
+            const slotsElement = document.querySelectorAll('.levels__slot__container')
+
+            slotsElement.forEach(el => {
+                el.style.display = 'none'
+            })
+
+            timeline.call(() => {
+                draggables.current.forEach(el => {
+                    if (!el.getAttribute('datatoxic')) el.style.opacity = 0
+                })
+            })
+
+            for (let i = 0; i < 5; i++) {
+                timeline.to(`.${slots.current[`slot_${i}`].tg.classList[1]}`, {
+                    css: { top: "50%", left: `${12 + 15 * i}%`, width: '12%' },
+                    duration: (duration / 2),
+                    ease: "power1.out"
+                }).call(() => {
+                    slots.current[`slot_${i}`].tg.children[0].children[1].style.transform = 'rotateZ(0deg)'
+                    slots.current[`slot_${i}`].tg.children[0].children[1].style.top = '99%'
+                    slots.current[`slot_${i}`].tg.children[0].children[1].style.width = '96%'
+                    slots.current[`slot_${i}`].tg.children[0].children[1].style.left = '0%'
+                })
+            }
+            timeline.to('.nonexistentclass', { duration: duration }).call(() => {
+                draggables.current.forEach(el => {
+                    el.style.display = 'none'
+                })
+                const fakeElements = document.querySelectorAll('.flower__card__fake')
+                fakeElements.forEach((el, index) => {
+                    el.style.display = 'block'
+                    const fakeIndex = slots.current[`slot_${index}`].tg.classList[1].slice(19)
+                    const fakeEl = document.querySelector(`.flower__card__fake_${fakeIndex}`)
+                    fakeEl.style.top = '50%'
+                    fakeEl.style.width = '12%'
+                    fakeEl.style.left = `${12 + 15 * index}%`
+
+                    fakeEl.children[0].children[1].style.transform = 'rotateZ(0deg)'
+                    fakeEl.children[0].children[1].style.top = '99%'
+                    fakeEl.children[0].children[1].style.width = '96%'
+                    fakeEl.children[0].children[1].style.left = '0%'
+                })
+            })
+
+            timeline.to(".toxic__result__container", {
+                opacity: 1,
+                pointerEvents: 'auto',
+                duration: duration
+            }).call(() => {
+                fireConfetti(true)
+            })
+        }
     }
 
     useEffect(() => {
@@ -205,8 +283,8 @@ export default function Toxic() {
                 return <ToxicSlot key={index} index={index} coords={{ slotX: slotX, slotY: slotY, gapY: gapY }} />
             })}
 
-            {deck.map((el, index) => <ToxicThumbnail key={index} data={el} index={index} coords={{ x: thumbnailX, y: slotY }} />)}
             <ToxicResult />
+            {deck.map((el, index) => <ToxicThumbnail key={index} data={el} index={index} />)}
         </div>
     )
 }
