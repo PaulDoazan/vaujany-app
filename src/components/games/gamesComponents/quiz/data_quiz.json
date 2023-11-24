@@ -14,8 +14,8 @@
         "fr": {
             "title": "La Rhubarbe<br>des moines",
             "paragraphs": [
-                "En redescendant au village à la fin de l’été, les vaujaniats utilisaient ces feuilles pour garder un aliment au frais. Lequel ?",
-                "Lors des alpages sur les hauteurs de la montagne, les familles s’occupaient de traire les animaux qui vivaient avec eux pour produire du lait, du fromage et du beurre."
+                "Lors des alpages sur les hauteurs de la montagne, les familles s’occupaient de traire les animaux qui vivaient avec eux pour produire du lait, du fromage et du beurre.",
+                "En redescendant au village à la fin de l’été, les vaujaniats utilisaient ces feuilles pour garder un aliment au frais. Lequel ?"
             ],
             "explanation": {
                 "toxic": null,
@@ -70,7 +70,69 @@
         "answer": [
             1
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_1_0.jpg",
+            "quiz_image_1_1.jpg",
+            "quiz_image_1_2.jpg"
+        ],
+        "backgroundColors": [
+            "#D2CAB6",
+            "#DAB662",
+            "#A3CCED"
+        ],
+        "fr": {
+            "title": "le millepertuis<br>de richier",
+            "paragraphs": [
+                "Comment se prépare l’huile de millepertuis aux vertus antibactériennes et cicatrisantes&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Couper les fleurs pour les mettre dans un bocal. Les recouvrir d’huile d’olive vierge de première pression à froid. Laisser macérer au soleil 2 à 4 semaines en retournant régulièrement le bocal. Filtrer à travers un linge et presser pour extraire le jus."
+                ]
+            },
+            "choiceTitles": [
+                "EN BROYANT LES PÉTALES",
+                "EN FAISANT MACÉRER LES FLEURS",
+                "EN INFUSANT LES FEUILLES"
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     },
     "question_2": {
         "answer": [

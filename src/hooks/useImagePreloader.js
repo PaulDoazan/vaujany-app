@@ -10,8 +10,8 @@ function preloadImage(src) {
             reject(src)
         }
         img.src = src
-
         window[src] = img;
+        return img;
     })
 }
 
@@ -31,13 +31,13 @@ export default function useImagePreloader(imageList) {
                 imagesPromiseList.push(preloadImage(i))
             }
 
-            await Promise.all(imagesPromiseList)
+            const imgs = await Promise.all(imagesPromiseList)
 
             if (isCancelled) {
                 return
             }
 
-            setImagesPreloaded(true)
+            setImagesPreloaded(imgs)
         }
 
         effect()

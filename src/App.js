@@ -32,16 +32,19 @@ function App() {
 
   return (
     <>
-      {imagesPreloaded ? <div className={`screens__container__${screens.length}`}>
-        {screens.map((el, index, arr) => {
-          return <NavigationProvider><Frame key={index} id={index} arrLength={arr.length} /></NavigationProvider>
-        })}
-      </div> : <div className="preloader__container">
-        <div>LOADING</div>
-        <div className='spinner'>
-          <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+      {imagesPreloaded ?
+        <div className={`screens__container__${screens.length}`}>
+          {screens.map((el, index, arr) => {
+            return <NavigationProvider><Frame key={index} id={index} arrLength={arr.length} /></NavigationProvider>
+          })}
         </div>
-      </div>}
+        :
+        <div className="preloader__container">
+          <div>LOADING</div>
+          <div className='spinner'>
+            <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+          </div>
+        </div>}
 
       {/* <select name="nbScreens" id="nbScreen-select" className='nbScreen__select' onChange={handleNbScreenChange}>
         <option value="1">1</option>

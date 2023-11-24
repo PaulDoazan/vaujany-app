@@ -3,10 +3,11 @@
 }
 
 .flower__info__game__overlay {
-    pointer-events: none;
-    opacity: 0;
+    // pointer-events: none;
+    display: none;
+    // opacity: 0;
     transition: opacity 0.3s;
-    z-index: 99999;
+    z-index: 999;
     position: fixed;
     left: 0;
     top: 0;
@@ -61,7 +62,7 @@
 .flower__info__game__title {
     width: 70%;
     font-family: 'Copperplate30';
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     line-height: 0.8;
 }
 

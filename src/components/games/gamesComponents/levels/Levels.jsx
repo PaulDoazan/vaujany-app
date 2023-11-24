@@ -92,7 +92,7 @@ export default function Levels() {
     }
 
     function dragMoveListener(event) {
-        if (dragElement.current.length && dragElement.current[0].getAttribute('dataLevel') != event.target.getAttribute('dataLevel')) return
+        if (dragElement.current.length && dragElement.current[0].getAttribute('dataLevel') !== event.target.getAttribute('dataLevel')) return
         if (!event.target.getAttribute('isDragging')) return
         if (event.target.getAttribute('isMovingBack')) return
         const target = event.target
@@ -164,7 +164,7 @@ export default function Levels() {
 
         let wrongs = []
         for (let n = 0; n < 4; n++) {
-            if (slots.current[`slot_${n}`].index != 3 - parseInt(slots.current[`slot_${n}`].tg.getAttribute('dataLevel'))) {
+            if (slots.current[`slot_${n}`].index !== 3 - parseInt(slots.current[`slot_${n}`].tg.getAttribute('dataLevel'))) {
                 slots.current[`slot_${n}`].tg.setAttribute('isMovingBack', true)
                 dragElement.current.push(slots.current[`slot_${n}`].tg)
                 wrongs.push(slots.current[`slot_${n}`].tg)
@@ -266,11 +266,13 @@ export default function Levels() {
     const handleOverlay = (e) => {
         const overlays = document.querySelectorAll('.flower__info__game__overlay')
         if (e.currentTarget.classList.contains('flower__info__icon')) {
-            overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.opacity = 1
-            overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.pointerEvents = 'auto'
+            overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.display = 'block'
+            // overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.opacity = 1
+            // overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.pointerEvents = 'auto'
         } else {
-            e.currentTarget.style.opacity = 0
-            e.currentTarget.style.pointerEvents = 'none'
+            e.currentTarget.style.display = 'none'
+            // e.currentTarget.style.opacity = 0
+            // e.currentTarget.style.pointerEvents = 'none'
         }
     }
 
