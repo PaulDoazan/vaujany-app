@@ -4,6 +4,7 @@ import flowersData from '../../../../assets/data/flowers.json'
 import { shuffleArray } from '../../../../utils/utils'
 import { NavigationContext } from '../../../../utils/context'
 import GuessWhoCard from './GuessWhoCard'
+import GuessWhoQuestions from './GuessWhoQuestions'
 
 const layouts = {
     level_0: {
@@ -28,18 +29,19 @@ const layouts = {
 
 export default function GuessWho() {
     const [deck, setDeck] = useState([])
+    const [result, setResult] = useState()
     const { currentPage } = useContext(NavigationContext)
 
     const restart = () => {
         let flowers = flowersData.flowers.filter(el => el.guessWhoParameters)
         shuffleArray(flowers)
+        setResult(flowers[0])
+        shuffleArray(flowers)
         flowers = flowers.splice(0, layouts[`level_${currentPage.level}`].nbCards)
-
         setDeck(flowers)
     }
 
     const handleTouchStart = (e) => {
-        console.log(e.currentTarget);
         e.currentTarget.classList.toggle('guesswho__is__flipped')
     }
 
@@ -52,6 +54,7 @@ export default function GuessWho() {
             {deck.map((el, index) => {
                 return <GuessWhoCard key={index} flower={el} index={index} handleTouchStart={handleTouchStart} layout={layouts[`level_${currentPage.level}`]} />
             })}
+            <GuessWhoQuestions />
         </div>
     )
 }

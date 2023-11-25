@@ -4,11 +4,12 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    perspective: 100vh;
+    perspective: 200vh;
+    perspective-origin: 35%;
 }
 
 .guesswho__is__flipped {
-    transform: rotateY(180deg);
+    transform: rotateX(-180deg);
 }
 
 .guesswho__card__face {
@@ -20,14 +21,96 @@
 }
 
 .guesswho__card__flower__image {
-    width: 100%;
+    height: 100%;
 }
 
 .guesswho__card__image__back {
-    width: 100%;
-    object-fit: none;
+    height: 100%;
 }
 
 .guesswho__card__face__back {
-    transform: rotateY(180deg);
+    transform: rotateX(-180deg);
+}
+
+.guesswho__card__game__title {
+    position: absolute;
+    padding: 3%;
+    transform: rotateZ(-90deg) translate(-23%, -45%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 19%;
+    width: 68%;
+    left: 59%;
+    top: 13.4%;
+}
+
+.guesswho__card__game__title__content {
+    text-align: center;
+    font-family: 'Copperplate30';
+    font-size: 1.1vw;
+}
+
+.questions__container {
+    position: relative;
+    left: 60%;
+    top: 20%;
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    // background-color: red;
+}
+
+.guesswho__question {
+    margin-top: 3vh;
+    font-family: 'FuturaPTBook';
+    font-size: 1.6vw;
+}
+
+.questions__list__wrapper {
+    position: absolute;
+    overflow: hidden;
+    transform: translateY(-50%);
+    top: 90%;
+    width: 100%;
+    height: 40%;
+}
+
+.questions__fog__top {
+    position: absolute;
+    width: 100%;
+    top: 68%;
+    height: 20%;
+    background: linear-gradient(white 30%, rgba(255, 255, 255, 0));
+}
+
+.questions__fog__bottom {
+    position: absolute;
+    width: 100%;
+    top: 92%;
+    height: 20%;
+    background: linear-gradient(rgba(255, 255, 255, 0), white 80%);
+}
+
+.questions__list {
+    width: 100%;
+    top: 1%;
+    position: absolute;
+    // background-color: yellow;
+}
+
+.questions__top__btn {
+    width: 2.5vw;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+
+.questions__bottom__btn {
+    left: 45%;
+    width: 2.5vw;
+    position: absolute;
+    top: 110%;
+    transform: rotateZ(180deg);
 }

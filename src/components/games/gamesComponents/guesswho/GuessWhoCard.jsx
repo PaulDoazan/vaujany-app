@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { LangContext } from '../../../../utils/context';
 
 export default function GuessWhoCard({ flower, index, layout, handleTouchStart }) {
+    const { lang } = useContext(LangContext)
     const width = 10.7;
     const height = 14.3
     const gapX = 2.6
@@ -18,12 +20,19 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart }
     }
 
     return (
-        <div className="guesswho__card guesswho__is__flipped" style={cardStyle} onTouchEnd={handleTouchStart}>
-            <div className="guesswho__card__face guesswho__card__face__back" >
+        <div className="guesswho__card guesswho__is__flipped " style={cardStyle} onTouchEnd={handleTouchStart}>
+            <div className="guesswho__card__face guesswho__card__face__back">
                 <img className='guesswho__card__image__back' src={`images/guesswho/imgBack.png`} alt="" />
             </div>
-            <div className="guesswho__card__image guesswho__card__face">
-                <img className='guesswho__card__flower__image' src={`images/flowers/thumbnails/${flower.thumbnail}`} alt="" />
+            <div className="guesswho__card__image guesswho__card__face" style={{ backgroundColor: flower.backgroundColor }}>
+                <img className='guesswho__card__flower__image' src={`images/guesswho/${flower.thumbnailSquare}`} alt="" />
+                <div className={`guesswho__card__game__title`} style={{ backgroundColor: flower.backgroundColor }}>
+                    <div className="guesswho__card__game__titles__container">
+                        <div className="guesswho__card__game__title__content" style={{ color: flower.color }}>
+                            {flower[lang].title}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

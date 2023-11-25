@@ -97,6 +97,19 @@
                 "examples": [
                     "Exemple : « Est-ce que la plante est rose ? ».",
                     "Si la réponse à la question est OUI, dans ce cas, le joueur peut retourner toutes les plantes qui ne sont pas roses en cliquant dessus. Si la réponse est NON, alors il pourra seulement retourner les plantes qui sont roses."
+                ],
+                "questions": [
+                    "Est-ce qu’elle est toxique ?",
+                    "Est-ce qu’elle est jaune ?",
+                    "Est-ce qu’elle est rose ?",
+                    "Est-ce que sa floraison est en été ?",
+                    "Est-ce que sa floraison est au printemps ?",
+                    "Est-ce qu’elle mesure moins de 5cm ?",
+                    "Est-ce qu’elle mesure entre 5cm et 20cm ?",
+                    "Est-ce qu’elle mesure entre 20cm et 50cm ?",
+                    "Est-ce qu’elle mesure plus de 50cm ?",
+                    "Est-ce qu’elle pousse dans les bois ?",
+                    "Est-ce qu’elle pousse en prairie subalpine ?"
                 ]
             },
             "en": {
@@ -105,6 +118,23 @@
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
+                ],
+                "examples": [
+                    "[...]",
+                    "[...]"
+                ],
+                "questions": [
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]"
                 ]
             },
             "nl": {
@@ -113,6 +143,23 @@
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
+                ],
+                "examples": [
+                    "[...]",
+                    "[...]"
+                ],
+                "questions": [
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]",
+                    "[...]"
                 ]
             }
         },
