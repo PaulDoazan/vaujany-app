@@ -221,7 +221,7 @@
         "fr": {
             "title": "la gentiane jaune",
             "paragraphs": [
-                "À quel légume ressemble le goût de cette plante&nbsp?"
+                "Dans quel milieu peut-on trouver la gentiane jaune&nbsp?"
             ],
             "explanation": {
                 "toxic": null,
@@ -417,13 +417,13 @@
             "#D5C389",
             "#52774E"
         ],
+        "toxic": true,
         "fr": {
             "title": "la digitale à grandes fleurs",
             "paragraphs": [
                 "Quelle est le surnom populaire donné à la plante digitale&nbsp?"
             ],
             "explanation": {
-                "toxic": null,
                 "paragraphs": [
                     "Appelée aussi « gant de sorcière » dans le langage populaire (la forme de ses fleurs fait penser aux bouts des doigts des gants), c’est une plante redoutable. Elle est toxique : Il est conseillé de ne pas la toucher !"
                 ]
@@ -476,28 +476,29 @@
             0
         ],
         "pictures": [
-            "quiz_image_6_0.jpg"
+            "quiz_image_7_0.jpg",
+            "quiz_image_7_1.jpg",
+            "quiz_image_7_2.jpg"
         ],
         "backgroundColors": [
-            "#E8D262",
-            "#D5C389",
-            "#52774E"
+            "#FFB559",
+            "#7AA269",
+            "#E8D262"
         ],
         "fr": {
-            "title": "la digitale à grandes fleurs",
+            "title": "l’arnica",
             "paragraphs": [
-                "Quelle est le surnom populaire donné à la plante digitale&nbsp?"
+                "Quelle fleur est l’arnica&nbsp?"
             ],
             "explanation": {
-                "toxic": null,
                 "paragraphs": [
-                    "Appelée aussi « gant de sorcière » dans le langage populaire (la forme de ses fleurs fait penser aux bouts des doigts des gants), c’est une plante redoutable. Elle est toxique : Il est conseillé de ne pas la toucher !"
+                    "On la confond souvent avec d’autres fleurs pourtant ses propriétés sont uniques et réputées dans le monde pour soigner les bleus et les muscles fatigués."
                 ]
             },
             "choiceTitles": [
-                "« gant de sorcière »",
-                "« gant de jardinier »",
-                "« gant de peintre »"
+                "",
+                "",
+                ""
             ]
         },
         "en": {
@@ -541,24 +542,271 @@
         "answer": [
             0
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_8_0.jpg"
+        ],
+        "backgroundColors": [
+            "#FFB559",
+            "#FDFB7E",
+            "#D2CAB6"
+        ],
+        "toxic": true,
+        "bottomExplanations": "15%",
+        "fr": {
+            "title": "la digitale à grandes fleurs",
+            "paragraphs": [
+                "Cette plante est-elle…"
+            ],
+            "explanation": {
+                "paragraphs": [
+                    "Toutes les parties de cette plante sont extrêmement toxiques (fleurs, feuilles, graines, racines). Il ne faut surtout pas les ingérer.",
+                    "On lui a attribué à tort des propriétés contre la folie. Ce traitement, administré au peintre Van Gogh, lui aurait provoqué des troubles visuels, et notamment la coloration jaune de la vision, ce qui expliquerait l’utilisation massive de jaune dans ses œuvres à la fin de sa vie."
+                ]
+            },
+            "choiceTitles": [
+                "toxique",
+                "protégée",
+                "disparue"
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     },
     "question_9": {
         "answer": [
             0
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_9_0.jpg"
+        ],
+        "backgroundColors": [
+            "#FFB559",
+            "#FDFB7E",
+            "#D2CAB6"
+        ],
+        "fr": {
+            "title": "gentiane jaune",
+            "paragraphs": [
+                "Appelée aussi gratte-ciel végétal, qu’indique la hauteur de cette fleur&nbsp?"
+            ],
+            "explanation": {
+                "paragraphs": [
+                    "Le clin d’œil du météorologiste : elle indique, soi-disant, la hauteur de neige de l’hiver suivant : plus elle est haute, plus le manteau blanc sera épais."
+                ]
+            },
+            "choiceTitles": [
+                "plus elle est haute,<br>plus la neige sera épaisse",
+                "plus elle est haute,<br>plus il va faire chaud",
+                "plus elle est haute,<br>plus il va pleuvoir "
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     },
     "question_10": {
         "answer": [
             0
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_10_0.jpg",
+            "quiz_image_10_1.jpg",
+            "quiz_image_10_2.jpg"
+        ],
+        "backgroundColors": [
+            "#52774E",
+            "#D5C389",
+            "#A49582"
+        ],
+        "bottomExplanations": "5%",
+        "fr": {
+            "title": "la rhubarbe des moines",
+            "paragraphs": [
+                "Quelle fleur est la rhubarbe des moines&nbsp?"
+            ],
+            "explanation": {
+                "paragraphs": [
+                    "Au Moyen Âge, ses feuilles avaient diverses utilisations. Elles étaient cuisinées pour faire des compotes, des confitures et des tartes, elles servaient de nourriture pour les cochons… Les feuilles étaient également utilisées pour emballer le beurre et le garder au frais lors de la descente de l’alpage."
+                ]
+            },
+            "choiceTitles": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     },
     "question_11": {
         "answer": [
             2
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_11_0.jpg",
+            "quiz_image_11_1.jpg",
+            "quiz_image_11_2.jpg"
+        ],
+        "backgroundColors": [
+            "#ECE7EC",
+            "#DAB662",
+            "#D36D52"
+        ],
+        "bottomExplanations": "15%",
+        "fr": {
+            "title": "l’origan vulgaire",
+            "paragraphs": [
+                "Comment utilise t’on régulièrement l’origan vulgaire&nbsp?"
+            ],
+            "explanation": {
+                "paragraphs": [
+                    "Appelé aussi marjolaine des montagnes ou thé rouge.",
+                    "Son goût agréable donne de très bonnes infusions, c’est le « thé rouge » des Scandinaves. En montagne, on l’utilise régulièrement comme substitut du thé.",
+                    "Le clin d’œil du pizzaïolo : c’est sa cousine la marjolaine cultivée, qui ne pousse pas spontanément sous nos climats, qu’on étale sur nos pizzas."
+                ]
+            },
+            "choiceTitles": [
+                "en bonbon",
+                "sur une pizza",
+                "en infusion"
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     }
 }

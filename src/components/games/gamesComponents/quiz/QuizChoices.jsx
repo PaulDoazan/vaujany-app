@@ -44,7 +44,7 @@ export default function QuizChoices({ questionNb, handleAnswer, goodAnswer }) {
                     <img className="quiz__single__picture" src={`images/quiz/${dataQuiz[`question_${questionNb}`].pictures[0]}`} alt="" />
                     <div className="quiz__horizontal__choices">
                         {dataQuiz[`question_${questionNb}`][lang].choiceTitles.map((el, index) => {
-                            return <div style={{ ...singleChoiceTitleStyle, backgroundColor: dataQuiz[`question_${questionNb}`].backgroundColors[index], opacity: index === currentChoice || goodAnswer === null ? 1 : 0.4 }} className="quiz__choice__title" dataindex={index} onTouchEnd={handleTouch}>{el}</div>
+                            return <div style={{ ...singleChoiceTitleStyle, backgroundColor: dataQuiz[`question_${questionNb}`].backgroundColors[index], opacity: index === currentChoice || goodAnswer === null ? 1 : 0.4 }} className="quiz__choice__title" dataindex={index} onTouchEnd={handleTouch}>{parse(el)}</div>
                         })}
                     </div>
                 </div>

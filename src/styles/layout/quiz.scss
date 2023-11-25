@@ -84,6 +84,14 @@
     bottom: 0;
 }
 
+.icon__toxic__answer {
+    position: absolute;
+    width: 25%;
+    left: 107.2%;
+    bottom: 83%;
+    opacity: 0.2;
+}
+
 .quiz__next__question__button {
     display: flex;
     justify-content: right;
@@ -114,26 +122,24 @@
     font-size: 2.6vw;
 }
 
-.icon__wrong__answer__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
 .icon__wrong__answer {
-    width: 25%;
+    position: absolute;
+    left: 78%;
+    top: 72%;
+    width: 5%;
 }
 
 .correct__answer__container {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    & p {
+        margin-bottom: 2vh;
+    }
 }
 
 .icon__correct__answer {
-    margin-top: 2vh;
     width: 15%;
 }
 

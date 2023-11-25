@@ -2,8 +2,9 @@ import parse from 'html-react-parser'
 import React, { useContext } from 'react'
 import { ConfettiContext, NavigationContext } from '../../../../utils/context'
 import dataGames from '../../../../assets/data/games.json'
+import gsap from 'gsap'
 
-export default function QuizResult() {
+export default function QuizResult({ handleRestart }) {
     const { fireConfetti } = useContext(ConfettiContext)
     const { currentPage, changePage } = useContext(NavigationContext)
 
@@ -16,7 +17,11 @@ export default function QuizResult() {
     }
     const handleStart = () => {
         fireConfetti(false)
-        changePage({ backgroundColor: '#E07CAD', color: '#fff', category: 'gameInstruction', element: 'quiz', level: currentPage.level, refresh: true })
+        const timeline = gsap.timeline()
+        timeline.to(".quiz__result__container", { opacity: 0, pointerEvents: 'none', duration: 0.3 }).call(() => {
+            handleRestart()
+        }).to(".quiz__wrapper", { opacity: 1, pointerEvents: 'auto', duration: 0.3 })
+        //changePage({ backgroundColor: '#E07CAD', color: '#fff', category: 'gameInstruction', element: 'quiz', level: currentPage.level, refresh: true })
     }
 
     return (

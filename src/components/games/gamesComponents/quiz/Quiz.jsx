@@ -11,6 +11,7 @@ import QuizResult from './QuizResult'
 import { shuffleArray } from '../../../../utils/utils'
 
 export default function Quiz() {
+    const [allAnswers, setAllAnswers] = useState([])
     const [deck, setDeck] = useState(null)
     const [count, setCount] = useState(1)
     const [currentQuestionNb, setCurrentQuestionNb] = useState(null)
@@ -18,23 +19,30 @@ export default function Quiz() {
     const { fireConfetti } = useContext(ConfettiContext)
 
     const restart = () => {
-        const questionsMax = 8
-        let questionsNbs = []
-        for (let i = questionsMax - 4; i < questionsMax; i++) {
-            questionsNbs.push(i)
+        let selectedAnswers
+        if (allAnswers.length === 0) {
+            const questionsMax = 12
+
+            let questionsNbs = []
+            for (let i = 0; i < questionsMax; i++) {
+                questionsNbs.push(i)
+            }
+            shuffleArray(questionsNbs)
+            selectedAnswers = questionsNbs.splice(0, 4)
+            setAllAnswers(questionsNbs)
+        } else {
+            selectedAnswers = allAnswers.splice(0, 4)
+            setAllAnswers(allAnswers)
         }
-        // shuffleArray(questionsNbs)
-        questionsNbs = questionsNbs.splice(0, 4)
 
         setCount(0)
-        setDeck(questionsNbs)
-        setCurrentQuestionNb(questionsNbs[0])
+        setDeck(selectedAnswers)
+        setCurrentQuestionNb(selectedAnswers[0])
     }
-    const handleNext = () => {
-        setGoodAnswer(null)
-        if (count === 3) {
-            const timeline = gsap.timeline()
 
+    const handleNext = () => {
+        const timeline = gsap.timeline()
+        if (count === 3) {
             timeline.to(".quiz__wrapper", {
                 opacity: 0,
                 pointerEvents: 'none',
@@ -44,13 +52,68 @@ export default function Quiz() {
                 pointerEvents: 'auto',
                 duration: 0.3
             }).call(() => {
+                setGoodAnswer(null)
                 fireConfetti(true)
             })
         } else {
-            const next = count + 1
-            setCount(next)
-            const nextNb = deck[next]
-            setCurrentQuestionNb(nextNb)
+            timeline
+                .to(".quiz__title__flower", {
+                    opacity: 0,
+                    pointerEvents: 'none',
+                    duration: 0.5
+                })
+                .to(".quiz__paragraphs__container", {
+                    opacity: 0,
+                    pointerEvents: 'none',
+                    duration: 0.5
+                }, `-=0.5`)
+                .to(".quiz__answer__choices", {
+                    opacity: 0,
+                    pointerEvents: 'none',
+                    duration: 0.5
+                }, `-=0.5`)
+                .to(".quiz__answer__comment", {
+                    opacity: 0,
+                    pointerEvents: 'none',
+                    duration: 0.5
+                }, `-=0.5`)
+                .to(".quiz__next__question__button", {
+                    opacity: 0,
+                    pointerEvents: 'none',
+                    duration: 0.5
+                }, `-=0.5`)
+                .call(() => {
+                    setGoodAnswer(null)
+                    const next = count + 1
+                    setCount(next)
+                    const nextNb = deck[next]
+                    setCurrentQuestionNb(nextNb)
+                })
+                .to(".quiz__title__flower", {
+                    opacity: 1,
+                    pointerEvents: 'auto',
+                    duration: 0.5
+                })
+                .to(".quiz__paragraphs__container", {
+                    opacity: 1,
+                    pointerEvents: 'auto',
+                    duration: 0.5
+                }, `-=0.5`)
+                .to(".quiz__answer__choices", {
+                    opacity: 1,
+                    pointerEvents: 'auto',
+                    duration: 0.5
+                }, `-=0.5`)
+                .to(".quiz__answer__comment", {
+                    opacity: 1,
+                    pointerEvents: 'auto',
+                    duration: 0.5
+                }, `-=0.5`)
+                .to(".quiz__next__question__button", {
+                    opacity: 1,
+                    pointerEvents: 'auto',
+                    duration: 0.5
+                }, `-=0.5`)
         }
     }
 
@@ -73,7 +136,7 @@ export default function Quiz() {
                     {goodAnswer && <QuizNext handleNext={handleNext} />}
                     <QuizCount questionNb={count} />
                 </div>}
-            <QuizResult />
+            <QuizResult handleRestart={restart} />
         </div>
     )
 }
