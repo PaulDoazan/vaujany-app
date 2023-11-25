@@ -12,12 +12,14 @@ export default function QuizChoices({ questionNb, handleAnswer, goodAnswer }) {
         width: '100%',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        textTransform: 'uppercase',
+        textAlign: 'center'
     }
 
     const handleTouch = (e) => {
         setCurrentChoice(parseInt(e.currentTarget.getAttribute('dataindex')))
-        if (parseInt(e.currentTarget.getAttribute('dataindex')) === dataQuiz[`question_${questionNb}`].answer[0]) {
+        if (dataQuiz[`question_${questionNb}`].answer.includes(parseInt(e.currentTarget.getAttribute('dataindex')))) {
             handleAnswer(true)
         } else {
             handleAnswer(false)
@@ -42,7 +44,7 @@ export default function QuizChoices({ questionNb, handleAnswer, goodAnswer }) {
                     <img className="quiz__single__picture" src={`images/quiz/${dataQuiz[`question_${questionNb}`].pictures[0]}`} alt="" />
                     <div className="quiz__horizontal__choices">
                         {dataQuiz[`question_${questionNb}`][lang].choiceTitles.map((el, index) => {
-                            return <div style={{ ...singleChoiceTitleStyle, backgroundColor: dataQuiz[`question_${questionNb}`].backgroundColors[index] }} className="quiz__choice__title" dataindex={index} onTouchEnd={handleTouch}>{el}</div>
+                            return <div style={{ ...singleChoiceTitleStyle, backgroundColor: dataQuiz[`question_${questionNb}`].backgroundColors[index], opacity: index === currentChoice || goodAnswer === null ? 1 : 0.4 }} className="quiz__choice__title" dataindex={index} onTouchEnd={handleTouch}>{el}</div>
                         })}
                     </div>
                 </div>

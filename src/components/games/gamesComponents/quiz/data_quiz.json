@@ -140,37 +140,402 @@
             1,
             2
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_2_0.jpg",
+            "quiz_image_2_1.jpg",
+            "quiz_image_2_2.jpg"
+        ],
+        "backgroundColors": [
+            "#99A299",
+            "#E07CAD",
+            "#52774E"
+        ],
+        "fr": {
+            "title": "la raiponse en épi",
+            "paragraphs": [
+                "À quel légume ressemble le goût de cette plante&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Pas de mauvaise réponse, chacun y ressemble un peu ! Les tiges pas encore fleuries cuites à la vapeur se dégustent comme des asperges. La racine épaisse a une chair blanche, tendre et croquante, rappelant la saveur du radis. Les feuilles se mangent en salade."
+                ]
+            },
+            "choiceTitles": [
+                "ASPERGES",
+                "RADIS",
+                "ROQUETTE"
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     },
     "question_3": {
         "answer": [
             0
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_3_0.jpg",
+            "quiz_image_3_1.jpg",
+            "quiz_image_3_2.jpg"
+        ],
+        "backgroundColors": [
+            "#AAB8A8",
+            "#DAB662",
+            "#B99FBE"
+        ],
+        "fr": {
+            "title": "la gentiane jaune",
+            "paragraphs": [
+                "À quel légume ressemble le goût de cette plante&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Cette plante aime les espaces verts ensoleillés comme les prairies subalpines et les friches."
+                ]
+            },
+            "choiceTitles": [
+                "les prairies",
+                "les sous bois ombragés",
+                "les roches des sommets ensoleillés"
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     },
     "question_4": {
         "answer": [
             2
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_4_0.jpg"
+        ],
+        "backgroundColors": [
+            "#D2CAB6",
+            "#A3CCED",
+            "#AF5F81"
+        ],
+        "fr": {
+            "title": "l’origan vulgaire",
+            "paragraphs": [
+                "Que signifie origan en grec ancien&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Son nom s’inspire de opoc oros = « montagne » et yavoc ganos = « éclact, aspect riant »"
+                ]
+            },
+            "choiceTitles": [
+                "« qui a bon goût »",
+                "« qui aime l’altitude »",
+                "« qui se plaît sur la montagne »"
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     },
     "question_5": {
         "answer": [
             1
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_5_0.jpg"
+        ],
+        "backgroundColors": [
+            "#F4F2BA",
+            "#ECE7EC",
+            "#CC9966"
+        ],
+        "fr": {
+            "title": "tussilage",
+            "paragraphs": [
+                "Quelle utilisation traditionnelle du tussilage était associée à la montagne&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Appelé aussi Pas d’âne ou Chasse toux. On utilise la fleur et la feuille.",
+                    "Autrefois en montagne, le tussilage était utilisé en mélange dans le tabac. Aujourd’hui on l’utilise surtout en infusion et en sirop pour soigner les bronches."
+                ]
+            },
+            "choiceTitles": [
+                "en mélange dans le tabac",
+                "en pansement antiseptique",
+                "en salade"
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     },
     "question_6": {
         "answer": [
             0
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_6_0.jpg"
+        ],
+        "backgroundColors": [
+            "#E8D262",
+            "#D5C389",
+            "#52774E"
+        ],
+        "fr": {
+            "title": "la digitale à grandes fleurs",
+            "paragraphs": [
+                "Quelle est le surnom populaire donné à la plante digitale&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Appelée aussi « gant de sorcière » dans le langage populaire (la forme de ses fleurs fait penser aux bouts des doigts des gants), c’est une plante redoutable. Elle est toxique : Il est conseillé de ne pas la toucher !"
+                ]
+            },
+            "choiceTitles": [
+                "« gant de sorcière »",
+                "« gant de jardinier »",
+                "« gant de peintre »"
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     },
     "question_7": {
         "answer": [
             0
         ],
-        "fr": {}
+        "pictures": [
+            "quiz_image_6_0.jpg"
+        ],
+        "backgroundColors": [
+            "#E8D262",
+            "#D5C389",
+            "#52774E"
+        ],
+        "fr": {
+            "title": "la digitale à grandes fleurs",
+            "paragraphs": [
+                "Quelle est le surnom populaire donné à la plante digitale&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Appelée aussi « gant de sorcière » dans le langage populaire (la forme de ses fleurs fait penser aux bouts des doigts des gants), c’est une plante redoutable. Elle est toxique : Il est conseillé de ne pas la toucher !"
+                ]
+            },
+            "choiceTitles": [
+                "« gant de sorcière »",
+                "« gant de jardinier »",
+                "« gant de peintre »"
+            ]
+        },
+        "en": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        },
+        "nl": {
+            "title": "[...]",
+            "paragraphs": [
+                "[...]",
+                "[...]"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "[...]"
+                ]
+            },
+            "choiceTitles": [
+                "[...]",
+                "[...]",
+                "[...]"
+            ]
+        }
     },
     "question_8": {
         "answer": [

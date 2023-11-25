@@ -59,6 +59,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .multi__picture__image {
@@ -90,7 +92,7 @@
     
     position: absolute;
     left: 88.2%;
-    bottom : 10.4%;
+    bottom : 7.4%;
 }
 
 .quiz__next__icon {
@@ -112,3 +114,82 @@
     font-size: 2.6vw;
 }
 
+.icon__wrong__answer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.icon__wrong__answer {
+    width: 25%;
+}
+
+.correct__answer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon__correct__answer {
+    margin-top: 2vh;
+    width: 15%;
+}
+
+.quiz__result__container {
+    text-align: center;
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.quiz__restart__button__image {
+    position: absolute;
+    width: 120%;
+}
+
+.quiz__result__bravo {
+    font-family: 'Copperplate30';
+    font-size: 4vw;
+    position: absolute;
+    top: 29.7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quiz__result__congratulations {
+    font-family: 'Copperplate30';
+    width: 40%;
+    font-size: 3vw;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.quiz__restart__button {
+    position: absolute;
+    top: 60.9%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz__restart__button__image {
+    position: absolute;
+    width: 100%;
+}
+
+.quiz__restart__button__text {
+    font-family: 'FuturaPTBook';
+    position: absolute;
+    font-size: 1.7vw;
+}
