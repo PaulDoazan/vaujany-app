@@ -110,7 +110,7 @@
     position: absolute;
     top: 68%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     width: 20%;
     color: $color-white;
     display: flex;
@@ -120,7 +120,7 @@
 
 .memory__restart__button__image {
     position: absolute;
-    width: 100%;
+    width: 80%;
 }
 
 .memory__restart__button__text {

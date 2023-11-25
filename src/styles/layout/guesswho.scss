@@ -1,0 +1,33 @@
+.guesswho__container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    perspective: 100vh;
+}
+
+.guesswho__is__flipped {
+    transform: rotateY(180deg);
+}
+
+.guesswho__card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.guesswho__card__flower__image {
+    width: 100%;
+}
+
+.guesswho__card__image__back {
+    width: 100%;
+    object-fit: none;
+}
+
+.guesswho__card__face__back {
+    transform: rotateY(180deg);
+}
