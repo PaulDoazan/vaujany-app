@@ -29,12 +29,14 @@ const layouts = {
 
 export default function GuessWho() {
     const [deck, setDeck] = useState([])
+    const [displayCheck, setDisplayCheck] = useState(false)
     const [result, setResult] = useState()
     const { currentPage } = useContext(NavigationContext)
 
     const restart = () => {
         let flowers = flowersData.flowers.filter(el => el.guessWhoParameters)
         shuffleArray(flowers)
+        console.log('result : ', flowers[0].slug);
         setResult(flowers[0])
         shuffleArray(flowers)
         flowers = flowers.splice(0, layouts[`level_${currentPage.level}`].nbCards)
@@ -42,7 +44,40 @@ export default function GuessWho() {
     }
 
     const handleTouchStart = (e) => {
-        e.currentTarget.classList.toggle('guesswho__is__flipped')
+        const cards = document.querySelectorAll('.guesswho__card')
+        let revealedCards = [];
+        for (let i = 0; i < cards.length; i++) {
+            const element = cards[i];
+            if (!element.classList.contains('guesswho__is__flipped')) {
+                revealedCards.push(element)
+            }
+        }
+
+        if (e.currentTarget.classList.contains('guesswho__is__flipped')) {
+            e.currentTarget.classList.remove('guesswho__is__flipped')
+        } else {
+            if (revealedCards.length > 1) e.currentTarget.classList.add('guesswho__is__flipped')
+        }
+
+        revealedCards = [];
+        for (let i = 0; i < cards.length; i++) {
+            const element = cards[i];
+            if (!element.classList.contains('guesswho__is__flipped')) {
+                revealedCards.push(element)
+            }
+        }
+
+        if (revealedCards.length === 1) {
+            check(revealedCards[0])
+        }
+    }
+
+    const check = (card) => {
+        if (card.getAttribute('slug') === result.slug) {
+            console.log('success');
+        } else {
+            console.log('fail');
+        }
     }
 
     useEffect(() => {
@@ -54,7 +89,7 @@ export default function GuessWho() {
             {deck.map((el, index) => {
                 return <GuessWhoCard key={index} flower={el} index={index} handleTouchStart={handleTouchStart} layout={layouts[`level_${currentPage.level}`]} />
             })}
-            <GuessWhoQuestions />
+            <GuessWhoQuestions correctFlower={result} />
         </div>
     )
 }

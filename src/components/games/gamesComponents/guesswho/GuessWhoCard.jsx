@@ -1,8 +1,9 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { LangContext } from '../../../../utils/context';
 
 export default function GuessWhoCard({ flower, index, layout, handleTouchStart }) {
     const { lang } = useContext(LangContext)
+    const [revealed, setRevealed] = useState(false)
     const width = 10.7;
     const height = 14.3
     const gapX = 2.6
@@ -10,6 +11,7 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart }
     const top = (height + gapY) * (Math.floor(index / (layout.cols)))
 
     const cardStyle = {
+        pointerEvents: revealed ? 'auto' : 'none',
         transition: 'transform 0.7s',
         transformStyle: 'preserve-3d',
         width: `${width}%`,
@@ -19,8 +21,15 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart }
         top: `${layout.origin.y + top}%`
     }
 
+    useEffect(() => {
+        setTimeout(() => {
+            setRevealed(true)
+        }, 300 + index * 100)
+    }, [])
+
+
     return (
-        <div className="guesswho__card guesswho__is__flipped " style={cardStyle} onTouchEnd={handleTouchStart}>
+        <div className={`guesswho__card ${!revealed && 'guesswho__is__flipped'}`} style={cardStyle} onTouchStart={handleTouchStart} slug={flower.slug}>
             <div className="guesswho__card__face guesswho__card__face__back">
                 <img className='guesswho__card__image__back' src={`images/guesswho/imgBack.png`} alt="" />
             </div>
