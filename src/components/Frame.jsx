@@ -27,9 +27,8 @@ export default function Frame({ id, arrLength }) {
         fullClass += ' frame__rotate__right'
     }
 
-    const handleCancel = (e) => {
-        console.log(e.currentTarget)
-        setDisplayCancel(true)
+    const handleCancel = (value) => {
+        setDisplayCancel(value)
     }
 
     return (
@@ -50,7 +49,7 @@ export default function Frame({ id, arrLength }) {
                                 {currentPage.category === 'guesswho' && <GuessWho />}
                             </div>
                             <Confettis canvasId={id} />
-                            <CancelPage displayCancel={displayCancel} handleCancel={handleCancel} />
+                            {displayCancel && <CancelPage nextPage={displayCancel} handleCancel={handleCancel} />}
                             <div className="menu__wrapper">
                                 <Menu handleCancel={handleCancel} />
                             </div>

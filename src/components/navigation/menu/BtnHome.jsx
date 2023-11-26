@@ -1,13 +1,17 @@
 import React, { useContext } from 'react'
 import { ConfettiContext, NavigationContext } from '../../../utils/context'
 
-export default function BtnHome() {
+export default function BtnHome({ handleCancel }) {
     const { changePage, currentPage } = useContext(NavigationContext)
     const { fireConfetti } = useContext(ConfettiContext)
 
     const handleChangePage = () => {
         fireConfetti(false)
-        changePage({ category: 'home', element: null })
+        if (currentPage.category !== "explore" && currentPage.category === currentPage.element) {
+            handleCancel({ category: 'home', element: null })
+        } else {
+            changePage({ category: 'home', element: null })
+        }
     }
 
     return (

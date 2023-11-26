@@ -13,12 +13,11 @@ export default function BtnBack({ handleCancel }) {
             if (currentPage.category === "explore") {
                 changePage({ category: currentPage.category })
             } else if (currentPage.category === currentPage.element) {
-                handleCancel(e)
+                handleCancel({ category: pages[currentPage.category].previous, element: currentPage.element })
             } else {
                 const el = currentPage.category === currentPage.element ? currentPage.element : null
                 changePage({ category: pages[currentPage.category].previous, element: el })
             }
-
         } else {
             changePage({ category: pages[currentPage.category].previous })
         }

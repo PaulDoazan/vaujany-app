@@ -64,6 +64,11 @@ export const NavigationProvider = ({ children }) => {
         }
 
         // all cases when transition fadeIn fadeOut between pages should be avoided
+        if (currentPage.element === currentPage.category && currentPage.category !== 'explore') {
+            setCurrentPage({ noAnimation: true, backgroundColor: bgColor, color: color, ...value })
+            return
+        }
+
         if (currentPage.category === 'home' && value.category === 'home') return
 
         if (currentPage.category === 'home' && value.category === 'gamesHome') {

@@ -10,7 +10,7 @@ export default function Menu({ handleCancel }) {
 
     return (
         <div className="menu__container" style={{ 'backgroundColor': currentPage.backgroundColor }}>
-            <BtnHome />
+            <BtnHome handleCancel={handleCancel} />
             <BtnBack handleCancel={handleCancel} />
 
             <BtnLang language={"fr"} />

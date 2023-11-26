@@ -36,7 +36,8 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart, 
         left: `88%`,
         top: `-45%`,
         width: `30%`,
-        pointerEvents: preserve3d ? 'none' : 'auto'
+        display: preserve3d ? 'none' : 'block',
+        // pointerEvents: preserve3d ? 'none' : 'auto'
         // height: 'auto',
     }
 
