@@ -29,17 +29,12 @@ export default function GuessWhoResult({ correctFlower, success, revealedCards }
     }
 
     const containerStyle = {
-        width: currentPage.level === 2 ? '69%' : '70%',
-        left: currentPage.level === 2 ? '43%' : '39%'
+        width: currentPage.level !== 1 ? '69%' : '70%',
+        left: currentPage.level !== 1 ? '43%' : '39%'
     }
 
     const goodAnswers = questionsType.map(question => {
-        // 1er élément de comparaison
-        //correctFlower.guessWhoParameters[question]
-
-        // 2è élément de comparaison
         let allRevealedCardsMatch = true
-        // revealedCards.forEach(el => {
         for (let i = 0; i < revealedCards.length; i++) {
             const revealedCard = revealedCards[i];
             const currentFlower = dataFlowers.flowers.find(el => el.slug === revealedCard.getAttribute('slug'))

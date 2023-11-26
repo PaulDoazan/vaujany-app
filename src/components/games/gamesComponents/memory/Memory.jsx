@@ -96,6 +96,9 @@ export default function Memory() {
             cardsPicked[0].classList.add('is__flipped__from__left')
             cardsPicked[1].classList.add('is__flipped__from__right')
 
+            cardsPicked[0].style.transformStyle = "preserve-3d"
+            cardsPicked[1].style.transformStyle = "preserve-3d"
+
             cardsPicked = []
             setTimeout(() => {
                 gsap.to('.card__image__back__white', { opacity: 0 })

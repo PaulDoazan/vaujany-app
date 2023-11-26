@@ -5,6 +5,8 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart, 
     const scale = layout.scale ? layout.scale : 1
     const { lang } = useContext(LangContext)
     const [revealed, setRevealed] = useState(false)
+    const [preserve3d, setPreserve3d] = useState(true)
+
     const width = 10.7;
     const height = 14.3
     const gapX = 2.6 * (Math.pow(scale, 3))
@@ -14,7 +16,7 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart, 
     const cardStyle = {
         pointerEvents: revealed && !success ? 'auto' : 'none',
         transition: 'transform 0.7s',
-        transformStyle: 'preserve-3d',
+        transformStyle: preserve3d ? 'preserve-3d' : 'flat',
         width: `${width}%`,
         height: `${height}%`,
         position: 'absolute',
@@ -29,14 +31,39 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart, 
         transform: `scale(${layout.scale ? layout.scale : 1})`
     }
 
+    const iconStyle = {
+        position: `absolute`,
+        left: `88%`,
+        top: `-45%`,
+        width: `30%`,
+        // height: 'auto',
+    }
+
     useEffect(() => {
         setTimeout(() => {
             setRevealed(true)
         }, 300 + index * 100)
     }, [])
 
+    const handleTouch = (e) => {
+        setPreserve3d(true)
+        handleTouchStart(e)
+    }
+
+    const handleTransitionEnd = (e) => {
+        if (e.currentTarget.classList.contains('guesswho__is__flipped')) {
+            setPreserve3d(true)
+        } else {
+            setPreserve3d(false)
+        }
+    }
+
+    const handleOverlay = (e) => {
+        e.stopPropagation()
+    }
+
     return (
-        <div className={`guesswho__card ${!revealed ? 'guesswho__is__flipped' : ''}`} style={cardStyle} onTouchStart={handleTouchStart} slug={flower.slug}>
+        <div className={`guesswho__card ${!revealed ? 'guesswho__is__flipped' : ''}`} onTransitionEnd={handleTransitionEnd} style={cardStyle} onTouchStart={handleTouch} slug={flower.slug}>
             <div className="guesswho__card__face guesswho__card__face__back">
                 <div className="container__to__scale" style={scaleStyle}>
                     <img className='guesswho__card__image__back' src={`images/guesswho/imgBack.png`} alt="" />
@@ -52,6 +79,7 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart, 
                             </div>
                         </div>
                     </div>
+                    <img className={`flower__info__icon flower__info__icon__${index}`} dataindex={index} src="images/icons/flowerInfoIcon.svg" alt="" onTouchStart={handleOverlay} style={iconStyle} />
                 </div>
             </div>
 
