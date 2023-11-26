@@ -12,4 +12,10 @@ const getDistance = (x1, x2, y1, y2) => {
     return Math.sqrt(a * a + b * b)
 }
 
-export { shuffleArray, getDistance }
+const getRandomIntInclusive = (min, max) => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+export { shuffleArray, getDistance, getRandomIntInclusive }

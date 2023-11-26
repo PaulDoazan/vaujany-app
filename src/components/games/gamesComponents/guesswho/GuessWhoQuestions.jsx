@@ -41,14 +41,13 @@ export default function GuessWhoQuestions({ correctFlower }) {
     }
 
     return (
-        <div className="questions__container">
+        <div className="questions__container" style={{ left: currentPage.level !== 1 && '62.5%' }}>
             <div className="questions__list__wrapper">
                 <div className="questions__list" style={listStyle}>
                     {currentGame[lang].questions.map(el => {
                         return <div className="guesswho__question">{el}</div>
                     })}
                 </div>
-
             </div>
             <div className="questions__fog__top"></div>
             <div className="questions__fog__bottom"></div>

@@ -1,23 +1,25 @@
 import gsap from 'gsap'
 import React, { useContext, useEffect, useState } from 'react'
 import flowersData from '../../../../assets/data/flowers.json'
-import { shuffleArray } from '../../../../utils/utils'
-import { NavigationContext } from '../../../../utils/context'
+import { shuffleArray, getRandomIntInclusive } from '../../../../utils/utils'
+import { ConfettiContext, NavigationContext } from '../../../../utils/context'
 import GuessWhoCard from './GuessWhoCard'
 import GuessWhoQuestions from './GuessWhoQuestions'
+import GuessWhoResult from './GuessWhoResult'
 
 const layouts = {
     level_0: {
+        nbCards: 6,
+        rows: 2,
+        cols: 3,
+        origin: { x: 10.4, y: 30 },
+        scale: 1.3
+    },
+    level_1: {
         nbCards: 9,
         rows: 3,
         cols: 3,
-        origin: { x: 13.4, y: 26.8 }
-    },
-    level_1: {
-        nbCards: 12,
-        rows: 4,
-        cols: 3,
-        origin: { x: 13.4, y: 14.1 }
+        origin: { x: 13.4, y: 23 }
     },
     level_2: {
         nbCards: 16,
@@ -28,18 +30,20 @@ const layouts = {
 }
 
 export default function GuessWho() {
+    const { fireConfetti } = useContext(ConfettiContext)
     const [deck, setDeck] = useState([])
-    const [displayCheck, setDisplayCheck] = useState(false)
+    const [success, setSuccess] = useState(null)
     const [result, setResult] = useState()
+    const [revealedCardsState, setRevealedCards] = useState()
     const { currentPage } = useContext(NavigationContext)
 
     const restart = () => {
         let flowers = flowersData.flowers.filter(el => el.guessWhoParameters)
         shuffleArray(flowers)
-        console.log('result : ', flowers[0].slug);
-        setResult(flowers[0])
-        shuffleArray(flowers)
         flowers = flowers.splice(0, layouts[`level_${currentPage.level}`].nbCards)
+        const resultInd = getRandomIntInclusive(0, (flowers.length - 1))
+        setResult(flowers[resultInd])
+        console.log('result : ', flowers[resultInd].slug);
         setDeck(flowers)
     }
 
@@ -67,6 +71,7 @@ export default function GuessWho() {
             }
         }
 
+        setRevealedCards(revealedCards)
         if (revealedCards.length === 1) {
             check(revealedCards[0])
         }
@@ -74,9 +79,10 @@ export default function GuessWho() {
 
     const check = (card) => {
         if (card.getAttribute('slug') === result.slug) {
-            console.log('success');
+            fireConfetti(true)
+            setSuccess(true)
         } else {
-            console.log('fail');
+            setSuccess(false)
         }
     }
 
@@ -87,9 +93,11 @@ export default function GuessWho() {
     return (
         <div className='guesswho__container'>
             {deck.map((el, index) => {
-                return <GuessWhoCard key={index} flower={el} index={index} handleTouchStart={handleTouchStart} layout={layouts[`level_${currentPage.level}`]} />
+                return <GuessWhoCard key={index} success={success} flower={el} index={index} handleTouchStart={handleTouchStart} layout={layouts[`level_${currentPage.level}`]} />
             })}
-            <GuessWhoQuestions correctFlower={result} />
+
+            {success === null && <GuessWhoQuestions correctFlower={result} />}
+            {success !== null && <GuessWhoResult revealedCards={revealedCardsState} correctFlower={result} success={success} />}
         </div>
     )
 }
