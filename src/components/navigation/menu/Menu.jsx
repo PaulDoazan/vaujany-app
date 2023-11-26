@@ -5,13 +5,13 @@ import BtnBack from './BtnBack'
 import { NavigationContext } from '../../../utils/context'
 import BottomContent from './BottomContent'
 
-export default function Menu() {
+export default function Menu({ handleCancel }) {
     const { currentPage } = useContext(NavigationContext)
 
     return (
         <div className="menu__container" style={{ 'backgroundColor': currentPage.backgroundColor }}>
             <BtnHome />
-            <BtnBack />
+            <BtnBack handleCancel={handleCancel} />
 
             <BtnLang language={"fr"} />
             <BtnLang language={"en"} />

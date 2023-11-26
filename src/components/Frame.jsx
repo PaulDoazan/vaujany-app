@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import Menu from './navigation/menu/Menu'
 import Home from './Home'
 import Explore from './exploration/Explore'
@@ -11,9 +11,11 @@ import Toxic from './games/gamesComponents/toxic/Toxic'
 import Levels from './games/gamesComponents/levels/Levels'
 import GuessWho from './games/gamesComponents/guesswho/GuessWho'
 import Confettis from './games/gamesComponents/Confettis'
+import CancelPage from './navigation/menu/CancelPage'
 
 
 export default function Frame({ id, arrLength }) {
+    const [displayCancel, setDisplayCancel] = useState(false)
     const { currentPage } = useContext(NavigationContext)
 
     let fullClass = `frame frame__${id}`
@@ -23,6 +25,11 @@ export default function Frame({ id, arrLength }) {
         fullClass += ' frame__rotate__left'
     } else if (arrLength === 2 && id === 1) {
         fullClass += ' frame__rotate__right'
+    }
+
+    const handleCancel = (e) => {
+        console.log(e.currentTarget)
+        setDisplayCancel(true)
     }
 
     return (
@@ -43,9 +50,11 @@ export default function Frame({ id, arrLength }) {
                                 {currentPage.category === 'guesswho' && <GuessWho />}
                             </div>
                             <Confettis canvasId={id} />
+                            <CancelPage displayCancel={displayCancel} handleCancel={handleCancel} />
                             <div className="menu__wrapper">
-                                <Menu />
+                                <Menu handleCancel={handleCancel} />
                             </div>
+
                         </div>
                     </ConfettiProvider>
                 </div>
