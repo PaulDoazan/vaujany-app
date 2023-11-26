@@ -23,7 +23,7 @@ export default function Confettis({ canvasId }) {
                     ticks: 200,
                     gravity: 1 * (window.innerWidth / 1920),
                     decay: 0.93 + (0.01) * (window.innerWidth / 1920),
-                    startVelocity: 20,
+                    startVelocity: 20 * (window.innerWidth / 1920),
                     particleCount: count,
                     scalar: 4 * (window.innerWidth / 1920),
                     shapes: ["image"],

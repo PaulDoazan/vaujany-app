@@ -32,6 +32,7 @@
                 "bloom": "Printemps-été-automne.",
                 "height": "15 à 80 cm.",
                 "habitat": "Pousse dans les pâturages, prairies, haies, en bordure de route, de préférence au soleil, jusqu’à 2500 m d’altitude.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -42,6 +43,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -52,6 +54,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -87,6 +90,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -97,6 +101,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -107,6 +112,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -142,6 +148,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -152,6 +159,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -162,6 +170,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -198,6 +207,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Essentiellement dans les pelouses subalpines denses et continues. Également dans les prairies et les landes d’ubac (face ombreuse). Aime les terrains acides. Pousse rarement sur du calcaire.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Plante toxique !",
@@ -221,6 +231,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Toxic !",
@@ -244,6 +255,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Toxic bluck !",
@@ -279,6 +291,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "On le rencontre partout et pousse dans les champs labourés et aux bords des routes. Il aime la compagnie des poacées (graminées) qui leur a valu leur destruction par les pesticides !",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Plante très faiblement toxique, surtout le suc laiteux&nbsp;!",
@@ -290,6 +303,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Lorem ipsum dolor sit amet",
@@ -301,6 +315,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Lorem ipsum dolor sit amet",
@@ -322,6 +337,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -332,6 +348,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -342,6 +359,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -379,6 +397,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Les bois clairs et sur les pentes pierreuses.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Plante toxique !",
@@ -403,6 +422,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Toxic !",
@@ -426,6 +446,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Toxic bluck !",
@@ -459,6 +480,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -469,6 +491,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -479,6 +502,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -515,6 +539,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Dans les rochers et moraines.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -525,6 +550,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -535,6 +561,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -573,6 +600,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Essentiellement dans les prairies subalpines. Également dans les friches (terrain non cultivé et non entretenu) et broussailles de l’étage montagnard et dans les boisements d’adret (versant d’une montagne où l’exposition au soleil est dominante).",
+                "habitatGameInfo": "Les prairies subalpines,<br>les friches (terrain non<br>cultivé et non entretenu)<br>et brousailles de l’étage<br>montagnard et dans<br>les boisements d’adret<br>(exposition au soleil<br>dominante).",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -596,6 +624,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -619,6 +648,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -667,6 +697,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -677,6 +708,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -687,6 +719,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -722,6 +755,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -745,6 +779,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -768,6 +803,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -817,6 +853,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Essentiellement dans les pelouses subalpines écorchées. Également dans les éboulis et les pelouses alpines.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -839,6 +876,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -861,6 +899,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -908,6 +947,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -918,6 +958,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -928,6 +969,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -963,6 +1005,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "Plante peu toxique !",
@@ -988,6 +1031,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "[...]",
@@ -1013,6 +1057,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "[...]",
@@ -1065,6 +1110,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Pousse sur les versants bien ensoleillés, essentiellement dans les pelouses sèches. Également aux bords des chemins et abords des villages.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "didYouKnow": {
@@ -1091,6 +1137,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "didYouKnow": {
@@ -1117,6 +1164,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "didYouKnow": {
@@ -1153,6 +1201,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1163,6 +1212,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1173,6 +1223,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1210,6 +1261,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Dans les sous-bois, lisières et clairières d’ubac (versant d’une montagne où l’exposition à l’ombre est dominante).",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1220,6 +1272,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1230,6 +1283,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1250,6 +1304,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1260,6 +1315,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1270,6 +1326,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1290,6 +1347,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1300,6 +1358,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1310,6 +1369,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1330,6 +1390,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1340,6 +1401,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1350,6 +1412,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1370,6 +1433,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "[...]",
@@ -1381,6 +1445,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "[...]",
@@ -1392,6 +1457,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": "[...]",
@@ -1428,6 +1494,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -1452,6 +1519,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -1476,6 +1544,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -1510,6 +1579,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -1537,6 +1607,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -1564,6 +1635,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null,
@@ -1616,6 +1688,7 @@
                 "bloom": "...",
                 "height": "...",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1626,6 +1699,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null
@@ -1636,6 +1710,7 @@
                 "bloom": "Season.",
                 "height": "... cm.",
                 "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "[...]",
                 "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "toxic": null

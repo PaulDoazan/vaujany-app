@@ -212,3 +212,152 @@
     margin-right: 1vw;
     width: 2.5%;
 }
+
+.guesswho__flower__info__game__wrapper {
+    position: absolute;
+    top: 30%;
+    right: 41%;
+    width: 17%;
+    height: 100%;
+}
+
+.guesswho__flower__info__game__content {
+    width: 100%;
+    // height: 100%;
+    // text-align: center;
+    position: absolute;
+    // transform: translate(-50%, -50%);
+    left: 10%;
+    top: 2%;
+    // display: flex;
+    // align-items: center;
+    // flex-direction: column;
+}
+
+.guesswho__flower__info__game__title {
+    // position: absolute;
+    width: 100%;
+    font-family: 'Copperplate30';
+    font-size: 2vw;
+    line-height: 0.8;
+}
+
+.guesswho__flower__info__game__latin {
+    // position: absolute;
+    // top: 3%;
+    width: 70%;
+    font-family: 'Copperplate29';
+    font-size: 1.2vw;
+}
+
+.guesswho__info__caracteristics {
+    position: relative;
+    margin-top: 10%;
+    // top: 7%;
+    width: 100%;
+    left: -10%;
+}
+
+.guesswho__flower__info__caracteristics__section {
+    width: 100%;
+    font-family: 'FuturaPTMedium';
+    font-size: 1.3vw;
+}
+
+.guesswho__caracteristics__section__1 {
+    position: absolute;
+    left: -50%;
+    top: 25%;
+}
+
+.guesswho__caracteristics__section__2 {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+.guesswho__caracteristics__section__3 {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    width: 100%;
+}
+
+.guesswho__flower__info__caracteristics__element {
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: baseline;
+    height: 3vh;
+    // width: 100%;
+}
+
+.guesswho__flower__info__last__element {
+    width: 40vw;
+    margin-top: 2%;
+}
+
+.guesswho__flower__info__toxic__content {
+    margin-top: 20%;
+    margin-left: -70%;
+    display: flex;
+    align-items: center;
+    color: $color-cinnabar;
+}
+
+.guesswho__flower__info__toxic__content__img {
+     height: 5vh;
+     margin-left: 20%;
+}
+
+.guesswho__flower__info__toxic__content__text {
+    margin-left: 0.8vw;
+}
+
+.guesswho__content__title__not__centered {
+    display: flex;
+    align-items: flex-start;
+}
+
+.guesswho__flower__info__toxic__content__paragraph {
+    font-family: 'FuturaPTBook';
+}
+
+.guesswho__flower__info__icon {
+    height: 80%;
+    margin: 0 auto;
+
+    & img {
+        height: 100%;
+    }
+}
+
+.guesswho__flower__info__caracteristics__titles__container {
+    margin-left: 2vw;
+}
+
+.guesswho__flower__info__caracteristics__contents {
+    font-family: 'FuturaPTBook';
+    margin-left: 4%;
+}
+
+.guesswho__fake__icon {
+    opacity: 0;
+}
+
+.guesswho__flower__info__game__illustration {
+    position: absolute;
+    transform: translate(-75%, -25%);
+}
+
+.guesswho__flower__info__game__circle {
+    position: absolute;
+    width: 170%;
+    transform: translate(-15%, -10%);
+}
+
+.guesswho__flower__info__game__cross {
+    position: absolute;
+    width: 25%;
+    left: 110%;
+    top: 0%;
+}

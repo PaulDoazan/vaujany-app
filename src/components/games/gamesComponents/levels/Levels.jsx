@@ -174,7 +174,6 @@ export default function Levels() {
         if (wrongs.length) {
             gsap.ticker.add(moveBack);
         } else {
-            fireConfetti(true)
             timeline.to('.levels__container__image__background', {
                 opacity: 0.3,
                 duration: duration

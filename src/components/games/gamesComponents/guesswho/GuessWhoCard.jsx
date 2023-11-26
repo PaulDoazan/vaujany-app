@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { LangContext } from '../../../../utils/context';
 
-export default function GuessWhoCard({ flower, index, layout, handleTouchStart, success }) {
+export default function GuessWhoCard({ flower, index, layout, handleTouchStart, success, handleOverlay }) {
     const scale = layout.scale ? layout.scale : 1
     const { lang } = useContext(LangContext)
     const [revealed, setRevealed] = useState(false)
@@ -36,6 +36,7 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart, 
         left: `88%`,
         top: `-45%`,
         width: `30%`,
+        pointerEvents: preserve3d ? 'none' : 'auto'
         // height: 'auto',
     }
 
@@ -56,10 +57,6 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart, 
         } else {
             setPreserve3d(false)
         }
-    }
-
-    const handleOverlay = (e) => {
-        e.stopPropagation()
     }
 
     return (

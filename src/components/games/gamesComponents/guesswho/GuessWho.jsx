@@ -6,6 +6,7 @@ import { ConfettiContext, NavigationContext } from '../../../../utils/context'
 import GuessWhoCard from './GuessWhoCard'
 import GuessWhoQuestions from './GuessWhoQuestions'
 import GuessWhoResult from './GuessWhoResult'
+import GuessWhoFlowerInfo from './GuessWhoFlowerInfo'
 
 const layouts = {
     level_0: {
@@ -86,6 +87,17 @@ export default function GuessWho() {
         }
     }
 
+    const handleOverlay = (e) => {
+        e.stopPropagation()
+
+        const overlays = document.querySelectorAll('.flower__info__game__overlay')
+        if (e.currentTarget.classList.contains('flower__info__icon')) {
+            overlays[parseInt(e.currentTarget.getAttribute('dataindex'))].style.display = 'block'
+        } else {
+            e.currentTarget.style.display = 'none'
+        }
+    }
+
     useEffect(() => {
         restart()
         gsap.fromTo('.guesswho__container', { opacity: 0 }, { opacity: 1, duration: 0.5 })
@@ -93,11 +105,12 @@ export default function GuessWho() {
     return (
         <div className='guesswho__container'>
             {deck.map((el, index) => {
-                return <GuessWhoCard key={index} success={success} flower={el} index={index} handleTouchStart={handleTouchStart} layout={layouts[`level_${currentPage.level}`]} />
+                return <GuessWhoCard key={index} success={success} flower={el} index={index} handleTouchStart={handleTouchStart} handleOverlay={handleOverlay} layout={layouts[`level_${currentPage.level}`]} />
             })}
 
             {success === null && <GuessWhoQuestions correctFlower={result} />}
             {success !== null && <GuessWhoResult revealedCards={revealedCardsState} correctFlower={result} success={success} />}
+            {deck.map((el, index) => <GuessWhoFlowerInfo data={el} index={index} handleOverlay={handleOverlay} />)}
         </div>
     )
 }
