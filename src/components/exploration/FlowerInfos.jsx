@@ -68,7 +68,7 @@ export default function FlowerInfos({ data }) {
                         <span className="flower__info__real__title">{currentFlower[lang].family}</span>
                         <span className="flower__info__icon fake__icon"><img src="/images/icons/family.svg" alt="" /></span>
                     </div>
-                    <div className="flower__info__caracteristics__element">
+                    <div className="flower__info__caracteristics__element bloom__caracteristics__element">
                         <span className="flower__info__real__title">{currentFlower[lang].bloom}</span>
                         <span className="flower__info__icon fake__icon"><img src="/images/icons/bloom.svg" alt="" /></span>
                     </div>
@@ -85,11 +85,11 @@ export default function FlowerInfos({ data }) {
                                     <img className="flower__info__toxic__content__img" src="/images/icons/toxic.svg" alt="" />
                                     <div className="flower__info__toxic__content__text">
                                         <div className={`flower__info__toxic__content__title`}>
-                                            {currentFlower[lang].toxic}
+                                            {parse(currentFlower[lang].toxic)}
                                         </div>
                                         {currentFlower[lang].toxicParagraph &&
                                             <div className="flower__info__toxic__content__paragraph">
-                                                {currentFlower[lang].toxicParagraph}
+                                                {parse(currentFlower[lang].toxicParagraph)}
                                             </div>
                                         }
                                     </div>

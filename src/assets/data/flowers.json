@@ -239,13 +239,16 @@
             },
             "fr": {
                 "title": "Arnica",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Essentiellement dans les pelouses subalpines denses et continues. Également dans les prairies et les landes d’ubac (face ombreuse). Aime les terrains acides. Pousse rarement sur du calcaire.",
+                "family": "Astéracées.",
+                "bloom": "À la fin du printemps et en été.",
+                "height": "20 à 60 cm.",
+                "habitat": "Pousse essentiellement dans les pelouses subalpines denses et continues. On peut également la rencontrer dans les prairies subalpines et les landes d’ubac (face ombreuse). Elle aime surtout les terrains acides : hummus, granit, silice, basalte, elle pousse rarement sur du calcaire.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "L'arnica est connue pour ses vertus thérapeutiques, notamment contre les contusions. Elle est utilisée en homéopathie en pommade.",
+                    "Mais attention, ingérée, elle devient un véritable poison et provoque vertiges, vomissements, maux de tête, convulsions et parfois même la mort. Elle est abortive à haute dose. En usage externe elle peut provoquer des réactions cutanées (éruptions, vésicule)."
+                ],
+                "cooking": null,
                 "toxic": "Plante toxique !",
                 "toxicDescription": "Plante toxique !<br>Ingérée, elle devient un véritable poison et provoque vertiges, vomissements, maux de tête, convulsions et parfois même la mort.",
                 "didYouKnow": {
@@ -262,21 +265,24 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Arnica",
+                "family": "Compositae.",
+                "bloom": "Late spring – summer.",
+                "height": "20 to 60 cm.",
+                "habitat": "Calcareous soils in mountain pastures. Found especially on granite or siliceous soils in the Alps, up to 2500 metres. Pasture and open woodland, usually on poorer acid soils.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Toxic !",
+                "medical": [
+                    "Arnica has a long history of herbal use, especially as an external treatment for bruises and sprains - it is an ingredient of a number of proprietary preparations. Internally, it has been used in the treatment of heart complaints and as a booster for the immune system. Arnica increases local blood supply and accelerates healing, it is anti-inflammatory and increases the rate of absorption of internal bleeding.",
+                    "Generally the plant is nowadays only recommended for internal use as a homeopathic medicine, principally for treating shock, injury and pain. If used as a decoction or tincture it stimulates the circulation and is valuable in the treatment of angina and a weak or failing heart, but it can be toxic even at quite low doses and so is rarely used this way."
+                ],
+                "cooking": null,
+                "toxic": "Toxic plant!",
                 "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "arnica_didYouKnow.png",
                     "imageEmpty": "arnica_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "Also called Panacea of the Mountains, Grass of the Falls and Tobacco of the Savoyards."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -286,21 +292,24 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Arnica",
+                "family": "Asteraceae.",
+                "bloom": "Aan het einde van de lente en in de zomer.",
+                "height": "20 tot 60 cm.",
+                "habitat": "Groeit voornamelijk in subalpiene graslanden.  Komt ook voor in subalpiene weiden en schaduwrijke heide.  Deze plant houdt van zure bodems: humus, graniet, kiezelaarde, basalt en groeit zelden op kalksteen.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Toxic bluck !",
+                "medical": [
+                    "Arnica is gekend voor zijn therapeutische kracht, vooral ter verzorging van blauwe plekken, en wordt gebruikt als homeopathische zalf.",
+                    "Maar opgepast : bij inname is arnica giftig en veroorzaakt duizeligheid, overgeven, hoofdpijn, stuiptrekkingen en soms zelfs de dood.  In hoge doses werkt hij abortief.  Bij uitwendig gebruik kan hij huidreacties veroorzaken (uitslag, blaren)."
+                ],
+                "cooking": null,
+                "toxic": "Giftige plant!",
                 "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "arnica_didYouKnow.png",
                     "imageEmpty": "arnica_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "Ook wel valkruid, wolverlei of tabak van de Savoyards genoemd."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -323,38 +332,50 @@
             "level": 0,
             "fr": {
                 "title": "Coquelicot",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
+                "family": "Papavéracées.",
+                "bloom": "Printemps-été.",
+                "height": "30 à 90 cm.",
                 "habitat": "On le rencontre partout et pousse dans les champs labourés et aux bords des routes. Il aime la compagnie des poacées (graminées) qui leur a valu leur destruction par les pesticides !",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Sédatives. Il sert entre autres à traiter les toux rebelles, les angines et les bronchites. Les pétales ne sont pas toxiques."
+                ],
+                "cooking": [
+                    "Les pétales sont utilisées pour faire des sirops, confiture, sorbets..."
+                ],
                 "toxic": "Plante très faiblement toxique, surtout le suc laiteux&nbsp;!",
                 "toxicDescription": "Plante très faiblement toxique, surtout le suc laiteux&nbsp;!"
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Corn poppy",
+                "family": "Papaveraceae.",
+                "bloom": "Spring – summer.",
+                "height": "30 to 90 cm.",
+                "habitat": "We can meet them everywhere and it grows on agricultural fields and at the boarder of the road.  The corn poppy likes the company of poacées (grass) which leads to their destruction by pesticides.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Lorem ipsum dolor sit amet",
+                "medical": [
+                    "Sedative. It treats coughs, pharyngitis and bronchitis. The petals are non-toxic."
+                ],
+                "cooking": [
+                    "The petals are used to make syrups, jam and sherbets…"
+                ],
+                "toxic": "Plant very weakly toxic, especially the milky juice!",
                 "toxicDescription": "[...]"
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Grote klaproos",
+                "family": "Papaveraceae.",
+                "bloom": "Lente-zomer.",
+                "height": "30 tot 90 cm.",
+                "habitat": "Deze bloem is overal te vinden, groeit op omgeploegde velden en aan de rand van de wegen. Hij houdt van het gezelschap van Poaceae (grassen), wat door de pesticiden heeft geleid tot hun vernietiging!",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Lorem ipsum dolor sit amet",
+                "medical": [
+                    "Kalmerend. Hij wordt onder andere gebruikt om hardnekkige hoest, keelpijn en bronchitis te behandelen. De bloemblaadjes zijn niet giftig."
+                ],
+                "cooking": [
+                    "De bloemblaadjes worden gebruikt om siropen, jam, sorbets, enz. te maken."
+                ],
+                "toxic": "Licht giftige plant, vooral het melksap!",
                 "toxicDescription": "[...]"
             }
         },
