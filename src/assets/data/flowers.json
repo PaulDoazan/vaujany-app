@@ -1090,35 +1090,47 @@
             },
             "fr": {
                 "title": "Liondent Helvétique",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Astéracées.",
+                "bloom": "Été.",
+                "height": "10 à 30 cm.",
+                "habitat": "Pousse essentiellement sur les pelouses subalpines denses et continues. On peut également la rencontrer sur les pelouses alpines et landines de haute altitude.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Diurétique."
+                ],
+                "cooking": [
+                    "Les jeunes feuilles font de bonnes salades et les racines peuvent être cuites comme des légumes."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Hawkbit",
+                "family": "Asteraceae.",
+                "bloom": "Summer.",
+                "height": "10 to 30 cm.",
+                "habitat": "It grows in meadows and on stony slopes from the tree line to over 3000 m, usually on acidic soils.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "The herb is diuretic."
+                ],
+                "cooking": [
+                    "The young leaves are used to make good salads and the roots can be cooked as vegetables."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Zwitserse leeuwentand",
+                "family": "Asteraceae.",
+                "bloom": "Zomer.",
+                "height": "10 tot 30 cm.",
+                "habitat": "Groeit voornamelijk in subalpiene graslanden. We vinden hem ook op hooggelegen alpenweiden en heidevelden.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Vochtafdrijvend."
+                ],
+                "cooking": [
+                    "De jonge blaadjes zijn lekker in salades en de wortels kunnen gekookt worden als groenten."
+                ],
                 "toxic": null
             }
         },
@@ -1148,14 +1160,17 @@
             },
             "fr": {
                 "title": "Millepertuis de Richer",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Hypericacées.",
+                "bloom": "Été.",
+                "height": "15 à 40 cm.",
+                "habitat": "Pousse dans les pelouses et les prairies.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Plante peu toxique !",
+                "medical": [
+                    "Le millepertuis est surtout connu pour ses propriétés cicatrisantes, les soins des brûlures et coups de soleil en macération solaire dans l'huile d'olive.",
+                    "Il est consommé en tisane pour lutter contre les affections des bronches, les cystites et les gastrites, grâce à son action antibactérienne et cicatrisante. Il est reconnu depuis peu en France pour ses qualités d'antidépresseur. C'est surtout l'hypericum perforatum qui est utilisé en phytothérapie."
+                ],
+                "cooking": null,
+                "toxic": "Plante peu toxique!",
                 "toxicParagraph": "(photosensibilisante, éviter de consommer simultanément avec d’autres antidépresseurs)",
                 "toxicDescription": "Plante peu toxique !</br>(photosensibilisante, éviter de consommer simultanément avec d’autres antidépresseurs)",
                 "didYouKnow": {
@@ -1173,23 +1188,25 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alpine St John’s wort",
+                "family": "Hypericaceae.",
+                "bloom": "Summer.",
+                "height": "15 to 40 cm.",
+                "habitat": "Grows on lawns and in fields.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "[...]",
-                "toxicParagraph": "[...]",
+                "medical": [
+                    "St John’s wort is especially known for its healing properties, particularly for burns and sunburn after the flowers have been soaked in olive oil in the sun. It can be drunk in an infusion to relieve bronchial infections, cystitis and gastritis due to its antibacterial, healing action. It has recently become recognised in France for its antidepressant qualities. Hypericum perforatum is especially used in herbal medicine."
+                ],
+                "cooking": null,
+                "toxic": "A slightly toxic plant!",
+                "toxicParagraph": "(photosensitive, should not be taken simultaneously with other antidepressants)",
                 "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "hypericum_richeri_didYouKnow.png",
                     "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua censée protéger des sorcières et des fantômes, mais aussi pour éloigner de sa maison maladie et tristesse."
+                        "Also called pierced grass, devil's chase or Saint-Jean grass.",
+                        "St John's Wort picked on Midsummer's Eve is also considered a magical herb believed to protect against witches and ghosts, but also to ward off illness and sadness from one's home."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -1199,16 +1216,21 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Hertshooi / Sint-Janskruid",
+                "family": "Hypericaceae.",
+                "bloom": "Zomer.",
+                "height": "15 tot 40 cm.",
+                "habitat": "Groeit in grasvelden en weiden.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "[...]",
-                "toxicParagraph": "[...]",
+                "medical": [
+                    "Sint-Janskruid is vooral bekend om zijn helende eigenschappen en ter behandeling van brandwonden en zonnebrand.",
+                    "Dankzij zijn antibacteriële en helende eigenschappen, wordt ze gebruikt als kruidenthee in geval van aandoeningen van de luchtwegen en blaas- en maagontstekingen.",
+                    "Ze werd onlangs in Frankrijk erkend voor zijn antidepressieve eigenschappen.",
+                    "Het is voornamelijk de Hypericum perforatum die gebruikt wordt  in fytotherapie."
+                ],
+                "cooking": null,
+                "toxic": "Licht giftige plant!",
+                "toxicParagraph": "(fotosensibiliserend, vermijd gelijktijdige inname met andere antidepressiva)",
                 "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "hypericum_richeri_didYouKnow.png",
