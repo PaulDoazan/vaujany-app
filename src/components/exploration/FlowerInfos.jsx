@@ -1,3 +1,4 @@
+import parse from 'html-react-parser'
 import React, { useContext } from 'react'
 import dataFlowers from '../../assets/data/flowers.json'
 import { LangContext } from '../../utils/context'
@@ -77,7 +78,7 @@ export default function FlowerInfos({ data }) {
                     </div>
                     <div className="flower__info__caracteristics__element">
                         <div className="flower__info__last__element">
-                            <span className="flower__info__real__title">{currentFlower[lang].habitat}</span>
+                            <span className="flower__info__real__title">{parse(currentFlower[lang].habitat)}</span>
                             <span className="flower__info__icon fake__icon"><img src="/images/icons/habitat.svg" alt="" /></span>
                             {currentFlower[lang].toxic &&
                                 <div className={`flower__info__toxic__content ${currentFlower[lang].toxicParagraph && 'content__title__not__centered'}`}>
@@ -100,13 +101,17 @@ export default function FlowerInfos({ data }) {
                 <div className="flower__info__specification">
                     <div className="flower__info__specification__section">
                         <p className="flower__info__specification__title">{pages.flowerInfos[lang].medical}</p>
-                        <p className="flower__info__specification__content">{currentFlower[lang].medical}</p>
-                        <p className="flower__info__specification__content">{currentFlower[lang].medical}</p>
+                        {currentFlower[lang].medical.map(el => {
+                            return <p className="flower__info__specification__content">{el}</p>
+                        })}
                     </div>
-                    <div className="">
+                    {currentFlower[lang].cooking && <div className="">
                         <p className="flower__info__specification__title">{pages.flowerInfos[lang].cooking}</p>
-                        <p className="flower__info__specification__content">{currentFlower[lang].cooking}</p>
-                    </div>
+                        {currentFlower[lang].cooking.map(el => {
+                            return <p className="flower__info__specification__content">{el}</p>
+                        })}
+                    </div>}
+
                 </div>
 
                 {currentFlower[lang].didYouKnow &&

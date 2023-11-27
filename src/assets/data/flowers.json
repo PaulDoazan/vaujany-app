@@ -27,36 +27,51 @@
                 "wood": false
             },
             "fr": {
-                "title": "achillée millefeuille",
+                "title": "Achillée Millefeuille",
                 "family": "Astéracées.",
                 "bloom": "Printemps-été-automne.",
                 "height": "15 à 80 cm.",
                 "habitat": "Pousse dans les pâturages, prairies, haies, en bordure de route, de préférence au soleil, jusqu’à 2500 m d’altitude.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Elle guérit, paraît-il, tous les maux : plaies ulcéreuses, hémorroïdes, irritations, ecchymoses et gerçures.",
+                    "En tisane, elle stimule la digestion, élimine les crampes d'estomac et favorise la transpiration."
+                ],
+                "cooking": [
+                    "Les fleurs peuvent agrémenter les salades mais toujours en petites quantités, car l'achillée contient des traces de thuyone, convulsante et photosensibilisante à haute dose."
+                ],
                 "toxic": null
             },
             "en": {
                 "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Asteraceae.",
+                "bloom": "Spring, summer, autumn.",
+                "height": "15 to 80 cm.",
+                "habitat": "Grows in pastures, meadows, hedges and at the boarder of the road, especially sunny, until 2500&nbspm of altitude.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "The plant has  a long history as a powerful 'healing herb' used topically for wounds, cuts and abrasions.",
+                    "The herb is purported to be a diaphoretic, astringent, tonic, stimulant and mild aromatic."
+                ],
+                "cooking": [
+                    "The flowers can decorate salads, but always in small quantities, because yarrow contains traces of thujone, which is convulsant and photosensitising in high doses."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Duizendblad",
+                "family": "Asteraceae.",
+                "bloom": "Lente-zomer-herfst.",
+                "height": "15 tot 80 cm.",
+                "habitat": "Groeit in weiden, hagen en langs de wegen, bij voorkeur in de zon, tot 2500&nbsp;m hoogte.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Er wordt gezegd dat deze plant alle kwaaltjes geneest : zwerende wonden, aambeien, irritaties, kneuzingen en kloven.",
+                    "Kruidenthee van duizendblad stimuleert de spijsvertering, verzacht de maagkrampen en bevordert de transpiratie."
+                ],
+                "cooking": [
+                    "De bloemen kunnen salades hartiger maken.  Maar steeds in kleine hoeveelheden te gebruiken, want deze plant bevat sporen van thujon, dat in hoge doses convulsies en lichtgevoeligheid veroorzaakt."
+                ],
                 "toxic": null
             }
         },
@@ -85,36 +100,45 @@
                 "wood": false
             },
             "fr": {
-                "title": "alchémille des Alpes",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alchémille des Alpes",
+                "family": "Rosacées.",
+                "bloom": "Été.",
+                "height": "10 à 30 cm.",
+                "habitat": "Pousse essentiellement dans les pelouses subalpines écorchées.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Tonique, astringente. Depuis toujours, les femmes des hautes terres se soignent avec des infusions de racines d'alchémille.",
+                    "Ce remède est indiqué dans tous les domaines de la gynécologie (facilite l'accouchement, soins des organes génitaux féminins)."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alpine lady’s mantle",
+                "family": "Rosaceae.",
+                "bloom": "Summer.",
+                "height": "10 to 30 cm.",
+                "habitat": "Grows mainly in subalpine meadows.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Tonic, astringent. For a long time, women living in mountain treating themselves by using infusions of the lady’s mantle root.",
+                    "This remedy is indicated in a number of women's ailments (facilitates childbirth, treats feminine genitalia)."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alpiene vrouwenmantel",
+                "family": "Rosaceae.",
+                "bloom": "Zomer.",
+                "height": "10 tot 30 cm.",
+                "habitat": "Groeit voornamelijk in subalpiene, schrale weiden.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Tonisch, samentrekkend.  De vrouwen in de bergen hebben zichzelf altijd behandeld met kruidenthees van de vrouwenmantelwortel.",
+                    "Deze remedie is aangewezen in alle domeinen van de gynaecologie (vergemakkelijken van de bevalling, verzorging van de vrouwelijke geslachtsorganen)."
+                ],
+                "cooking": null,
                 "toxic": null
             }
         },
@@ -144,35 +168,47 @@
             },
             "fr": {
                 "title": "Angélique Sylvestre",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Apiacées.",
+                "bloom": "Été.",
+                "height": "50 à 200 cm.",
+                "habitat": "Pousse en plaine et en montagne, surtout dans les bois clairs, les prairies ombragées et les bords de ruisseaux.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Avec les racines on fait des infusions qui stimulent la digestion. C'est un excellent tonique général, contre l'anémie, les migraines, l'asthme et la toux."
+                ],
+                "cooking": [
+                    "Les tiges confites au sucre décorent et aromatisent les gâteaux, ses graines parfument les liqueurs."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Wild angelica",
+                "family": "Apiaceae.",
+                "bloom": "Summer.",
+                "height": "50 to 200 cm.",
+                "habitat": "It grows on grazing grounds, cultured land and along streams.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "The root and the seeds are antispasmodic, aromatic, carminative, diaphoretic, diuretic, emmenagogue, expectorant, stimulant, stomachic, and tonic."
+                ],
+                "cooking": [
+                    "Leaves, young shoots and stems - used as an aromatic addition to salads, or cooked and used as a vegetable. The taste is somewhat bitter. The chopped leaves are a good addition to cooked acid fruits, especially rhubarb. The stem and leafstalks are used in candies and sweetmeats. Seed - used as an aromatic flavouring in confections and pastries. Root - cooked."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Gewone engelwortel",
+                "family": "Apiaceae.",
+                "bloom": "Zomer.",
+                "height": "50 tot 200 cm.",
+                "habitat": "Groeit in valleien en bergen, vooral in open bossen, schaduwrijke weiden en aan de rand van beken.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "De wortels worden gebruikt om kruidenthee te maken die de spijsvertering stimuleren.  Het is een uitstekend versterkend middel en helpt bij bloedarmoede, migraine, astma en hoest."
+                ],
+                "cooking": [
+                    "De gesuikerde groene stengels worden gebruikt om taarten te versieren, en de zaadjes om likeuren smaak te geven."
+                ],
                 "toxic": null
             }
         },

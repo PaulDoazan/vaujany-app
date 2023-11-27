@@ -81,27 +81,27 @@
             "bloom": "Floraison",
             "height": "Hauteur",
             "habitat": "Habitat",
-            "medical": "propriétés médicinales",
-            "cooking": "propriétés culinaires",
+            "medical": "Propriétés médicinales",
+            "cooking": "Propriétés culinaires",
             "didYouKnow": "Le saviez-vous ?"
         },
         "en": {
             "family": "Family",
-            "bloom": "Bloom",
+            "bloom": "Flowering",
             "height": "Height",
             "habitat": "Habitat",
-            "medical": "medical properties",
-            "cooking": "cooking properties",
-            "didYouKnow": "Did you know ?"
+            "medical": "Medical use",
+            "cooking": "Culinary properties",
+            "didYouKnow": "Did you know?"
         },
         "nl": {
-            "family": "Famibluck",
-            "bloom": "Floraibluck",
-            "height": "Hautbluck",
-            "habitat": "Habibluck",
-            "medical": "bluck de bluck",
-            "cooking": "bloock de blaack",
-            "didYouKnow": "Blick de bluck ?"
+            "family": "Familie",
+            "bloom": "Bloeiperiode",
+            "height": "Hoogte",
+            "habitat": "Leefgebied",
+            "medical": "Geneeskrachtige eigenschappen",
+            "cooking": "Culinaire eigenschappen",
+            "didYouKnow": "Wist je dit?"
         }
     },
     "gamesHome": {
