@@ -1,3 +1,4 @@
+import parse from 'html-react-parser'
 import React, { useState } from 'react'
 import pages from '../../assets/data/pages.json'
 
@@ -33,7 +34,7 @@ export default function DidYouKnow({ currentFlower, lang }) {
                 }}>
                     {currentFlower[lang].didYouKnow.paragraphs.map((p, index) => {
                         return <div key={index} className={`didYouKnow__paragraph didYouKnow__p__${index}`} style={{ width: index === 2 && currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.thirdParagraphWidth && currentFlower[lang].didYouKnow.dimensions.thirdParagraphWidth, marginTop: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.textMarginTop && currentFlower[lang].didYouKnow.dimensions.textMarginTop, fontSize: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.fontSize && currentFlower[lang].didYouKnow.dimensions.fontSize }}>
-                            {p}
+                            {parse(p)}
                         </div>
                     })}
                 </div>

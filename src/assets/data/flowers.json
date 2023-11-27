@@ -701,13 +701,17 @@
             },
             "fr": {
                 "title": "Gentiane Jaune",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Essentiellement dans les prairies subalpines. Également dans les friches (terrain non cultivé et non entretenu) et broussailles de l’étage montagnard et dans les boisements d’adret (versant d’une montagne où l’exposition au soleil est dominante).",
+                "family": "Gentianacées.",
+                "bloom": "Été.",
+                "height": "50 à 150 cm.",
+                "habitat": "Pousse essentiellement dans les prairies subalpines. On peut également la rencontrer dans les friches (terrain non cultivé et non entretenu) et brousailles de l’étage montagnard et dans les boisements d’adret (versant d’une montagne ou l’exposition au soleil est dominante).",
                 "habitatGameInfo": "Les prairies subalpines,<br>les friches (terrain non<br>cultivé et non entretenu)<br>et brousailles de l’étage<br>montagnard et dans<br>les boisements d’adret<br>(exposition au soleil<br>dominante).",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "La racine s'emploie par distillation à la vapeur et on en tire une eau-de-vie amère pleine de vertus, mais, attention, à 50° d'alcool !",
+                    "On l'utilise également en tisane et alcoolature, et a des propriétés toniques, apéritives, stimulant les défenses immunitaires.",
+                    "À ne pas confondre avec le Vérâtre Blanc, plante très toxique."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "gentiana_lutea_didYouKnow.png",
@@ -719,50 +723,58 @@
                     "dimensions": {
                         "width": "20%",
                         "top": "49vh",
-                        "left": "-33.66%"
+                        "left": "-33.66%",
+                        "textMarginTop": "5%"
                     }
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Yellow gentian",
+                "family": "Gentianaceae.",
+                "bloom": "Summer.",
+                "height": "50 to 150 cm.",
+                "habitat": "It grows in grassy alpine and sub-alpine pastures, usually oncalcareous soils.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "The root is anthelmintic, anti-inflammatory, antiseptic, bitter tonic, cholagogue, emmenagogue, febrifuge, refrigerant and stomachic. It is taken internally in the treatment of liver complaints, indigestion, gastric infections and anorexia. It should not be prescribed for patients with gastric or duodenal ulcers. The root, which can be over 5 cm thick and has few branches, is harvested in the autumn and dried for later use.",
+                    "Not to be confound with the white hellbore which is extremely poisonous."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "gentiana_lutea_didYouKnow.png",
                     "imageEmpty": "gentiana_lutea_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Also called a plant skyscraper.",
+                        "The meteorologist's wink: it supposedly indicates the snow depth of the following winter: the higher it is, the deeper the layer of snow will be."
                     ],
                     "dimensions": {
                         "width": "20%",
+                        "textMarginTop": "10%",
                         "top": "49vh",
                         "left": "-33.66%"
                     }
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Gele Gentiaan",
+                "family": "Gentianaceae.",
+                "bloom": "Zomer.",
+                "height": "50 tot 150 cm.",
+                "habitat": "Groeit voornamelijk in subalpiene weiden, maar ook op braakliggend terrein (ongecultiveerd en niet onderhouden), in struikgewas in de montane zone en in bebossingen waar de zon overheerst.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "De wortel wordt verwerkt en gedistilleerd tot een bittere brandewijn, maar, opgepast, want deze heeft een alcoholpercentage van 50° ! Hij wordt ook gebruikt als kruidenthee en in sterke drank en heeft immuunversterkende eigenschappen.",
+                    "Niet te verwarren met de zeer giftige witte nieswortel (Vérâtre Blanc)."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "gentiana_lutea_didYouKnow.png",
                     "imageEmpty": "gentiana_lutea_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Ook wel de plantaardige wolkenkrabber genoemd.",
+                        "De knipoog van de weerkundige : de Gele Gentiaan geeft zogezegd de hoeveelheid sneeuw voor de komende winter aan.  Hoe hoger hij groeit, hoe dikker de sneeuwlaag zal zijn."
                     ],
                     "dimensions": {
                         "width": "20%",
@@ -798,35 +810,41 @@
             },
             "fr": {
                 "title": "Géranium Herbe à Robert",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Géraniacées.",
+                "bloom": "Printemps-été.",
+                "height": "10 à 30 cm.",
+                "habitat": "Pousse dans les lieux ombragés des haies et des vieux murs et les rochers. Espèce commune en toutes régions.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Ce géranium fut employé pour stopper les hémorragies, soigner les blessures, régénérer le sang et lutter contre le diabète. Il était aussi réputé contre les irritations buccales et l'inflammation aiguë des amygdales."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Herb Robert",
+                "family": "Geraniaceae.",
+                "bloom": "Spring – Summer.",
+                "height": "10 to 30 cm.",
+                "habitat": "This plant is able to tolerate shade, and often occurs close to human habitation. Typical habitats favoured by this species include woodlands, hedgerows.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "astringent, antibiotic, adaptogen, antiviral, styptic, tonic, diuretic, digestive, sedative, antioxidant."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Robertskruid",
+                "family": "Geraniaceae.",
+                "bloom": "Lente-zomer.",
+                "height": "10 tot 30 cm.",
+                "habitat": "Groeit op schaduwrijke plaatsen, heggen, oude muren en rotsen. Deze plant is in alle regio's te vinden.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Deze geranium werd gebruikt om bloedingen te stoppen, wonden te genezen, nieuw bloed aan te maken en suikerziekte te bestrijden.  Hij stond ook bekend om zijn heilzame werking bij mondirritaties en acute amandelontstekingen."
+                ],
+                "cooking": null,
                 "toxic": null
             }
         },
@@ -856,44 +874,53 @@
             },
             "fr": {
                 "title": "Grand Plantain",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Plantaginacées.",
+                "bloom": "Été-automne.",
+                "height": "10 à 60 cm.",
+                "habitat": "Pousse essentiellement dans les reposoirs des troupeaux domestiques. On peut également la rencontrer aux bords des chemins et abords des villages, dans les cours des fermes et prairies.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Les feuilles de plantain, en décoction ou cataplasme, étaient très utilisées par les gens de la montagne contre les diarrhées, toux, plaies et piqûres d'insectes.",
+                    "Elles calment aussi les brûlures d'orties, en les frottant sur la peau endolorie. Elle est également utilisée comme antihistaminique et dans les affections des bronches. Certaines personnes peuvent avoir des réactions allergiques au plantain."
+                ],
+                "cooking": [
+                    "Les jeunes pousses sont utilisées en salade. Très jeunes elles ont un goût de champignons ! On peut ajouter les graines réduites en farine à la pâte à pain ou à la soupe."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "plantago_major_didYouKnow.png",
                     "imageEmpty": "plantago_major_empty_didYouKnow.png",
                     "paragraphs": [
                         "Appelé aussi plantain des oiseaux (pour ses graines).",
-                        "Le clin d’œil des « peaux-rouges » : Les Indiens d’Amérique du Nord l’avaient surnommé « trace de l’homme blanc » car avant l’arrivée des immigrants européens, les graines de cette plante étaient inconnues au pays des Geronimo."
+                        "Le clin d’œil des «&nbsp;peaux-rouges&nbsp;» : Les Indiens d’Amérique du Nord l’avaient surnommé « trace de l’homme blanc » car avant l’arrivée des immigrants européens, les graines de cette plante étaient inconnues au pays des Geronimo."
                     ],
                     "dimensions": {
-                        "width": "20%",
+                        "width": "25%",
                         "top": " 47.2vh",
                         "left": "-33.66%"
                     }
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "White-man’s foot",
+                "family": "Plantaginaceae.",
+                "bloom": "Summer – Automn.",
+                "height": "10 to 60 cm.",
+                "habitat": "It grows better than most other plants in compacted soils, and is abundant beside paths, roadsides, and other areas with frequent soil compaction. It is also common in grasslands.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "The leaves and the seed are medicinal used as an antibacterial, antidote, astringent, antiinflammatory, antiseptic, antitussive, cardiac, demulcent, diuretic, expectorant, haemostatic, laxative, ophthalmic, poultice, refrigerant, and vermifuge. The heated leaves are used as a wet dressing for wounds, skin inflammations, malignant ulcers, cuts, stings and swellings and said to promote healing without scars.Certain persons can have allergic reactions to this plant."
+                ],
+                "cooking": [
+                    "The tought, fibrous, mature leaves of the plantain are difficult to digest, but the tender young leaves can be eaten in salads or steamed lightly as you would spinach. Watch out though, the leaves have a mildly laxative effect…"
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "plantago_major_didYouKnow.png",
                     "imageEmpty": "plantago_major_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Also called bird plantain (for its seeds).",
+                        "The wink of the \"redskins\": North American Indians had nicknamed it \"trace of the white man\", because before the arrival of European immigrants, the seeds of this plant were unknown in the country of Geronimo."
                     ],
                     "dimensions": {
                         "width": "20%",
@@ -903,24 +930,29 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Grote weegbree",
+                "family": "Plantaginaceae.",
+                "bloom": "Zomer-herfst.",
+                "height": "10 tot 60 cm.",
+                "habitat": "Groeit voornamelijk op de rustplaatsen van kuddes. Hij is ook te vinden langs wegen en dorpsranden, op boerenerven en in weilanden.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "De bladeren van de weegbree werden door de bergbewoners veel gebruikt als afkooksel of kompres om diarree, hoest, wonden en insectenbeten te behandelen.",
+                    "Ze verzachten eveneens brandnetelwonden door ze op de pijnlijke huid te wrijven. Hij wordt ook gebruikt als antihistaminicum en bij bronchitis. Opgepast : sommige mensen kunnen allergisch reageren op weegbree."
+                ],
+                "cooking": [
+                    "De jonge blaadjes worden in salades gebruikt en de gemalen zaadjes kunnen worden toegevoegd aan brooddeeg of soep."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "plantago_major_didYouKnow.png",
                     "imageEmpty": "plantago_major_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Ook wel vogelweegbree genoemd (voor zijn zaden).",
+                        "De knipoog van de \"roodhuiden\" : De zaden blijven gemakkelijk aan de schoenzolen kleven, zodat de plant zich makkelijk verspreidt.  Daarom noemden de indianen deze plant “ voetstappen van de blanke man ”, want voor de komst van de Europese immigranten, kwam deze plant niet voor in het land van Geronimo."
                     ],
                     "dimensions": {
-                        "width": "20%",
+                        "width": "28%",
                         "top": "47.2vh",
                         "left": "-33.66%"
                     }
