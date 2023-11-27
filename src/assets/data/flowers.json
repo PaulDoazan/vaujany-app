@@ -1728,13 +1728,17 @@
             },
             "fr": {
                 "title": "Serpolet",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Lamiacées.",
+                "bloom": "Été.",
+                "height": "1 à 5 cm.",
+                "habitat": "Pousse essentiellement dans les pelouses subalpines écorchées. On peut également la rencontrer dans les pelouses alpines et pelouses sèches montagnardes.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Antiseptique, antispasmodique, digestive, diurétique, expectorante, tonique et vermifuge."
+                ],
+                "cooking": [
+                    "Le serpolet peut parfumer les viandes, salades, omelettes…"
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "thymus_serpyllum_didYouKnow.png",
@@ -1752,21 +1756,25 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Wild thyme",
+                "family": "Lamiaceae.",
+                "bloom": "Summer.",
+                "height": "1 to 5 cm.",
+                "habitat": "Dry subalpine and alpine meadows where it can get good sunlight.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "It is a source of oil of Serpolet by distillation, and is used as an aphrodisiac in herbal medicine. It is also used against coughing."
+                ],
+                "cooking": [
+                    "It is used as a seasoning for many meat dishes (being commonly used in beef stews), cabbage or green salads, and vegetable dishes containing zucchini and eggplant. The dried leaves are used for a herbal tea."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "thymus_serpyllum_didYouKnow.png",
                     "imageEmpty": "thymus_serpyllum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Often called \"thyme\", wild thyme is one of its close relatives. It is less fragrant, but makes an excellent condiment if it is not cooked.",
+                        "We therefore chop the leaves for salads or with white cheese, but we can also use the flowers, which are also aromatic and decorative."
                     ],
                     "dimensions": {
                         "containerTop": "4vh",
@@ -1777,21 +1785,25 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Serpolet",
+                "family": "Lamiaceae.",
+                "bloom": "Zomer.",
+                "height": "1 tot 5 cm.",
+                "habitat": "Groeit voornamelijk in schrale, subalpiene bergweiden. We vinden ze ook in alpiene en droge bergweiden.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Ontsmettend, krampverzachtend, spijsverteringsbevorderend, vochtafdrijvend, slijmoplossend, versterkend en wormverdrijvend."
+                ],
+                "cooking": [
+                    "De serpolet geeft smaak aan vlees, salades, omeletten…"
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "thymus_serpyllum_didYouKnow.png",
                     "imageEmpty": "thymus_serpyllum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "De serpolet wordt dikwijls « tijm » genoemd. Ze is minder geparfumeerd, maar is rauw gebruikt een uitstekende smaakmaker.",
+                        "De fijngehakte blaadjes worden gebruikt in salades en roomkaas, en de bloemen zijn aromatisch en decoratief."
                     ],
                     "dimensions": {
                         "containerTop": "4vh",
@@ -1813,13 +1825,16 @@
             "title_latin": "tussilago farfara",
             "fr": {
                 "title": "Tussilage",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Astéracées.",
+                "bloom": "Printemps.",
+                "height": "10 à 30 cm.",
+                "habitat": "Pousse aux bords des chemins et abords des villages, sur les talus, les déblais, les terres remuées, mais aussi dans les champs. On peut la trouver jusqu’à environ 1700 m d’altitude. Elle est l’une des premières fleurs de l’année et fleurit à la fonte des neiges.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "L'infusion des fleurs et des feuilles, au goût du miel, soigne les toux, bronchites, trachéites et rhumes...",
+                    "Il est contre-indiqué pendant la grossesse et la période d'allaitement !"
+                ],
+                "cooking": "On peut parsemer les salades des juteux capitules de tussilage ou les faire revenir au beurre dans une poêle.",
                 "toxic": null,
                 "didYouKnow": {
                     "image": "tussilago_farfara_didYouKnow.png",
@@ -1840,22 +1855,27 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Coltsfoot",
+                "family": "Asteraceae.",
+                "bloom": "Spring.",
+                "height": "10 to 30 cm.",
+                "habitat": "Grows on roadsides and in open areas until 1700 m. The flowers are gathered in late winter, the leaves in summer.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "An effective demulcent and expectorant herb, coltsfoot is one of the most popular European remedies for treating chest problems. In Europe, the leaves are preferred to the flowers. When used as a syrup, coltsfoot also relieves asthma.",
+                    "Coltsfoot is used as a specific treatment for spasmodic coughs."
+                ],
+                "cooking": [
+                    "Coltsfoot has had some limit’d culinary uses. Historically, it was used in herb salads. The young leaves were also cooked and served as a side dish of greens or fried in butter and served with a tangy mustard sauce."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "tussilago_farfara_didYouKnow.png",
                     "imageEmpty": "tussilago_farfara_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Appelé aussi Pas d’âne ou Chasse toux. On utilise la fleur et la feuille.",
-                        "Autrefois en montagne, le tussilage était utilisé en mélange dans le tabac. Aujourd’hui on l’utilise surtout en infusion et en sirop pour soigner les bronches.",
-                        "Recette beignets de tussilage : Cueillez les feuilles de tussilage, les nettoyer soigneusement. Préparez une pâte à frire avec de la farine, de l’eau et du sel. Trempez-y les feuilles, puis faites frire des deux côtés dans une poêle remplie d’huile. Posez ensuite sur un papier absorbant. À déguster chaud !"
+                        "Also called donkey's foot or cough cure. We use the flower and the leaf.",
+                        "Formerly in the mountains, coltsfoot was used as a mixture in tobacco.",
+                        "Coltsfoot fritters recipe: Pick the coltsfoot leaves, clean them carefully. Prepare a batter with flour, water and salt. Dip the leaves in it, then fry on both sides in a pan filled with oil. Place on absorbent paper. Enjoy them hot! "
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -1868,22 +1888,27 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Klein hoefblad",
+                "family": "Asteraceae.",
+                "bloom": "Lente.",
+                "height": "10 tot 30 cm.",
+                "habitat": "Groeit langs bermen en aan dorpsranden, op omgewoelde grond en velden. We vinden hem tot op 1700m hoogte. Het is een van de eerste bloemen van het jaar en bloeit wanneer de sneeuw begint te smelten.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "De kruidenthee van de bloemen en bladeren, die naar honing smaken, behandelt hoest, bronchitis, luchtpijpontsteking en verkoudheid…",
+                    "Niet aanbevolen tijdens zwangerschap en borstvoeding!"
+                ],
+                "cooking": [
+                    "Je kunt de sappige hoefbladkoppen over salades strooien of in boter bakken."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "tussilago_farfara_didYouKnow.png",
                     "imageEmpty": "tussilago_farfara_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Appelé aussi Pas d’âne ou Chasse toux. On utilise la fleur et la feuille.",
-                        "Autrefois en montagne, le tussilage était utilisé en mélange dans le tabac. Aujourd’hui on l’utilise surtout en infusion et en sirop pour soigner les bronches.",
-                        "Recette beignets de tussilage : Cueillez les feuilles de tussilage, les nettoyer soigneusement. Préparez une pâte à frire avec de la farine, de l’eau et du sel. Trempez-y les feuilles, puis faites frire des deux côtés dans une poêle remplie d’huile. Posez ensuite sur un papier absorbant. À déguster chaud !"
+                        "Ook wel \" Ezelspoot \" of \" Hoestblad \" genoemd. Men gebruikt de bloem en de bladeren.",
+                        "Vroeger in de bergen werd hoefblad vermengd met tabak.",
+                        "Recept voor hoefbladbeignets: Pluk de hoefbladblaadjes en maak ze zorgvuldig schoon. Maak een beslag van bloem, water en zout. Doop de bladeren in het beslag en bak ze aan beide kanten in een pan gevuld met olie. Leg ze op absorberend papier. Warm te degusteren!"
                     ],
                     "dimensions": {
                         "width": "18%",
