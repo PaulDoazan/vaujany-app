@@ -560,35 +560,41 @@
             "title_latin": "euphrasia minima",
             "fr": {
                 "title": "Euphraise naine",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Scrophulariacées.",
+                "bloom": "Été.",
+                "height": "2 à 10 cm.",
+                "habitat": "Pousse dans les pelouses subalpines denses et continues. Elle fait partie des très rares plantes annuelles de l’étage alpin.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Peut traiter les conjonctivites, le larmoiement, les ophtalmies légères et les orgelets."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Little eyebright",
+                "family": "Orobanchaceae.",
+                "bloom": "Summer.",
+                "height": "2 to 10 cm.",
+                "habitat": "Grows in sub-alpine meadows. This is one of the very rare annual plants of the alpine stage.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Treats eye irritation (conjunctivitis, blepharitis and minor ophtalmia)."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Dwerg ogentroost",
+                "family": "Scropulariaceae.",
+                "bloom": "Zomer.",
+                "height": "2 tot 10 cm.",
+                "habitat": "Groeit in subalpiene graslanden.  Het is één van de zeldzame eenjarige planten in de alpiene zone.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Wordt gebruikt ter behandeling van oogontsteking, tranende ogen, lichte oogaandoeningen en oogstrontjes."
+                ],
+                "cooking": null,
                 "toxic": null
             }
         },
@@ -619,35 +625,50 @@
             },
             "fr": {
                 "title": "Génépi Bourru",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Dans les rochers et moraines.",
+                "family": "Astéracées.",
+                "bloom": "Été.",
+                "height": "5 à 20 cm.",
+                "habitat": "Pousse dans les rochers et moraines.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Stimule l’appétit et les digestions difficiles et peut soigner le mal de montagne.",
+                    "À éviter pendant la grossesse (surtout au début) comme toutes les plantes emménagogues."
+                ],
+                "cooking": [
+                    "On utilise le génépi pour faire des liqueurs qui peuvent parfumer les salades de fruits, confitures ou pâtisseries."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Genepy",
+                "family": "Asteraceae.",
+                "bloom": "Summer.",
+                "height": "5 to 20 cm.",
+                "habitat": "Grows on rocks at a high altitude.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Stimulates appetite and difficult digestions. It can treat mountain illness.",
+                    "To avoid during pregnancy (especially in the beginning) like all emmenagogual plants."
+                ],
+                "cooking": [
+                    "Genepy is used to make liquors who can perfume fruit salads, jam and pastry."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Genepi / Alpenalsem",
+                "family": "Asteraceae.",
+                "bloom": "Zomer.",
+                "height": "5 tot 20 cm.",
+                "habitat": "Groeit tussen de rotsen en gletsjerpuin.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Stimuleert de eetlust, helpt bij een moeilijke spijsvertering, en kan bergziekte behandelen.",
+                    "Te vermijden tijdens de zwangerschap (vooral in het begin)."
+                ],
+                "cooking": [
+                    "Alpenalsem wordt gebruikt voor het bereiden van de likeur, die onder andere fruitsalades, jams of gebak op smaak brengt."
+                ],
                 "toxic": null
             }
         },
