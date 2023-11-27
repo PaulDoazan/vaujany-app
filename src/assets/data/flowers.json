@@ -1380,7 +1380,9 @@
                 "medical": [
                     "Autrefois on faisait des cataplasmes avec les feuilles et tiges pour traiter les inflammations les plus diverses…. jusqu'aux hémorroïdes."
                 ],
-                "cooking": "Peut être utilisé comme condiment à conserver dans le vinaigre. Il agrémente également les salades.",
+                "cooking": [
+                    "Peut être utilisé comme condiment à conserver dans le vinaigre. Il agrémente également les salades."
+                ],
                 "toxic": null
             },
             "en": {
@@ -1442,35 +1444,47 @@
             },
             "fr": {
                 "title": "Raiponce en épi",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Dans les sous-bois, lisières et clairières d’ubac (versant d’une montagne où l’exposition à l’ombre est dominante).",
+                "family": "Campanulacées.",
+                "bloom": "Printemps.",
+                "height": "30 à 80 cm.",
+                "habitat": "Pousse dans les sous-bois, lisières et clairières d’ubac (versant d’une montagne où l’exposition à l’ombre est dominante).",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Les feuilles ont des propriétés cicatrisantes et astringentes."
+                ],
+                "cooking": [
+                    "Les sommités, pas encore fleuries, cuites à la vapeur, se dégustent comme des asperges. La racine épaisse a une chair blanche, tendre et croquante, rappelant un peu la saveur du radis. Elle était autrefois consommée comme légume. Les jeunes feuilles se mangent en salade."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Spiked rampion",
+                "family": "Campanulaceae.",
+                "bloom": "Spring.",
+                "height": "30 to 80 cm.",
+                "habitat": "Grows along the shady edges of paths and rides in woodlands, and in the hedge banks of roadside verges.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "The leaves have healing and astringent properties."
+                ],
+                "cooking": [
+                    "Thick and fleshy, the root can be eaten in salads or boiled as a vegetable."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Witte rapunzel",
+                "family": "Campanulaceae.",
+                "bloom": "Lente.",
+                "height": "30 to 80 cm.",
+                "habitat": "Groeit in de ondergroei van bossen, aan de bosranden en op de open plekken waar de schaduw overheerst.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "De bladeren hebben helende en samentrekkende eigenschappen."
+                ],
+                "cooking": [
+                    "De bloeiende toppen worden gestoomd en gegeten als asperges.  De dikke wortel heeft zacht, knapperig wit vlees, dat doet denken aan radijs.  De jonge blaadjes kunnen als salade dienen."
+                ],
                 "toxic": null
             }
         },
@@ -1485,35 +1499,50 @@
             "title_latin": "filipendula ulmaria ou spirea ulmaria",
             "fr": {
                 "title": "Reine des prés",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Rosacées.",
+                "bloom": "Été.",
+                "height": "100 à 150 cm.",
+                "habitat": "Pousse dans les milieux humides : marécages, le long des rivières, dans les bois et prairies humides jusqu’à environ 1600 m d’altitude. Elle est commune dans toute l’Europe sauf le littoral méditerranéen.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Racines, feuilles, et surtout sommités fleuries étaient traditionnellement utilisées pour leurs propriétés diurétiques, sudorifiques, fébrifuges et anti-inflammatoires.",
+                    "Ces vertus nous font penser à celles de l'aspirine. En effet, la reine des prés contient de la salicine. On synthétisa l'acide acétylsalicylique qui n'est autre que l'aspirine. La reine des prés est contre-indiquée en cas d'allergie à l'aspirine."
+                ],
+                "cooking": [
+                    "On peut utiliser les fleurs pour faire du vin de Reine des prés."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Meadowsweet",
+                "family": "Rosaceae.",
+                "bloom": "Summer.",
+                "height": "100 to 150 cm.",
+                "habitat": "Grows in damp meadows until 1600 m altitude.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "medical": [
+                    "The plant has many medicinal properties. The whole plant is a traditional remedy for an acidic stomach and the fresh root is often used in infinitesimal quantities in homeopathic preparations. It is effective on its own as a treatment for diarrhea. The flowers, when made into a tea, are a comfort to flu sufferers. This plant contains the chemicals used to make aspirin, a small section of root, when peeled and crushed smells like Germolene, and when chewed is a good natural remedy for relieving headaches."
+                ],
+                "cooking": [
+                    "For culinary purposes, flower tops can be added to herb based beers and wines. It will create an earthier flavor. If added to jams or stewed fruit, the petals will give the dish a nutty undertone. Leaves can be added to soups to intensify their flavor."
+                ],
+                "toxic": null,
+                "changeTopContainer": "22%"
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Moerasspirea",
+                "family": "Rosaceae.",
+                "bloom": "Zomer.",
+                "height": "100 tot 150 cm.",
+                "habitat": "Groeit in vochtige gebieden : moerassen, langs rivieren, in bossen en vochtige weiden tot ongeveer 1600m hoogte. Hij komt voor in heel Europa, met uitzondering van de Middellandse kust.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Wortels, bladeren en vooral de bloeiende toppen werden traditioneel gebruikt voor hun vochtafdrijvende, koortswerende en ontstekingsremmende eigenschappen.",
+                    "De plant bevat een stof (salicine) die op aspirine lijkt en gebruikt wordt tegen koorts en rheuma. Acetylsalicylzuur werd in 1897 gesynthetiseerd en op de markt gebracht als \"Aspirine\". Daarom mag moerasspirea niet gebruikt worden in geval van een allergie voor aspirine."
+                ],
+                "cooking": [
+                    "De bloemen kunnen gebruikt worden om moerasspireawijn te maken."
+                ],
                 "toxic": null
             }
         },

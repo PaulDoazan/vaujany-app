@@ -29,7 +29,7 @@ export default function FlowerInfos({ data }) {
                     </div>
                 </div>
 
-                <div className="flower__info__caracteristics__section caracteristics__section__1">
+                <div className="flower__info__caracteristics__section caracteristics__section__1" style={{ top: currentFlower[lang].changeTopContainer && currentFlower[lang].changeTopContainer }}>
                     <div className="flower__info__caracteristics__element">
                         <span className="flower__info__icon"><img src="/images/icons/family.svg" alt="" /></span>
                     </div>
@@ -44,7 +44,7 @@ export default function FlowerInfos({ data }) {
                     </div>
                 </div>
 
-                <div className="flower__info__caracteristics__section caracteristics__section__2">
+                <div className="flower__info__caracteristics__section caracteristics__section__2" style={{ top: currentFlower[lang].changeTopContainer && currentFlower[lang].changeTopContainer }}>
                     <div className="flower__info__caracteristics__element">
                         <span className="flower__info__real__title">{pages.flowerInfos[lang].family}</span>
                         <span className=" flower__info__icon fake__icon"><img src="/images/icons/family.svg" alt="" /></span>
@@ -63,7 +63,7 @@ export default function FlowerInfos({ data }) {
                     </div>
                 </div>
 
-                <div className="flower__info__caracteristics__section caracteristics__section__3">
+                <div className="flower__info__caracteristics__section caracteristics__section__3" style={{ top: currentFlower[lang].changeTopContainer && currentFlower[lang].changeTopContainer }}>
                     <div className="flower__info__caracteristics__element">
                         <span className="flower__info__real__title">{currentFlower[lang].family}</span>
                         <span className="flower__info__icon fake__icon"><img src="/images/icons/family.svg" alt="" /></span>
@@ -98,7 +98,7 @@ export default function FlowerInfos({ data }) {
                         </div>
                     </div>
                 </div>
-                <div className="flower__info__specification">
+                <div className="flower__info__specification" style={{ top: currentFlower[lang].changeTopContainer && currentFlower[lang].changeTopContainer, marginTop: currentFlower[lang].changeTopContainer && "0%" }}>
                     <div className="flower__info__specification__section">
                         <p className="flower__info__specification__title">{pages.flowerInfos[lang].medical}</p>
                         {currentFlower[lang].medical.map(el => {
