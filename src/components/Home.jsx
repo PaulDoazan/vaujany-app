@@ -2,9 +2,11 @@ import React, { useContext, useEffect } from 'react'
 import BtnExplore from './navigation/BtnExplore'
 import BtnGames from './navigation/BtnGames'
 import gsap from 'gsap'
-import { NavigationContext } from '../utils/context'
+import { LangContext, NavigationContext } from '../utils/context'
+import pages from '../assets/data/pages.json'
 
 export default function Home({ changePage }) {
+    const { lang } = useContext(LangContext)
     const { currentPage } = useContext(NavigationContext)
     const handleChangePage = (value) => {
         changePage(value)
@@ -26,12 +28,12 @@ export default function Home({ changePage }) {
 
             <div className="home__sub__container">
                 <div className="home__content">
-                    <div className="home__title home__title__1">La</div>
-                    <div className="home__title home__title__2">Flore</div>
-                    <div className="home__title home__title__3">autour</div>
+                    <div className="home__title home__title__1">{pages.home[lang].title1}</div>
+                    <div className="home__title home__title__2">{pages.home[lang].title2}</div>
+                    <div className="home__title home__title__3">{pages.home[lang].title3}</div>
                     <div className="home__title home__title__5">
-                        <span className="home__title home__title__4">de </span>
-                        Vaujany
+                        <span className="home__title home__title__4">{pages.home[lang].title4}</span>
+                        {pages.home[lang].title5}
                     </div>
                 </div>
                 <BtnExplore changePage={handleChangePage} />

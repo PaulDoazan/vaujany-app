@@ -4,22 +4,40 @@
         "mainClass": ".home__container",
         "backgroundColor": "#AAB8A8",
         "fr": {
+            "title1": "La",
+            "title2": "flore",
+            "title3": "autour",
+            "title4": "de ",
+            "title5": "Vaujany",
             "explore": "Explorer",
             "exploreDescription": "Explorer les fleurs de&nbsp;nos montagnes…",
             "play": "Jouer",
+            "credits": "Crédits",
             "playDescription": "S’amuser… Chercher… Deviner…"
         },
         "en": {
+            "title1": "The",
+            "title2": "flora",
+            "title3": "around",
+            "title4": "",
+            "title5": "Vaujany",
             "explore": "Explore",
-            "exploreDescription": "Explorer les fleurs de&nbsp;nos montagnes…",
+            "exploreDescription": "Explore the flowers of&nbsp;our mountains…",
             "play": "Play",
-            "playDescription": "Have fun..."
+            "credits": "Credits",
+            "playDescription": "Have fun… Search… Guess"
         },
         "nl": {
-            "explore": "BLuck",
-            "exploreDescription": "Explorer les fleurs de&nbsp;nos montagnes…",
-            "play": "bluck",
-            "playDescription": "Have bluck bluck bluck..."
+            "title1": "De",
+            "title2": "plantenwereld",
+            "title3": "van en rondom",
+            "title4": "",
+            "title5": "Vaujany",
+            "explore": "Ontdekken",
+            "exploreDescription": "Ontdek de planten van&nbsp;onze bergen",
+            "play": "Spelen",
+            "credits": "Credits",
+            "playDescription": "Plezier maken … Zoeken … Raden"
         }
     },
     "explore": {
