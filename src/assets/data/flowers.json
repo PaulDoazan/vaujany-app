@@ -1275,13 +1275,15 @@
             },
             "fr": {
                 "title": "Origan Vulgaire",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
+                "family": "Lamiacées.",
+                "bloom": "Été.",
+                "height": "20 à 60 cm.",
                 "habitat": "Pousse sur les versants bien ensoleillés, essentiellement dans les pelouses sèches. Également aux bords des chemins et abords des villages.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Analgésiques (éliminant les douleurs), antiseptiques, expectorantes, antiparasites. Il ne faut pas confondre l'origan vulgaire avec la marjolaine qui a d'autres propriétés (calmante du système nerveux) et qui a une odeur plus douce."
+                ],
+                "cooking": null,
                 "didYouKnow": {
                     "image": "origanum_vulgare_didYouKnow.png",
                     "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
@@ -1301,21 +1303,23 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Wild marjoram",
+                "family": "Lamiaceae.",
+                "bloom": "Summer.",
+                "height": "20 to 60 cm.",
+                "habitat": "Wild marjoram is a tall herbaceous perennial native of dry, infertile and usually calcareous soils. Habitats include grasslands, hedge banks, road verges and scrub but not pasture as it is vulnerable to grazing.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Expectorant, anti-inflammatory, antiseptic of the respiratory system."
+                ],
+                "cooking": null,
                 "didYouKnow": {
                     "image": "origanum_vulgare_didYouKnow.png",
                     "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Appelé aussi marjolaine des montagnes ou thé rouge.",
-                        "Son goût agréable donne de très bonnes infusions, c’est le « thé rouge » des Scandinaves. En montagne, on l’utilise régulièrement comme substitut du thé.",
-                        "Le clin d’œil du pizzaïolo : c’est sa cousine la marjolaine cultivée, qui ne pousse pas spontanément sous nos climats, qu’on étale sur nos pizzas."
+                        "Also called mountain marjoram or red tea.",
+                        "Its pleasant taste makes very good infusions; it is the \"red tea\" of the Scandinavians. In the mountains, it is regularly used as a substitute for tea.",
+                        "The pizza maker's wink: its cousin, cultivated marjoram, which does not grow spontaneously in our climates, that we spread on our pizzas."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -1328,21 +1332,23 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Wilde oregano",
+                "family": "Lamiaceae.",
+                "bloom": "Zomer.",
+                "height": "20 tot 60 cm.",
+                "habitat": "Groeit op zonnige hellingen, voornamelijk op droog grasland. Je vindt hem ook aan de rand van de wegen en dorpsranden.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Pijnstillend, ontsmettend, slijmoplossend, antiparasitair. Wilde oregano mag niet verward worden met marjolein, die andere eigenschappen bezit (kalmerend voor het zenuwstelsel) en zoeter ruikt."
+                ],
+                "cooking": null,
                 "didYouKnow": {
                     "image": "origanum_vulgare_didYouKnow.png",
                     "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Appelé aussi marjolaine des montagnes ou thé rouge.",
-                        "Son goût agréable donne de très bonnes infusions, c’est le « thé rouge » des Scandinaves. En montagne, on l’utilise régulièrement comme substitut du thé.",
-                        "Le clin d’œil du pizzaïolo : c’est sa cousine la marjolaine cultivée, qui ne pousse pas spontanément sous nos climats, qu’on étale sur nos pizzas."
+                        "Ook wel bergmarjolein of rode thee genoemd.",
+                        "Zijn aangename smaak zorgt voor heerlijke kruidentheeën. Het is de \" rode thee \" van de Scandinaviërs. In de bergen wordt hij regelmatig gebruikt als vervanger van de klassieke thee.",
+                        "De knipoog van de pizzabakker : Het is zijn neefje, de gecultiveerde marjolein, die niet spontaan in ons klimaat groeit, die we op onze pizzas smeren."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -1366,35 +1372,45 @@
             "title_latin": "sedum album",
             "fr": {
                 "title": "Orpin Blanc",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Crassulacées.",
+                "bloom": "Été.",
+                "height": "5 à 15 cm.",
+                "habitat": "Pousse sur les vieux murs et des rocailles.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Autrefois on faisait des cataplasmes avec les feuilles et tiges pour traiter les inflammations les plus diverses…. jusqu'aux hémorroïdes."
+                ],
+                "cooking": "Peut être utilisé comme condiment à conserver dans le vinaigre. Il agrémente également les salades.",
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "White stonecrop",
+                "family": "Crassulaceae.",
+                "bloom": "Summer.",
+                "height": "5 to 15 cm.",
+                "habitat": "Grows on walls and loose stones.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "The leaves and stalks were recommended and used for all kinds of inflammation, being especially applied as a cooling plaster to painful haemorrhoids."
+                ],
+                "cooking": [
+                    "It was the custom, too, to prepare and eat it as a pickle. It can be used to decorate salads."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Wit vetkruid",
+                "family": "Crassulaceae.",
+                "bloom": "Zomer.",
+                "height": "5 tot 15 cm.",
+                "habitat": "Groeit op muurtjes en rotspartijen.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Vroeger werden van de bladeren en de stelen kompressen gemaakt om diverse ontstekingen te behandelen... waaronder aambeien."
+                ],
+                "cooking": [
+                    "De blaadjes kunnen worden opgelegd in azijn en gebruikt worden als specerij. Brengt tevens salades op smaak."
+                ],
                 "toxic": null
             }
         },
