@@ -1557,35 +1557,44 @@
             "title_latin": "rumex pseudalpinus",
             "fr": {
                 "title": "Rhubarbe des Moines",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Polygonacées.",
+                "bloom": "Été.",
+                "height": "30 à 100 cm.",
+                "habitat": "Pousse dans les reposoirs de troupeaux et autour des bâtiments pastoraux.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Au Moyen Âge on faisait cuire les pétioles des feuilles pour faire des compotes, confitures et des tartes savoureuses. Mais les feuilles étaient aussi utilisées comme fourrage pour les cochons : après les avoir séchées et broyées, les éleveurs les ajoutaient à la pâtée de pommes de terre cuites.",
+                    "Les feuilles étaient aussi utilisées pour emballer le beurre lors de la descente de l'alpage pour le garder au frais. Contre-indiqué aux insuffisants rénaux et aux personnes sujettes aux calculs rénaux (contient de l'acide oxalique)."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alpine dock",
+                "family": "Polygonaceae.",
+                "bloom": "Summer.",
+                "height": "30 to 100 cm.",
+                "habitat": "Along the banks of streams and by the sides of roads, it is also found near human habitations, in hilly areas.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Leaves - raw or cooked. They can also be dried for later use. A strong flavour, the leaves can be used in salads in late autumn to the spring, but are better cooked like spinach. The fresh leaves can be available for most months of the year, only dying down for a short period in severe winters.",
+                    "The leaves often become bitter in the summer. In taste trials, this has proved to be a very popular autumn and spring cooked leaf, making an excellent spinach."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alpenzuring",
+                "family": "Polygonaceae.",
+                "bloom": "Zomer.",
+                "height": "30 tot 100 cm.",
+                "habitat": "Groeit op de rustplaatsen van kuddes en rondom herdershutten.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "In de Middeleeuwen werden de bladstelen gekookt om compotes, jam en smakelijke taartjes te maken. Maar de bladeren werden ook gebruikt als varkensvoer: nadat ze gedroogd en fijngestampt waren, voegden boeren ze toe aan gekookte aardappelpaté.",
+                    "De bladeren dienden ook om boter in te wikkelen en koel te houden tijdens de terugkeer van de alpenweiden. Niet aanbevolen voor mensen met een verminderde nierfunctie of  gevoelig zijn voor nierstenen (bevat oxaalzuur)."
+                ],
+                "cooking": null,
                 "toxic": null
             }
         },
@@ -1600,35 +1609,44 @@
             "title_latin": "saxifraga stellaris",
             "fr": {
                 "title": "Saxiféage étoilée",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Saxifragacées.",
+                "bloom": "Été.",
+                "height": "10 à 20 cm.",
+                "habitat": "Pousse aux bords des lacs, sources et ruisselets.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "L’institut de phytochimie de Lausanne a extrait de saxifraga stellaris un nouveau produit naturel : la stellarine.",
+                    "Il s'agit d'un antioxydant dont les propriétés pourraient permettre de lutter contre le cancer, les maladies d'Alzheimer et de Parkinson."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Star saxifrage",
+                "family": "Saxifragaceae.",
+                "bloom": "Summer.",
+                "height": "10 to 20 cm.",
+                "habitat": "Grows at the border of lakes, sources and streamings.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "The phytochemistry institute of Lausanne has extracted from the saxifraga stellaris a new natural product : stellarine.",
+                    "It is an antioxydant with properties against cancer, Alzheimer and Parkinson."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Sterbloemige Steenbreek",
+                "family": "Saxifragaceae.",
+                "bloom": "Zomer.",
+                "height": "10 tot 20 cm.",
+                "habitat": "Groeit aan de rand van meren, bronnen en beken.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Het Instituut voor fytochemie van de universiteit van Lausanne heeft een nieuw natuurproduct gewonnen uit de steenbreek : de stellarine.",
+                    "Deze is een antioxidant met eigenschappen die zouden kunnen helpen bij de bestrijding van kanker, Alzheimer en Parkinson."
+                ],
+                "cooking": null,
                 "toxic": null
             }
         },

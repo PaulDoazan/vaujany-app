@@ -111,9 +111,7 @@ export default function FlowerInfos({ data }) {
                             return <p className="flower__info__specification__content">{el}</p>
                         })}
                     </div>}
-
                 </div>
-
                 {currentFlower[lang].didYouKnow &&
                     <DidYouKnow currentFlower={currentFlower} lang={lang} />
                 }
