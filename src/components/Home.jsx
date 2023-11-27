@@ -37,7 +37,7 @@ export default function Home({ creditsVisible, handleCredits }) {
                 </div>
                 <BtnExplore />
                 <BtnGames />
-                {creditsVisible && <Credits creditsVisible={creditsVisible} />}
+                {creditsVisible && <Credits />}
             </div>
 
         </ div >

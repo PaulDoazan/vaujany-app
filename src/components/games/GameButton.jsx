@@ -3,7 +3,6 @@ import { LangContext, NavigationContext } from '../../utils/context'
 
 export default function GameButton({ data, index }) {
     const { lang } = useContext(LangContext)
-
     const { changePage } = useContext(NavigationContext)
 
     const handleClick = () => {

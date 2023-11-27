@@ -18,16 +18,16 @@
                 ]
             },
             "en": {
-                "title": "Levels",
-                "description": "[...]",
+                "title": "Terracing",
+                "description": "Place the plants in their natural habitats.",
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
                 ]
             },
             "nl": {
-                "title": "Bluck",
-                "description": "[...]",
+                "title": "Vegetatiezones",
+                "description": "Plaats de planten in hun natuurlijk leefgebied.",
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
@@ -49,23 +49,23 @@
             },
             "fr": {
                 "title": "Toxique ?",
-                "description": "Mettez vos reflex à l’épreuve pour éviter les plantes toxiques !",
+                "description": "Mettez vos reflexes à l’épreuve pour éviter les plantes toxiques !",
                 "goal": "Objectif : éliminer les 5 plantes toxiques en les plaçant dans les cases.",
                 "explanation": [
                     "Profitez de cette expérience pour développer vos compétences en matière de sécurité en plein air."
                 ]
             },
             "en": {
-                "title": "Toxic ?",
-                "description": "[...]",
+                "title": "Toxic?",
+                "description": "Put your reflexes to the test to avoid toxic plants!",
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
                 ]
             },
             "nl": {
-                "title": "Bluck",
-                "description": "[...]",
+                "title": "Giftig?",
+                "description": "Stel je reflexen op de proef en ontwijk de giftige planten!",
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
@@ -113,8 +113,8 @@
                 ]
             },
             "en": {
-                "title": "Guess who ?",
-                "description": "[...]",
+                "title": "What is it?",
+                "description": "What plant is hidden behind the clues?",
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
@@ -138,8 +138,8 @@
                 ]
             },
             "nl": {
-                "title": "Bluck",
-                "description": "[...]",
+                "title": "Wie is het?",
+                "description": "Welke plant verstopt zich achter de aanwijzingen?",
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
@@ -178,7 +178,7 @@
             },
             "fr": {
                 "title": "Memory",
-                "description": "Associez l’image et sa description.",
+                "description": "Associez l’image à sa description.",
                 "goal": "Objectif : trouver toutes les paires.",
                 "explanation": [
                     "Toutes les cartes sont <b>faces cachées</b> sur la table. Retournez deux cartes. Si <b>l’image qui apparaît sur la carte correspond à sa description</b>, le joueur gagne les cartes et en retourne à nouveau deux.",
@@ -188,15 +188,15 @@
             },
             "en": {
                 "title": "Memory",
-                "description": "[...]",
+                "description": "Match the image and its description.",
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
                 ]
             },
             "nl": {
-                "title": "Bluck",
-                "description": "[...]",
+                "title": "Memory",
+                "description": "Koppel de afbeelding aan zijn beschrijving.",
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
@@ -224,15 +224,15 @@
             },
             "en": {
                 "title": "Quiz",
-                "description": "[...]",
+                "description": "Test your knowledge and challenge your friends!",
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"
                 ]
             },
             "nl": {
-                "title": "Bluck",
-                "description": "[...]",
+                "title": "Quiz",
+                "description": "Test je kennis en daag je vrienden uit!",
                 "goal": "Lorem ipsum",
                 "explanation": [
                     "Lorem ipsum"

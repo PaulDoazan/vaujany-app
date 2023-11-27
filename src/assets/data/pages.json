@@ -43,10 +43,36 @@
             "playDescription": "Plezier maken … Zoeken … Raden"
         }
     },
+    "cancel": {
+        "fr": {
+            "yes": "Oui",
+            "no": "Non",
+            "areyousure": "Êtes-vous sûr de vouloir quitter la page ?"
+        },
+        "en": {
+            "yes": "Yes",
+            "no": "No",
+            "areyousure": "Are you sure you want to leave the page?"
+        },
+        "nl": {
+            "yes": "Ja",
+            "no": "Nee",
+            "areyousure": "Weet je zeker dat je deze pagina wilt verlaten?"
+        }
+    },
     "explore": {
         "previous": "home",
         "mainClass": ".explore__container",
-        "backgroundColor": "#7AA269"
+        "backgroundColor": "#7AA269",
+        "fr": {
+            "explore": "Explorer"
+        },
+        "en": {
+            "explore": "Explore"
+        },
+        "nl": {
+            "explore": "Ontdekken"
+        }
     },
     "flowerInfos": {
         "previous": "explore",
@@ -115,14 +141,41 @@
         }
     },
     "quiz": {
+        "fr": {
+            "title": "Quiz"
+        },
+        "en": {
+            "title": "Quiz"
+        },
+        "nl": {
+            "title": "Quiz"
+        },
         "previous": "gameInstruction",
         "mainClass": ".quiz__container"
     },
     "memory": {
+        "fr": {
+            "title": "Memory"
+        },
+        "en": {
+            "title": "Memory"
+        },
+        "nl": {
+            "title": "Memory"
+        },
         "previous": "gameInstruction",
         "mainClass": ".memory__container"
     },
     "guesswho": {
+        "fr": {
+            "title": "Qui&nbsp;est&#8209;ce&nbsp;?"
+        },
+        "en": {
+            "title": "What&nbsp;is&nbsp;it?"
+        },
+        "nl": {
+            "title": "Wie&nbsp;is&nbsp;het?"
+        },
         "previous": "gameInstruction",
         "mainClass": ".guesswho__container"
     },
@@ -130,6 +183,7 @@
         "previous": "gameInstruction",
         "mainClass": ".levels__container",
         "fr": {
+            "title": "Étagement",
             "slots": [
                 {
                     "title": "La Haute-Montagne",
@@ -150,6 +204,7 @@
             ]
         },
         "en": {
+            "title": "Terracing",
             "slots": [
                 {
                     "title": "[...]",
@@ -170,6 +225,7 @@
             ]
         },
         "nl": {
+            "title": "Vegetatiezones",
             "slots": [
                 {
                     "title": "[...]",
@@ -191,6 +247,15 @@
         }
     },
     "toxic": {
+        "fr": {
+            "title": "Toxique&nbsp;?"
+        },
+        "en": {
+            "title": "Toxic?"
+        },
+        "nl": {
+            "title": "Giftig?"
+        },
         "previous": "gameInstruction",
         "mainClass": ".toxic__container"
     }

@@ -44,6 +44,34 @@
     align-items: center;
 }
 
+.credits__button {
+    width: 100%;
+    color: $color-white;
+    position: absolute;
+    bottom: 7.3%;
+    font-size: 1.5vw;
+    font-family: "FuturaPTBold";
+    text-transform: uppercase;
+    transform-origin: left center;
+    transform: rotateZ(270deg);
+    display: flex;
+    align-items: center;
+}
+
+.menu__bottom__text {
+    width: 100%;
+    color: $color-white;
+    position: absolute;
+    bottom: 6%;
+    font-size: 2vw;
+    font-family: "FuturaPTBook";
+    text-transform: uppercase;
+    transform-origin: left center;
+    transform: rotateZ(270deg);
+    display: flex;
+    align-items: center;
+}
+
 .credits__button__arrow {
     margin-left: 30%;
     width: 50%;
@@ -125,6 +153,7 @@
 
 .cancel__btn__text {
     font-family: "FuturaPTBook";
+    text-transform: uppercase;
     font-size: 1.3vw;
     width: 100%;
     top: 25%;

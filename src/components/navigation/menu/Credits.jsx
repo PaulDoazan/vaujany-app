@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import pages from '../../../assets/data/pages.json'
 import { LangContext } from '../../../utils/context'
 
-export default function Credits({ creditsVisible }) {
+export default function Credits() {
     const { lang } = useContext(LangContext)
 
     const creditsStyle = {
