@@ -1661,38 +1661,44 @@
             "title_latin": "polygonatum odoratum",
             "fr": {
                 "title": "Sceau de Salomon odorant",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Asparagacées.",
+                "bloom": "Printemps.",
+                "height": "20 à 50 cm.",
+                "habitat": "Pousse dans les sous-bois et rocailles (de préférence calcaire), les lisières et les forêts de feuillus et de pins.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "[...]",
+                "medical": [
+                    "Les différentes parties de cette liliacée ont de nombreuses vertus médicinales. Par exemple on utilise le rhizome (la tige souterraine) écrasé pour soigner les contusions. Il ne faut jamais consommer les baies qui peuvent être mortelles."
+                ],
+                "cooking": null,
+                "toxic": "Plante toxique !",
                 "toxicDescription": "Plante toxique ! Il ne faut jamais consommer les baies qui peuvent être mortelles."
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Solomon’s seal",
+                "family": "Asparagaceae.",
+                "bloom": "Spring.",
+                "height": "20 to 50 cm.",
+                "habitat": "Limestone woods and rocky places.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "[...]",
+                "medical": [
+                    "The different parts of this liliaceae have many medicinal properties. For example, the crushed rhizome (the underground stem) is used to treat bruises. You should never eat the berries, which can be deadly."
+                ],
+                "cooking": null,
+                "toxic": "Toxic plant!",
                 "toxicDescription": "[...]"
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Welriekende salomonszegel",
+                "family": "Asparagaceae.",
+                "bloom": "Lente.",
+                "height": "20 tot 50 cm.",
+                "habitat": "Groeit in de ondergroei van bossen en rotspartijen (bij voorkeur kalksteen), aan de bosranden en in loof- en naaldbossen.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "[...]",
+                "medical": [
+                    "De verschillende delen van deze plant hebben talrijke geneeskrachtige eigenschappen. Zo wordt bijvoorbeeld de geplette wortelstok (de ondergrondse stengel) gebruikt om kneuzingen te behandelen. De bessen, die dodelijk kunnen zijn, mogen nooit gegeten worden."
+                ],
+                "cooking": null,
+                "toxic": "Giftige plant!",
                 "toxicDescription": "[...]"
             }
         },
