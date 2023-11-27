@@ -8,7 +8,7 @@ export default function QuizAnswerComment({ questionNb, goodAnswer }) {
 
     return (
         <>
-            <div className="quiz__answer__comment" style={{ bottom: dataQuiz[`question_${questionNb}`].bottomExplanations ? dataQuiz[`question_${questionNb}`].bottomExplanations : 0 }}>
+            <div className="quiz__answer__comment" style={{ bottom: dataQuiz[`question_${questionNb}`][lang].bottomExplanations ? dataQuiz[`question_${questionNb}`][lang].bottomExplanations : 0 }}>
                 {goodAnswer === true && <div className="correct__answer__container">{dataQuiz[`question_${questionNb}`][lang].explanation.paragraphs.map(el => {
                     return <p>{parse(el)}</p>
                 })}

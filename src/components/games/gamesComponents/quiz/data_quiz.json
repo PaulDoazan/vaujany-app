@@ -30,39 +30,39 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Monk’s rhubarb",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "In summertime, when families take their livestock up to the high pastures to graze, the animals are milked to produce milk, cheese and butter.",
+                "When they come back down to the village at the end of the summer, the local Vaujaniats use these leaves to keep food cool. Which food in particular?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "They wrapped their butter in the leaves of monk's rhubarb to better preserve it. They could thereby sell it, exchange it, or eat it for the rest of the year."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "MILK",
+                "BUTTER",
+                "CHEESE"
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "Alpenzuring",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Ins Zomers tijdens hun verblijf in de bergen, melkten de families de dieren die met hen samenleefden om kaas en boter te maken.",
+                "Op het einde van de zomer keerden ze terug naar het dorp en gebruikten ze de bladeren van deze plant om een voedingsmiddel vers te houden. Welk voedingsmiddel?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Ze wikkelden hun boter in de bladeren van de alpenzuring om ze beter te kunnen bewaren. Op deze manier konden ze hem verkopen, verhandelen of zelf verbruiken voor de rest van het jaar."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "MELK",
+                "BOTER",
+                "KAAS"
             ]
         }
     },
@@ -98,39 +98,38 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Richier's St John's Wort",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "How is St John's Wort oil with antibacterial and healing properties prepared?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Cut the flowers to put them in a jar. Cover them with cold-pressed virgin olive oil. Leave to macerate in the sun for 2 to 4 weeks, turning the jar regularly. Filter through a cloth and squeeze to extract the juice."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "BY GRINDING THE PETALS",
+                "BY MACERATING THE FLOWERS",
+                "BY INFUSING THE LEAVES"
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "Hertshooi /<br>Sint-Janskruid",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Hoe maakt men Sint-Janskruidolie met zijn antibacteriële en helende eigenschappen?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Snij de bloemen en doe ze in een bokaal. Overgiet met koudgeperste extra vierge olijfolie. Sluit de bokaal en zet hem op een warme plaats.  Na 2 tot 4 weken kan je de bloemen eruit zeven : giet de inhoud van de bokaal door een neteldoek en pers goed uit. Giet de olie nu in donkere flesjes, etiketteer en bewaar koel."
                 ]
             },
+            "bottomExplanations": "5%",
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "Door de bloemblaadjes te pletten",
+                "Door de bloemen te laten weken",
+                "Door de bladeren te laten trekken"
             ]
         }
     },
@@ -551,7 +550,6 @@
             "#D2CAB6"
         ],
         "toxic": true,
-        "bottomExplanations": "15%",
         "fr": {
             "title": "la digitale à grandes fleurs",
             "paragraphs": [
@@ -563,6 +561,7 @@
                     "On lui a attribué à tort des propriétés contre la folie. Ce traitement, administré au peintre Van Gogh, lui aurait provoqué des troubles visuels, et notamment la coloration jaune de la vision, ce qui expliquerait l’utilisation massive de jaune dans ses œuvres à la fin de sa vie."
                 ]
             },
+            "bottomExplanations": "15%",
             "choiceTitles": [
                 "toxique",
                 "protégée",
@@ -685,7 +684,6 @@
             "#D5C389",
             "#A49582"
         ],
-        "bottomExplanations": "5%",
         "fr": {
             "title": "la rhubarbe des moines",
             "paragraphs": [
@@ -696,6 +694,7 @@
                     "Au Moyen Âge, ses feuilles avaient diverses utilisations. Elles étaient cuisinées pour faire des compotes, des confitures et des tartes, elles servaient de nourriture pour les cochons… Les feuilles étaient également utilisées pour emballer le beurre et le garder au frais lors de la descente de l’alpage."
                 ]
             },
+            "bottomExplanations": "5%",
             "choiceTitles": [
                 "",
                 "",
@@ -753,7 +752,6 @@
             "#DAB662",
             "#D36D52"
         ],
-        "bottomExplanations": "15%",
         "fr": {
             "title": "l’origan vulgaire",
             "paragraphs": [
@@ -766,6 +764,7 @@
                     "Le clin d’œil du pizzaïolo : c’est sa cousine la marjolaine cultivée, qui ne pousse pas spontanément sous nos climats, qu’on étale sur nos pizzas."
                 ]
             },
+            "bottomExplanations": "15%",
             "choiceTitles": [
                 "en bonbon",
                 "sur une pizza",

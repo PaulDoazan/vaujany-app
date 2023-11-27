@@ -122,33 +122,36 @@
             ]
         },
         "en": {
-            "rulesTitle": "Game rules",
+            "rulesTitle": "Rules of the game",
             "play": "PLAY",
             "levels": [
                 "EASY",
-                "MEDIUM",
+                "INTERMEDIATE",
                 "EXPERT"
             ]
         },
         "nl": {
-            "rulesTitle": "[...]",
-            "play": "[...]",
+            "rulesTitle": "Spelregels",
+            "play": "Spelen",
             "levels": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "GEMAKKELIJK",
+                "MEDIUM",
+                "EXPERT"
             ]
         }
     },
     "quiz": {
         "fr": {
-            "title": "Quiz"
+            "title": "Quiz",
+            "next": "Question suivante"
         },
         "en": {
-            "title": "Quiz"
+            "title": "Quiz",
+            "next": "Next question"
         },
         "nl": {
-            "title": "Quiz"
+            "title": "Quiz",
+            "next": "Volgende vraag"
         },
         "previous": "gameInstruction",
         "mainClass": ".quiz__container"

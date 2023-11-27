@@ -225,17 +225,17 @@
             "en": {
                 "title": "Quiz",
                 "description": "Test your knowledge and challenge your friends!",
-                "goal": "Lorem ipsum",
+                "goal": "Aim: answer the questions asked correctly.",
                 "explanation": [
-                    "Lorem ipsum"
+                    "<b>Compete, challenge yourself, test yourself…</b></b>Alone or with others, answer a multitude of questions to test your knowledge."
                 ]
             },
             "nl": {
                 "title": "Quiz",
                 "description": "Test je kennis en daag je vrienden uit!",
-                "goal": "Lorem ipsum",
+                "goal": "Het doel is om juist te antwoorden op de gestelde vragen.",
                 "explanation": [
-                    "Lorem ipsum"
+                    "<b>Ga de strijd aan, daag jezelf uit, test jezelf...</b></b>Beantwoord alleen of met anderen de vele vragen om je kennis te testen."
                 ]
             }
         }
