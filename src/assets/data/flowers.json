@@ -986,19 +986,22 @@
             },
             "fr": {
                 "title": "Joubarbe des Montagnes",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Essentiellement dans les pelouses subalpines écorchées. Également dans les éboulis et les pelouses alpines.",
+                "family": "Crassulacées.",
+                "bloom": "Été.",
+                "height": "5 à 25 cm.",
+                "habitat": "Pousse essentiellement dans les pelouses subalpines écorchées. On peut également la rencontrer dans les éboulis et les pelouses alpines.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Les joubarbes sont depuis longtemps utilisées pour calmer les douleurs externes: cors aux pieds, brûlures et hémorroïdes. Les feuilles pilées peuvent être utilisées en cataplasme pour apaiser l'irritation des dartres.",
+                    "Pour conserver vos dents de sagesse, il faut s'habituer à mâcher des feuilles de joubarbe. La saveur acidulée n'est pas désagréable et les rages de dents ne sont plus à craindre."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "sempervivum_montanum_didYouKnow.png",
                     "imageEmpty": "sempervivum_montanum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Ses différents noms définissent parfaitement son usage : « herbes-aux-coupures»«herbes-aux-brûlures» ou « herbes-aux-cors », du fait de ses propriétés cicatrisantes et apaisantes."
+                        "Ses différents noms définissent parfaitement son usage : « herbes-aux-coupures », «herbes-aux-brûlures » ou « herbes-aux-cors », du fait de ses propriétés cicatrisantes et apaisantes."
                     ],
                     "dimensions": {
                         "width": "19%",
@@ -1008,43 +1011,50 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Mountain houseleek",
+                "family": "Crassulaceae.",
+                "bloom": "Summer.",
+                "height": "5 to 25 cm.",
+                "habitat": "They live on sunny rocks and stony places in the mountains, subalpine and alpine belts.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Chew leaves to relieve tooth ache. Apply to minor burns, wasp and nettle stings, cuts, ulcers, insect bites, itching and burning skin."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "sempervivum_montanum_didYouKnow.png",
                     "imageEmpty": "sempervivum_montanum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "Its different names perfectly define its use: \"cut herbs\", \"burn herbs\" and \"corn herbs\", due to its healing and soothing properties."
                     ],
                     "dimensions": {
                         "width": "19%",
                         "top": "53.5vh",
+                        "textMarginTop": "15%",
                         "left": "-33.66%"
                     }
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Berghuislook",
+                "family": "Crassulaceae.",
+                "bloom": "Zomer.",
+                "height": "5 tot 25 cm.",
+                "habitat": "Groeit voornamelijk in schrale bergweiden, tussen rotsen en puin, op kalkarme bodems, en in alpiene grasvlaktes.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Huislook wordt al heel lang gebruikt om uitwendige pijn te verzachten, zoals likdoorns, brandwonden en aambeien.",
+                    "De geplette bladeren kunnen worden gebruikt als een kompres om de irritatie van huiduitslag te verzachten.",
+                    "Om je wijsheidstanden te behouden, kan je op huislook kauwen.  De pittige smaak is niet onaangenaam en verzacht kiespijn."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "sempervivum_montanum_didYouKnow.png",
                     "imageEmpty": "sempervivum_montanum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "De verschillende benamingen bepalen perfect het gebruik ervan: snijwondenkruid, brandwondenkruid of likdoornkruid, door zijn helende en verzachtende eigenschappen."
                     ],
                     "dimensions": {
                         "width": "19%",
