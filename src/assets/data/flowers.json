@@ -1834,7 +1834,9 @@
                     "L'infusion des fleurs et des feuilles, au goût du miel, soigne les toux, bronchites, trachéites et rhumes...",
                     "Il est contre-indiqué pendant la grossesse et la période d'allaitement !"
                 ],
-                "cooking": "On peut parsemer les salades des juteux capitules de tussilage ou les faire revenir au beurre dans une poêle.",
+                "cooking": [
+                    "On peut parsemer les salades des juteux capitules de tussilage ou les faire revenir au beurre dans une poêle."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "tussilago_farfara_didYouKnow.png",
@@ -1931,7 +1933,7 @@
             "thumbnail": "viola_canina_thumbnail.jpg",
             "thumbnailSquare": "viola_canina_thumbnailSquare.jpg",
             "imageMemory": "viola_canina_memory.png",
-            "title_latin": "viola canina",
+            "title_latin": "viola odorata",
             "guessWhoParameters": {
                 "toxic": false,
                 "yellow": false,
@@ -1946,36 +1948,48 @@
                 "wood": false
             },
             "fr": {
-                "title": "Violette des chiens",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Violette odorante",
+                "family": "Violacea.",
+                "bloom": "Avril à juin.",
+                "height": "8 à 15 cm.",
+                "habitat": "Prairies et coteaux secs, talus, bords de chemins, forêts humides et ouvertes, bois de feuillus, taillis, landes sur sols peu profonds, zones élevées de rivages rocheux.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Les fleurs sont utilisées pour confectionner un sirop adoucissant prescrit pour traiter bronchite et quinte de toux, à utiliser sans excès car il est légèrement laxatif."
+                ],
+                "cooking": [
+                    "Les fleurs entières peuvent être cristallisées avec du sucre, elles s’utilisent en confiserie (violette de Toulouse), pour confectionner diverses sortes de bonbons, sirop, liqueur, tisanes, gelées et confitures ou encore colorer salade et mesclun."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Sweet violet",
+                "family": "Violaceae.",
+                "bloom": "April to June.",
+                "height": "8 to 15cm.",
+                "habitat": "Dry meadows and hillsides, embankments, roadsides, moist and open forests, deciduous woods, copses, heaths on shallow soils, elevated areas of rocky shores.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "The flowers are used to make a softening syrup prescribed to treat bronchitis and coughing fits, to be used in moderation, as it is slightly laxative."
+                ],
+                "cooking": [
+                    "The whole flowers can be crystallised with sugar, and are used in confectionary (Toulouse violet), to make various kinds of sweets, syrup, liqueur, herbal teas, jellies and jams, and even to colour salad and mixed greens."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Welriekend viooltje",
+                "family": "Violaceae.",
+                "bloom": "April tot juni.",
+                "height": "8 tot 15 cm.",
+                "habitat": "Weiden en droge berghellingen, bermen, vochtige en open bossen, loofbossen, hakhout, heide op ondiepe bodems.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "De bloemen worden gebruikt om een verzachtende siroop te maken bijm bronchitis en hoestbuien. Matig te gebruiken vanwege zijn licht laxerende werking."
+                ],
+                "cooking": [
+                    "De gehele bloemen kunnen worden gekristalliseerd met suiker en gebruikt worden in confiserie (violette de Toulouse), om verschillende soorten snoep, siroop, likeur, kruidenthee, gelei en jam te maken, of om salade en mesclun te kleuren."
+                ],
                 "toxic": null
             }
         }
