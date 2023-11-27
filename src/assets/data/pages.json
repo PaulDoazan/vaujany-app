@@ -13,6 +13,7 @@
             "exploreDescription": "Explorer les fleurs de&nbsp;nos montagnes…",
             "play": "Jouer",
             "credits": "Crédits",
+            "photography": "Photographie",
             "playDescription": "S’amuser… Chercher… Deviner…"
         },
         "en": {
@@ -25,6 +26,7 @@
             "exploreDescription": "Explore the flowers of&nbsp;our mountains…",
             "play": "Play",
             "credits": "Credits",
+            "photography": "Photography",
             "playDescription": "Have fun… Search… Guess"
         },
         "nl": {
@@ -37,6 +39,7 @@
             "exploreDescription": "Ontdek de planten van&nbsp;onze bergen",
             "play": "Spelen",
             "credits": "Credits",
+            "photography": "Fotografie",
             "playDescription": "Plezier maken … Zoeken … Raden"
         }
     },

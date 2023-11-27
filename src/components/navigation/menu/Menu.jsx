@@ -3,9 +3,11 @@ import BtnLang from './BtnLang'
 import BtnHome from './BtnHome'
 import BtnBack from './BtnBack'
 import { NavigationContext } from '../../../utils/context'
-import BottomContent from './BottomContent'
+import MenuBottomImage from './MenuBottomImage'
+import MenuBottomCredit from './MenuBottomCredit'
+import MenuBottomDescription from './MenuBottomDescription'
 
-export default function Menu({ handleCancel }) {
+export default function Menu({ handleCancel, handleCredits, creditsVisible }) {
     const { currentPage } = useContext(NavigationContext)
 
     return (
@@ -17,7 +19,9 @@ export default function Menu({ handleCancel }) {
             <BtnLang language={"en"} />
             <BtnLang language={"nl"} />
 
-            <BottomContent />
+            <MenuBottomImage />
+            <MenuBottomCredit handleCredits={handleCredits} creditsVisible={creditsVisible} />
+            <MenuBottomDescription />
         </div>
     )
 }

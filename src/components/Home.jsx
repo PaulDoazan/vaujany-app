@@ -4,15 +4,14 @@ import BtnGames from './navigation/BtnGames'
 import gsap from 'gsap'
 import { LangContext, NavigationContext } from '../utils/context'
 import pages from '../assets/data/pages.json'
+import Credits from './navigation/menu/Credits'
 
-export default function Home({ changePage }) {
+export default function Home({ creditsVisible, handleCredits }) {
     const { lang } = useContext(LangContext)
     const { currentPage } = useContext(NavigationContext)
-    const handleChangePage = (value) => {
-        changePage(value)
-    }
 
     useEffect(() => {
+        handleCredits(false)
         if (currentPage.noAnimation) {
             gsap.to('.home__sub__container', { opacity: 1, duration: 1 })
             return
@@ -36,8 +35,9 @@ export default function Home({ changePage }) {
                         {pages.home[lang].title5}
                     </div>
                 </div>
-                <BtnExplore changePage={handleChangePage} />
-                <BtnGames changePage={handleChangePage} />
+                <BtnExplore />
+                <BtnGames />
+                {creditsVisible && <Credits creditsVisible={creditsVisible} />}
             </div>
 
         </ div >

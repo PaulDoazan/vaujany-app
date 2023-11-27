@@ -13,9 +13,9 @@ import GuessWho from './games/gamesComponents/guesswho/GuessWho'
 import Confettis from './games/gamesComponents/Confettis'
 import CancelPage from './navigation/menu/CancelPage'
 
-
 export default function Frame({ id, arrLength }) {
     const [displayCancel, setDisplayCancel] = useState(false)
+    const [creditsVisible, setCreditsVisible] = useState(false)
     const { currentPage } = useContext(NavigationContext)
 
     let fullClass = `frame frame__${id}`
@@ -31,6 +31,11 @@ export default function Frame({ id, arrLength }) {
         setDisplayCancel(value)
     }
 
+    const handleCredits = (value) => {
+
+        setCreditsVisible(value === false ? false : !creditsVisible)
+    }
+
     return (
         <>
             <LangProvider>
@@ -38,7 +43,7 @@ export default function Frame({ id, arrLength }) {
                     <ConfettiProvider>
                         <div className="frame__container">
                             <div className="home__wrapper">
-                                {currentPage.category === 'home' && <Home />}
+                                {currentPage.category === 'home' && <Home creditsVisible={creditsVisible} handleCredits={handleCredits} />}
                                 {currentPage.category === 'explore' && <Explore id={id} />}
                                 {currentPage.category === 'gamesHome' && <GamesHome />}
                                 {currentPage.category === 'gameInstruction' && <GameInstruction />}
@@ -51,9 +56,8 @@ export default function Frame({ id, arrLength }) {
                             <Confettis canvasId={id} />
                             {displayCancel && <CancelPage nextPage={displayCancel} handleCancel={handleCancel} />}
                             <div className="menu__wrapper">
-                                <Menu handleCancel={handleCancel} />
+                                <Menu handleCancel={handleCancel} handleCredits={handleCredits} creditsVisible={creditsVisible} />
                             </div>
-
                         </div>
                     </ConfettiProvider>
                 </div>

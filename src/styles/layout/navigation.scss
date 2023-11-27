@@ -31,18 +31,28 @@
 }
 
 .credits__button {
-    margin-bottom: 130%;
-    padding-right: 50%;
+    width: 100%;
+    color: $color-white;
+    position: absolute;
+    bottom: 7.3%;
     font-size: 1.5vw;
+    font-family: "FuturaPTBold";
     text-transform: uppercase;
+    transform-origin: left center;
     transform: rotateZ(270deg);
+    display: flex;
+    align-items: center;
+}
+
+.credits__button__arrow {
+    margin-left: 30%;
+    width: 50%;
 }
 
 .menu__bottom__text {
     text-transform: uppercase;
     transform: rotateZ(270deg);
 }
-
 
 .btn__navigation {
     margin-top: 20%;
@@ -124,4 +134,20 @@
 .cancel__btn__img {
     width: 80%;
     // position: absolute;
+}
+
+.credits__title {
+    font-family: 'FuturaPTDemi';
+    font-size: 1.8vw;
+    color: $color-white;
+}
+
+.credits__list {
+    font-family: 'FuturaPTBook';
+    font-size: 1.4vw;
+    color: $color-white;
+
+    & p {
+        margin-bottom: 5%;
+    }
 }
