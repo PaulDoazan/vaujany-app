@@ -390,35 +390,52 @@
             "title_latin": "carum carvi",
             "fr": {
                 "title": "Cumin des prés",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Apiacées.",
+                "bloom": "Printemps-été.",
+                "height": "30 à 60 cm.",
+                "habitat": "Pousse au bord des chemins et dans les pâturages.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Digestives, antispasmodiques et antiseptiques."
+                ],
+                "cooking": [
+                    "Les jeunes feuilles, crues, peuvent agrémenter les salades et, cuites, les soupes.",
+                    "Les racines peuvent être mangées comme des carottes.",
+                    "Les fruits ou « grains de carvi » parfument le pain (Pumpernickel), certains fromages (gouda, munster), la choucroute, les ragoûts."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Caraway",
+                "family": "Apiaceae.",
+                "bloom": "Spring-Summer.",
+                "height": "30 to 60 cm.",
+                "habitat": "Grows well in meadows.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Caraway has various medicinal properties such as antihistaminic, antiseptic, antispasmodic, carminative, and vermifuge."
+                ],
+                "cooking": [
+                    "The leaves may be used in salads and soups, the seeds in baked goods, dumplings, cream cheese and meat dishes such as goulash and pork casserole.",
+                    "The roots can be boiled as a vegetable and served with a white sauce."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Karwij",
+                "family": "Apiaceae.",
+                "bloom": "Lente-zomer.",
+                "height": "30 tot 60 cm.",
+                "habitat": "Groeit langs bermen en in weilanden.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "Spijsverteringsbevorderend, krampstillend en ontsmettend."
+                ],
+                "cooking": [
+                    "De blaadjes kunnen rauw gebruikt worden in sla en gekookt toegevoegd worden aan soep.",
+                    "De plantwortels kunnen als wortelen gegeten worden.",
+                    "De vruchten of \"karwijzaadjes\" geven smaak aan brood (Pumpernickel), bepaalde kazen (Gouda, Munster), zuurkool en stoofschotels."
+                ],
                 "toxic": null
             }
         },
@@ -450,20 +467,23 @@
             },
             "fr": {
                 "title": "Digitale à grandes fleurs",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Les bois clairs et sur les pentes pierreuses.",
+                "family": "Plantaginacées.",
+                "bloom": "Été.",
+                "height": "40 à 80 cm.",
+                "habitat": "Pousse dans les bois clairs et sur les pentes pierreuses.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "medical": [
+                    "La digitale qui est extrêmement toxique a valu aux sorcières leur si mauvaise réputation.",
+                    "La digitale, qu'elles savaient parfaitement doser, venait en aide aux insuffisants cardiaques. Aujourd'hui, la chimie a su isoler le principe actif, la digitaline qui est un stimulant cardiaque utilisé dans le traitement de l'insuffisance cardiaque."
+                ],
+                "cooking": null,
                 "toxic": "Plante toxique !",
                 "toxicDescription": "Plante extrêmement toxique, qui a valu aux sorcières leur si mauvaise réputation.",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
                     "paragraphs": [
-                        "On lui a attribué à tort des propriétés contre la folie. Ce traitement, administré au peintre Van Gogh, lui aurait provoqué des troubles visuels, et notamment la coloration jaune de la vision, ce qui expliquerait l’utilisation massive de jaune dans ses œuvres à la fin de sa vie."
+                        "On lui a attribué à tort des propriétés contre la folie. Ce traitement, administré au peintre Van Gogh,  lui aurait provoqué des troubles visuels, et notamment la coloration jaune de la vision, ce qui expliquerait l’utilisation massive de jaune dans ses œuvres à la fin de sa vie."
                     ],
                     "dimensions": {
                         "width": "19%",
@@ -474,49 +494,56 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Yellow Foxglove",
+                "family": "Plantaginaceae.",
+                "bloom": "Summer.",
+                "height": "40 to 80 cm.",
+                "habitat": "Grows in clear woods and rocky slopes.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Toxic !",
+                "medical": [
+                    "All parts of the plant are poisonous. Used in the treatment of heart problems."
+                ],
+                "cooking": null,
+                "toxic": "Toxic plant!",
                 "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "It has incorrectly been attributed properties against madness. This treatment, administered to painter Van Gogh, would have caused him visual disorders, and in particular the yellow colouring of vision, which would explain the extensive use of yellow in his works at the end of his life."
                     ],
                     "dimensions": {
                         "width": "23%",
                         "top": "49vh",
-                        "left": "-33.66%"
+                        "left": "-33.66%",
+                        "textMarginTop": "10%"
                     }
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Grootbloemig vingerhoedskruid",
+                "family": "Plantaginaceae.",
+                "bloom": "Zomer.",
+                "height": "40 tot 80 cm.",
+                "habitat": "Groeit in open bossen en op stenige hellingen.",
                 "habitatGameInfo": "[...]",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Toxic bluck !",
+                "medical": [
+                    "De slechte reputatie van de heksen was onder andere te wijten aan het extreem giftige vingerhoedskruid.",
+                    "Het vingerhoedskruid, dat ze perfect wisten te doseren, hielp personen met hartfalen.  Vandaag de dag is de scheikunde erin geslaagd om het actieve bestanddeel, digitalis, te isoleren. Dit is een hartstimulerend middel dat wordt gebruikt bij de behandeling van hartfalen."
+                ],
+                "cooking": null,
+                "toxic": "Giftige plant!",
                 "toxicDescription": "[...]",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "Vingerhoedskruid werd gebruikt in de behandeling van de schilder Van Gogh die aan epilepsie leed.  Dit zou hem visuele hallucinaties hebben opgeleverd, waarin de kleur geel domineerde.  Hierover is veel gespeculeerd en er bestaan vermoedens dat de giftige werking van vingerhoedskruid niet alleen verantwoordelijk was voor de psychotische symptomen, maar ook voor de prominente gele kleur in de schilderijen van Van Gogh in de laatste twee jaar voorafgaande aan zijn dood."
                     ],
                     "dimensions": {
-                        "width": "23%",
-                        "top": "49vh",
+                        "width": "25%",
+                        "fontSize": "0.85vw",
+                        "top": "45vh",
                         "left": "-33.66%"
                     }
                 }
