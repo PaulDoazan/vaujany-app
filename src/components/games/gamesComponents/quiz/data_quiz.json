@@ -167,39 +167,37 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Spiked rampion",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "What vegetable does this plant taste like?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "All the answers are correct as it resembles all three. Before they flower, the stalks can be steamed and eaten like asparagus. The thick root is white, tender and crunchy, tasting rather like radish. The young leaves can be eaten in a salad."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "asparagus",
+                "radish",
+                "rocket"
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "Witte rapunzel",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Aan welke groente doet de smaak van deze plant denken?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Geen verkeerd antwoord. Alles lijkt er wel een beetje op! De nog niet in bloei gekomen stengels, worden gestoomd en gegeten als asperges. De dikke wortel heeft wit, mals en knapperig vruchtvlees, en doet denken aan een radijs. De blaadjes kunnen als salade gegeten worden."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "Asperges",
+                "Radijs",
+                "Rucolasalade"
             ]
         }
     },
@@ -235,39 +233,37 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Yellow gentian",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "In which environment does the yellow gentian grow?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "This plant likes sunny green areas, such as sub-alpine meadows and non-cultivated fields."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "the meadows",
+                "shady undergrowth",
+                "the rocks on sunny peaks"
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "De gele gentiaan",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "In welk leefgebied komt de gele gentiaan voor?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Deze plant houdt van zonnige, groene gebieden zoals subalpiene weiden en braakliggende terreinen."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "de weiden",
+                "de schaduwrijke ondergroei van bossen",
+                "de rotsen van zonnige bergtoppen"
             ]
         }
     },
@@ -301,39 +297,37 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Oregano",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "What does oregano mean in ancient Greek?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Its name comes from ὄρος oros = “mountain” and γάνος ganos = “brightness, joy”"
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "\"tastes good\"",
+                "\"likes altitude\"",
+                "\"likes the mountains\""
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "Wilde oregano",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Wat betekent origan in oud Grieks?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Origanum is de klassieke Griekse naam welke is afgeleid van de woorden ‘Oros’ (‘Berg’) en ‘Ganos’ (‘Vreugde’) die verwijzen naar de mooie verschijning in de bergen."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "« Die een goede smaak heeft »",
+                "« Die van de hoogte houdt »",
+                "« Die van de bergen houdt »"
             ]
         }
     },
@@ -368,39 +362,40 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Coltsfoot",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "What traditional use of coltsfoot was associated with the mountain?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Also called donkey's foot or cough cure. We use the flower and the leaf.",
+                    "In the mountains, coltsfoot was formerly used as a mixture in tobacco. Today, it is mainly used in infusions and syrups to treat the bronchi."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "mixing in tobacco",
+                "antiseptic dressings",
+                "salads"
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "Klein hoefblad",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Welk traditioneel gebruik van hoefblad werd in verband gebracht met de bergen?"
             ],
+            "bottomExplanations": "5%",
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Ook wel \" Ezelspoot \" of \" Hoestblad \" genoemd. Men gebruikt de bloem en de blaadjes.",
+                    "Vroeger in de bergen werd hoefblad vermengd met tabak. Tegenwoordig wordt ze vooral gebruikt als kruidenthee en siroop om de luchtwegen te behandelen."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "vermengd met tabak",
+                "als ontsmettend verband",
+                "als salade"
             ]
         }
     },
@@ -434,39 +429,37 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Yellow foxglove",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "What is the popular nickname given to digitalis grandiflora?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Also popularly called \"witch's glove\" (the shape of the flowers makes you think of the fingertips of gloves), it is a formidable plant. It is toxic: it is recommended not to touch it!"
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "\"witch's glove\"",
+                "\"gardener's glove\"",
+                "\"painter's glove\""
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "Grootbloemig vingerhoedskruid",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Wat is de populaire bijnaam van het vingerhoedskruid?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "In de volksmond ook bekend als « heksenhandschoen » (de vorm van de bloemen doet denken aan de vingertoppen van handschoenen). Het is een gevreesde plant en is giftig! Het is ten sterkste aangeraden om hem niet aan te raken!"
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "« heksenhandschoen »",
+                "« tuiniershandschoen »",
+                "« schildershandschoen »"
             ]
         }
     },

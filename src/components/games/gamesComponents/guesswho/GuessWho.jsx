@@ -10,7 +10,7 @@ import GuessWhoFlowerInfo from './GuessWhoFlowerInfo'
 
 const layouts = {
     level_0: {
-        nbCards: 6,
+        nbCards: 1,
         rows: 2,
         cols: 3,
         origin: { x: 10.4, y: 30 },

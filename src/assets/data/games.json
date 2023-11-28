@@ -102,14 +102,14 @@
                     "Est-ce qu’elle est toxique ?",
                     "Est-ce qu’elle est jaune ?",
                     "Est-ce qu’elle est rose ?",
-                    "Est-ce que sa floraison est en été ?",
                     "Est-ce que sa floraison est au printemps ?",
+                    "Est-ce que sa floraison est en été ?",
                     "Est-ce qu’elle mesure moins de 5cm ?",
                     "Est-ce qu’elle mesure entre 5cm et 20cm ?",
                     "Est-ce qu’elle mesure entre 20cm et 50cm ?",
                     "Est-ce qu’elle mesure plus de 50cm ?",
-                    "Est-ce qu’elle pousse dans les bois ?",
-                    "Est-ce qu’elle pousse en prairie subalpine ?"
+                    "Est-ce qu’elle pousse en prairie subalpine ?",
+                    "Est-ce qu’elle pousse dans les bois ?"
                 ]
             },
             "en": {
