@@ -16,25 +16,49 @@
                 "explanation": [
                     "En montagne, la végétation <b>change en fonction de l’altitude</b>. On parle d’<b>étagement de la végétation</b>, un phénomène essentiellement dû à la baisse de la température avec l’augmentation de l’altitude, généralement d’environ <b>-1 degré tous les 200 mètres</b>. Ainsi, la montagne peut être divisée en sections horizontales."
                 ],
-                "congratulations": ""
+                "highMountain": "la haute-montagne",
+                "over3000": "Au-delà de 3000m",
+                "subalpine": "étages subalpin et alpin",
+                "from2000": "De 2000 à 3000m",
+                "forest": "la forêt ou étage montagnard",
+                "from800": "De 800 à 1700m",
+                "valley": "la vallée ou l’étage collinéen",
+                "from0": "De 0 à 800m",
+                "congratulations": "Vous avez réussi à placer toutes les plantes dans leur habitat naturel !"
             },
             "en": {
                 "title": "Terracing",
                 "description": "Place the plants in their natural habitats.",
-                "goal": "Lorem ipsum",
+                "goal": "Aim: Correctly place the different types of plants in the boxes according to their natural habitat.",
                 "explanation": [
-                    "Lorem ipsum"
+                    "In the mountains, vegetation changes depending on altitude. We are talking about terracing of vegetation, a phenomenon mainly use to the drop in temperature as altitude increases, generally of around -1 degree every 200 metres. Thus, the mountain can be divided into horizontal sections."
                 ],
-                "congratulations": ""
+                "highMountain": "the high mountain",
+                "over3000": "Over 3000m",
+                "subalpine": "subalpine and alpine levels",
+                "from2000": "From 2000 to 3000m",
+                "forest": "the forest or mountain level",
+                "from800": "From 800 to 1700m",
+                "valley": "the valley or hilly level",
+                "from0": "From 0 to 800m",
+                "congratulations": "You have successfully placed all the plants in their natural habitat!"
             },
             "nl": {
                 "title": "Vegetatiezones",
                 "description": "Plaats de planten in hun natuurlijk leefgebied.",
-                "goal": "Lorem ipsum",
+                "goal": "Het doel is om de verschillende plantensoorten in de juiste vakjes te plaatsen volgens hun natuurlijk leefgebied.",
                 "explanation": [
-                    "Lorem ipsum"
+                    "In de bergen verandert de vegetatie naargelang de hoogte. Dit wordt vegetatiezone genoemd, hetgeen voornamelijk te wijten is aan de daling van de temperatuur naarmate de hoogte toeneemt, met ongeveer 1 graad per 200 meter. Daarom kunnen de bergen verdeeld worden in horizontale zones."
                 ],
-                "congratulations": ""
+                "highMountain": "De nivale zone",
+                "over3000": "Boven de 3000 m",
+                "subalpine": "De subalpiene en alpiene zone",
+                "from2000": "Van 2000 tot 3000 m",
+                "forest": "Het bos of montane zone",
+                "from800": "Van 800 tot 1700 m",
+                "valley": "De vallei of de colline zone",
+                "from0": "Van 0 tot 800 m",
+                "congratulations": "Het is je gelukt om alle planten in hun natuurlijk leefgebied te plaatsen!"
             }
         },
         {
@@ -57,25 +81,25 @@
                 "explanation": [
                     "Profitez de cette expérience pour développer vos compétences en matière de sécurité en plein air."
                 ],
-                "congratulations": ""
+                "congratulations": "Vous avez réussi à identifier toutes les plantes toxiques !"
             },
             "en": {
                 "title": "Toxic?",
                 "description": "Put your reflexes to the test to avoid toxic plants!",
-                "goal": "Lorem ipsum",
+                "goal": "Aim: Eliminate the 5 toxic plants by placing them in the boxes.",
                 "explanation": [
-                    "Lorem ipsum"
+                    "Use this experience to develop your outdoor safety skills."
                 ],
-                "congratulations": ""
+                "congratulations": "You have successfully identified all the toxic plants!"
             },
             "nl": {
                 "title": "Giftig?",
                 "description": "Stel je reflexen op de proef en ontwijk de giftige planten!",
-                "goal": "Lorem ipsum",
+                "goal": "Het doel is om de 5 giftige planten te verwijderen door ze in de vakjes te plaatsen.",
                 "explanation": [
-                    "Lorem ipsum"
+                    "Dit spelletje helpt je om je vaardigheden op het gebied van veiligheid in de natuur te ontwikkelen."
                 ],
-                "congratulations": ""
+                "congratulations": "Het is je gelukt om alle giftige planten te herkennen!"
             }
         },
         {

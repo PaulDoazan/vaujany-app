@@ -277,7 +277,7 @@
                 ],
                 "cooking": null,
                 "toxic": "Toxic plant!",
-                "toxicDescription": "[...]",
+                "toxicDescription": "If ingested, it becomes a real poison and causes dizziness, vomiting, headaches, convulsions and sometimes even death.",
                 "didYouKnow": {
                     "image": "arnica_didYouKnow.png",
                     "imageEmpty": "arnica_empty_didYouKnow.png",
@@ -304,7 +304,7 @@
                 ],
                 "cooking": null,
                 "toxic": "Giftige plant!",
-                "toxicDescription": "[...]",
+                "toxicDescription": "Bij inslikken wordt het een echt vergif, dat duizeligheid, overgeven, hoofdpijn, stuiptrekkingen en soms zelfs de dood veroorzaakt.",
                 "didYouKnow": {
                     "image": "arnica_didYouKnow.png",
                     "imageEmpty": "arnica_empty_didYouKnow.png",
@@ -360,7 +360,7 @@
                     "The petals are used to make syrups, jam and sherbets…"
                 ],
                 "toxic": "Plant very weakly toxic, especially the milky juice!",
-                "toxicDescription": "[...]"
+                "toxicDescription": "Very slightly toxic plant, especially the milky juice!"
             },
             "nl": {
                 "title": "Grote klaproos",
@@ -376,7 +376,7 @@
                     "De bloemblaadjes worden gebruikt om siropen, jam, sorbets, enz. te maken."
                 ],
                 "toxic": "Licht giftige plant, vooral het melksap!",
-                "toxicDescription": "[...]"
+                "toxicDescription": "Zeer licht giftige plant, vooral het melkachtige sap!"
             }
         },
         {
@@ -505,7 +505,7 @@
                 ],
                 "cooking": null,
                 "toxic": "Toxic plant!",
-                "toxicDescription": "[...]",
+                "toxicDescription": "Extremely toxic plant, which has earned witches their bad reputation.",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
@@ -533,7 +533,7 @@
                 ],
                 "cooking": null,
                 "toxic": "Giftige plant!",
-                "toxicDescription": "[...]",
+                "toxicDescription": "Extreem giftige plant, die aan de heksen hun slechte reputatie heeft gegeven!",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
@@ -1200,7 +1200,7 @@
                 "cooking": null,
                 "toxic": "A slightly toxic plant!",
                 "toxicParagraph": "(photosensitive, should not be taken simultaneously with other antidepressants)",
-                "toxicDescription": "[...]",
+                "toxicDescription": "Slightly toxic plant!</br>(photosensitising, avoid consuming simultaneously with other antidepressants)",
                 "didYouKnow": {
                     "image": "hypericum_richeri_didYouKnow.png",
                     "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
@@ -1231,7 +1231,7 @@
                 "cooking": null,
                 "toxic": "Licht giftige plant!",
                 "toxicParagraph": "(fotosensibiliserend, vermijd gelijktijdige inname met andere antidepressiva)",
-                "toxicDescription": "[...]",
+                "toxicDescription": "Licht giftige plant (fotosensibiliserend, inname met andere antidepressiva te vermijden).",
                 "didYouKnow": {
                     "image": "hypericum_richeri_didYouKnow.png",
                     "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
@@ -1685,7 +1685,7 @@
                 ],
                 "cooking": null,
                 "toxic": "Toxic plant!",
-                "toxicDescription": "[...]"
+                "toxicDescription": "Toxic plant! You should never eat the berries, which can be fatal."
             },
             "nl": {
                 "title": "Welriekende salomonszegel",
@@ -1699,7 +1699,7 @@
                 ],
                 "cooking": null,
                 "toxic": "Giftige plant!",
-                "toxicDescription": "[...]"
+                "toxicDescription": "Giftige plant! Eet nooit de bessen, die dodelijk kunnen zijn."
             }
         },
         {

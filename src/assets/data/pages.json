@@ -216,20 +216,20 @@
             "title": "Terracing",
             "slots": [
                 {
-                    "title": "[...]",
-                    "height": "[...]"
+                    "title": "the high mountain",
+                    "height": "Over 3000m"
                 },
                 {
-                    "title": "[...]",
-                    "height": "[...]"
+                    "title": "subalpine and alpine levels",
+                    "height": "From 2000 to 3000m"
                 },
                 {
-                    "title": "[...]",
-                    "height": "[...]"
+                    "title": "the forest or mountain level",
+                    "height": "From 800 to 1700m"
                 },
                 {
-                    "title": "[...]",
-                    "height": "[...]"
+                    "title": "the valley or hilly level",
+                    "height": "From 0 to 800m"
                 }
             ]
         },
@@ -237,20 +237,20 @@
             "title": "Vegetatiezones",
             "slots": [
                 {
-                    "title": "[...]",
-                    "height": "[...]"
+                    "title": "De nivale zone",
+                    "height": "Boven de 3000 m"
                 },
                 {
-                    "title": "[...]",
-                    "height": "[...]"
+                    "title": "De subalpiene en alpiene zone",
+                    "height": "Van 2000 tot 3000 m"
                 },
                 {
-                    "title": "[...]",
-                    "height": "[...]"
+                    "title": "Het bos of montane zone",
+                    "height": "Van 800 tot 1700 m"
                 },
                 {
-                    "title": "[...]",
-                    "height": "[...]"
+                    "title": "De vallei of de colline zone",
+                    "height": "Van 0 tot 800 m"
                 }
             ]
         }

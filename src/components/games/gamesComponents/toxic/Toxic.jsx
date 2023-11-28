@@ -237,10 +237,10 @@ export default function Toxic() {
                     duration: (duration / 2),
                     ease: "power1.out"
                 }).call(() => {
-                    slots.current[`slot_${i}`].tg.children[0].children[1].style.transform = 'rotateZ(0deg)'
-                    slots.current[`slot_${i}`].tg.children[0].children[1].style.top = '99%'
-                    slots.current[`slot_${i}`].tg.children[0].children[1].style.width = '96%'
-                    slots.current[`slot_${i}`].tg.children[0].children[1].style.left = '0%'
+                    if (slots.current[`slot_${i}`]) slots.current[`slot_${i}`].tg.children[0].children[1].style.transform = 'rotateZ(0deg)'
+                    if (slots.current[`slot_${i}`]) slots.current[`slot_${i}`].tg.children[0].children[1].style.top = '99%'
+                    if (slots.current[`slot_${i}`]) slots.current[`slot_${i}`].tg.children[0].children[1].style.width = '96%'
+                    if (slots.current[`slot_${i}`]) slots.current[`slot_${i}`].tg.children[0].children[1].style.left = '0%'
                 })
             }
             timeline.to('.nonexistentclass', { duration: duration }).call(() => {
