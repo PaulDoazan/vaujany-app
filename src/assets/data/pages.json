@@ -113,6 +113,8 @@
         "previous": "gamesHome",
         "mainClass": ".game__instructions__container",
         "fr": {
+            "bravo": "Bravo !",
+            "newGame": "Nouvelle partie",
             "rulesTitle": "Règles du jeu",
             "play": "JOUER",
             "levels": [
@@ -122,6 +124,8 @@
             ]
         },
         "en": {
+            "bravo": "Well done!",
+            "newGame": "New Game",
             "rulesTitle": "Rules of the game",
             "play": "PLAY",
             "levels": [
@@ -131,6 +135,8 @@
             ]
         },
         "nl": {
+            "bravo": "Bravo!",
+            "newGame": "Nieuwe partij",
             "rulesTitle": "Spelregels",
             "play": "Spelen",
             "levels": [

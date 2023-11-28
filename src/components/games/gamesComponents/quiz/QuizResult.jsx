@@ -1,12 +1,14 @@
 import parse from 'html-react-parser'
 import React, { useContext } from 'react'
-import { ConfettiContext, NavigationContext } from '../../../../utils/context'
+import { ConfettiContext, LangContext, NavigationContext } from '../../../../utils/context'
 import dataGames from '../../../../assets/data/games.json'
 import gsap from 'gsap'
+import pages from '../../../../assets/data/pages.json'
 
 export default function QuizResult({ handleRestart }) {
     const { fireConfetti } = useContext(ConfettiContext)
     const { currentPage, changePage } = useContext(NavigationContext)
+    const { lang } = useContext(LangContext)
 
     const currentGame = dataGames.games.find(el => el.slug === currentPage.element)
 
@@ -27,11 +29,11 @@ export default function QuizResult({ handleRestart }) {
     return (
         <div className="quiz__result__container">
             <img style={imageStyle} className="game__instructions__image" src={`images/illustrations/${currentGame.slug}.png`} alt="" />
-            <div className="quiz__result__bravo">BRAVO !</div>
-            <div className="quiz__result__congratulations">{parse(`Vous avez terminé le quiz avec brio&nbsp! La montagne n'a plus de secrets pour vous&nbsp!`)}</div>
+            <div className="quiz__result__bravo">{pages.gameInstruction[lang].bravo}</div>
+            <div className="quiz__result__congratulations">{parse(currentGame[lang].congratulations)}</div>
             <div className="quiz__restart__button" onTouchStart={handleStart}>
                 <img className="quiz__restart__button__image" src={`images/icons/quizEndBtnBackground.svg`} alt="" />
-                <div className="quiz__restart__button__text">NOUVELLE PARTIE</div>
+                <div className="quiz__restart__button__text">{pages.gameInstruction[lang].newGame}</div>
             </div>
         </div>
     )

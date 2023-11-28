@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
 import dataGames from '../../../../assets/data/games.json'
 import { LangContext, NavigationContext } from '../../../../utils/context'
+import pages from '../../../../assets/data/pages.json'
 
 const questionsType = [
     "toxic",
@@ -54,7 +55,7 @@ export default function GuessWhoQuestions({ correctFlower }) {
             <img className="questions__top__btn" style={{ opacity: listPosition === 1 ? 0.5 : 1 }} src="images/guesswho/arrowQuestionBtn.svg" alt="" onTouchStart={handleListPosition} />
             <img className="questions__bottom__btn" style={{ opacity: listPosition === -9 ? 0.5 : 1 }} src="images/guesswho/arrowQuestionBtn.svg" alt="" onTouchStart={handleListPosition} />
 
-            {correctFlower && <div className="answer__to__question">« {correctFlower.guessWhoParameters[questionsType[-(listPosition - 1)]] ? 'OUI' : 'NON'} »</div>}
+            {correctFlower && <div className="answer__to__question">« {correctFlower.guessWhoParameters[questionsType[-(listPosition - 1)]] ? pages.cancel[lang].yes : pages.cancel[lang].no} »</div>}
         </div>
     )
 }

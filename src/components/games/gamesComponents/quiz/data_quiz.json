@@ -494,39 +494,37 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Arnica",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Which flower is arnica?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "It is often confused with other flowers, yet its properties are unique and famous world over for soothing bruises and tired muscles."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "",
+                "",
+                ""
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "Arnica",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Welke bloem is de arnica?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Hij wordt vaak verward met andere bloemen.  Nochtans bezit hij unieke eigenschappen en is wereldberoemd als behandeling van kneuzingen en vermoeide spieren."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "",
+                "",
+                ""
             ]
         }
     },
@@ -562,39 +560,39 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "The yellow foxglove",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Is this plant…?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "All parts of this plant are highly poisonous (flowers, leaves, seeds and roots). Never eat them."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "poisonous",
+                "protected",
+                "extinct"
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "Grootbloemig vingerhoedskruid",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Is deze plant…"
             ],
+            "bottomExplanations": "30%",
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Alle delen van deze plant zijn extreem giftig (bloemen, bladeren, zaden en wortels). Je mag ze vooral niet inslikken.",
+                    "Vingerhoedskruid werd gebruikt in de behandeling van de schilder Van Gogh die aan epilepsie leed.  Dit zou hem visuele hallucinaties hebben opgeleverd, waarin de kleur geel domineerde.  Hierover is veel gespeculeerd en er bestaan vermoedens dat de giftige werking van vingerhoedskruid niet alleen verantwoordelijk was voor de psychotische symptomen, maar ook voor de prominente gele kleur in de schilderijen van Van Gogh in de laatste twee jaar voorafgaande aan zijn dood."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "giftig",
+                "beschermd",
+                "uitgestorven"
             ]
         }
     },
@@ -627,39 +625,37 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Yellow gentian",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Also called a plant skyscraper. What does the height of this flower indicate?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "The meteorologist's wink: it supposedly indicates the snow depth of the following winter: the higher it is, the deeper the layer of snow will be."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "The higher it is, the deeper the snow will&nbsp;be",
+                "The higher it is, the warmer it will be",
+                "The higher it is, the more it will rain"
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "De gele gentiaan",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Ook wel plantaardige wolkenkrabber genoemd. Wat geeft de hoogte van deze bloem aan?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "De knipoog van de weerkundige : de Gele Gentiaan geeft zogezegd de hoeveelheid sneeuw voor de komende winter aan. Hoe hoger hij groeit, hoe dikker de sneeuwlaag zal zijn."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "Hoe hoger hij is, hoe dikker de sneeuwlaag.",
+                "Hoe hoger hij is, hoe warmer het zal worden.",
+                "Hoe hoger hij is, hoe meer het zal regenen."
             ]
         }
     },
@@ -695,39 +691,38 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Monk's rhubarb",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "What flower is monk's rhubarb?"
             ],
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "In the Middle Ages, its leaves had various uses. They were cooked to make compotes, jams and pies, and were used as food for pigs. The leaves were also used to wrap butter and keep it fresh when descending from mountain pastures."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "",
+                "",
+                ""
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "Alpenzuring",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Welke bloem is de alpenzuring?"
             ],
+            "bottomExplanations": "3%",
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "In de Middeleeuwen werden de bladeren voor verschillende doeleinden gebruikt. Ze werden gebruikt om compote, jam en taartente maken, maar ook als varkensvoer... De bladeren dienden ook om boter in te wikkelen en koel te houden tijdens de terugkeer van de alpenweiden."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "",
+                "",
+                ""
             ]
         }
     },
@@ -765,39 +760,43 @@
             ]
         },
         "en": {
-            "title": "[...]",
+            "title": "Common oregano",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "How is common oregano regularly used?"
             ],
+            "bottomExplanations": "15%",
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Also called mountain marjoram or red tea.",
+                    "Its pleasant taste makes very good infusions; it is the \"red tea\" of the Scandinavians. In the mountains, it is regularly used as a substitute for tea.",
+                    "The pizza maker's wink: its cousin, cultivated marjoram, which does not grow spontaneously in our climates, that we spread on our pizzas."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "in sweets",
+                "on a pizza",
+                "in infusions"
             ]
         },
         "nl": {
-            "title": "[...]",
+            "title": "Wilde oregano",
             "paragraphs": [
-                "[...]",
-                "[...]"
+                "Waarvoor wordt wilde oregano regelmatig gebruikt?"
             ],
+            "bottomExplanations": "15%",
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "[...]"
+                    "Ook wel bergmarjolein of rode thee genoemd.",
+                    "Zijn aangename smaak zorgt voor heerlijke kruidentheeën. Het is de \" rode thee \" van de Scandinaviërs. In de bergen wordt hij regelmatig gebruikt als vervanger van de klassieke thee.",
+                    "De knipoog van de pizzabakker : Het is zijn neefje, de gecultiveerde marjolein, die niet spontaan in ons klimaat groeit, die we op onze pizzas smeren."
                 ]
             },
             "choiceTitles": [
-                "[...]",
-                "[...]",
-                "[...]"
+                "als snoep",
+                "op een pizza",
+                "als kruidenthee"
             ]
         }
     }
