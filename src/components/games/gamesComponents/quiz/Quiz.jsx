@@ -27,7 +27,7 @@ export default function Quiz() {
             for (let i = 0; i < questionsMax; i++) {
                 questionsNbs.push(i)
             }
-            // shuffleArray(questionsNbs)
+            shuffleArray(questionsNbs)
             selectedAnswers = questionsNbs.splice(0, 4)
             setAllAnswers(questionsNbs)
         } else {

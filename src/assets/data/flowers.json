@@ -32,7 +32,7 @@
                 "bloom": "Printemps-été-automne.",
                 "height": "15 à 80 cm.",
                 "habitat": "Pousse dans les pâturages, prairies, haies, en bordure de route, de préférence au soleil, jusqu’à 2500 m d’altitude.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Pousse dans les pâturages, prairies, haies, en bordure de route, de préférence au soleil.",
                 "medical": [
                     "Elle guérit, paraît-il, tous les maux : plaies ulcéreuses, hémorroïdes, irritations, ecchymoses et gerçures.",
                     "En tisane, elle stimule la digestion, élimine les crampes d'estomac et favorise la transpiration."
@@ -48,7 +48,7 @@
                 "bloom": "Spring, summer, autumn.",
                 "height": "15 to 80 cm.",
                 "habitat": "Grows in pastures, meadows, hedges and at the boarder of the road, especially sunny, until 2500&nbspm of altitude.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Grows in pastures, meadows, hedges and at the boarder of the road, especially sunny, until 2500 m of altitude.",
                 "medical": [
                     "The plant has  a long history as a powerful 'healing herb' used topically for wounds, cuts and abrasions.",
                     "The herb is purported to be a diaphoretic, astringent, tonic, stimulant and mild aromatic."
@@ -64,7 +64,7 @@
                 "bloom": "Lente-zomer-herfst.",
                 "height": "15 tot 80 cm.",
                 "habitat": "Groeit in weiden, hagen en langs de wegen, bij voorkeur in de zon, tot 2500&nbsp;m hoogte.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit in weiden, hagen en bermen, bij voorkeur in de zon.",
                 "medical": [
                     "Er wordt gezegd dat deze plant alle kwaaltjes geneest : zwerende wonden, aambeien, irritaties, kneuzingen en kloven.",
                     "Kruidenthee van duizendblad stimuleert de spijsvertering, verzacht de maagkrampen en bevordert de transpiratie."
@@ -105,7 +105,7 @@
                 "bloom": "Été.",
                 "height": "10 à 30 cm.",
                 "habitat": "Pousse essentiellement dans les pelouses subalpines écorchées.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Pousse essentiellement dans les pelouses subalpines écorchées.",
                 "medical": [
                     "Tonique, astringente. Depuis toujours, les femmes des hautes terres se soignent avec des infusions de racines d'alchémille.",
                     "Ce remède est indiqué dans tous les domaines de la gynécologie (facilite l'accouchement, soins des organes génitaux féminins)."
@@ -119,7 +119,7 @@
                 "bloom": "Summer.",
                 "height": "10 to 30 cm.",
                 "habitat": "Grows mainly in subalpine meadows.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Grows mainly in subalpine meadows.",
                 "medical": [
                     "Tonic, astringent. For a long time, women living in mountain treating themselves by using infusions of the lady’s mantle root.",
                     "This remedy is indicated in a number of women's ailments (facilitates childbirth, treats feminine genitalia)."
@@ -133,7 +133,7 @@
                 "bloom": "Zomer.",
                 "height": "10 tot 30 cm.",
                 "habitat": "Groeit voornamelijk in subalpiene, schrale weiden.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit voornamelijk in subalpiene, schrale weiden.",
                 "medical": [
                     "Tonisch, samentrekkend.  De vrouwen in de bergen hebben zichzelf altijd behandeld met kruidenthees van de vrouwenmantelwortel.",
                     "Deze remedie is aangewezen in alle domeinen van de gynaecologie (vergemakkelijken van de bevalling, verzorging van de vrouwelijke geslachtsorganen)."
@@ -172,7 +172,7 @@
                 "bloom": "Été.",
                 "height": "50 à 200 cm.",
                 "habitat": "Pousse en plaine et en montagne, surtout dans les bois clairs, les prairies ombragées et les bords de ruisseaux.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Pousse en plaine et en montagne, surtout dans les bois clairs, les prairies ombragées et les bords de ruisseaux.",
                 "medical": [
                     "Avec les racines on fait des infusions qui stimulent la digestion. C'est un excellent tonique général, contre l'anémie, les migraines, l'asthme et la toux."
                 ],
@@ -187,7 +187,7 @@
                 "bloom": "Summer.",
                 "height": "50 to 200 cm.",
                 "habitat": "It grows on grazing grounds, cultured land and along streams.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "It grows on grazing grounds, cultured land and along streams.",
                 "medical": [
                     "The root and the seeds are antispasmodic, aromatic, carminative, diaphoretic, diuretic, emmenagogue, expectorant, stimulant, stomachic, and tonic."
                 ],
@@ -202,7 +202,7 @@
                 "bloom": "Zomer.",
                 "height": "50 tot 200 cm.",
                 "habitat": "Groeit in valleien en bergen, vooral in open bossen, schaduwrijke weiden en aan de rand van beken.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit in valleien en bergen, vooral in open bossen, schaduwrijke weiden en aan de rand van beken.",
                 "medical": [
                     "De wortels worden gebruikt om kruidenthee te maken die de spijsvertering stimuleren.  Het is een uitstekend versterkend middel en helpt bij bloedarmoede, migraine, astma en hoest."
                 ],
@@ -243,7 +243,7 @@
                 "bloom": "À la fin du printemps et en été.",
                 "height": "20 à 60 cm.",
                 "habitat": "Pousse essentiellement dans les pelouses subalpines denses et continues. On peut également la rencontrer dans les prairies subalpines et les landes d’ubac (face ombreuse). Elle aime surtout les terrains acides : hummus, granit, silice, basalte, elle pousse rarement sur du calcaire.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Essentiellement dans les pelouses subalpines denses et continues. Également dans les prairies et les landes d’ubac (face ombreuse). Aime les terrains acides. Pousse rarement sur du calcaire.",
                 "medical": [
                     "L'arnica est connue pour ses vertus thérapeutiques, notamment contre les contusions. Elle est utilisée en homéopathie en pommade.",
                     "Mais attention, ingérée, elle devient un véritable poison et provoque vertiges, vomissements, maux de tête, convulsions et parfois même la mort. Elle est abortive à haute dose. En usage externe elle peut provoquer des réactions cutanées (éruptions, vésicule)."
@@ -270,7 +270,7 @@
                 "bloom": "Late spring – summer.",
                 "height": "20 to 60 cm.",
                 "habitat": "Calcareous soils in mountain pastures. Found especially on granite or siliceous soils in the Alps, up to 2500 metres. Pasture and open woodland, usually on poorer acid soils.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Calcareous soils in mountain pastures. Found especially on granite or siliceous soils in the Alps, up to 2500 metres. Pasture and open woodland, usually on poorer acid soils.",
                 "medical": [
                     "Arnica has a long history of herbal use, especially as an external treatment for bruises and sprains - it is an ingredient of a number of proprietary preparations. Internally, it has been used in the treatment of heart complaints and as a booster for the immune system. Arnica increases local blood supply and accelerates healing, it is anti-inflammatory and increases the rate of absorption of internal bleeding.",
                     "Generally the plant is nowadays only recommended for internal use as a homeopathic medicine, principally for treating shock, injury and pain. If used as a decoction or tincture it stimulates the circulation and is valuable in the treatment of angina and a weak or failing heart, but it can be toxic even at quite low doses and so is rarely used this way."
@@ -297,7 +297,7 @@
                 "bloom": "Aan het einde van de lente en in de zomer.",
                 "height": "20 tot 60 cm.",
                 "habitat": "Groeit voornamelijk in subalpiene graslanden.  Komt ook voor in subalpiene weiden en schaduwrijke heide.  Deze plant houdt van zure bodems: humus, graniet, kiezelaarde, basalt en groeit zelden op kalksteen.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit voornamelijk in subalpiene graslanden. Komt ook voor in subalpiene weiden en schaduwrijke heide. Deze plant houdt van zure bodems: humus, graniet, kiezelaarde, basalt en groeit zelden op kalksteen.",
                 "medical": [
                     "Arnica is gekend voor zijn therapeutische kracht, vooral ter verzorging van blauwe plekken, en wordt gebruikt als homeopathische zalf.",
                     "Maar opgepast : bij inname is arnica giftig en veroorzaakt duizeligheid, overgeven, hoofdpijn, stuiptrekkingen en soms zelfs de dood.  In hoge doses werkt hij abortief.  Bij uitwendig gebruik kan hij huidreacties veroorzaken (uitslag, blaren)."
@@ -336,7 +336,7 @@
                 "bloom": "Printemps-été.",
                 "height": "30 à 90 cm.",
                 "habitat": "On le rencontre partout et pousse dans les champs labourés et aux bords des routes. Il aime la compagnie des poacées (graminées) qui leur a valu leur destruction par les pesticides !",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "On le rencontre partout et pousse dans les champs labourés et aux bords des routes. Il aime la compagnie des poacées (graminées) qui leur a valu leur destruction par les pesticides !",
                 "medical": [
                     "Sédatives. Il sert entre autres à traiter les toux rebelles, les angines et les bronchites. Les pétales ne sont pas toxiques."
                 ],
@@ -352,7 +352,7 @@
                 "bloom": "Spring – summer.",
                 "height": "30 to 90 cm.",
                 "habitat": "We can meet them everywhere and it grows on agricultural fields and at the boarder of the road.  The corn poppy likes the company of poacées (grass) which leads to their destruction by pesticides.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "We can meet them everywhere and it grows on agricultural fields and at the boarder of the road.  The corn poppy likes the company of poacées (grass) which leads to their destruction by pesticides.",
                 "medical": [
                     "Sedative. It treats coughs, pharyngitis and bronchitis. The petals are non-toxic."
                 ],
@@ -368,7 +368,7 @@
                 "bloom": "Lente-zomer.",
                 "height": "30 tot 90 cm.",
                 "habitat": "Deze bloem is overal te vinden, groeit op omgeploegde velden en aan de rand van de wegen. Hij houdt van het gezelschap van Poaceae (grassen), wat door de pesticiden heeft geleid tot hun vernietiging!",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Deze bloem is overal te vinden en groeit op omgeploegde velden en aan de rand van de wegen. Hij houdt van het gezelschap van Poaceae (grassen), wat door de pesticiden heeft geleid tot hun vernietiging!",
                 "medical": [
                     "Kalmerend. Hij wordt onder andere gebruikt om hardnekkige hoest, keelpijn en bronchitis te behandelen. De bloemblaadjes zijn niet giftig."
                 ],
@@ -471,7 +471,7 @@
                 "bloom": "Été.",
                 "height": "40 à 80 cm.",
                 "habitat": "Pousse dans les bois clairs et sur les pentes pierreuses.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Les bois clairs et sur les pentes pierreuses.",
                 "medical": [
                     "La digitale qui est extrêmement toxique a valu aux sorcières leur si mauvaise réputation.",
                     "La digitale, qu'elles savaient parfaitement doser, venait en aide aux insuffisants cardiaques. Aujourd'hui, la chimie a su isoler le principe actif, la digitaline qui est un stimulant cardiaque utilisé dans le traitement de l'insuffisance cardiaque."
@@ -499,7 +499,7 @@
                 "bloom": "Summer.",
                 "height": "40 to 80 cm.",
                 "habitat": "Grows in clear woods and rocky slopes.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Grows in clear woods and rocky slopes.",
                 "medical": [
                     "All parts of the plant are poisonous. Used in the treatment of heart problems."
                 ],
@@ -526,7 +526,7 @@
                 "bloom": "Zomer.",
                 "height": "40 tot 80 cm.",
                 "habitat": "Groeit in open bossen en op stenige hellingen.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit in open bossen en op stenige hellingen.",
                 "medical": [
                     "De slechte reputatie van de heksen was onder andere te wijten aan het extreem giftige vingerhoedskruid.",
                     "Het vingerhoedskruid, dat ze perfect wisten te doseren, hielp personen met hartfalen.  Vandaag de dag is de scheikunde erin geslaagd om het actieve bestanddeel, digitalis, te isoleren. Dit is een hartstimulerend middel dat wordt gebruikt bij de behandeling van hartfalen."
@@ -629,7 +629,7 @@
                 "bloom": "Été.",
                 "height": "5 à 20 cm.",
                 "habitat": "Pousse dans les rochers et moraines.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Dans les rochers et moraines.",
                 "medical": [
                     "Stimule l’appétit et les digestions difficiles et peut soigner le mal de montagne.",
                     "À éviter pendant la grossesse (surtout au début) comme toutes les plantes emménagogues."
@@ -645,7 +645,7 @@
                 "bloom": "Summer.",
                 "height": "5 to 20 cm.",
                 "habitat": "Grows on rocks at a high altitude.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Grows on rocks at a high altitude.",
                 "medical": [
                     "Stimulates appetite and difficult digestions. It can treat mountain illness.",
                     "To avoid during pregnancy (especially in the beginning) like all emmenagogual plants."
@@ -661,7 +661,7 @@
                 "bloom": "Zomer.",
                 "height": "5 tot 20 cm.",
                 "habitat": "Groeit tussen de rotsen en gletsjerpuin.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit in de rotsen en gletsjerpuin.",
                 "medical": [
                     "Stimuleert de eetlust, helpt bij een moeilijke spijsvertering, en kan bergziekte behandelen.",
                     "Te vermijden tijdens de zwangerschap (vooral in het begin)."
@@ -734,7 +734,7 @@
                 "bloom": "Summer.",
                 "height": "50 to 150 cm.",
                 "habitat": "It grows in grassy alpine and sub-alpine pastures, usually oncalcareous soils.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "It grows in grassy alpine and sub-alpine pastures, usually oncalcareous soils.",
                 "medical": [
                     "The root is anthelmintic, anti-inflammatory, antiseptic, bitter tonic, cholagogue, emmenagogue, febrifuge, refrigerant and stomachic. It is taken internally in the treatment of liver complaints, indigestion, gastric infections and anorexia. It should not be prescribed for patients with gastric or duodenal ulcers. The root, which can be over 5 cm thick and has few branches, is harvested in the autumn and dried for later use.",
                     "Not to be confound with the white hellbore which is extremely poisonous."
@@ -762,7 +762,7 @@
                 "bloom": "Zomer.",
                 "height": "50 tot 150 cm.",
                 "habitat": "Groeit voornamelijk in subalpiene weiden, maar ook op braakliggend terrein (ongecultiveerd en niet onderhouden), in struikgewas in de montane zone en in bebossingen waar de zon overheerst.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit voornamelijk in subalpiene weiden, maar ook op braakliggend terrein (ongecultiveerd en niet onderhouden) en in struikgewas in de montane zone en in bebossingen waar de zon overheerst.",
                 "medical": [
                     "De wortel wordt verwerkt en gedistilleerd tot een bittere brandewijn, maar, opgepast, want deze heeft een alcoholpercentage van 50° ! Hij wordt ook gebruikt als kruidenthee en in sterke drank en heeft immuunversterkende eigenschappen.",
                     "Niet te verwarren met de zeer giftige witte nieswortel (Vérâtre Blanc)."
@@ -814,7 +814,7 @@
                 "bloom": "Printemps-été.",
                 "height": "10 à 30 cm.",
                 "habitat": "Pousse dans les lieux ombragés des haies et des vieux murs et les rochers. Espèce commune en toutes régions.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Pousse dans les lieux ombragés des haies et des vieux murs et les rochers. Espèce commune en toutes régions.",
                 "medical": [
                     "Ce géranium fut employé pour stopper les hémorragies, soigner les blessures, régénérer le sang et lutter contre le diabète. Il était aussi réputé contre les irritations buccales et l'inflammation aiguë des amygdales."
                 ],
@@ -827,7 +827,7 @@
                 "bloom": "Spring – Summer.",
                 "height": "10 to 30 cm.",
                 "habitat": "This plant is able to tolerate shade, and often occurs close to human habitation. Typical habitats favoured by this species include woodlands, hedgerows.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "This plant is able to tolerate shade, and often occurs close to human habitation. Typical habitats favoured by this species include woodlands, hedgerows.",
                 "medical": [
                     "astringent, antibiotic, adaptogen, antiviral, styptic, tonic, diuretic, digestive, sedative, antioxidant."
                 ],
@@ -840,7 +840,7 @@
                 "bloom": "Lente-zomer.",
                 "height": "10 tot 30 cm.",
                 "habitat": "Groeit op schaduwrijke plaatsen, heggen, oude muren en rotsen. Deze plant is in alle regio's te vinden.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit op schaduwrijke plaatsen, heggen, oude muren en rotsen. Deze plant is in alle regio’s te vinden.",
                 "medical": [
                     "Deze geranium werd gebruikt om bloedingen te stoppen, wonden te genezen, nieuw bloed aan te maken en suikerziekte te bestrijden.  Hij stond ook bekend om zijn heilzame werking bij mondirritaties en acute amandelontstekingen."
                 ],
@@ -878,7 +878,7 @@
                 "bloom": "Été-automne.",
                 "height": "10 à 60 cm.",
                 "habitat": "Pousse essentiellement dans les reposoirs des troupeaux domestiques. On peut également la rencontrer aux bords des chemins et abords des villages, dans les cours des fermes et prairies.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Pousse essentiellement dans les reposoirs des troupeaux domestiques. On peut également la rencontrer aux bords des chemins et abords des villages, dans les cours des fermes et prairies.",
                 "medical": [
                     "Les feuilles de plantain, en décoction ou cataplasme, étaient très utilisées par les gens de la montagne contre les diarrhées, toux, plaies et piqûres d'insectes.",
                     "Elles calment aussi les brûlures d'orties, en les frottant sur la peau endolorie. Elle est également utilisée comme antihistaminique et dans les affections des bronches. Certaines personnes peuvent avoir des réactions allergiques au plantain."
@@ -907,7 +907,7 @@
                 "bloom": "Summer – Automn.",
                 "height": "10 to 60 cm.",
                 "habitat": "It grows better than most other plants in compacted soils, and is abundant beside paths, roadsides, and other areas with frequent soil compaction. It is also common in grasslands.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "It grows better than most other plants in compacted soils, and is abundant beside paths, roadsides, and other areas with frequent soil compaction. It is also common in grasslands.",
                 "medical": [
                     "The leaves and the seed are medicinal used as an antibacterial, antidote, astringent, antiinflammatory, antiseptic, antitussive, cardiac, demulcent, diuretic, expectorant, haemostatic, laxative, ophthalmic, poultice, refrigerant, and vermifuge. The heated leaves are used as a wet dressing for wounds, skin inflammations, malignant ulcers, cuts, stings and swellings and said to promote healing without scars.Certain persons can have allergic reactions to this plant."
                 ],
@@ -935,7 +935,7 @@
                 "bloom": "Zomer-herfst.",
                 "height": "10 tot 60 cm.",
                 "habitat": "Groeit voornamelijk op de rustplaatsen van kuddes. Hij is ook te vinden langs wegen en dorpsranden, op boerenerven en in weilanden.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit voornamelijk op de rustplaatsen van kuddes. Hij is ook te vinden langs wegen en dorpsranden, op boerenerven en in weilanden.",
                 "medical": [
                     "De bladeren van de weegbree werden door de bergbewoners veel gebruikt als afkooksel of kompres om diarree, hoest, wonden en insectenbeten te behandelen.",
                     "Ze verzachten eveneens brandnetelwonden door ze op de pijnlijke huid te wrijven. Hij wordt ook gebruikt als antihistaminicum en bij bronchitis. Opgepast : sommige mensen kunnen allergisch reageren op weegbree."
@@ -990,7 +990,7 @@
                 "bloom": "Été.",
                 "height": "5 à 25 cm.",
                 "habitat": "Pousse essentiellement dans les pelouses subalpines écorchées. On peut également la rencontrer dans les éboulis et les pelouses alpines.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Essentiellement dans les pelouses subalpines écorchées. Également dans les éboulis et les pelouses alpines.",
                 "medical": [
                     "Les joubarbes sont depuis longtemps utilisées pour calmer les douleurs externes: cors aux pieds, brûlures et hémorroïdes. Les feuilles pilées peuvent être utilisées en cataplasme pour apaiser l'irritation des dartres.",
                     "Pour conserver vos dents de sagesse, il faut s'habituer à mâcher des feuilles de joubarbe. La saveur acidulée n'est pas désagréable et les rages de dents ne sont plus à craindre."
@@ -1016,7 +1016,7 @@
                 "bloom": "Summer.",
                 "height": "5 to 25 cm.",
                 "habitat": "They live on sunny rocks and stony places in the mountains, subalpine and alpine belts.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "They live on sunny rocks and stony places in the mountains, subalpine and alpine belts.",
                 "medical": [
                     "Chew leaves to relieve tooth ache. Apply to minor burns, wasp and nettle stings, cuts, ulcers, insect bites, itching and burning skin."
                 ],
@@ -1042,7 +1042,7 @@
                 "bloom": "Zomer.",
                 "height": "5 tot 25 cm.",
                 "habitat": "Groeit voornamelijk in schrale bergweiden, tussen rotsen en puin, op kalkarme bodems, en in alpiene grasvlaktes.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit voornamelijk in schrale bergweiden, tussen rotsen en puin, op kalkarme bodems, en in alpiene grasvlaktes.",
                 "medical": [
                     "Huislook wordt al heel lang gebruikt om uitwendige pijn te verzachten, zoals likdoorns, brandwonden en aambeien.",
                     "De geplette bladeren kunnen worden gebruikt als een kompres om de irritatie van huiduitslag te verzachten.",
@@ -1094,7 +1094,7 @@
                 "bloom": "Été.",
                 "height": "10 à 30 cm.",
                 "habitat": "Pousse essentiellement sur les pelouses subalpines denses et continues. On peut également la rencontrer sur les pelouses alpines et landines de haute altitude.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Pousse essentiellement sur les pelouses subalpines denses et continues. On peut également la rencontrer sur les pelouses alpines et landines de haute altitude.",
                 "medical": [
                     "Diurétique."
                 ],
@@ -1109,7 +1109,7 @@
                 "bloom": "Summer.",
                 "height": "10 to 30 cm.",
                 "habitat": "It grows in meadows and on stony slopes from the tree line to over 3000 m, usually on acidic soils.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "It grows in meadows and on stony slopes from the tree line to over 3000 m, usually on acidic soils.",
                 "medical": [
                     "The herb is diuretic."
                 ],
@@ -1124,7 +1124,7 @@
                 "bloom": "Zomer.",
                 "height": "10 tot 30 cm.",
                 "habitat": "Groeit voornamelijk in subalpiene graslanden. We vinden hem ook op hooggelegen alpenweiden en heidevelden.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit voornamelijk op subalpiene graslanden. We vinden hem ook op hooggelegen alpenweiden en heidevelden.",
                 "medical": [
                     "Vochtafdrijvend."
                 ],
@@ -1164,7 +1164,7 @@
                 "bloom": "Été.",
                 "height": "15 à 40 cm.",
                 "habitat": "Pousse dans les pelouses et les prairies.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Pousse dans les pelouses et les prairies.",
                 "medical": [
                     "Le millepertuis est surtout connu pour ses propriétés cicatrisantes, les soins des brûlures et coups de soleil en macération solaire dans l'huile d'olive.",
                     "Il est consommé en tisane pour lutter contre les affections des bronches, les cystites et les gastrites, grâce à son action antibactérienne et cicatrisante. Il est reconnu depuis peu en France pour ses qualités d'antidépresseur. C'est surtout l'hypericum perforatum qui est utilisé en phytothérapie."
@@ -1193,7 +1193,7 @@
                 "bloom": "Summer.",
                 "height": "15 to 40 cm.",
                 "habitat": "Grows on lawns and in fields.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Grows on lawns and in fields.",
                 "medical": [
                     "St John’s wort is especially known for its healing properties, particularly for burns and sunburn after the flowers have been soaked in olive oil in the sun. It can be drunk in an infusion to relieve bronchial infections, cystitis and gastritis due to its antibacterial, healing action. It has recently become recognised in France for its antidepressant qualities. Hypericum perforatum is especially used in herbal medicine."
                 ],
@@ -1221,7 +1221,7 @@
                 "bloom": "Zomer.",
                 "height": "15 tot 40 cm.",
                 "habitat": "Groeit in grasvelden en weiden.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit in grasvelden en weiden.",
                 "medical": [
                     "Sint-Janskruid is vooral bekend om zijn helende eigenschappen en ter behandeling van brandwonden en zonnebrand.",
                     "Dankzij zijn antibacteriële en helende eigenschappen, wordt ze gebruikt als kruidenthee in geval van aandoeningen van de luchtwegen en blaas- en maagontstekingen.",
@@ -1279,7 +1279,7 @@
                 "bloom": "Été.",
                 "height": "20 à 60 cm.",
                 "habitat": "Pousse sur les versants bien ensoleillés, essentiellement dans les pelouses sèches. Également aux bords des chemins et abords des villages.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Pousse sur les versants bien ensoleillés, essentiellement dans les pelouses sèches. Également aux bords des chemins et abords des villages.",
                 "medical": [
                     "Analgésiques (éliminant les douleurs), antiseptiques, expectorantes, antiparasites. Il ne faut pas confondre l'origan vulgaire avec la marjolaine qui a d'autres propriétés (calmante du système nerveux) et qui a une odeur plus douce."
                 ],
@@ -1308,7 +1308,7 @@
                 "bloom": "Summer.",
                 "height": "20 to 60 cm.",
                 "habitat": "Wild marjoram is a tall herbaceous perennial native of dry, infertile and usually calcareous soils. Habitats include grasslands, hedge banks, road verges and scrub but not pasture as it is vulnerable to grazing.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Wild marjoram is a tall herbaceous perennial native of dry, infertile and usually calcareous soils. Habitats include grasslands, hedge banks, road verges and scrub but not pasture as it is vulnerable to grazing.",
                 "medical": [
                     "Expectorant, anti-inflammatory, antiseptic of the respiratory system."
                 ],
@@ -1337,7 +1337,7 @@
                 "bloom": "Zomer.",
                 "height": "20 tot 60 cm.",
                 "habitat": "Groeit op zonnige hellingen, voornamelijk op droog grasland. Je vindt hem ook aan de rand van de wegen en dorpsranden.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit op zonnige hellingen, voornamelijk op droog grasland. Je vindt hem ook aan de rand van de wegen en dorpsranden.",
                 "medical": [
                     "Pijnstillend, ontsmettend, slijmoplossend, antiparasitair. Wilde oregano mag niet verward worden met marjolein, die andere eigenschappen bezit (kalmerend voor het zenuwstelsel) en zoeter ruikt."
                 ],
@@ -1448,7 +1448,7 @@
                 "bloom": "Printemps.",
                 "height": "30 à 80 cm.",
                 "habitat": "Pousse dans les sous-bois, lisières et clairières d’ubac (versant d’une montagne où l’exposition à l’ombre est dominante).",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Dans les sous-bois, lisières et clairières d’ubac (versant d’une montagne où l’exposition à l’ombre est dominante).",
                 "medical": [
                     "Les feuilles ont des propriétés cicatrisantes et astringentes."
                 ],
@@ -1463,7 +1463,7 @@
                 "bloom": "Spring.",
                 "height": "30 to 80 cm.",
                 "habitat": "Grows along the shady edges of paths and rides in woodlands, and in the hedge banks of roadside verges.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Grows along the shady edges of paths and rides in woodlands, and in the hedge banks of roadside verges.",
                 "medical": [
                     "The leaves have healing and astringent properties."
                 ],
@@ -1478,7 +1478,7 @@
                 "bloom": "Lente.",
                 "height": "30 to 80 cm.",
                 "habitat": "Groeit in de ondergroei van bossen, aan de bosranden en op de open plekken waar de schaduw overheerst.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit in de ondergroei van de bossen, aan de bosranden en op de open plekken waar de schaduw overheerst.",
                 "medical": [
                     "De bladeren hebben helende en samentrekkende eigenschappen."
                 ],
@@ -1732,7 +1732,7 @@
                 "bloom": "Été.",
                 "height": "1 à 5 cm.",
                 "habitat": "Pousse essentiellement dans les pelouses subalpines écorchées. On peut également la rencontrer dans les pelouses alpines et pelouses sèches montagnardes.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Pousse essentiellement dans les pelouses subalpines écorchées. On peut également la rencontrer dans les pelouses alpines et pelouses sèches montagnardes.",
                 "medical": [
                     "Antiseptique, antispasmodique, digestive, diurétique, expectorante, tonique et vermifuge."
                 ],
@@ -1761,7 +1761,7 @@
                 "bloom": "Summer.",
                 "height": "1 to 5 cm.",
                 "habitat": "Dry subalpine and alpine meadows where it can get good sunlight.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Dry subalpine and alpine meadows where it can get good sunlight.",
                 "medical": [
                     "It is a source of oil of Serpolet by distillation, and is used as an aphrodisiac in herbal medicine. It is also used against coughing."
                 ],
@@ -1790,7 +1790,7 @@
                 "bloom": "Zomer.",
                 "height": "1 tot 5 cm.",
                 "habitat": "Groeit voornamelijk in schrale, subalpiene bergweiden. We vinden ze ook in alpiene en droge bergweiden.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Groeit voornamelijk in schrale, subalpiene bergweiden. We vinden ze ook in alpiene en droge bergweiden.",
                 "medical": [
                     "Ontsmettend, krampverzachtend, spijsverteringsbevorderend, vochtafdrijvend, slijmoplossend, versterkend en wormverdrijvend."
                 ],
@@ -1953,7 +1953,7 @@
                 "bloom": "Avril à juin.",
                 "height": "8 à 15 cm.",
                 "habitat": "Prairies et coteaux secs, talus, bords de chemins, forêts humides et ouvertes, bois de feuillus, taillis, landes sur sols peu profonds, zones élevées de rivages rocheux.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Prairies et coteaux secs, talus, bords de chemins, forêts humides et ouvertes, bois de feuillus, taillis, landes sur sols peu profonds, zones élevées de rivages rocheux.",
                 "medical": [
                     "Les fleurs sont utilisées pour confectionner un sirop adoucissant prescrit pour traiter bronchite et quinte de toux, à utiliser sans excès car il est légèrement laxatif."
                 ],
@@ -1968,7 +1968,7 @@
                 "bloom": "April to June.",
                 "height": "8 to 15cm.",
                 "habitat": "Dry meadows and hillsides, embankments, roadsides, moist and open forests, deciduous woods, copses, heaths on shallow soils, elevated areas of rocky shores.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Dry meadows and hillsides, embankments, roadsides, moist and open forests, deciduous woods, copses, heaths on shallow soils, elevated areas of rocky shores.",
                 "medical": [
                     "The flowers are used to make a softening syrup prescribed to treat bronchitis and coughing fits, to be used in moderation, as it is slightly laxative."
                 ],
@@ -1983,7 +1983,7 @@
                 "bloom": "April tot juni.",
                 "height": "8 tot 15 cm.",
                 "habitat": "Weiden en droge berghellingen, bermen, vochtige en open bossen, loofbossen, hakhout, heide op ondiepe bodems.",
-                "habitatGameInfo": "[...]",
+                "habitatGameInfo": "Weiden en droge berghellingen, bermen, vochtige en open bossen, loofbossen, hakhout, heide op ondiepe bodems.",
                 "medical": [
                     "De bloemen worden gebruikt om een verzachtende siroop te maken bijm bronchitis en hoestbuien. Matig te gebruiken vanwege zijn licht laxerende werking."
                 ],
