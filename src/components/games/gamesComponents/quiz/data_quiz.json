@@ -325,9 +325,9 @@
                 ]
             },
             "choiceTitles": [
-                "« Die een goede smaak heeft »",
-                "« Die van de hoogte houdt »",
-                "« Die van de bergen houdt »"
+                "\"Die een goede smaak heeft\"",
+                "\"Die van de hoogte houdt\"",
+                "\"Die van de bergen houdt\""
             ]
         }
     },
@@ -388,7 +388,7 @@
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "Ook wel \" Ezelspoot \" of \" Hoestblad \" genoemd. Men gebruikt de bloem en de blaadjes.",
+                    "Ook wel \"Ezelspoot\" of \"Hoestblad\" genoemd. Men gebruikt de bloem en de blaadjes.",
                     "Vroeger in de bergen werd hoefblad vermengd met tabak. Tegenwoordig wordt ze vooral gebruikt als kruidenthee en siroop om de luchtwegen te behandelen."
                 ]
             },
@@ -453,13 +453,13 @@
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "In de volksmond ook bekend als « heksenhandschoen » (de vorm van de bloemen doet denken aan de vingertoppen van handschoenen). Het is een gevreesde plant en is giftig! Het is ten sterkste aangeraden om hem niet aan te raken!"
+                    "In de volksmond ook bekend als \"heksenhandschoen\" (de vorm van de bloemen doet denken aan de vingertoppen van handschoenen). Het is een gevreesde plant en is giftig! Het is ten sterkste aangeraden om hem niet aan te raken!"
                 ]
             },
             "choiceTitles": [
-                "« heksenhandschoen »",
-                "« tuiniershandschoen »",
-                "« schildershandschoen »"
+                "\"heksenhandschoen\"",
+                "\"tuiniershandschoen\"",
+                "\"schildershandschoen\""
             ]
         }
     },
@@ -649,7 +649,7 @@
             "explanation": {
                 "toxic": null,
                 "paragraphs": [
-                    "De knipoog van de weerkundige : de Gele Gentiaan geeft zogezegd de hoeveelheid sneeuw voor de komende winter aan. Hoe hoger hij groeit, hoe dikker de sneeuwlaag zal zijn."
+                    "De knipoog van de weerkundige: de Gele Gentiaan geeft zogezegd de hoeveelheid sneeuw voor de komende winter aan. Hoe hoger hij groeit, hoe dikker de sneeuwlaag zal zijn."
                 ]
             },
             "choiceTitles": [
@@ -789,7 +789,7 @@
                 "toxic": null,
                 "paragraphs": [
                     "Ook wel bergmarjolein of rode thee genoemd.",
-                    "Zijn aangename smaak zorgt voor heerlijke kruidentheeën. Het is de \" rode thee \" van de Scandinaviërs. In de bergen wordt hij regelmatig gebruikt als vervanger van de klassieke thee.",
+                    "Zijn aangename smaak zorgt voor heerlijke kruidentheeën. Het is de \"rode thee\" van de Scandinaviërs. In de bergen wordt hij regelmatig gebruikt als vervanger van de klassieke thee.",
                     "De knipoog van de pizzabakker : Het is zijn neefje, de gecultiveerde marjolein, die niet spontaan in ons klimaat groeit, die we op onze pizzas smeren."
                 ]
             },

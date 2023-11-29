@@ -179,7 +179,7 @@
                     "Klik op een vraag om het bijbehorende antwoord te onthullen en verwijder de planten die niet met dat antwoord overeenkomen. Ga door met vragen te stellen en verkeerde planten te verwijderen tot alleen de laatste overblijft!"
                 ],
                 "examples": [
-                    "Voorbeeld: \"Is het een roze plant ?\"",
+                    "Voorbeeld: \"Is het een roze plant?\"",
                     "Als het antwoord op de vraag JA is, dan mag de speler alle planten die niet roze zijn omdraaien door erop te klikken. Als het antwoord NEE is, dan mag de speler alleen de planten omdraaien die roze zijn."
                 ],
                 "questions": [
@@ -271,7 +271,7 @@
                 "description": "Test your knowledge and challenge your friends!",
                 "goal": "Aim: answer the questions asked correctly.",
                 "explanation": [
-                    "<b>Compete, challenge yourself, test yourself…</b></b>Alone or with others, answer a multitude of questions to test your knowledge."
+                    "<b>Compete, challenge yourself, test yourself…</b><br></b>Alone or with others, answer a multitude of questions to test your knowledge."
                 ],
                 "congratulations": "You have completed the quiz with flying colours! The mountain no longer has any secrets for you!"
             },
@@ -280,7 +280,7 @@
                 "description": "Test je kennis en daag je vrienden uit!",
                 "goal": "Het doel is om juist te antwoorden op de gestelde vragen.",
                 "explanation": [
-                    "<b>Ga de strijd aan, daag jezelf uit, test jezelf...</b></b>Beantwoord alleen of met anderen de vele vragen om je kennis te testen."
+                    "<b>Ga de strijd aan, daag jezelf uit, test jezelf...</b><br></b>Beantwoord alleen of met anderen de vele vragen om je kennis te testen."
                 ],
                 "congratulations": "Je hebt de quiz met succes beëindigd! Nu hebben de bergen geen geheimen meer voor jou!"
             }

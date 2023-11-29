@@ -40,7 +40,7 @@ export default function DidYouKnow({ currentFlower, lang }) {
                 </div>
 
             </div>
-            <div className="didYouKnow__question" style={{ color: currentFlower.color === "#000" ? currentFlower.color : currentFlower.backgroundColor, left: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.questionLeft ? currentFlower[lang].didYouKnow.dimensions.questionLeft : '25vw' }}>{pages.flowerInfos[lang].didYouKnow}</div>
+            <div className="didYouKnow__question" style={{ color: currentFlower.color === "#000" ? currentFlower.color : currentFlower.backgroundColor, left: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.questionLeft ? currentFlower[lang].didYouKnow.dimensions.questionLeft : '25vw', top: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.questionTop ? currentFlower[lang].didYouKnow.dimensions.questionTop : '68vh' }}>{pages.flowerInfos[lang].didYouKnow}</div>
         </div>
     )
 }

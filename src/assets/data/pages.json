@@ -40,7 +40,7 @@
             "play": "Spelen",
             "credits": "Credits",
             "photography": "Fotografie",
-            "playDescription": "Plezier maken … Zoeken … Raden"
+            "playDescription": "Plezier maken … <br>Zoeken … Raden"
         }
     },
     "cancel": {
@@ -138,7 +138,7 @@
             "bravo": "Bravo!",
             "newGame": "Nieuwe partij",
             "rulesTitle": "Spelregels",
-            "play": "Spelen",
+            "play": "SPELEN",
             "levels": [
                 "GEMAKKELIJK",
                 "MEDIUM",

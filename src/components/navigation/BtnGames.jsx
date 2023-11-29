@@ -1,3 +1,4 @@
+import parse from 'html-react-parser'
 import React, { useContext } from 'react'
 import { LangContext, NavigationContext } from '../../utils/context'
 import pages from '../../assets/data/pages.json'
@@ -17,7 +18,7 @@ export default function BtnGames() {
                     {pages.home[lang].play}
                 </div>
                 <div className="home__button__description">
-                    {pages.home[lang].playDescription}
+                    {parse(pages.home[lang].playDescription)}
                 </div>
             </div>
             <img className="home__button__image" src="images/icons/homeExploreBtn.png" alt="" style={{ left: '66%', height: '180%' }} />

@@ -71,12 +71,10 @@ export default function GuessWhoFlowerInfo({ data, index, handleOverlay }) {
                                 </div>
                                 <div className="guesswho__flower__info__caracteristics__element">
                                     <div className="guesswho__flower__info__last__element">
-                                        <span className="guesswho__flower__info__real__title">{parse(data[lang].habitatGameInfo)}</span>
+                                        <span className="guesswho__flower__info__real__title" style={{ fontSize: data[lang].habitatGameInfoSmaller && data[lang].habitatGameInfoSmaller }}>{parse(data[lang].habitatGameInfo)}</span>
                                         <span className="guesswho__flower__info__icon fake__icon"><img src="/images/icons/habitat.svg" alt="" /></span>
                                         {data[lang].toxic &&
-                                            <div className={`guesswho__flower__info__toxic__content ${data[lang].toxicParagraph && 'content__title__not__centered'}`}>
-                                                <img className="guesswho__flower__info__toxic__content__img" src="/images/icons/toxic.svg" alt="" />
-                                            </div>
+                                            <img className="guesswho__flower__info__toxic__content__img" src="/images/icons/toxic.svg" alt="" />
                                         }
                                     </div>
                                 </div>
