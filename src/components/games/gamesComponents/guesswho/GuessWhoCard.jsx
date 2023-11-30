@@ -37,8 +37,6 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart, 
         top: `-45%`,
         width: `30%`,
         display: preserve3d ? 'none' : 'block',
-        // pointerEvents: preserve3d ? 'none' : 'auto'
-        // height: 'auto',
     }
 
     useEffect(() => {
