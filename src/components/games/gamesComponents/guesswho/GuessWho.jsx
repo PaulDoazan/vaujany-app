@@ -44,7 +44,6 @@ export default function GuessWho() {
         flowers = flowers.splice(0, layouts[`level_${currentPage.level}`].nbCards)
         const resultInd = getRandomIntInclusive(0, (flowers.length - 1))
         setResult(flowers[resultInd])
-        console.log('result : ', flowers[resultInd].slug);
         setDeck(flowers)
     }
 
