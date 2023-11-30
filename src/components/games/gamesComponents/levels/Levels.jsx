@@ -28,6 +28,7 @@ export default function Levels() {
     useEffect(() => {
         restart();
         gsap.fromTo('.levels__container', { opacity: 0 }, { opacity: 1, duration: 0.5 })
+        gsap.fromTo('.levels__container__image__background', { opacity: 0 }, { opacity: 1, duration: 0.5 })
     }, [])
 
     const [deck, setDeck] = useState([])

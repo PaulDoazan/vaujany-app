@@ -11,7 +11,7 @@ export default function Credits() {
         height: '100%',
         backgroundColor: '#AAB8A8',
         textAlign: 'left',
-        right: '3.6%',
+        right: '3.5%',
         bottom: '0'
     }
 

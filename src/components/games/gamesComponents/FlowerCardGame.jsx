@@ -48,7 +48,7 @@ export default function FlowerCardGame({ toxic, data, cardStyle, dataOrigin, ind
                 <img style={cardImgStyle} className={`flower__card__game__image`} src={"/images/flowers/thumbnails/" + data.thumbnail} alt="" />
                 <div className={`flower__card__game__title`} style={gameTitleStyle}>
                     <div className="flower__card__game__titles__container">
-                        <div className="flower__card__game__title__content">
+                        <div className="flower__card__game__title__content" style={{ fontSize: data[lang].title === 'Grootbloemig vingerhoedskruid' && '1.05vw' }}>
                             {data[lang].title}
                         </div>
                     </div>

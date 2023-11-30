@@ -3,12 +3,12 @@ import Frame from './components/Frame';
 import { NavigationProvider } from './utils/context';
 import useImagePreloader from './hooks/useImagePreloader'
 import images from './assets/data/imagesPaths.json'
+import DisplayAllImages from './components/DisplayAllImages';
 
 function App() {
   const [nbScreen, setNbScreen] = useState(1)
+  const [preloadIsOver, setPreloadIsOver] = useState(false)
   const { imagesPreloaded } = useImagePreloader(images.paths)
-
-  // const imagesPreloaded = true
 
   const screens = []
 
@@ -30,14 +30,23 @@ function App() {
 
   window.addEventListener('keydown', handleNbScreenChange)
 
+  const preloadOver = () => {
+    setPreloadIsOver(true)
+  }
+
   return (
     <>
       {imagesPreloaded ?
-        <div className={`screens__container__${screens.length}`}>
-          {screens.map((el, index, arr) => {
-            return <NavigationProvider><Frame key={index} id={index} arrLength={arr.length} /></NavigationProvider>
-          })}
-        </div>
+        <>
+
+          {preloadIsOver ? <div className={`screens__container__${screens.length}`}>
+            {screens.map((el, index, arr) => {
+              return <NavigationProvider><Frame key={index} id={index} arrLength={arr.length} /></NavigationProvider>
+            })}
+          </div> :
+            <DisplayAllImages imgs={imagesPreloaded} handleOver={preloadOver} />
+          }
+        </>
         :
         <div className="preloader__container">
           <div>LOADING</div>

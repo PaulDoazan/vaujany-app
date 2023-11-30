@@ -14,7 +14,7 @@ export default function MemoryCardTitle({ flower }) {
             </div>
             <div className="memory__card__title card__face">
                 <img className='memory__card__title__background' src={`images/icons/memoryCardTitleBackground.png`} alt="" />
-                <div className="memory__card__title__text">
+                <div className="memory__card__title__text" style={{ fontSize: currentFlower[lang].title === 'Grootbloemig vingerhoedskruid' && '1.05vw' }}>
                     {currentFlower[lang].title}
                 </div>
             </div>
