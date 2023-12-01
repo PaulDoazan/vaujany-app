@@ -20,7 +20,7 @@ export default function FlowerInfoGame({ data, index, handleOverlay }) {
                         <div className="flower__info__game__latin">{data.title_latin}</div>
                         <div className="flower__info__game__paragraph">
                             <p>
-                                <span>{pages.flowerInfos[lang].habitat}</span> : {data[lang].habitat}
+                                <span>{pages.flowerInfos[lang].habitat}</span>{lang === 'fr' && ' '}: {data[lang].habitat}
                             </p>
                         </div>
                     </div>

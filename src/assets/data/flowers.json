@@ -66,7 +66,7 @@
                 "habitat": "Groeit in weiden, hagen en langs de wegen, bij voorkeur in de zon, tot 2500&nbsp;m hoogte.",
                 "habitatGameInfo": "Groeit in weiden, hagen<br>en bermen, bij<br>voorkeur in de zon.",
                 "medical": [
-                    "Er wordt gezegd dat deze plant alle kwaaltjes geneest : zwerende wonden, aambeien, irritaties, kneuzingen en kloven.",
+                    "Er wordt gezegd dat deze plant alle kwaaltjes geneest: zwerende wonden, aambeien, irritaties, kneuzingen en kloven.",
                     "Kruidenthee van duizendblad stimuleert de spijsvertering, verzacht de maagkrampen en bevordert de transpiratie."
                 ],
                 "cooking": [
@@ -303,7 +303,7 @@
                 "habitatGameInfoSmaller": "1vw",
                 "medical": [
                     "Arnica is gekend voor zijn therapeutische kracht, vooral ter verzorging van blauwe plekken, en wordt gebruikt als homeopathische zalf.",
-                    "Maar opgepast : bij inname is arnica giftig en veroorzaakt duizeligheid, overgeven, hoofdpijn, stuiptrekkingen en soms zelfs de dood.  In hoge doses werkt hij abortief.  Bij uitwendig gebruik kan hij huidreacties veroorzaken (uitslag, blaren)."
+                    "Maar opgepast: bij inname is arnica giftig en veroorzaakt duizeligheid, overgeven, hoofdpijn, stuiptrekkingen en soms zelfs de dood.  In hoge doses werkt hij abortief.  Bij uitwendig gebruik kan hij huidreacties veroorzaken (uitslag, blaren)."
                 ],
                 "cooking": null,
                 "toxic": "Giftige plant!",
@@ -768,7 +768,7 @@
                 "habitatGameInfo": "Groeit voornamelijk in subalpiene<br>weiden, maar ook op braak-<br>liggend terrein (ongecultiveerd<br>en niet onderhouden) en in<br>struikgewas in de montane<br>zone en in<br>bebossingenwaar de<br>zon overheerst.",
                 "habitatGameInfoSmaller": "1vw",
                 "medical": [
-                    "De wortel wordt verwerkt en gedistilleerd tot een bittere brandewijn, maar, opgepast, want deze heeft een alcoholpercentage van 50° ! Hij wordt ook gebruikt als kruidenthee en in sterke drank en heeft immuunversterkende eigenschappen.",
+                    "De wortel wordt verwerkt en gedistilleerd tot een bittere brandewijn, maar, opgepast, want deze heeft een alcoholpercentage van 50°! Hij wordt ook gebruikt als kruidenthee en in sterke drank en heeft immuunversterkende eigenschappen.",
                     "Niet te verwarren met de zeer giftige witte nieswortel (Vérâtre Blanc)."
                 ],
                 "cooking": null,
@@ -778,7 +778,7 @@
                     "imageEmpty": "gentiana_lutea_empty_didYouKnow.png",
                     "paragraphs": [
                         "Ook wel de plantaardige wolkenkrabber genoemd.",
-                        "De knipoog van de weerkundige : de Gele Gentiaan geeft zogezegd de hoeveelheid sneeuw voor de komende winter aan.  Hoe hoger hij groeit, hoe dikker de sneeuwlaag zal zijn."
+                        "De knipoog van de weerkundige: de Gele Gentiaan geeft zogezegd de hoeveelheid sneeuw voor de komende winter aan.  Hoe hoger hij groeit, hoe dikker de sneeuwlaag zal zijn."
                     ],
                     "dimensions": {
                         "width": "20%",
@@ -946,7 +946,7 @@
                 "habitatGameInfoSmaller": "1.2vw",
                 "medical": [
                     "De bladeren van de weegbree werden door de bergbewoners veel gebruikt als afkooksel of kompres om diarree, hoest, wonden en insectenbeten te behandelen.",
-                    "Ze verzachten eveneens brandnetelwonden door ze op de pijnlijke huid te wrijven. Hij wordt ook gebruikt als antihistaminicum en bij bronchitis. Opgepast : sommige mensen kunnen allergisch reageren op weegbree."
+                    "Ze verzachten eveneens brandnetelwonden door ze op de pijnlijke huid te wrijven. Hij wordt ook gebruikt als antihistaminicum en bij bronchitis. Opgepast: sommige mensen kunnen allergisch reageren op weegbree."
                 ],
                 "cooking": [
                     "De jonge blaadjes worden in salades gebruikt en de gemalen zaadjes kunnen worden toegevoegd aan brooddeeg of soep."
@@ -957,7 +957,7 @@
                     "imageEmpty": "plantago_major_empty_didYouKnow.png",
                     "paragraphs": [
                         "Ook wel vogelweegbree genoemd (voor zijn zaden).",
-                        "De knipoog van de \"roodhuiden\" : De zaden blijven gemakkelijk aan de schoenzolen kleven, zodat de plant zich makkelijk verspreidt.  Daarom noemden de indianen deze plant “ voetstappen van de blanke man ”, want voor de komst van de Europese immigranten, kwam deze plant niet voor in het land van Geronimo."
+                        "De knipoog van de \"roodhuiden\": De zaden blijven gemakkelijk aan de schoenzolen kleven, zodat de plant zich makkelijk verspreidt. Daarom noemden de indianen deze plant “voetstappen van de blanke man”, want voor de komst van de Europese immigranten, kwam deze plant niet voor in het land van Geronimo."
                     ],
                     "dimensions": {
                         "width": "28%",
@@ -1178,7 +1178,7 @@
                     "Il est consommé en tisane pour lutter contre les affections des bronches, les cystites et les gastrites, grâce à son action antibactérienne et cicatrisante. Il est reconnu depuis peu en France pour ses qualités d'antidépresseur. C'est surtout l'hypericum perforatum qui est utilisé en phytothérapie."
                 ],
                 "cooking": null,
-                "toxic": "Plante peu toxique!",
+                "toxic": "Plante peu toxique !",
                 "toxicParagraph": "(photosensibilisante, éviter de consommer simultanément avec d’autres antidépresseurs)",
                 "toxicDescription": "Plante peu toxique !</br>(photosensibilisante, éviter de consommer simultanément avec d’autres antidépresseurs)",
                 "didYouKnow": {
@@ -1356,8 +1356,8 @@
                     "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
                     "paragraphs": [
                         "Ook wel bergmarjolein of rode thee genoemd.",
-                        "Zijn aangename smaak zorgt voor heerlijke kruidentheeën. Het is de \" rode thee \" van de Scandinaviërs. In de bergen wordt hij regelmatig gebruikt als vervanger van de klassieke thee.",
-                        "De knipoog van de pizzabakker : Het is zijn neefje, de gecultiveerde marjolein, die niet spontaan in ons klimaat groeit, die we op onze pizzas smeren."
+                        "Zijn aangename smaak zorgt voor heerlijke kruidentheeën. Het is de \"rode thee\" van de Scandinaviërs. In de bergen wordt hij regelmatig gebruikt als vervanger van de klassieke thee.",
+                        "De knipoog van de pizzabakker: Het is zijn neefje, de gecultiveerde marjolein, die niet spontaan in ons klimaat groeit, die we op onze pizzas smeren."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -1638,7 +1638,7 @@
                 "habitat": "Grows at the border of lakes, sources and streamings.",
                 "habitatGameInfo": "[...]",
                 "medical": [
-                    "The phytochemistry institute of Lausanne has extracted from the saxifraga stellaris a new natural product : stellarine.",
+                    "The phytochemistry institute of Lausanne has extracted from the saxifraga stellaris a new natural product: stellarine.",
                     "It is an antioxydant with properties against cancer, Alzheimer and Parkinson."
                 ],
                 "cooking": null,
@@ -1652,7 +1652,7 @@
                 "habitat": "Groeit aan de rand van meren, bronnen en beken.",
                 "habitatGameInfo": "[...]",
                 "medical": [
-                    "Het Instituut voor fytochemie van de universiteit van Lausanne heeft een nieuw natuurproduct gewonnen uit de steenbreek : de stellarine.",
+                    "Het Instituut voor fytochemie van de universiteit van Lausanne heeft een nieuw natuurproduct gewonnen uit de steenbreek: de stellarine.",
                     "Deze is een antioxidant met eigenschappen die zouden kunnen helpen bij de bestrijding van kanker, Alzheimer en Parkinson."
                 ],
                 "cooking": null,
@@ -1917,7 +1917,7 @@
                     "image": "tussilago_farfara_didYouKnow.png",
                     "imageEmpty": "tussilago_farfara_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Ook wel \" Ezelspoot \" of \" Hoestblad \" genoemd. Men gebruikt de bloem en de bladeren.",
+                        "Ook wel \"Ezelspoot\" of \"Hoestblad\" genoemd. Men gebruikt de bloem en de bladeren.",
                         "Vroeger in de bergen werd hoefblad vermengd met tabak.",
                         "Recept voor hoefbladbeignets: Pluk de hoefbladblaadjes en maak ze zorgvuldig schoon. Maak een beslag van bloem, water en zout. Doop de bladeren in het beslag en bak ze aan beide kanten in een pan gevuld met olie. Leg ze op absorberend papier. Warm te degusteren!"
                     ],
