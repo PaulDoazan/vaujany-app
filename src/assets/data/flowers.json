@@ -70,7 +70,7 @@
                     "Kruidenthee van duizendblad stimuleert de spijsvertering, verzacht de maagkrampen en bevordert de transpiratie."
                 ],
                 "cooking": [
-                    "De bloemen kunnen salades hartiger maken.  Maar steeds in kleine hoeveelheden te gebruiken, want deze plant bevat sporen van thujon, dat in hoge doses convulsies en lichtgevoeligheid veroorzaakt."
+                    "De bloemen kunnen salades hartiger maken. Maar steeds in kleine hoeveelheden te gebruiken, want deze plant bevat sporen van thujon, dat in hoge doses convulsies en lichtovergevoeligheid veroorzaakt."
                 ],
                 "toxic": null
             }
@@ -436,7 +436,7 @@
                 ],
                 "cooking": [
                     "De blaadjes kunnen rauw gebruikt worden in sla en gekookt toegevoegd worden aan soep.",
-                    "De plantwortels kunnen als wortelen gegeten worden.",
+                    "De gekookte wortels kunnen als groente gegeten worden.",
                     "De vruchten of \"karwijzaadjes\" geven smaak aan brood (Pumpernickel), bepaalde kazen (Gouda, Munster), zuurkool en stoofschotels."
                 ],
                 "toxic": null
@@ -577,7 +577,7 @@
             },
             "en": {
                 "title": "Little eyebright",
-                "family": "Orobanchaceae.",
+                "family": "Scropulariaceae.",
                 "bloom": "Summer.",
                 "height": "2 to 10 cm.",
                 "habitat": "Grows in sub-alpine meadows. This is one of the very rare annual plants of the alpine stage.",
@@ -596,7 +596,7 @@
                 "habitat": "Groeit in subalpiene graslanden.  Het is één van de zeldzame eenjarige planten in de alpiene zone.",
                 "habitatGameInfo": "[...]",
                 "medical": [
-                    "Wordt gebruikt ter behandeling van oogontsteking, tranende ogen, lichte oogaandoeningen en oogstrontjes."
+                    "Wordt gebruikt ter behandeling van oogontstekingen, tranende ogen, lichte oogaandoeningen en oogstrontjes."
                 ],
                 "cooking": null,
                 "toxic": null
@@ -1234,7 +1234,7 @@
                     "Sint-Janskruid is vooral bekend om zijn helende eigenschappen en ter behandeling van brandwonden en zonnebrand.",
                     "Dankzij zijn antibacteriële en helende eigenschappen, wordt ze gebruikt als kruidenthee in geval van aandoeningen van de luchtwegen en blaas- en maagontstekingen.",
                     "Ze werd onlangs in Frankrijk erkend voor zijn antidepressieve eigenschappen.",
-                    "Het is voornamelijk de Hypericum perforatum die gebruikt wordt  in fytotherapie."
+                    "Het is voornamelijk de Hypericum perforatum die gebruikt wordt in fytotherapie."
                 ],
                 "cooking": null,
                 "toxic": "Licht giftige plant!",
@@ -1244,8 +1244,8 @@
                     "image": "hypericum_richeri_didYouKnow.png",
                     "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua censée protéger des sorcières et des fantômes, mais aussi pour éloigner de sa maison maladie et tristesse."
+                        "Ook bekend als doorboord kruid, duivelverjager of Sint-Janskruid.",
+                        "Sint-Janskruid, geplukt op midzomeravond, wordt ook beschouwd als een magisch kruid, dat bescherming zou bieden tegen heksen en geesten, maar ook ziekte en verdriet in huis zou afweren."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -1547,7 +1547,7 @@
                 "habitatGameInfo": "[...]",
                 "medical": [
                     "Wortels, bladeren en vooral de bloeiende toppen werden traditioneel gebruikt voor hun vochtafdrijvende, koortswerende en ontstekingsremmende eigenschappen.",
-                    "De plant bevat een stof (salicine) die op aspirine lijkt en gebruikt wordt tegen koorts en rheuma. Acetylsalicylzuur werd in 1897 gesynthetiseerd en op de markt gebracht als \"Aspirine\". Daarom mag moerasspirea niet gebruikt worden in geval van een allergie voor aspirine."
+                    "De plant bevat een stof (salicine) die op aspirine lijkt en gebruikt wordt tegen koorts en reuma. Acetylsalicylzuur werd in 1897 gesynthetiseerd en op de markt gebracht als \"aspirine\". Daarom mag moerasspirea niet gebruikt worden in geval van een allergie voor aspirine."
                 ],
                 "cooking": [
                     "De bloemen kunnen gebruikt worden om moerasspireawijn te maken."
@@ -1601,7 +1601,7 @@
                 "habitatGameInfo": "[...]",
                 "medical": [
                     "In de Middeleeuwen werden de bladstelen gekookt om compotes, jam en smakelijke taartjes te maken. Maar de bladeren werden ook gebruikt als varkensvoer: nadat ze gedroogd en fijngestampt waren, voegden boeren ze toe aan gekookte aardappelpaté.",
-                    "De bladeren dienden ook om boter in te wikkelen en koel te houden tijdens de terugkeer van de alpenweiden. Niet aanbevolen voor mensen met een verminderde nierfunctie of  gevoelig zijn voor nierstenen (bevat oxaalzuur)."
+                    "De bladeren dienden ook om boter in te wikkelen en koel te houden tijdens de terugkeer van de alpenweiden. Niet aanbevolen voor mensen met een verminderde nierfunctie of die gevoelig zijn voor nierstenen (bevat oxaalzuur)."
                 ],
                 "cooking": null,
                 "toxic": null
@@ -1652,7 +1652,7 @@
                 "habitat": "Groeit aan de rand van meren, bronnen en beken.",
                 "habitatGameInfo": "[...]",
                 "medical": [
-                    "Het Instituut voor fytochemie van de universiteit van Lausanne heeft een nieuw natuurproduct gewonnen uit de steenbreek: de stellarine.",
+                    "Het Instituut voor fytochemie van de universiteit van Lausanne heeft een nieuw natuurlijk product gewonnen uit de steenbreek: de stellarine.",
                     "Deze is een antioxidant met eigenschappen die zouden kunnen helpen bij de bestrijding van kanker, Alzheimer en Parkinson."
                 ],
                 "cooking": null,
@@ -1676,7 +1676,7 @@
                 "habitat": "Pousse dans les sous-bois et rocailles (de préférence calcaire), les lisières et les forêts de feuillus et de pins.",
                 "habitatGameInfo": "[...]",
                 "medical": [
-                    "Les différentes parties de cette liliacée ont de nombreuses vertus médicinales. Par exemple on utilise le rhizome (la tige souterraine) écrasé pour soigner les contusions. Il ne faut jamais consommer les baies qui peuvent être mortelles."
+                    "Les différentes parties de cette asparagacée ont de nombreuses vertus médicinales. Par exemple on utilise le rhizome (la tige souterraine) écrasé pour soigner les contusions. Il ne faut jamais consommer les baies qui peuvent être mortelles."
                 ],
                 "cooking": null,
                 "toxic": "Plante toxique !",
@@ -1690,7 +1690,7 @@
                 "habitat": "Limestone woods and rocky places.",
                 "habitatGameInfo": "[...]",
                 "medical": [
-                    "The different parts of this liliaceae have many medicinal properties. For example, the crushed rhizome (the underground stem) is used to treat bruises. You should never eat the berries, which can be deadly."
+                    "The different parts of this asparagaceae have many medicinal properties. For example, the crushed rhizome (the underground stem) is used to treat bruises. You should never eat the berries, which can be deadly."
                 ],
                 "cooking": null,
                 "toxic": "Toxic plant!",
@@ -1794,7 +1794,7 @@
                 }
             },
             "nl": {
-                "title": "Serpolet",
+                "title": "Wilde tijm",
                 "family": "Lamiaceae.",
                 "bloom": "Zomer.",
                 "height": "1 tot 5 cm.",
@@ -1811,7 +1811,7 @@
                     "image": "thymus_serpyllum_didYouKnow.png",
                     "imageEmpty": "thymus_serpyllum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "De serpolet wordt dikwijls \"tijm\" genoemd. Ze is minder geparfumeerd, maar is rauw gebruikt een uitstekende smaakmaker.",
+                        "Het verschil tussen wilde tijm (serpolet) en gewone tijm is miniem. Wilde tijm is minder geparfumeerd, maar is rauw gebruikt een uitstekende smaakmaker.",
                         "De fijngehakte blaadjes worden gebruikt in salades en roomkaas, en de bloemen zijn aromatisch en decoratief."
                     ],
                     "dimensions": {
@@ -1997,7 +1997,7 @@
                 "habitatGameInfo": "Weiden en droge berg-<br>hellingen, bermen, vochtige<br>en open bossen,<br>loofbossen, hakhout,<br>heide op ondiepe<br>bodems.",
                 "habitatGameInfoSmaller": "1.2vw",
                 "medical": [
-                    "De bloemen worden gebruikt om een verzachtende siroop te maken bijm bronchitis en hoestbuien. Matig te gebruiken vanwege zijn licht laxerende werking."
+                    "De bloemen worden gebruikt om een verzachtende siroop te maken bij bronchitis en hoestbuien. Matig te gebruiken vanwege zijn licht laxerende werking."
                 ],
                 "cooking": [
                     "De gehele bloemen kunnen worden gekristalliseerd met suiker en gebruikt worden in confiserie (violette de Toulouse), om verschillende soorten snoep, siroop, likeur, kruidenthee, gelei en jam te maken, of om salade en mesclun te kleuren."

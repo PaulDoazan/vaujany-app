@@ -237,7 +237,7 @@
             "nl": {
                 "title": "Memory",
                 "description": "Koppel de afbeelding aan zijn beschrijving.",
-                "goal": "Het doel is om setjes te maken van twee identieke kaarten.",
+                "goal": "Doel: alle setjes van 2 kaarten vinden.",
                 "explanation": [
                     "Alle kaarten liggen met de beeldzijden naar beneden op tafel. Draai twee kaarten om. Als de afbeelding op de kaart overeenkomt met de beschrijving wint de speler de kaarten en draait hij er opnieuw twee om.",
                     "Als de twee kaarten niet overeenkomen, worden ze weer omgedraaid.",
