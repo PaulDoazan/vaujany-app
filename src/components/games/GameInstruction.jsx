@@ -70,11 +70,11 @@ export default function GameInstruction() {
                     }
                 </div>
                 {currentGame.btnPlayBackground ?
-                    <div onTouchEnd={displayGame} className="game__instructions__btn__play" style={btnStyle}>
+                    <div onTouchEnd={displayGame} onClick={displayGame} className="game__instructions__btn__play" style={btnStyle}>
                         <img className="game__instructions__btn__play__image" src={`images/icons/${currentGame.btnPlayBackground}`} alt="" />
                         <div className="game__instructions__btn__play__title">{pages.gameInstruction[lang].play}</div>
                     </div> : currentGame.btnLevelsBackground.map((el, index, arr) => {
-                        return <div key={index} onTouchEnd={(e) => { displayGame(e, index) }} className="game__instructions__btn__level" style={{ marginBottom: `${(arr.length - index - 1) * 5}%`, ...btnStyle }}>
+                        return <div key={index} onTouchEnd={(e) => { displayGame(e, index) }} onClick={(e) => { displayGame(e, index) }} className="game__instructions__btn__level" style={{ marginBottom: `${(arr.length - index - 1) * 5}%`, ...btnStyle }}>
                             <img className="game__instructions__btn__level__image" src={`images/icons/${currentGame.btnLevelsBackground[index]}.svg`} alt="" />
                             <div className="game__instructions__btn__level__title">{pages.gameInstruction[lang].levels[index]}</div>
                         </div>

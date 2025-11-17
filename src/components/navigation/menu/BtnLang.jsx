@@ -20,7 +20,7 @@ export default function BtnLang({ language }) {
     }
 
     return (
-        <div onTouchEnd={handleChangeLang} className="btn__lang__container btn__navigation" style={{ 'fontFamily': fontFamily, 'backgroundColor': backgroundColor, 'borderColor': color, 'color': color }}>
+        <div onTouchEnd={handleChangeLang} onClick={handleChangeLang} className="btn__lang__container btn__navigation" style={{ 'fontFamily': fontFamily, 'backgroundColor': backgroundColor, 'borderColor': color, 'color': color }}>
             {language.toUpperCase()}
         </div>
     )

@@ -52,8 +52,8 @@ export default function GuessWhoQuestions({ correctFlower }) {
             </div>
             <div className="questions__fog__top"></div>
             <div className="questions__fog__bottom"></div>
-            <img className="questions__top__btn" style={{ opacity: listPosition === 1 ? 0.5 : 1 }} src="images/guesswho/arrowQuestionBtn.svg" alt="" onTouchStart={handleListPosition} />
-            <img className="questions__bottom__btn" style={{ opacity: listPosition === -9 ? 0.5 : 1 }} src="images/guesswho/arrowQuestionBtn.svg" alt="" onTouchStart={handleListPosition} />
+            <img className="questions__top__btn" style={{ opacity: listPosition === 1 ? 0.5 : 1 }} src="images/guesswho/arrowQuestionBtn.svg" alt="" onTouchStart={handleListPosition} onClick={handleListPosition} />
+            <img className="questions__bottom__btn" style={{ opacity: listPosition === -9 ? 0.5 : 1 }} src="images/guesswho/arrowQuestionBtn.svg" alt="" onTouchStart={handleListPosition} onClick={handleListPosition} />
 
             {correctFlower && <div className="answer__to__question">« {correctFlower.guessWhoParameters[questionsType[-(listPosition - 1)]] ? pages.cancel[lang].yes : pages.cancel[lang].no} »</div>}
         </div>

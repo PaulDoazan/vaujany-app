@@ -11,7 +11,7 @@ export default function BtnGames() {
         changePage({ category: 'gamesHome', element: null })
     }
     return (
-        <div className='home__button home__play__button' onTouchEnd={handleClick}>
+        <div className='home__button home__play__button' onTouchEnd={handleClick} onClick={handleClick}>
             <img className="home__button__bg__image" src="images/icons/homePlayBtnBackground.svg" alt="" />
             <div className="home__button__text__container">
                 <div className="home__button__title">

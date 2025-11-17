@@ -13,7 +13,7 @@ export default function MenuBottomCredit({ handleCredits, creditsVisible }) {
 
     return (
         <div>
-            {currentPage.category === 'home' && <div className="credits__button" onTouchStart={handleCredits}>
+            {currentPage.category === 'home' && <div className="credits__button" onTouchStart={handleCredits} onClick={handleCredits}>
                 <div className="credits__button__text">
                     {pages.home[lang].credits}
                 </div>

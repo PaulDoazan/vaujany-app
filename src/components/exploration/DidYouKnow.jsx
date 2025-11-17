@@ -14,7 +14,7 @@ export default function DidYouKnow({ currentFlower, lang }) {
     }
 
     return (
-        <div onTouchStart={handleClick} className="didYouKnow__wrapper" style={{
+        <div onTouchStart={handleClick} onClick={handleClick} className="didYouKnow__wrapper" style={{
             left: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.left && currentFlower[lang].didYouKnow.dimensions.left
         }}>
             <div className='didYouKnow__container' style={containerStyle}>

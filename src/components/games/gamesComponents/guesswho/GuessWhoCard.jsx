@@ -59,7 +59,7 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart, 
     }
 
     return (
-        <div className={`guesswho__card ${!revealed ? 'guesswho__is__flipped' : ''}`} onTransitionEnd={handleTransitionEnd} style={cardStyle} onTouchStart={handleTouch} slug={flower.slug}>
+        <div className={`guesswho__card ${!revealed ? 'guesswho__is__flipped' : ''}`} onTransitionEnd={handleTransitionEnd} style={cardStyle} onTouchStart={handleTouch} onClick={handleTouch} slug={flower.slug}>
             <div className="guesswho__card__face guesswho__card__face__back">
                 <div className="container__to__scale" style={scaleStyle}>
                     <img className='guesswho__card__image__back' src={`images/guesswho/imgBack.png`} alt="" />
@@ -75,7 +75,7 @@ export default function GuessWhoCard({ flower, index, layout, handleTouchStart, 
                             </div>
                         </div>
                     </div>
-                    <img className={`flower__info__icon flower__info__icon__${index}`} dataindex={index} src="images/icons/flowerInfoIcon.svg" alt="" onTouchStart={handleOverlay} style={iconStyle} />
+                    <img className={`flower__info__icon flower__info__icon__${index}`} dataindex={index} src="images/icons/flowerInfoIcon.svg" alt="" onTouchStart={handleOverlay} onClick={handleOverlay} style={iconStyle} />
                 </div>
             </div>
 

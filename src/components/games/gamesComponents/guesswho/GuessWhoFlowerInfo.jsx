@@ -11,7 +11,7 @@ export default function GuessWhoFlowerInfo({ data, index, handleOverlay }) {
         color: data.color
     }
     return (
-        <div className={`flower__info__game__overlay flower__info__game__overlay__${index}`} dataindex={index} onTouchStart={handleOverlay}>
+        <div className={`flower__info__game__overlay flower__info__game__overlay__${index}`} dataindex={index} onTouchStart={handleOverlay} onClick={handleOverlay}>
             <div className="flower__info__game__container">
                 <div className="guesswho__flower__info__game__wrapper">
                     <img style={{ width: data.gameInfoResizeIcon && currentPage.element === "levels" ? data.gameInfoResizeIcon : "120%" }} className="guesswho__flower__info__game__illustration" src={`images/illustrations/illustrationInfoGame_${data.slug}.png`} alt="" />

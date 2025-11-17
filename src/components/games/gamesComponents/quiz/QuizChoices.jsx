@@ -31,7 +31,7 @@ export default function QuizChoices({ questionNb, handleAnswer, goodAnswer }) {
             {dataQuiz[`question_${questionNb}`].pictures.length > 1 ?
                 <div className="quiz__pictures__container">
                     {dataQuiz[`question_${questionNb}`].pictures.map((el, index) => {
-                        return <div className="quiz__picture__with__title" style={{ opacity: index === currentChoice || goodAnswer === null ? 1 : 0.5 }} dataindex={index} onTouchEnd={handleTouch}>
+                        return <div key={index} className="quiz__picture__with__title" style={{ opacity: index === currentChoice || goodAnswer === null ? 1 : 0.5 }} dataindex={index} onTouchEnd={handleTouch} onClick={handleTouch}>
                             <div className="multi__picture__title" style={{ backgroundColor: dataQuiz[`question_${questionNb}`].backgroundColors[index] }}>
                                 {dataQuiz[`question_${questionNb}`][lang].choiceTitles[index]}
                             </div>
@@ -44,7 +44,7 @@ export default function QuizChoices({ questionNb, handleAnswer, goodAnswer }) {
                     <img className="quiz__single__picture" src={`images/quiz/${dataQuiz[`question_${questionNb}`].pictures[0]}`} alt="" />
                     <div className="quiz__horizontal__choices">
                         {dataQuiz[`question_${questionNb}`][lang].choiceTitles.map((el, index) => {
-                            return <div style={{ ...singleChoiceTitleStyle, backgroundColor: dataQuiz[`question_${questionNb}`].backgroundColors[index], opacity: index === currentChoice || goodAnswer === null ? 1 : 0.4 }} className="quiz__choice__title" dataindex={index} onTouchEnd={handleTouch}>{parse(el)}</div>
+                            return <div key={index} style={{ ...singleChoiceTitleStyle, backgroundColor: dataQuiz[`question_${questionNb}`].backgroundColors[index], opacity: index === currentChoice || goodAnswer === null ? 1 : 0.4 }} className="quiz__choice__title" dataindex={index} onTouchEnd={handleTouch} onClick={handleTouch}>{parse(el)}</div>
                         })}
                     </div>
                 </div>

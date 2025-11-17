@@ -54,7 +54,7 @@ export default function GuessWhoResult({ correctFlower, success, revealedCards }
                 <div className='guesswho__result__success'>
                     <div className="guesswho__result__bravo">{pages.gameInstruction[lang].bravo}</div>
                     <div className="guesswho__result__congratulations">{parse(currentGame[lang].congratulations)}</div>
-                    <div className="guesswho__restart__button" onTouchStart={handleStart}>
+                    <div className="guesswho__restart__button" onTouchStart={handleStart} onClick={handleStart}>
                         <img className="levels__restart__button__image" src={`images/icons/guesswhoEndBtnBackground.svg`} alt="" />
                         <div className="guesswho__restart__button__text" style={{ pointerEvents: success && 'auto' }}>{pages.gameInstruction[lang].newGame}</div>
                     </div>

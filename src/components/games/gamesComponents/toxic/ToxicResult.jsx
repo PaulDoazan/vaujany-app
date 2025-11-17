@@ -27,7 +27,7 @@ export default function ToxicResult() {
             <img style={imageStyle} className="game__instructions__image" src={`images/illustrations/${currentGame.slug}.png`} alt="" />
             <div className="toxic__result__bravo">{pages.gameInstruction[lang].bravo}</div>
             <div className="toxic__result__congratulations">{parse(currentGame[lang].congratulations)}</div>
-            <div className="toxic__restart__button" onTouchStart={handleStart}>
+            <div className="toxic__restart__button" onTouchStart={handleStart} onClick={handleStart}>
                 <img className="toxic__restart__button__image" src={`images/icons/toxicEndBtnBackground.svg`} alt="" />
                 <div className="toxic__restart__button__text">{pages.gameInstruction[lang].newGame}</div>
             </div>

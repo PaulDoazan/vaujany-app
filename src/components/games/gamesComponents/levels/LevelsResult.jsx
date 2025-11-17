@@ -20,7 +20,7 @@ export default function LevelsResult() {
         <div className="levels__result__container">
             <div className="memory__result__bravo">{pages.gameInstruction[lang].bravo}</div>
             <div className="memory__result__congratulations">{parse(currentGame[lang].congratulations)}</div>
-            <div className="memory__restart__button" onTouchStart={handleStart}>
+            <div className="memory__restart__button" onTouchStart={handleStart} onClick={handleStart}>
                 <img className="levels__restart__button__image" src={`images/icons/levelsEndBtnBackground.svg`} alt="" />
                 <div className="memory__restart__button__text">{pages.gameInstruction[lang].newGame}</div>
             </div>
