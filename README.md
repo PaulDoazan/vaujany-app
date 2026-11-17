@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Vaujany App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application React (Create React App) pour borne tactile : exploration de la flore et mini-jeux.
 
-## Available Scripts
+## Lancer le projet en local
 
-In the project directory, you can run:
+Prérequis : [Node.js](https://nodejs.org/) 22 ou plus récent (testé avec Node 25) et npm.
 
-### `npm start`
+```bash
+git clone https://github.com/PaulDoazan/vaujany-app.git
+cd vaujany-app
+npm install
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+L'application s'ouvre sur [http://localhost:3000](http://localhost:3000) et se recharge automatiquement à chaque modification.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> Il n'y a pas de script `npm run dev` : le serveur de développement se lance avec `npm start`.
 
-### `npm test`
+## ⚠️ Résolution d'écran : 3840 × 2160
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+L'application est conçue pour un écran **4K de 3840 × 2160 px** (format paysage) et ne s'adapte pas aux autres tailles. Sur un écran classique, il faut simuler cette résolution dans le navigateur :
 
-### `npm run build`
+1. Ouvrir les outils de développement (`F12` ou `Cmd + Option + I` sur Mac).
+2. Activer le mode appareil (*Toggle device toolbar*, `Cmd + Shift + M` / `Ctrl + Shift + M`).
+3. Choisir **Responsive** et saisir **3840** × **2160** comme dimensions.
+4. Régler le zoom de l'aperçu (par exemple *Fit to window*) pour voir tout l'écran.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Les interactions sont pensées pour le tactile, mais elles fonctionnent aussi à la souris.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Autres commandes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Commande | Rôle |
+| --- | --- |
+| `npm run build` | Génère la version de production dans `build/` |
+| `npm run deploy` | Build puis publie sur GitHub Pages (branche `gh-pages`) |
