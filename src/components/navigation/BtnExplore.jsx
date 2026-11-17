@@ -1,7 +1,7 @@
 import parse from 'html-react-parser';
 import React, { useContext } from 'react'
 import { LangContext, NavigationContext } from '../../utils/context'
-import navigation_configs from '../../config/navigation_configs.json'
+import pages from '../../assets/data/pages.json'
 
 
 export default function BtnExplore() {
@@ -12,14 +12,14 @@ export default function BtnExplore() {
         changePage({ category: 'explore' })
     }
     return (
-        <div className='home__button home__explore__button' onTouchEnd={handleClick}>
+        <div className='home__button home__explore__button' onTouchEnd={handleClick} onClick={handleClick}>
             <img className="home__button__bg__image" src="images/icons/homeExploreBtnBackground.svg" alt="" />
             <div className="home__button__text__container">
                 <div className="home__button__title">
-                    {navigation_configs.home[lang].explore}
+                    {pages.home[lang].explore}
                 </div>
                 <div className="home__button__description">
-                    {parse(navigation_configs.home[lang].exploreDescription)}
+                    {parse(pages.home[lang].exploreDescription)}
                 </div>
             </div>
             <img className="home__button__image" src="images/icons/homePlayBtn.png" alt="" style={{ height: '136%' }} />

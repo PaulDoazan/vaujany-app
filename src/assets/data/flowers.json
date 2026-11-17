@@ -8,35 +8,70 @@
             "full": "achillea_millefolium.jpg",
             "menuImage": "achillea_millefolium_menu.png",
             "thumbnail": "achillea_millefolium_thumbnail.jpg",
+            "thumbnailSquare": "achillea_millefolium_thumbnailSquare.jpg",
+            "imageMemory": "achillea_millefolium_memory.png",
             "title_latin": "achillea millefolium",
+            "gameInfoResizeIcon": "156%",
+            "level": 0,
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": false,
+                "pink": true,
+                "spring": true,
+                "summer": true,
+                "small": false,
+                "medium": true,
+                "large": true,
+                "extralarge": true,
+                "subalpin": false,
+                "wood": false
+            },
             "fr": {
-                "title": "achillée millefeuille",
+                "title": "Achillée Millefeuille",
                 "family": "Astéracées.",
                 "bloom": "Printemps-été-automne.",
                 "height": "15 à 80 cm.",
                 "habitat": "Pousse dans les pâturages, prairies, haies, en bordure de route, de préférence au soleil, jusqu’à 2500 m d’altitude.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "habitatGameInfo": "Pousse dans les<br>pâturages, prairies,<br>haies, en bordure de<br>route, de préférence<br>au soleil.",
+                "medical": [
+                    "Elle guérit, paraît-il, tous les maux : plaies ulcéreuses, hémorroïdes, irritations, ecchymoses et gerçures.",
+                    "En tisane, elle stimule la digestion, élimine les crampes d'estomac et favorise la transpiration."
+                ],
+                "cooking": [
+                    "Les fleurs peuvent agrémenter les salades mais toujours en petites quantités, car l'achillée contient des traces de thuyone, convulsante et photosensibilisante à haute dose."
+                ],
                 "toxic": null
             },
             "en": {
                 "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Asteraceae.",
+                "bloom": "Spring, summer, autumn.",
+                "height": "15 to 80 cm.",
+                "habitat": "Grows in pastures, meadows, hedges and at the boarder of the road, especially sunny, until 2500 m of altitude.",
+                "habitatGameInfo": "Grows in pastures,<br>meadows, hedges<br>and at the boarder<br>of the road,<br>especially sunny,<br>until 2500&nbspm<br>of altitude.",
+                "medical": [
+                    "The plant has  a long history as a powerful 'healing herb' used topically for wounds, cuts and abrasions.",
+                    "The herb is purported to be a diaphoretic, astringent, tonic, stimulant and mild aromatic."
+                ],
+                "cooking": [
+                    "The flowers can decorate salads, but always in small quantities, because yarrow contains traces of thujone, which is convulsant and photosensitising in high doses."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Duizendblad",
+                "family": "Asteraceae.",
+                "bloom": "Lente-zomer-herfst.",
+                "height": "15 tot 80 cm.",
+                "habitat": "Groeit in weiden, hagen en langs de wegen, bij voorkeur in de zon, tot 2500&nbsp;m hoogte.",
+                "habitatGameInfo": "Groeit in weiden, hagen<br>en bermen, bij<br>voorkeur in de zon.",
+                "medical": [
+                    "Er wordt gezegd dat deze plant alle kwaaltjes geneest: zwerende wonden, aambeien, irritaties, kneuzingen en kloven.",
+                    "Kruidenthee van duizendblad stimuleert de spijsvertering, verzacht de maagkrampen en bevordert de transpiratie."
+                ],
+                "cooking": [
+                    "De bloemen kunnen salades hartiger maken. Maar steeds in kleine hoeveelheden te gebruiken, want deze plant bevat sporen van thujon, dat in hoge doses convulsies en lichtovergevoeligheid veroorzaakt."
+                ],
                 "toxic": null
             }
         },
@@ -48,35 +83,62 @@
             "full": "alchemilla_alpina.jpg",
             "menuImage": "alchemilla_alpina_menu.png",
             "thumbnail": "alchemilla_alpina_thumbnail.jpg",
+            "thumbnailSquare": "alchemilla_alpina_thumbnailSquare.jpg",
+            "imageMemory": "alchemilla_alpina_memory.png",
             "title_latin": "alchemilla alpina",
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": true,
+                "pink": false,
+                "spring": true,
+                "summer": true,
+                "small": true,
+                "medium": true,
+                "large": true,
+                "extralarge": false,
+                "subalpin": true,
+                "wood": false
+            },
             "fr": {
-                "title": "alchémille des Alpes",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alchémille des Alpes",
+                "family": "Rosacées.",
+                "bloom": "Été.",
+                "height": "10 à 30 cm.",
+                "habitat": "Pousse essentiellement dans les pelouses subalpines écorchées.",
+                "habitatGameInfo": "Pousse essentiellement<br>dans les pelouses<br>subalpines écorchées.",
+                "medical": [
+                    "Tonique, astringente. Depuis toujours, les femmes des hautes terres se soignent avec des infusions de racines d'alchémille.",
+                    "Ce remède est indiqué dans tous les domaines de la gynécologie (facilite l'accouchement, soins des organes génitaux féminins)."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alpine lady’s mantle",
+                "family": "Rosaceae.",
+                "bloom": "Summer.",
+                "height": "10 to 30 cm.",
+                "habitat": "Grows mainly in subalpine meadows.",
+                "habitatGameInfo": "Grows mainly in<br>subalpine meadows.",
+                "medical": [
+                    "Tonic, astringent. For a long time, women living in mountain treating themselves by using infusions of the lady’s mantle root.",
+                    "This remedy is indicated in a number of women's ailments (facilitates childbirth, treats feminine genitalia)."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alpiene vrouwenmantel",
+                "family": "Rosaceae.",
+                "bloom": "Zomer.",
+                "height": "10 tot 30 cm.",
+                "habitat": "Groeit voornamelijk in subalpiene, schrale weiden.",
+                "habitatGameInfo": "Groeit voornamelijk in<br>subalpiene, schrale<br>weiden.",
+                "medical": [
+                    "Tonisch, samentrekkend.  De vrouwen in de bergen hebben zichzelf altijd behandeld met kruidenthees van de vrouwenmantelwortel.",
+                    "Deze remedie is aangewezen in alle domeinen van de gynaecologie (vergemakkelijken van de bevalling, verzorging van de vrouwelijke geslachtsorganen)."
+                ],
+                "cooking": null,
                 "toxic": null
             }
         },
@@ -88,35 +150,65 @@
             "full": "angelica_sylvestris.jpg",
             "menuImage": "angelica_sylvestris_menu.png",
             "thumbnail": "angelica_sylvestris_thumbnail.jpg",
+            "thumbnailSquare": "angelica_sylvestris_thumbnailSquare.jpg",
+            "imageMemory": "angelica_sylvestris_memory.png",
             "title_latin": "angelica sylvestris",
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": false,
+                "pink": false,
+                "spring": false,
+                "summer": true,
+                "small": false,
+                "medium": false,
+                "large": false,
+                "extralarge": true,
+                "subalpin": false,
+                "wood": true
+            },
             "fr": {
                 "title": "Angélique Sylvestre",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Apiacées.",
+                "bloom": "Été.",
+                "height": "50 à 200 cm.",
+                "habitat": "Pousse en plaine et en montagne, surtout dans les bois clairs, les prairies ombragées et les bords de ruisseaux.",
+                "habitatGameInfo": "En plaine et en mon-<br>tagne, surtout dans les<br>bois clairs, les<br>prairies ombragées<br>et les bords de<br>ruisseaux.",
+                "medical": [
+                    "Avec les racines on fait des infusions qui stimulent la digestion. C'est un excellent tonique général, contre l'anémie, les migraines, l'asthme et la toux."
+                ],
+                "cooking": [
+                    "Les tiges confites au sucre décorent et aromatisent les gâteaux, ses graines parfument les liqueurs."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Wild angelica",
+                "family": "Apiaceae.",
+                "bloom": "Summer.",
+                "height": "50 to 200 cm.",
+                "habitat": "It grows on grazing grounds, cultured land and along streams.",
+                "habitatGameInfo": "It grows on grazing<br>grounds, cultured<br>land and along<br>streams.",
+                "medical": [
+                    "The root and the seeds are antispasmodic, aromatic, carminative, diaphoretic, diuretic, emmenagogue, expectorant, stimulant, stomachic, and tonic."
+                ],
+                "cooking": [
+                    "Leaves, young shoots and stems - used as an aromatic addition to salads, or cooked and used as a vegetable. The taste is somewhat bitter. The chopped leaves are a good addition to cooked acid fruits, especially rhubarb. The stem and leafstalks are used in candies and sweetmeats. Seed - used as an aromatic flavouring in confections and pastries. Root - cooked."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Gewone engelwortel",
+                "family": "Apiaceae.",
+                "bloom": "Zomer.",
+                "height": "50 tot 200 cm.",
+                "habitat": "Groeit in valleien en bergen, vooral in open bossen, schaduwrijke weiden en aan de rand van beken.",
+                "habitatGameInfo": "Groeit in valleien<br>en bergen, vooral<br>in open bossen, scha-<br>duwrijke weiden<br>en aan de rand<br>van beken.",
+                "medical": [
+                    "De wortels worden gebruikt om kruidenthee te maken die de spijsvertering stimuleren.  Het is een uitstekend versterkend middel en helpt bij bloedarmoede, migraine, astma en hoest."
+                ],
+                "cooking": [
+                    "De gesuikerde groene stengels worden gebruikt om taarten te versieren, en de zaadjes om likeuren smaak te geven."
+                ],
                 "toxic": null
             }
         },
@@ -128,16 +220,38 @@
             "full": "arnica_montana.jpg",
             "menuImage": "arnica_menu.png",
             "thumbnail": "arnica_montana_thumbnail.jpg",
+            "thumbnailSquare": "arnica_montana_thumbnailSquare.jpg",
+            "imageMemory": "arnica_montana_memory.png",
             "title_latin": "arnica montana",
+            "level": 2,
+            "guessWhoParameters": {
+                "toxic": true,
+                "yellow": true,
+                "pink": false,
+                "spring": true,
+                "summer": true,
+                "small": false,
+                "medium": true,
+                "large": true,
+                "extralarge": true,
+                "subalpin": true,
+                "wood": false
+            },
             "fr": {
                 "title": "Arnica",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Astéracées.",
+                "bloom": "À la fin du printemps et en été.",
+                "height": "20 à 60 cm.",
+                "habitat": "Pousse essentiellement dans les pelouses subalpines denses et continues. On peut également la rencontrer dans les prairies subalpines et les landes d’ubac (face ombreuse). Elle aime surtout les terrains acides : hummus, granit, silice, basalte, elle pousse rarement sur du calcaire.",
+                "habitatGameInfo": "Les pelouses subalpines<br>denses et continues. Les<br>prairies et les landes<br>d’ubac (face ombreuse).<br>Aime les terrains<br>acides. Pousse<br>rarement sur du<br>calcaire.",
+                "habitatGameInfoSmaller": "1.2vw",
+                "medical": [
+                    "L'arnica est connue pour ses vertus thérapeutiques, notamment contre les contusions. Elle est utilisée en homéopathie en pommade.",
+                    "Mais attention, ingérée, elle devient un véritable poison et provoque vertiges, vomissements, maux de tête, convulsions et parfois même la mort. Elle est abortive à haute dose. En usage externe elle peut provoquer des réactions cutanées (éruptions, vésicule)."
+                ],
+                "cooking": null,
                 "toxic": "Plante toxique !",
+                "toxicDescription": "Plante toxique !<br>Ingérée, elle devient un véritable poison et provoque vertiges, vomissements, maux de tête, convulsions et parfois même la mort.",
                 "didYouKnow": {
                     "image": "arnica_didYouKnow.png",
                     "imageEmpty": "arnica_empty_didYouKnow.png",
@@ -152,19 +266,25 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Toxic !",
+                "title": "Arnica",
+                "family": "Compositae.",
+                "bloom": "Late spring – summer.",
+                "height": "20 to 60 cm.",
+                "habitat": "Calcareous soils in mountain pastures. Found especially on granite or siliceous soils in the Alps, up to 2500 metres. Pasture and open woodland, usually on poorer acid soils.",
+                "habitatGameInfo": "Calcareous soils in mountain<br>pastures. Found especially on<br>granite or siliceous soils<br>in the Alps, up to<br>2500 metres. Pasture<br>and open woodland,<br>usually on poorer<br>acid soils.",
+                "habitatGameInfoSmaller": "1.1vw",
+                "medical": [
+                    "Arnica has a long history of herbal use, especially as an external treatment for bruises and sprains - it is an ingredient of a number of proprietary preparations. Internally, it has been used in the treatment of heart complaints and as a booster for the immune system. Arnica increases local blood supply and accelerates healing, it is anti-inflammatory and increases the rate of absorption of internal bleeding.",
+                    "Generally the plant is nowadays only recommended for internal use as a homeopathic medicine, principally for treating shock, injury and pain. If used as a decoction or tincture it stimulates the circulation and is valuable in the treatment of angina and a weak or failing heart, but it can be toxic even at quite low doses and so is rarely used this way."
+                ],
+                "cooking": null,
+                "toxic": "Toxic plant!",
+                "toxicDescription": "If ingested, it becomes a real poison and causes dizziness, vomiting, headaches, convulsions and sometimes even death.",
                 "didYouKnow": {
                     "image": "arnica_didYouKnow.png",
                     "imageEmpty": "arnica_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "Also called Panacea of the Mountains, Grass of the Falls and Tobacco of the Savoyards."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -174,19 +294,25 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Toxic bluck !",
+                "title": "Arnica",
+                "family": "Asteraceae.",
+                "bloom": "Aan het einde van de lente en in de zomer.",
+                "height": "20 tot 60 cm.",
+                "habitat": "Groeit voornamelijk in subalpiene graslanden.  Komt ook voor in subalpiene weiden en schaduwrijke heide.  Deze plant houdt van zure bodems: humus, graniet, kiezelaarde, basalt en groeit zelden op kalksteen.",
+                "habitatGameInfo": "Groeit voornamelijk in subalpiene<br>graslanden. Komt ook voor<br>in subalpiene weiden en<br>schaduwrijke heide. Deze<br>plant houdt van zure bo-<br>dems: humus, graniet, ba-<br>salt en groeit zelden<br>op kalksteen.",
+                "habitatGameInfoSmaller": "1vw",
+                "medical": [
+                    "Arnica is gekend voor zijn therapeutische kracht, vooral ter verzorging van blauwe plekken, en wordt gebruikt als homeopathische zalf.",
+                    "Maar opgepast: bij inname is arnica giftig en veroorzaakt duizeligheid, overgeven, hoofdpijn, stuiptrekkingen en soms zelfs de dood.  In hoge doses werkt hij abortief.  Bij uitwendig gebruik kan hij huidreacties veroorzaken (uitslag, blaren)."
+                ],
+                "cooking": null,
+                "toxic": "Giftige plant!",
+                "toxicDescription": "Bij inslikken wordt het een echt vergif, dat duizeligheid, overgeven, hoofdpijn, stuiptrekkingen en soms zelfs de dood veroorzaakt.",
                 "didYouKnow": {
                     "image": "arnica_didYouKnow.png",
                     "imageEmpty": "arnica_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "Ook wel valkruid, wolverlei of tabak van de Savoyards genoemd."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -205,35 +331,55 @@
             "menuImage": "papaver_rhoeas_menu.png",
             "thumbnail": "papaver_rhoeas_thumbnail.jpg",
             "title_latin": "papaver rhoeas",
+            "gameInfoResizeIcon": "85%",
+            "level": 0,
             "fr": {
                 "title": "Coquelicot",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Plante très faiblement toxique, surtout le suc laiteux !"
+                "family": "Papavéracées.",
+                "bloom": "Printemps-été.",
+                "height": "30 à 90 cm.",
+                "habitat": "On le rencontre partout et pousse dans les champs labourés et aux bords des routes. Il aime la compagnie des poacées (graminées) qui leur a valu leur destruction par les pesticides !",
+                "habitatGameInfo": "On le rencontre partout et pousse dans les champs labourés et aux bords des routes. Il aime la compagnie des poacées (graminées) qui leur a valu leur destruction par les pesticides !",
+                "medical": [
+                    "Sédatives. Il sert entre autres à traiter les toux rebelles, les angines et les bronchites. Les pétales ne sont pas toxiques."
+                ],
+                "cooking": [
+                    "Les pétales sont utilisées pour faire des sirops, confiture, sorbets..."
+                ],
+                "toxic": "Plante très faiblement toxique, surtout le suc laiteux&nbsp;!",
+                "toxicDescription": "Plante très faiblement toxique, surtout le suc laiteux&nbsp;!"
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Lorem ipsum dolor sit amet"
+                "title": "Corn poppy",
+                "family": "Papaveraceae.",
+                "bloom": "Spring – summer.",
+                "height": "30 to 90 cm.",
+                "habitat": "We can meet them everywhere and it grows on agricultural fields and at the boarder of the road.  The corn poppy likes the company of poacées (grass) which leads to their destruction by pesticides.",
+                "habitatGameInfo": "We can meet them everywhere and it grows on agricultural fields and at the boarder of the road.  The corn poppy likes the company of poacées (grass) which leads to their destruction by pesticides.",
+                "medical": [
+                    "Sedative. It treats coughs, pharyngitis and bronchitis. The petals are non-toxic."
+                ],
+                "cooking": [
+                    "The petals are used to make syrups, jam and sherbets…"
+                ],
+                "toxic": "Plant very weakly toxic, especially the milky juice!",
+                "toxicDescription": "Very slightly toxic plant, especially the milky juice!"
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Lorem ipsum dolor sit amet"
+                "title": "Grote klaproos",
+                "family": "Papaveraceae.",
+                "bloom": "Lente-zomer.",
+                "height": "30 tot 90 cm.",
+                "habitat": "Deze bloem is overal te vinden, groeit op omgeploegde velden en aan de rand van de wegen. Hij houdt van het gezelschap van Poaceae (grassen), wat door de pesticiden heeft geleid tot hun vernietiging!",
+                "habitatGameInfo": "Deze bloem is overal te vinden en groeit op omgeploegde velden en aan de rand van de wegen. Hij houdt van het gezelschap van Poaceae (grassen), wat door de pesticiden heeft geleid tot hun vernietiging!",
+                "medical": [
+                    "Kalmerend. Hij wordt onder andere gebruikt om hardnekkige hoest, keelpijn en bronchitis te behandelen. De bloemblaadjes zijn niet giftig."
+                ],
+                "cooking": [
+                    "De bloemblaadjes worden gebruikt om siropen, jam, sorbets, enz. te maken."
+                ],
+                "toxic": "Licht giftige plant, vooral het melksap!",
+                "toxicDescription": "Zeer licht giftige plant, vooral het melkachtige sap!"
             }
         },
         {
@@ -247,32 +393,52 @@
             "title_latin": "carum carvi",
             "fr": {
                 "title": "Cumin des prés",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Apiacées.",
+                "bloom": "Printemps-été.",
+                "height": "30 à 60 cm.",
+                "habitat": "Pousse au bord des chemins et dans les pâturages.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Digestives, antispasmodiques et antiseptiques."
+                ],
+                "cooking": [
+                    "Les jeunes feuilles, crues, peuvent agrémenter les salades et, cuites, les soupes.",
+                    "Les racines peuvent être mangées comme des carottes.",
+                    "Les fruits ou « grains de carvi » parfument le pain (Pumpernickel), certains fromages (gouda, munster), la choucroute, les ragoûts."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Caraway",
+                "family": "Apiaceae.",
+                "bloom": "Spring-Summer.",
+                "height": "30 to 60 cm.",
+                "habitat": "Grows well in meadows.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Caraway has various medicinal properties such as antihistaminic, antiseptic, antispasmodic, carminative, and vermifuge."
+                ],
+                "cooking": [
+                    "The leaves may be used in salads and soups, the seeds in baked goods, dumplings, cream cheese and meat dishes such as goulash and pork casserole.",
+                    "The roots can be boiled as a vegetable and served with a white sauce."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Karwij",
+                "family": "Apiaceae.",
+                "bloom": "Lente-zomer.",
+                "height": "30 tot 60 cm.",
+                "habitat": "Groeit langs bermen en in weilanden.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Spijsverteringsbevorderend, krampstillend en ontsmettend."
+                ],
+                "cooking": [
+                    "De blaadjes kunnen rauw gebruikt worden in sla en gekookt toegevoegd worden aan soep.",
+                    "De gekookte wortels kunnen als groente gegeten worden.",
+                    "De vruchten of \"karwijzaadjes\" geven smaak aan brood (Pumpernickel), bepaalde kazen (Gouda, Munster), zuurkool en stoofschotels."
+                ],
                 "toxic": null
             }
         },
@@ -284,21 +450,43 @@
             "full": "digitalis_grandiflora.jpg",
             "menuImage": "digitalis_grandiflora_menu.png",
             "thumbnail": "digitalis_grandiflora_thumbnail.jpg",
+            "thumbnailSquare": "digitalis_grandiflora_thumbnailSquare.jpg",
+            "imageMemory": "digitalis_grandiflora_memory.png",
             "title_latin": "digitalis grandiflora",
+            "gameInfoResizeIcon": "170%",
+            "level": 1,
+            "guessWhoParameters": {
+                "toxic": true,
+                "yellow": true,
+                "pink": false,
+                "spring": false,
+                "summer": true,
+                "small": false,
+                "medium": false,
+                "large": true,
+                "extralarge": true,
+                "subalpin": false,
+                "wood": false
+            },
             "fr": {
                 "title": "Digitale à grandes fleurs",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Plantaginacées.",
+                "bloom": "Été.",
+                "height": "40 à 80 cm.",
+                "habitat": "Pousse dans les bois clairs et sur les pentes pierreuses.",
+                "habitatGameInfo": "Pousse dans<br>les bois clairs<br>et sur les pentes<br>pierreuses.",
+                "medical": [
+                    "La digitale qui est extrêmement toxique a valu aux sorcières leur si mauvaise réputation.",
+                    "La digitale, qu'elles savaient parfaitement doser, venait en aide aux insuffisants cardiaques. Aujourd'hui, la chimie a su isoler le principe actif, la digitaline qui est un stimulant cardiaque utilisé dans le traitement de l'insuffisance cardiaque."
+                ],
+                "cooking": null,
                 "toxic": "Plante toxique !",
+                "toxicDescription": "Plante extrêmement toxique, qui a valu aux sorcières leur si mauvaise réputation.",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
                     "paragraphs": [
-                        "On lui a attribué à tort des propriétés contre la folie. Ce traitement, administré au peintre Van Gogh, lui aurait provoqué des troubles visuels, et notamment la coloration jaune de la vision, ce qui expliquerait l’utilisation massive de jaune dans ses œuvres à la fin de sa vie."
+                        "On lui a attribué à tort des propriétés contre la folie. Ce traitement, administré au peintre Van Gogh,  lui aurait provoqué des troubles visuels, et notamment la coloration jaune de la vision, ce qui expliquerait l’utilisation massive de jaune dans ses œuvres à la fin de sa vie."
                     ],
                     "dimensions": {
                         "width": "19%",
@@ -309,45 +497,57 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Toxic !",
+                "title": "Yellow Foxglove",
+                "family": "Plantaginaceae.",
+                "bloom": "Summer.",
+                "height": "40 to 80 cm.",
+                "habitat": "Grows in clear woods and rocky slopes.",
+                "habitatGameInfo": "Grows in<br>clear woods<br>and rocky slopes.",
+                "medical": [
+                    "All parts of the plant are poisonous. Used in the treatment of heart problems."
+                ],
+                "cooking": null,
+                "toxic": "Toxic plant!",
+                "toxicDescription": "Extremely toxic plant, which has earned witches their bad reputation.",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "It has incorrectly been attributed properties against madness. This treatment, administered to painter Van Gogh, would have caused him visual disorders, and in particular the yellow colouring of vision, which would explain the extensive use of yellow in his works at the end of his life."
                     ],
                     "dimensions": {
                         "width": "23%",
                         "top": "49vh",
-                        "left": "-33.66%"
+                        "left": "-33.66%",
+                        "textMarginTop": "10%"
                     }
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Toxic bluck !",
+                "title": "Grootbloemig vingerhoedskruid",
+                "family": "Plantaginaceae.",
+                "bloom": "Zomer.",
+                "height": "40 tot 80 cm.",
+                "habitat": "Groeit in open bossen en op stenige hellingen.",
+                "habitatGameInfo": "Groeit in<br>open bossen<br>en op stenige<br>hellingen.",
+                "medical": [
+                    "De slechte reputatie van de heksen was onder andere te wijten aan het extreem giftige vingerhoedskruid.",
+                    "Het vingerhoedskruid, dat ze perfect wisten te doseren, hielp personen met hartfalen.  Vandaag de dag is de scheikunde erin geslaagd om het actieve bestanddeel, digitalis, te isoleren. Dit is een hartstimulerend middel dat wordt gebruikt bij de behandeling van hartfalen."
+                ],
+                "cooking": null,
+                "toxic": "Giftige plant!",
+                "toxicDescription": "Extreem giftige plant, die aan de heksen hun slechte reputatie heeft gegeven!",
                 "didYouKnow": {
                     "image": "digitalis_grandiflora_didYouKnow.png",
                     "imageEmpty": "digitalis_grandiflora_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "Vingerhoedskruid werd gebruikt in de behandeling van de schilder Van Gogh die aan epilepsie leed.  Dit zou hem visuele hallucinaties hebben opgeleverd, waarin de kleur geel domineerde.  Hierover is veel gespeculeerd en er bestaan vermoedens dat de giftige werking van vingerhoedskruid niet alleen verantwoordelijk was voor de psychotische symptomen, maar ook voor de prominente gele kleur in de schilderijen van Van Gogh in de laatste twee jaar voorafgaande aan zijn dood."
                     ],
                     "dimensions": {
-                        "width": "23%",
-                        "top": "49vh",
+                        "width": "25%",
+                        "fontSize": "0.85vw",
+                        "top": "45vh",
+                        "questionTop": "64.5vh",
                         "left": "-33.66%"
                     }
                 }
@@ -364,32 +564,41 @@
             "title_latin": "euphrasia minima",
             "fr": {
                 "title": "Euphraise naine",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Scrophulariacées.",
+                "bloom": "Été.",
+                "height": "2 à 10 cm.",
+                "habitat": "Pousse dans les pelouses subalpines denses et continues. Elle fait partie des très rares plantes annuelles de l’étage alpin.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Peut traiter les conjonctivites, le larmoiement, les ophtalmies légères et les orgelets."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Little eyebright",
+                "family": "Scropulariaceae.",
+                "bloom": "Summer.",
+                "height": "2 to 10 cm.",
+                "habitat": "Grows in sub-alpine meadows. This is one of the very rare annual plants of the alpine stage.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Treats eye irritation (conjunctivitis, blepharitis and minor ophtalmia)."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Dwerg ogentroost",
+                "family": "Scropulariaceae.",
+                "bloom": "Zomer.",
+                "height": "2 tot 10 cm.",
+                "habitat": "Groeit in subalpiene graslanden.  Het is één van de zeldzame eenjarige planten in de alpiene zone.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Wordt gebruikt ter behandeling van oogontstekingen, tranende ogen, lichte oogaandoeningen en oogstrontjes."
+                ],
+                "cooking": null,
                 "toxic": null
             }
         },
@@ -401,35 +610,69 @@
             "full": "artemisia_eriantha.jpg",
             "menuImage": "artemisia_eriantha_menu.png",
             "thumbnail": "artemisia_eriantha_thumbnail.jpg",
+            "thumbnailSquare": "artemisia_eriantha_thumbnailSquare.jpg",
+            "imageMemory": "artemisia_eriantha_memory.png",
             "title_latin": "artemisia eriantha",
+            "level": 3,
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": true,
+                "pink": false,
+                "spring": false,
+                "summer": true,
+                "small": false,
+                "medium": true,
+                "large": false,
+                "extralarge": false,
+                "subalpin": false,
+                "wood": true
+            },
             "fr": {
                 "title": "Génépi Bourru",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Astéracées.",
+                "bloom": "Été.",
+                "height": "5 à 20 cm.",
+                "habitat": "Pousse dans les rochers et moraines.",
+                "habitatGameInfo": "Dans les rochers<br>et moraines.",
+                "medical": [
+                    "Stimule l’appétit et les digestions difficiles et peut soigner le mal de montagne.",
+                    "À éviter pendant la grossesse (surtout au début) comme toutes les plantes emménagogues."
+                ],
+                "cooking": [
+                    "On utilise le génépi pour faire des liqueurs qui peuvent parfumer les salades de fruits, confitures ou pâtisseries."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Genepy",
+                "family": "Asteraceae.",
+                "bloom": "Summer.",
+                "height": "5 to 20 cm.",
+                "habitat": "Grows on rocks at a high altitude.",
+                "habitatGameInfo": "Grows on rocks<br>at a high<br>altitude.",
+                "medical": [
+                    "Stimulates appetite and difficult digestions. It can treat mountain illness.",
+                    "To avoid during pregnancy (especially in the beginning) like all emmenagogual plants."
+                ],
+                "cooking": [
+                    "Genepy is used to make liquors who can perfume fruit salads, jam and pastry."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Genepi / Alpenalsem",
+                "family": "Asteraceae.",
+                "bloom": "Zomer.",
+                "height": "5 tot 20 cm.",
+                "habitat": "Groeit tussen de rotsen en gletsjerpuin.",
+                "habitatGameInfo": "Groeit in<br>de rotsen en<br>gletsjerpuin.",
+                "medical": [
+                    "Stimuleert de eetlust, helpt bij een moeilijke spijsvertering, en kan bergziekte behandelen.",
+                    "Te vermijden tijdens de zwangerschap (vooral in het begin)."
+                ],
+                "cooking": [
+                    "Alpenalsem wordt gebruikt voor het bereiden van de likeur, die onder andere fruitsalades, jams of gebak op smaak brengt."
+                ],
                 "toxic": null
             }
         },
@@ -441,68 +684,101 @@
             "full": "gentiana_lutea.jpg",
             "menuImage": "gentiana_lutea_menu.png",
             "thumbnail": "gentiana_lutea_thumbnail.jpg",
+            "thumbnailPosition": "30% center",
+            "thumbnailSquare": "gentiana_lutea_thumbnailSquare.jpg",
+            "imageMemory": "gentiana_lutea_memory.png",
             "title_latin": "gentiana lutea",
+            "level": 2,
+            "gameInfoResizeIcon": "70%",
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": true,
+                "pink": false,
+                "spring": false,
+                "summer": true,
+                "small": false,
+                "medium": false,
+                "large": false,
+                "extralarge": true,
+                "subalpin": true,
+                "wood": false
+            },
             "fr": {
                 "title": "Gentiane Jaune",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Gentianacées.",
+                "bloom": "Été.",
+                "height": "50 à 150 cm.",
+                "habitat": "Pousse essentiellement dans les prairies subalpines. On peut également la rencontrer dans les friches (terrain non cultivé et non entretenu) et brousailles de l’étage montagnard et dans les boisements d’adret (versant d’une montagne ou l’exposition au soleil est dominante).",
+                "habitatGameInfo": "Les prairies subalpines,<br>les friches (terrain non<br>cultivé et non entretenu)<br>et brousailles de l’étage<br>montagnard et dans<br>les boisements d’adret<br>(exposition au soleil<br>dominante).",
+                "habitatGameInfoSmaller": "1.05vw",
+                "medical": [
+                    "La racine s'emploie par distillation à la vapeur et on en tire une eau-de-vie amère pleine de vertus, mais, attention, à 50° d'alcool !",
+                    "On l'utilise également en tisane et alcoolature, et a des propriétés toniques, apéritives, stimulant les défenses immunitaires.",
+                    "À ne pas confondre avec le Vérâtre Blanc, plante très toxique."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "gentiana_lutea_didYouKnow.png",
                     "imageEmpty": "gentiana_lutea_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Appelée aussi gratte-ciel végétal.",
-                        "Le clin d’œil du météorologiste : elle indique, soi-disant, la hauteur de neige de l’hiver suivant : plus elle est haute, plus le manteau blanc sera épais."
+                        "Appelée aussi gratte-ciel végétal.<br><br>Le clin d’œil du météorologiste : elle indique, soi-disant, la hauteur de neige de l’hiver suivant : plus elle est haute, plus le manteau blanc sera épais."
                     ],
                     "dimensions": {
                         "width": "20%",
                         "top": "49vh",
-                        "left": "-33.66%"
+                        "left": "-33.66%",
+                        "textMarginTop": "5%"
                     }
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Yellow gentian",
+                "family": "Gentianaceae.",
+                "bloom": "Summer.",
+                "height": "50 to 150 cm.",
+                "habitat": "It grows in grassy alpine and sub-alpine pastures, usually oncalcareous soils.",
+                "habitatGameInfo": "It grows in grassy<br>alpine and sub-alpine<br>pastures, usually<br>oncalcareous soils.",
+                "medical": [
+                    "The root is anthelmintic, anti-inflammatory, antiseptic, bitter tonic, cholagogue, emmenagogue, febrifuge, refrigerant and stomachic. It is taken internally in the treatment of liver complaints, indigestion, gastric infections and anorexia. It should not be prescribed for patients with gastric or duodenal ulcers. The root, which can be over 5 cm thick and has few branches, is harvested in the autumn and dried for later use.",
+                    "Not to be confound with the white hellbore which is extremely poisonous."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "gentiana_lutea_didYouKnow.png",
                     "imageEmpty": "gentiana_lutea_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Also called a plant skyscraper.<br><br>The meteorologist's wink: it supposedly indicates the snow depth of the following winter: the higher it is, the deeper the layer of snow will be."
                     ],
                     "dimensions": {
                         "width": "20%",
+                        "textMarginTop": "10%",
                         "top": "49vh",
                         "left": "-33.66%"
                     }
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Gele Gentiaan",
+                "family": "Gentianaceae.",
+                "bloom": "Zomer.",
+                "height": "50 tot 150 cm.",
+                "habitat": "Groeit voornamelijk in subalpiene weiden, maar ook op braakliggend terrein (ongecultiveerd en niet onderhouden), in struikgewas in de montane zone en in bebossingen waar de zon overheerst.",
+                "habitatGameInfo": "Groeit voornamelijk in subalpiene<br>weiden, maar ook op braak-<br>liggend terrein (ongecultiveerd<br>en niet onderhouden) en in<br>struikgewas in de montane<br>zone en in<br>bebossingenwaar de<br>zon overheerst.",
+                "habitatGameInfoSmaller": "1vw",
+                "medical": [
+                    "De wortel wordt verwerkt en gedistilleerd tot een bittere brandewijn, maar, opgepast, want deze heeft een alcoholpercentage van 50°! Hij wordt ook gebruikt als kruidenthee en in sterke drank en heeft immuunversterkende eigenschappen.",
+                    "Niet te verwarren met de zeer giftige witte nieswortel (Vérâtre Blanc)."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "gentiana_lutea_didYouKnow.png",
                     "imageEmpty": "gentiana_lutea_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Ook wel de plantaardige wolkenkrabber genoemd.",
+                        "De knipoog van de weerkundige: de Gele Gentiaan geeft zogezegd de hoeveelheid sneeuw voor de komende winter aan.  Hoe hoger hij groeit, hoe dikker de sneeuwlaag zal zijn."
                     ],
                     "dimensions": {
                         "width": "20%",
@@ -520,35 +796,60 @@
             "full": "geranium_robertianum.jpg",
             "menuImage": "geranium_robertianum_menu.png",
             "thumbnail": "geranium_robertianum_thumbnail.jpg",
+            "thumbnailSquare": "geranium_robertianum_thumbnailSquare.jpg",
+            "imageMemory": "geranium_robertianum_memory.png",
             "title_latin": "geranium robertianum",
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": false,
+                "pink": true,
+                "spring": true,
+                "summer": true,
+                "small": true,
+                "medium": true,
+                "large": false,
+                "extralarge": false,
+                "subalpin": false,
+                "wood": false
+            },
             "fr": {
                 "title": "Géranium Herbe à Robert",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Géraniacées.",
+                "bloom": "Printemps-été.",
+                "height": "10 à 30 cm.",
+                "habitat": "Pousse dans les lieux ombragés des haies, des vieux murs, et des rochers. Espèce commune en toutes régions.",
+                "habitatGameInfo": "Les lieux ombragés<br>des haies, des vieux<br>murs, et des rochers.<br>Espèce commune<br>en toutes<br>régions.",
+                "medical": [
+                    "Ce géranium fut employé pour stopper les hémorragies, soigner les blessures, régénérer le sang et lutter contre le diabète. Il était aussi réputé contre les irritations buccales et l'inflammation aiguë des amygdales."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Herb Robert",
+                "family": "Geraniaceae.",
+                "bloom": "Spring – Summer.",
+                "height": "10 to 30 cm.",
+                "habitat": "This plant is able to tolerate shade, and often occurs close to human habitation. Typical habitats favoured by this species include woodlands, hedgerows.",
+                "habitatGameInfo": "This plant is able to tolerate<br>shade, and often occurs<br>close to human habitation.<br>Typical habitats favoured<br>by this species in-<br>clude woodlands,<br>hedgerows.",
+                "habitatGameInfoSmaller": "1.1vw",
+                "medical": [
+                    "astringent, antibiotic, adaptogen, antiviral, styptic, tonic, diuretic, digestive, sedative, antioxidant."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Robertskruid",
+                "family": "Geraniaceae.",
+                "bloom": "Lente-zomer.",
+                "height": "10 tot 30 cm.",
+                "habitat": "Groeit op schaduwrijke plaatsen, heggen, oude muren en rotsen. Deze plant is in alle regio's te vinden.",
+                "habitatGameInfo": "Groeit op schaduwrijke<br>plaatsen, heggen, oude<br>muren en rotsen.<br>Deze plant is in<br>alle regio’s<br>te vinden.",
+                "medical": [
+                    "Deze geranium werd gebruikt om bloedingen te stoppen, wonden te genezen, nieuw bloed aan te maken en suikerziekte te bestrijden.  Hij stond ook bekend om zijn heilzame werking bij mondirritaties en acute amandelontstekingen."
+                ],
+                "cooking": null,
                 "toxic": null
             }
         },
@@ -560,45 +861,73 @@
             "full": "plantago_major.jpg",
             "menuImage": "plantago_major_menu.png",
             "thumbnail": "plantago_major_thumbnail.jpg",
+            "thumbnailSquare": "plantago_major_thumbnailSquare.jpg",
+            "imageMemory": "plantago_major_memory.png",
             "title_latin": "plantago major",
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": false,
+                "pink": false,
+                "spring": false,
+                "summer": true,
+                "small": true,
+                "medium": true,
+                "large": true,
+                "extralarge": true,
+                "subalpin": false,
+                "wood": false
+            },
             "fr": {
                 "title": "Grand Plantain",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Plantaginacées.",
+                "bloom": "Été-automne.",
+                "height": "10 à 60 cm.",
+                "habitat": "Pousse essentiellement dans les reposoirs des troupeaux domestiques. On peut également la rencontrer aux bords des chemins et abords des villages, dans les cours des fermes et prairies.",
+                "habitatGameInfo": "Les reposoirs des troupeaux<br>domestiques ou aux bords<br>des chemins et abords<br>des villages, dans<br>les cours des fermes<br>et prairies.",
+                "habitatGameInfoSmaller": "1.2vw",
+                "medical": [
+                    "Les feuilles de plantain, en décoction ou cataplasme, étaient très utilisées par les gens de la montagne contre les diarrhées, toux, plaies et piqûres d'insectes.",
+                    "Elles calment aussi les brûlures d'orties, en les frottant sur la peau endolorie. Elle est également utilisée comme antihistaminique et dans les affections des bronches. Certaines personnes peuvent avoir des réactions allergiques au plantain."
+                ],
+                "cooking": [
+                    "Les jeunes pousses sont utilisées en salade. Très jeunes elles ont un goût de champignons ! On peut ajouter les graines réduites en farine à la pâte à pain ou à la soupe."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "plantago_major_didYouKnow.png",
                     "imageEmpty": "plantago_major_empty_didYouKnow.png",
                     "paragraphs": [
                         "Appelé aussi plantain des oiseaux (pour ses graines).",
-                        "Le clin d’œil des « peaux-rouges » : Les Indiens d’Amérique du Nord l’avaient surnommé « trace de l’homme blanc » car avant l’arrivée des immigrants européens, les graines de cette plante étaient inconnues au pays des Geronimo."
+                        "Le clin d’œil des «&nbsp;peaux-rouges&nbsp;» : Les Indiens d’Amérique du Nord l’avaient surnommé « trace de l’homme blanc » car avant l’arrivée des immigrants européens, les graines de cette plante étaient inconnues au pays des Geronimo."
                     ],
                     "dimensions": {
-                        "width": "20%",
+                        "width": "25%",
                         "top": " 47.2vh",
                         "left": "-33.66%"
                     }
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "White-man’s foot",
+                "family": "Plantaginaceae.",
+                "bloom": "Summer – Automn.",
+                "height": "10 to 60 cm.",
+                "habitat": "It grows better than most other plants in compacted soils, and is abundant beside paths, roadsides, and other areas with frequent soil compaction. It is also common in grasslands.",
+                "habitatGameInfo": "It grows better than most other<br>plants in compacted soils,<br>and is abundant beside<br>paths, roadsides, and<br>other areas with fre-<br>quent soil compaction.<br>It is also common<br>in grasslands.",
+                "habitatGameInfoSmaller": "1.05vw",
+                "medical": [
+                    "The leaves and the seed are medicinal used as an antibacterial, antidote, astringent, antiinflammatory, antiseptic, antitussive, cardiac, demulcent, diuretic, expectorant, haemostatic, laxative, ophthalmic, poultice, refrigerant, and vermifuge. The heated leaves are used as a wet dressing for wounds, skin inflammations, malignant ulcers, cuts, stings and swellings and said to promote healing without scars.Certain persons can have allergic reactions to this plant."
+                ],
+                "cooking": [
+                    "The tought, fibrous, mature leaves of the plantain are difficult to digest, but the tender young leaves can be eaten in salads or steamed lightly as you would spinach. Watch out though, the leaves have a mildly laxative effect…"
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "plantago_major_didYouKnow.png",
                     "imageEmpty": "plantago_major_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Also called bird plantain (for its seeds).",
+                        "The wink of the \"redskins\": North American Indians had nicknamed it \"trace of the white man\", because before the arrival of European immigrants, the seeds of this plant were unknown in the country of Geronimo."
                     ],
                     "dimensions": {
                         "width": "20%",
@@ -608,23 +937,30 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Grote weegbree",
+                "family": "Plantaginaceae.",
+                "bloom": "Zomer-herfst.",
+                "height": "10 tot 60 cm.",
+                "habitat": "Groeit voornamelijk op de rustplaatsen van kuddes. Hij is ook te vinden langs wegen en dorpsranden, op boerenerven en in weilanden.",
+                "habitatGameInfo": "Groeit voornamelijk op de<br>rustplaatsen van kuddes.<br>Hij is ook te vinden langs<br>wegen en dorpsranden,<br>op boerenerven<br>en in weilanden.",
+                "habitatGameInfoSmaller": "1.2vw",
+                "medical": [
+                    "De bladeren van de weegbree werden door de bergbewoners veel gebruikt als afkooksel of kompres om diarree, hoest, wonden en insectenbeten te behandelen.",
+                    "Ze verzachten eveneens brandnetelwonden door ze op de pijnlijke huid te wrijven. Hij wordt ook gebruikt als antihistaminicum en bij bronchitis. Opgepast: sommige mensen kunnen allergisch reageren op weegbree."
+                ],
+                "cooking": [
+                    "De jonge blaadjes worden in salades gebruikt en de gemalen zaadjes kunnen worden toegevoegd aan brooddeeg of soep."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "plantago_major_didYouKnow.png",
                     "imageEmpty": "plantago_major_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Ook wel vogelweegbree genoemd (voor zijn zaden).",
+                        "De knipoog van de \"roodhuiden\": De zaden blijven gemakkelijk aan de schoenzolen kleven, zodat de plant zich makkelijk verspreidt. Daarom noemden de indianen deze plant “voetstappen van de blanke man”, want voor de komst van de Europese immigranten, kwam deze plant niet voor in het land van Geronimo."
                     ],
                     "dimensions": {
-                        "width": "20%",
+                        "width": "28%",
                         "top": "47.2vh",
                         "left": "-33.66%"
                     }
@@ -639,21 +975,41 @@
             "full": "sempervivum_montanum.jpg",
             "menuImage": "sempervivum_montanum_menu.png",
             "thumbnail": "sempervivum_montanum_thumbnail.jpg",
+            "thumbnailSquare": "sempervivum_montanum_thumbnailSquare.jpg",
+            "imageMemory": "sempervivum_montanum_memory.png",
             "title_latin": "sempervivum montanum",
+            "level": 2,
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": false,
+                "pink": true,
+                "spring": false,
+                "summer": true,
+                "small": true,
+                "medium": true,
+                "large": true,
+                "extralarge": false,
+                "subalpin": true,
+                "wood": false
+            },
             "fr": {
                 "title": "Joubarbe des Montagnes",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Crassulacées.",
+                "bloom": "Été.",
+                "height": "5 à 25 cm.",
+                "habitat": "Pousse essentiellement dans les pelouses subalpines écorchées. On peut également la rencontrer dans les éboulis et les pelouses alpines.",
+                "habitatGameInfo": "Les pelouses subalpines<br>écorchées. Également<br>dans les éboulis et<br>les pelouses<br>alpines.",
+                "medical": [
+                    "Les joubarbes sont depuis longtemps utilisées pour calmer les douleurs externes : cors aux pieds, brûlures et hémorroïdes. Les feuilles pilées peuvent être utilisées en cataplasme pour apaiser l'irritation des dartres.",
+                    "Pour conserver vos dents de sagesse, il faut s'habituer à mâcher des feuilles de joubarbe. La saveur acidulée n'est pas désagréable et les rages de dents ne sont plus à craindre."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "sempervivum_montanum_didYouKnow.png",
                     "imageEmpty": "sempervivum_montanum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Ses différents noms définissent parfaitement son usage : « herbes-aux-coupures»«herbes-aux-brûlures» ou « herbes-aux-cors », du fait de ses propriétés cicatrisantes et apaisantes."
+                        "Ses différents noms définissent parfaitement son usage : «&nbsp;herbes-aux-coupures&nbsp;», «&nbsp;herbes-aux-brûlures&nbsp;» ou «&nbsp;herbes-aux-cors&nbsp;», du fait de ses propriétés cicatrisantes et apaisantes."
                     ],
                     "dimensions": {
                         "width": "19%",
@@ -663,41 +1019,50 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Mountain houseleek",
+                "family": "Crassulaceae.",
+                "bloom": "Summer.",
+                "height": "5 to 25 cm.",
+                "habitat": "They live on sunny rocks and stony places in the mountains, subalpine and alpine belts.",
+                "habitatGameInfo": "They live on sunny rocks<br>and stony places in the<br>mountains, subalpine<br>and alpine belts.",
+                "medical": [
+                    "Chew leaves to relieve tooth ache. Apply to minor burns, wasp and nettle stings, cuts, ulcers, insect bites, itching and burning skin."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "sempervivum_montanum_didYouKnow.png",
                     "imageEmpty": "sempervivum_montanum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "Its different names perfectly define its use: \"cut herbs\", \"burn herbs\" and \"corn herbs\", due to its healing and soothing properties."
                     ],
                     "dimensions": {
                         "width": "19%",
                         "top": "53.5vh",
+                        "textMarginTop": "15%",
                         "left": "-33.66%"
                     }
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Berghuislook",
+                "family": "Crassulaceae.",
+                "bloom": "Zomer.",
+                "height": "5 tot 25 cm.",
+                "habitat": "Groeit voornamelijk in schrale bergweiden, tussen rotsen en puin, op kalkarme bodems, en in alpiene grasvlaktes.",
+                "habitatGameInfo": "Groeit voornamelijk in<br>schrale bergweiden,<br>tussen rotsen en<br>puin, op kalkarme<br>bodems, en in<br>alpiene<brgrasvlaktes.",
+                "medical": [
+                    "Huislook wordt al heel lang gebruikt om uitwendige pijn te verzachten, zoals likdoorns, brandwonden en aambeien.",
+                    "De geplette bladeren kunnen worden gebruikt als een kompres om de irritatie van huiduitslag te verzachten.",
+                    "Om je wijsheidstanden te behouden, kan je op huislook kauwen.  De pittige smaak is niet onaangenaam en verzacht kiespijn."
+                ],
+                "cooking": null,
                 "toxic": null,
                 "didYouKnow": {
                     "image": "sempervivum_montanum_didYouKnow.png",
                     "imageEmpty": "sempervivum_montanum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "De verschillende benamingen bepalen perfect het gebruik ervan: snijwondenkruid, brandwondenkruid of likdoornkruid, door zijn helende en verzachtende eigenschappen."
                     ],
                     "dimensions": {
                         "width": "19%",
@@ -715,35 +1080,65 @@
             "full": "leontodon_pyrenaicus.jpeg",
             "menuImage": "leontodon_pyrenaicus_menu.png",
             "thumbnail": "leontodon_pyrenaicus_thumbnail.jpg",
-            "title_latin": "leontodon pyrenaicus",
+            "thumbnailSquare": "leontodon_pyrenaicus_thumbnailSquare.jpg",
+            "imageMemory": "leontodon_pyrenaicus_memory.png",
+            "title_latin": "leontodon helveticus",
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": true,
+                "pink": false,
+                "spring": false,
+                "summer": true,
+                "small": true,
+                "medium": false,
+                "large": true,
+                "extralarge": false,
+                "subalpin": true,
+                "wood": false
+            },
             "fr": {
                 "title": "Liondent Helvétique",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Astéracées.",
+                "bloom": "Été.",
+                "height": "10 à 30 cm.",
+                "habitat": "Pousse essentiellement sur les pelouses subalpines denses et continues. On peut également la rencontrer sur les pelouses alpines et landines de haute altitude.",
+                "habitatGameInfo": "Les pelouses subalpines<br>denses et continues.<br>On peut également la<br>rencontrer sur les<br>pelouses alpines et<br>landines de<br>haute altitude.",
+                "medical": [
+                    "Diurétique."
+                ],
+                "cooking": [
+                    "Les jeunes feuilles font de bonnes salades et les racines peuvent être cuites comme des légumes."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Hawkbit",
+                "family": "Asteraceae.",
+                "bloom": "Summer.",
+                "height": "10 to 30 cm.",
+                "habitat": "It grows in meadows and on stony slopes from the tree line to over 3000 m, usually on acidic soils.",
+                "habitatGameInfo": "It grows in meadows<br>and on stony slopes<br>from the tree line<br>to over3000 m,<br>usually on<br>acidic soils.",
+                "medical": [
+                    "The herb is diuretic."
+                ],
+                "cooking": [
+                    "The young leaves are used to make good salads and the roots can be cooked as vegetables."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Zwitserse leeuwentand",
+                "family": "Asteraceae.",
+                "bloom": "Zomer.",
+                "height": "10 tot 30 cm.",
+                "habitat": "Groeit voornamelijk in subalpiene graslanden. We vinden hem ook op hooggelegen alpenweiden en heidevelden.",
+                "habitatGameInfo": "Groeit voornamelijk op<br>subalpiene graslanden.<br>We vinden hem ook<br>op hooggelegen<br>alpenweiden en<br>heidevelden.",
+                "medical": [
+                    "Vochtafdrijvend."
+                ],
+                "cooking": [
+                    "De jonge blaadjes zijn lekker in salades en de wortels kunnen gekookt worden als groenten."
+                ],
                 "toxic": null
             }
         },
@@ -755,17 +1150,37 @@
             "full": "hypericum_richeri.jpg",
             "menuImage": "hypericum_richeri_menu.png",
             "thumbnail": "hypericum_richeri_thumbnail.jpg",
+            "thumbnailSquare": "hypericum_richeri_thumbnailSquare.jpg",
+            "imageMemory": "hypericum_richeri_memory.png",
             "title_latin": "hypericum richeri",
+            "guessWhoParameters": {
+                "toxic": true,
+                "yellow": true,
+                "pink": false,
+                "spring": false,
+                "summer": true,
+                "small": false,
+                "medium": true,
+                "large": true,
+                "extralarge": false,
+                "subalpin": false,
+                "wood": false
+            },
             "fr": {
                 "title": "Millepertuis de Richer",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "Plante peu toxique!",
+                "family": "Hypericacées.",
+                "bloom": "Été.",
+                "height": "15 à 40 cm.",
+                "habitat": "Pousse dans les pelouses et les prairies.",
+                "habitatGameInfo": "Pousse dans<br>les pelouses<br>et les prairies.",
+                "medical": [
+                    "Le millepertuis est surtout connu pour ses propriétés cicatrisantes, les soins des brûlures et coups de soleil en macération solaire dans l'huile d'olive.",
+                    "Il est consommé en tisane pour lutter contre les affections des bronches, les cystites et les gastrites, grâce à son action antibactérienne et cicatrisante. Il est reconnu depuis peu en France pour ses qualités d'antidépresseur. C'est surtout l'hypericum perforatum qui est utilisé en phytothérapie."
+                ],
+                "cooking": null,
+                "toxic": "Plante peu toxique !",
                 "toxicParagraph": "(photosensibilisante, éviter de consommer simultanément avec d’autres antidépresseurs)",
+                "toxicDescription": "Plante peu toxique !</br>(photosensibilisante, éviter de consommer simultanément avec d’autres antidépresseurs)",
                 "didYouKnow": {
                     "image": "hypericum_richeri_didYouKnow.png",
                     "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
@@ -781,21 +1196,25 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "[...]",
-                "toxicParagraph": "[...]",
+                "title": "Alpine St John’s wort",
+                "family": "Hypericaceae.",
+                "bloom": "Summer.",
+                "height": "15 to 40 cm.",
+                "habitat": "Grows on lawns and in fields.",
+                "habitatGameInfo": "Grows on<br>lawns and in<br>fields.",
+                "medical": [
+                    "St John’s wort is especially known for its healing properties, particularly for burns and sunburn after the flowers have been soaked in olive oil in the sun. It can be drunk in an infusion to relieve bronchial infections, cystitis and gastritis due to its antibacterial, healing action. It has recently become recognised in France for its antidepressant qualities. Hypericum perforatum is especially used in herbal medicine."
+                ],
+                "cooking": null,
+                "toxic": "A slightly toxic plant!",
+                "toxicParagraph": "(photosensitive, should not be taken simultaneously with other antidepressants)",
+                "toxicDescription": "Slightly toxic plant!</br>(photosensitising, avoid consuming simultaneously with other antidepressants)",
                 "didYouKnow": {
                     "image": "hypericum_richeri_didYouKnow.png",
                     "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua censée protéger des sorcières et des fantômes, mais aussi pour éloigner de sa maison maladie et tristesse."
+                        "Also called pierced grass, devil's chase or Saint-Jean grass.",
+                        "St John's Wort picked on Midsummer's Eve is also considered a magical herb believed to protect against witches and ghosts, but also to ward off illness and sadness from one's home."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -805,21 +1224,28 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": "[...]",
-                "toxicParagraph": "[...]",
+                "title": "Hertshooi / Sint-Janskruid",
+                "family": "Hypericaceae.",
+                "bloom": "Zomer.",
+                "height": "15 tot 40 cm.",
+                "habitat": "Groeit in grasvelden en weiden.",
+                "habitatGameInfo": "Groeit in<br>grasvelden en<br>weiden.",
+                "medical": [
+                    "Sint-Janskruid is vooral bekend om zijn helende eigenschappen en ter behandeling van brandwonden en zonnebrand.",
+                    "Dankzij zijn antibacteriële en helende eigenschappen, wordt ze gebruikt als kruidenthee in geval van aandoeningen van de luchtwegen en blaas- en maagontstekingen.",
+                    "Ze werd onlangs in Frankrijk erkend voor zijn antidepressieve eigenschappen.",
+                    "Het is voornamelijk de Hypericum perforatum die gebruikt wordt in fytotherapie."
+                ],
+                "cooking": null,
+                "toxic": "Licht giftige plant!",
+                "toxicParagraph": "(fotosensibiliserend, vermijd gelijktijdige inname met andere antidepressiva)",
+                "toxicDescription": "Licht giftige plant (fotosensibiliserend, inname met andere antidepressiva te vermijden).",
                 "didYouKnow": {
                     "image": "hypericum_richeri_didYouKnow.png",
                     "imageEmpty": "hypericum_richeri_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua censée protéger des sorcières et des fantômes, mais aussi pour éloigner de sa maison maladie et tristesse."
+                        "Ook bekend als doorboord kruid, duivelverjager of Sint-Janskruid.",
+                        "Sint-Janskruid, geplukt op midzomeravond, wordt ook beschouwd als een magisch kruid, dat bescherming zou bieden tegen heksen en geesten, maar ook ziekte en verdriet in huis zou afweren."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -837,16 +1263,35 @@
             "full": "origanum_vulgare.jpg",
             "menuImage": "origanum_vulgare_menu.png",
             "thumbnail": "origanum_vulgare_thumbnail.jpg",
+            "thumbnailSquare": "origanum_vulgare_thumbnailSquare.jpg",
+            "imageMemory": "origanum_vulgare_memory.png",
             "title_latin": "origanum vulgare",
+            "gameInfoResizeIcon": "70%",
+            "level": 0,
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": false,
+                "pink": true,
+                "spring": false,
+                "summer": true,
+                "small": false,
+                "medium": true,
+                "large": true,
+                "extralarge": true,
+                "subalpin": false,
+                "wood": false
+            },
             "fr": {
                 "title": "Origan Vulgaire",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null,
+                "family": "Lamiacées.",
+                "bloom": "Été.",
+                "height": "20 à 60 cm.",
+                "habitat": "Pousse sur les versants bien ensoleillés, essentiellement dans les pelouses sèches. Également aux bords des chemins et abords des villages.",
+                "habitatGameInfo": "Les versants bien ensoleil-<br>lés, essentiellement dans<br>les pelouses sèches.<br>Également aux bords<br>des chemins et<br>abords des<br>villages.",
+                "medical": [
+                    "Analgésiques (éliminant les douleurs), antiseptiques, expectorantes, antiparasites. Il ne faut pas confondre l'origan vulgaire avec la marjolaine qui a d'autres propriétés (calmante du système nerveux) et qui a une odeur plus douce."
+                ],
+                "cooking": null,
                 "didYouKnow": {
                     "image": "origanum_vulgare_didYouKnow.png",
                     "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
@@ -866,21 +1311,24 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null,
+                "title": "Wild marjoram",
+                "family": "Lamiaceae.",
+                "bloom": "Summer.",
+                "height": "20 to 60 cm.",
+                "habitat": "Wild marjoram is a tall herbaceous perennial native of dry, infertile and usually calcareous soils. Habitats include grasslands, hedge banks, road verges and scrub but not pasture as it is vulnerable to grazing.",
+                "habitatGameInfo": "Wild marjoram is a tall herbaceous<br>perennial native of dry, in-<br>fertile and usually calcareous soils.<br>Habitats include grasslands,<br>hedge banks, road verges and<br>scrub but not pasture<br>as it is vulnerable<br>to grazing.",
+                "habitatGameInfoSmaller": "0.9vw",
+                "medical": [
+                    "Expectorant, anti-inflammatory, antiseptic of the respiratory system."
+                ],
+                "cooking": null,
                 "didYouKnow": {
                     "image": "origanum_vulgare_didYouKnow.png",
                     "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Appelé aussi marjolaine des montagnes ou thé rouge.",
-                        "Son goût agréable donne de très bonnes infusions, c’est le « thé rouge » des Scandinaves. En montagne, on l’utilise régulièrement comme substitut du thé.",
-                        "Le clin d’œil du pizzaïolo : c’est sa cousine la marjolaine cultivée, qui ne pousse pas spontanément sous nos climats, qu’on étale sur nos pizzas."
+                        "Also called mountain marjoram or red tea.",
+                        "Its pleasant taste makes very good infusions; it is the \"red tea\" of the Scandinavians. In the mountains, it is regularly used as a substitute for tea.",
+                        "The pizza maker's wink: its cousin, cultivated marjoram, which does not grow spontaneously in our climates, that we spread on our pizzas."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -893,21 +1341,23 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null,
+                "title": "Wilde oregano",
+                "family": "Lamiaceae.",
+                "bloom": "Zomer.",
+                "height": "20 tot 60 cm.",
+                "habitat": "Groeit op zonnige hellingen, voornamelijk op droog grasland. Je vindt hem ook aan de rand van de wegen en dorpsranden.",
+                "habitatGameInfo": "Groeit op zonnige hel-<br>lingen, voornamelijk op<br>droog grasland. Je<br>vindt hem ook aan<br>de rand van de<br>wegen en<br>dorpsranden.",
+                "medical": [
+                    "Pijnstillend, ontsmettend, slijmoplossend, antiparasitair. Wilde oregano mag niet verward worden met marjolein, die andere eigenschappen bezit (kalmerend voor het zenuwstelsel) en zoeter ruikt."
+                ],
+                "cooking": null,
                 "didYouKnow": {
                     "image": "origanum_vulgare_didYouKnow.png",
                     "imageEmpty": "origanum_vulgare_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Appelé aussi marjolaine des montagnes ou thé rouge.",
-                        "Son goût agréable donne de très bonnes infusions, c’est le « thé rouge » des Scandinaves. En montagne, on l’utilise régulièrement comme substitut du thé.",
-                        "Le clin d’œil du pizzaïolo : c’est sa cousine la marjolaine cultivée, qui ne pousse pas spontanément sous nos climats, qu’on étale sur nos pizzas."
+                        "Ook wel bergmarjolein of rode thee genoemd.",
+                        "Zijn aangename smaak zorgt voor heerlijke kruidentheeën. Het is de \"rode thee\" van de Scandinaviërs. In de bergen wordt hij regelmatig gebruikt als vervanger van de klassieke thee.",
+                        "De knipoog van de pizzabakker: Het is zijn neefje, de gecultiveerde marjolein, die niet spontaan in ons klimaat groeit, die we op onze pizzas smeren."
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -931,72 +1381,119 @@
             "title_latin": "sedum album",
             "fr": {
                 "title": "Orpin Blanc",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Crassulacées.",
+                "bloom": "Été.",
+                "height": "5 à 15 cm.",
+                "habitat": "Pousse sur les vieux murs et des rocailles.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Autrefois on faisait des cataplasmes avec les feuilles et tiges pour traiter les inflammations les plus diverses… jusqu'aux hémorroïdes."
+                ],
+                "cooking": [
+                    "Peut être utilisé comme condiment à conserver dans le vinaigre. Il agrémente également les salades."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "White stonecrop",
+                "family": "Crassulaceae.",
+                "bloom": "Summer.",
+                "height": "5 to 15 cm.",
+                "habitat": "Grows on walls and loose stones.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "The leaves and stalks were recommended and used for all kinds of inflammation, being especially applied as a cooling plaster to painful haemorrhoids."
+                ],
+                "cooking": [
+                    "It was the custom, too, to prepare and eat it as a pickle. It can be used to decorate salads."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Wit vetkruid",
+                "family": "Crassulaceae.",
+                "bloom": "Zomer.",
+                "height": "5 tot 15 cm.",
+                "habitat": "Groeit op muurtjes en rotspartijen.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Vroeger werden van de bladeren en de stelen kompressen gemaakt om diverse ontstekingen te behandelen... waaronder aambeien."
+                ],
+                "cooking": [
+                    "De blaadjes kunnen worden opgelegd in azijn en gebruikt worden als specerij. Brengt tevens salades op smaak."
+                ],
                 "toxic": null
             }
         },
         {
             "previous": "explore",
-            "slug": "rhyteuma_spicatum",
+            "slug": "phyteuma_spicatum",
             "backgroundColor": "#A3CCED",
             "color": "#fff",
-            "full": "rhyteuma_spicatum.jpg",
-            "menuImage": "rhyteuma_spicatum_menu.png",
-            "thumbnail": "rhyteuma_spicatum_thumbnail.jpg",
-            "title_latin": "rhyteuma spicatum",
+            "full": "phyteuma_spicatum.jpg",
+            "menuImage": "phyteuma_spicatum_menu.png",
+            "thumbnail": "phyteuma_spicatum_thumbnail.jpg",
+            "thumbnailPosition": "center left",
+            "thumbnailSquare": "phyteuma_spicatum_thumbnailSquare.jpg",
+            "imageMemory": "phyteuma_spicatum_memory.png",
+            "title_latin": "phyteuma spicatum",
+            "level": 1,
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": false,
+                "pink": false,
+                "spring": true,
+                "summer": false,
+                "small": false,
+                "medium": false,
+                "large": true,
+                "extralarge": true,
+                "subalpin": false,
+                "wood": true
+            },
             "fr": {
                 "title": "Raiponce en épi",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Campanulacées.",
+                "bloom": "Printemps.",
+                "height": "30 à 80 cm.",
+                "habitat": "Pousse dans les sous-bois, lisières et clairières d’ubac (versant d’une montagne où l’exposition à l’ombre est dominante).",
+                "habitatGameInfo": "Dans les sous-bois, lisières<br>et clairières d’ubac<br>(versant d’une montagne<br>où l’exposition à<br>l’ombre est<br>dominante).",
+                "medical": [
+                    "Les feuilles ont des propriétés cicatrisantes et astringentes."
+                ],
+                "cooking": [
+                    "Les sommités, pas encore fleuries, cuites à la vapeur, se dégustent comme des asperges. La racine épaisse a une chair blanche, tendre et croquante, rappelant un peu la saveur du radis. Elle était autrefois consommée comme légume. Les jeunes feuilles se mangent en salade."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Spiked rampion",
+                "family": "Campanulaceae.",
+                "bloom": "Spring.",
+                "height": "30 to 80 cm.",
+                "habitat": "Grows along the shady edges of paths and rides in woodlands, and in the hedge banks of roadside verges.",
+                "habitatGameInfo": "Grows along the shady<br>edges of paths and rides<br>in woodlands, and in<br>the hedge banks<br>of roadside<br>verges.",
+                "medical": [
+                    "The leaves have healing and astringent properties."
+                ],
+                "cooking": [
+                    "Thick and fleshy, the root can be eaten in salads or boiled as a vegetable."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Witte rapunzel",
+                "family": "Campanulaceae.",
+                "bloom": "Lente.",
+                "height": "30 to 80 cm.",
+                "habitat": "Groeit in de ondergroei van bossen, aan de bosranden en op de open plekken waar de schaduw overheerst.",
+                "habitatGameInfo": "Groeit in de ondergroei<br>van de bossen, aan<br>de bosranden en op<br>de open plekken<br>waar de schaduw<br>overheerst.",
+                "medical": [
+                    "De bladeren hebben helende en samentrekkende eigenschappen."
+                ],
+                "cooking": [
+                    "De bloeiende toppen worden gestoomd en gegeten als asperges.  De dikke wortel heeft zacht, knapperig wit vlees, dat doet denken aan radijs.  De jonge blaadjes kunnen als salade dienen."
+                ],
                 "toxic": null
             }
         },
@@ -1011,32 +1508,50 @@
             "title_latin": "filipendula ulmaria ou spirea ulmaria",
             "fr": {
                 "title": "Reine des prés",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Rosacées.",
+                "bloom": "Été.",
+                "height": "100 à 150 cm.",
+                "habitat": "Pousse dans les milieux humides : marécages, le long des rivières, dans les bois et prairies humides jusqu’à environ 1600 m d’altitude. Elle est commune dans toute l’Europe sauf le littoral méditerranéen.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Racines, feuilles, et surtout sommités fleuries étaient traditionnellement utilisées pour leurs propriétés diurétiques, sudorifiques, fébrifuges et anti-inflammatoires.",
+                    "Ces vertus nous font penser à celles de l'aspirine. En effet, la reine des prés contient de la salicine. On synthétisa l'acide acétylsalicylique qui n'est autre que l'aspirine. La reine des prés est contre-indiquée en cas d'allergie à l'aspirine."
+                ],
+                "cooking": [
+                    "On peut utiliser les fleurs pour faire du vin de Reine des prés."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "title": "Meadowsweet",
+                "family": "Rosaceae.",
+                "bloom": "Summer.",
+                "height": "100 to 150 cm.",
+                "habitat": "Grows in damp meadows until 1600 m altitude.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "The plant has many medicinal properties. The whole plant is a traditional remedy for an acidic stomach and the fresh root is often used in infinitesimal quantities in homeopathic preparations. It is effective on its own as a treatment for diarrhea. The flowers, when made into a tea, are a comfort to flu sufferers. This plant contains the chemicals used to make aspirin, a small section of root, when peeled and crushed smells like Germolene, and when chewed is a good natural remedy for relieving headaches."
+                ],
+                "cooking": [
+                    "For culinary purposes, flower tops can be added to herb based beers and wines. It will create an earthier flavor. If added to jams or stewed fruit, the petals will give the dish a nutty undertone. Leaves can be added to soups to intensify their flavor."
+                ],
+                "toxic": null,
+                "changeTopContainer": "22%"
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Moerasspirea",
+                "family": "Rosaceae.",
+                "bloom": "Zomer.",
+                "height": "100 tot 150 cm.",
+                "habitat": "Groeit in vochtige gebieden: moerassen, langs rivieren, in bossen en vochtige weiden tot ongeveer 1600m hoogte. Hij komt voor in heel Europa, met uitzondering van de Middellandse kust.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Wortels, bladeren en vooral de bloeiende toppen werden traditioneel gebruikt voor hun vochtafdrijvende, koortswerende en ontstekingsremmende eigenschappen.",
+                    "De plant bevat een stof (salicine) die op aspirine lijkt en gebruikt wordt tegen koorts en reuma. Acetylsalicylzuur werd in 1897 gesynthetiseerd en op de markt gebracht als \"aspirine\". Daarom mag moerasspirea niet gebruikt worden in geval van een allergie voor aspirine."
+                ],
+                "cooking": [
+                    "De bloemen kunnen gebruikt worden om moerasspireawijn te maken."
+                ],
                 "toxic": null
             }
         },
@@ -1051,32 +1566,44 @@
             "title_latin": "rumex pseudalpinus",
             "fr": {
                 "title": "Rhubarbe des Moines",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Polygonacées.",
+                "bloom": "Été.",
+                "height": "30 à 100 cm.",
+                "habitat": "Pousse dans les reposoirs de troupeaux et autour des bâtiments pastoraux.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Au Moyen Âge on faisait cuire les pétioles des feuilles pour faire des compotes, confitures et des tartes savoureuses. Mais les feuilles étaient aussi utilisées comme fourrage pour les cochons : après les avoir séchées et broyées, les éleveurs les ajoutaient à la pâtée de pommes de terre cuites.",
+                    "Les feuilles étaient aussi utilisées pour emballer le beurre lors de la descente de l'alpage pour le garder au frais. Contre-indiqué aux insuffisants rénaux et aux personnes sujettes aux calculs rénaux (contient de l'acide oxalique)."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alpine dock",
+                "family": "Polygonaceae.",
+                "bloom": "Summer.",
+                "height": "30 to 100 cm.",
+                "habitat": "Along the banks of streams and by the sides of roads, it is also found near human habitations, in hilly areas.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Leaves - raw or cooked. They can also be dried for later use. A strong flavour, the leaves can be used in salads in late autumn to the spring, but are better cooked like spinach. The fresh leaves can be available for most months of the year, only dying down for a short period in severe winters.",
+                    "The leaves often become bitter in the summer. In taste trials, this has proved to be a very popular autumn and spring cooked leaf, making an excellent spinach."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Alpenzuring",
+                "family": "Polygonaceae.",
+                "bloom": "Zomer.",
+                "height": "30 tot 100 cm.",
+                "habitat": "Groeit op de rustplaatsen van kuddes en rondom herdershutten.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "In de Middeleeuwen werden de bladstelen gekookt om compotes, jam en smakelijke taartjes te maken. Maar de bladeren werden ook gebruikt als varkensvoer: nadat ze gedroogd en fijngestampt waren, voegden boeren ze toe aan gekookte aardappelpaté.",
+                    "De bladeren dienden ook om boter in te wikkelen en koel te houden tijdens de terugkeer van de alpenweiden. Niet aanbevolen voor mensen met een verminderde nierfunctie of die gevoelig zijn voor nierstenen (bevat oxaalzuur)."
+                ],
+                "cooking": null,
                 "toxic": null
             }
         },
@@ -1090,33 +1617,45 @@
             "thumbnail": "saxifraga_stellaris_thumbnail.jpg",
             "title_latin": "saxifraga stellaris",
             "fr": {
-                "title": "Saxiféage étoilée",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Saxifrage étoilée",
+                "family": "Saxifragacées.",
+                "bloom": "Été.",
+                "height": "10 à 20 cm.",
+                "habitat": "Pousse aux bords des lacs, sources et ruisselets.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "L’institut de phytochimie de Lausanne a extrait de saxifraga stellaris un nouveau produit naturel : la stellarine.",
+                    "Il s'agit d'un antioxydant dont les propriétés pourraient permettre de lutter contre le cancer, les maladies d'Alzheimer et de Parkinson."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Star saxifrage",
+                "family": "Saxifragaceae.",
+                "bloom": "Summer.",
+                "height": "10 to 20 cm.",
+                "habitat": "Grows at the border of lakes, sources and streamings.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "The phytochemistry institute of Lausanne has extracted from the saxifraga stellaris a new natural product: stellarine.",
+                    "It is an antioxydant with properties against cancer, Alzheimer and Parkinson."
+                ],
+                "cooking": null,
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Sterbloemige Steenbreek",
+                "family": "Saxifragaceae.",
+                "bloom": "Zomer.",
+                "height": "10 tot 20 cm.",
+                "habitat": "Groeit aan de rand van meren, bronnen en beken.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Het Instituut voor fytochemie van de universiteit van Lausanne heeft een nieuw natuurlijk product gewonnen uit de steenbreek: de stellarine.",
+                    "Deze is een antioxidant met eigenschappen die zouden kunnen helpen bij de bestrijding van kanker, Alzheimer en Parkinson."
+                ],
+                "cooking": null,
                 "toxic": null
             }
         },
@@ -1131,33 +1670,45 @@
             "title_latin": "polygonatum odoratum",
             "fr": {
                 "title": "Sceau de Salomon odorant",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "family": "Asparagacées.",
+                "bloom": "Printemps.",
+                "height": "20 à 50 cm.",
+                "habitat": "Pousse dans les sous-bois et rocailles (de préférence calcaire), les lisières et les forêts de feuillus et de pins.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "Les différentes parties de cette asparagacée ont de nombreuses vertus médicinales. Par exemple on utilise le rhizome (la tige souterraine) écrasé pour soigner les contusions. Il ne faut jamais consommer les baies qui peuvent être mortelles."
+                ],
+                "cooking": null,
+                "toxic": "Plante toxique !",
+                "toxicDescription": "Plante toxique ! Il ne faut jamais consommer les baies qui peuvent être mortelles."
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "title": "Solomon’s seal",
+                "family": "Asparagaceae.",
+                "bloom": "Spring.",
+                "height": "20 to 50 cm.",
+                "habitat": "Limestone woods and rocky places.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "The different parts of this asparagaceae have many medicinal properties. For example, the crushed rhizome (the underground stem) is used to treat bruises. You should never eat the berries, which can be deadly."
+                ],
+                "cooking": null,
+                "toxic": "Toxic plant!",
+                "toxicDescription": "Toxic plant! You should never eat the berries, which can be fatal."
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "toxic": null
+                "title": "Welriekende salomonszegel",
+                "family": "Asparagaceae.",
+                "bloom": "Lente.",
+                "height": "20 tot 50 cm.",
+                "habitat": "Groeit in de ondergroei van bossen en rotspartijen (bij voorkeur kalksteen), aan de bosranden en in loof- en naaldbossen.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "De verschillende delen van deze plant hebben talrijke geneeskrachtige eigenschappen. Zo wordt bijvoorbeeld de geplette wortelstok (de ondergrondse stengel) gebruikt om kneuzingen te behandelen. De bessen, die dodelijk kunnen zijn, mogen nooit gegeten worden."
+                ],
+                "cooking": null,
+                "toxic": "Giftige plant!",
+                "toxicDescription": "Giftige plant! Eet nooit de bessen, die dodelijk kunnen zijn."
             }
         },
         {
@@ -1168,15 +1719,35 @@
             "full": "thymus_serpyllum.jpg",
             "menuImage": "thymus_serpyllum_menu.png",
             "thumbnail": "thymus_serpyllum_thumbnail.jpg",
+            "thumbnailSquare": "thymus_serpyllum_thumbnailSquare.jpg",
+            "imageMemory": "thymus_serpyllum_memory.png",
             "title_latin": "thymus serpyllum",
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": false,
+                "pink": true,
+                "spring": false,
+                "summer": true,
+                "small": true,
+                "medium": false,
+                "large": false,
+                "extralarge": false,
+                "subalpin": true,
+                "wood": false
+            },
             "fr": {
                 "title": "Serpolet",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Lamiacées.",
+                "bloom": "Été.",
+                "height": "1 à 5 cm.",
+                "habitat": "Pousse essentiellement dans les pelouses subalpines écorchées. On peut également la rencontrer dans les pelouses alpines et pelouses sèches montagnardes.",
+                "habitatGameInfo": "Les pelouses subalpines<br>écorchées. On peut<br>également la rencontrer<br>dans les pelouses<br>alpines et pelouses<br>sèches mon-<br>tagnardes.",
+                "medical": [
+                    "Antiseptique, antispasmodique, digestive, diurétique, expectorante, tonique et vermifuge."
+                ],
+                "cooking": [
+                    "Le serpolet peut parfumer les viandes, salades, omelettes…"
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "thymus_serpyllum_didYouKnow.png",
@@ -1194,20 +1765,25 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Wild thyme",
+                "family": "Lamiaceae.",
+                "bloom": "Summer.",
+                "height": "1 to 5 cm.",
+                "habitat": "Dry subalpine and alpine meadows where it can get good sunlight.",
+                "habitatGameInfo": "Dry subalpine and<br>alpine meadows<br>where it can get<br>good sunlight.",
+                "medical": [
+                    "It is a source of oil of Serpolet by distillation, and is used as an aphrodisiac in herbal medicine. It is also used against coughing."
+                ],
+                "cooking": [
+                    "It is used as a seasoning for many meat dishes (being commonly used in beef stews), cabbage or green salads, and vegetable dishes containing zucchini and eggplant. The dried leaves are used for a herbal tea."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "thymus_serpyllum_didYouKnow.png",
                     "imageEmpty": "thymus_serpyllum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Often called \"thyme\", wild thyme is one of its close relatives. It is less fragrant, but makes an excellent condiment if it is not cooked.",
+                        "We therefore chop the leaves for salads or with white cheese, but we can also use the flowers, which are also aromatic and decorative."
                     ],
                     "dimensions": {
                         "containerTop": "4vh",
@@ -1218,20 +1794,25 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Wilde tijm",
+                "family": "Lamiaceae.",
+                "bloom": "Zomer.",
+                "height": "1 tot 5 cm.",
+                "habitat": "Groeit voornamelijk in schrale, subalpiene bergweiden. We vinden ze ook in alpiene en droge bergweiden.",
+                "habitatGameInfo": "Groeit voornamelijk<br>in schrale, subalpiene<br>bergweiden. We vinden<br>ze ook in alpiene<br>en droge<br>bergweiden.",
+                "medical": [
+                    "Ontsmettend, krampverzachtend, spijsverteringsbevorderend, vochtafdrijvend, slijmoplossend, versterkend en wormverdrijvend."
+                ],
+                "cooking": [
+                    "De serpolet geeft smaak aan vlees, salades, omeletten…"
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "thymus_serpyllum_didYouKnow.png",
                     "imageEmpty": "thymus_serpyllum_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "Het verschil tussen wilde tijm (serpolet) en gewone tijm is miniem. Wilde tijm is minder geparfumeerd, maar is rauw gebruikt een uitstekende smaakmaker.",
+                        "De fijngehakte blaadjes worden gebruikt in salades en roomkaas, en de bloemen zijn aromatisch en decoratief."
                     ],
                     "dimensions": {
                         "containerTop": "4vh",
@@ -1253,12 +1834,18 @@
             "title_latin": "tussilago farfara",
             "fr": {
                 "title": "Tussilage",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "family": "Astéracées.",
+                "bloom": "Printemps.",
+                "height": "10 à 30 cm.",
+                "habitat": "Pousse aux bords des chemins et abords des villages, sur les talus, les déblais, les terres remuées, mais aussi dans les champs. On peut la trouver jusqu’à environ 1700 m d’altitude. Elle est l’une des premières fleurs de l’année et fleurit à la fonte des neiges.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "L'infusion des fleurs et des feuilles, au goût du miel, soigne les toux, bronchites, trachéites et rhumes...",
+                    "Il est contre-indiqué pendant la grossesse et la période d'allaitement !"
+                ],
+                "cooking": [
+                    "On peut parsemer les salades des juteux capitules de tussilage ou les faire revenir au beurre dans une poêle."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "tussilago_farfara_didYouKnow.png",
@@ -1279,21 +1866,27 @@
                 }
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Coltsfoot",
+                "family": "Asteraceae.",
+                "bloom": "Spring.",
+                "height": "10 to 30 cm.",
+                "habitat": "Grows on roadsides and in open areas until 1700 m. The flowers are gathered in late winter, the leaves in summer.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "An effective demulcent and expectorant herb, coltsfoot is one of the most popular European remedies for treating chest problems. In Europe, the leaves are preferred to the flowers. When used as a syrup, coltsfoot also relieves asthma.",
+                    "Coltsfoot is used as a specific treatment for spasmodic coughs."
+                ],
+                "cooking": [
+                    "Coltsfoot has had some limit’d culinary uses. Historically, it was used in herb salads. The young leaves were also cooked and served as a side dish of greens or fried in butter and served with a tangy mustard sauce."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "tussilago_farfara_didYouKnow.png",
                     "imageEmpty": "tussilago_farfara_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Appelé aussi Pas d’âne ou Chasse toux. On utilise la fleur et la feuille.",
-                        "Autrefois en montagne, le tussilage était utilisé en mélange dans le tabac. Aujourd’hui on l’utilise surtout en infusion et en sirop pour soigner les bronches.",
-                        "Recette beignets de tussilage : Cueillez les feuilles de tussilage, les nettoyer soigneusement. Préparez une pâte à frire avec de la farine, de l’eau et du sel. Trempez-y les feuilles, puis faites frire des deux côtés dans une poêle remplie d’huile. Posez ensuite sur un papier absorbant. À déguster chaud !"
+                        "Also called donkey's foot or cough cure. We use the flower and the leaf.",
+                        "Formerly in the mountains, coltsfoot was used as a mixture in tobacco.",
+                        "Coltsfoot fritters recipe: Pick the coltsfoot leaves, clean them carefully. Prepare a batter with flour, water and salt. Dip the leaves in it, then fry on both sides in a pan filled with oil. Place on absorbent paper. Enjoy them hot! "
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -1306,21 +1899,27 @@
                 }
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Klein hoefblad",
+                "family": "Asteraceae.",
+                "bloom": "Lente.",
+                "height": "10 tot 30 cm.",
+                "habitat": "Groeit langs bermen en aan dorpsranden, op omgewoelde grond en velden. We vinden hem tot op 1700m hoogte. Het is een van de eerste bloemen van het jaar en bloeit wanneer de sneeuw begint te smelten.",
+                "habitatGameInfo": "[...]",
+                "medical": [
+                    "De kruidenthee van de bloemen en bladeren, die naar honing smaken, behandelt hoest, bronchitis, luchtpijpontsteking en verkoudheid…",
+                    "Niet aanbevolen tijdens zwangerschap en borstvoeding!"
+                ],
+                "cooking": [
+                    "Je kunt de sappige hoefbladkoppen over salades strooien of in boter bakken."
+                ],
                 "toxic": null,
                 "didYouKnow": {
                     "image": "tussilago_farfara_didYouKnow.png",
                     "imageEmpty": "tussilago_farfara_empty_didYouKnow.png",
                     "paragraphs": [
-                        "Appelé aussi Pas d’âne ou Chasse toux. On utilise la fleur et la feuille.",
-                        "Autrefois en montagne, le tussilage était utilisé en mélange dans le tabac. Aujourd’hui on l’utilise surtout en infusion et en sirop pour soigner les bronches.",
-                        "Recette beignets de tussilage : Cueillez les feuilles de tussilage, les nettoyer soigneusement. Préparez une pâte à frire avec de la farine, de l’eau et du sel. Trempez-y les feuilles, puis faites frire des deux côtés dans une poêle remplie d’huile. Posez ensuite sur un papier absorbant. À déguster chaud !"
+                        "Ook wel \"Ezelspoot\" of \"Hoestblad\" genoemd. Men gebruikt de bloem en de bladeren.",
+                        "Vroeger in de bergen werd hoefblad vermengd met tabak.",
+                        "Recept voor hoefbladbeignets: Pluk de hoefbladblaadjes en maak ze zorgvuldig schoon. Maak een beslag van bloem, water en zout. Doop de bladeren in het beslag en bak ze aan beide kanten in een pan gevuld met olie. Leg ze op absorberend papier. Warm te degusteren!"
                     ],
                     "dimensions": {
                         "width": "18%",
@@ -1341,35 +1940,68 @@
             "full": "viola_canina.jpg",
             "menuImage": "viola_canina_menu.png",
             "thumbnail": "viola_canina_thumbnail.jpg",
-            "title_latin": "viola canina",
+            "thumbnailSquare": "viola_canina_thumbnailSquare.jpg",
+            "imageMemory": "viola_canina_memory.png",
+            "title_latin": "viola odorata",
+            "guessWhoParameters": {
+                "toxic": false,
+                "yellow": false,
+                "pink": true,
+                "spring": true,
+                "summer": false,
+                "small": true,
+                "medium": true,
+                "large": false,
+                "extralarge": false,
+                "subalpin": false,
+                "wood": false
+            },
             "fr": {
-                "title": "Violette des chiens",
-                "family": "...",
-                "bloom": "...",
-                "height": "...",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Violette odorante",
+                "family": "Violacea.",
+                "bloom": "Avril à juin.",
+                "height": "8 à 15 cm.",
+                "habitat": "Prairies et coteaux secs, talus,<br>bords de chemins, forêts humides et ouvertes, bois de feuillus, taillis, landes sur sols peu profonds, zones élevées de rivages rocheux.",
+                "habitatGameInfo": "Prairies et coteaux secs, ta-<br>lus, bords de chemins, forêts<br>humides et ouvertes, bois<br>de feuillus, taillis, landes<br>sur sols peu profonds,<br>zones élevées<br>de rivages<br>rocheux.",
+                "habitatGameInfoSmaller": "1.2vw",
+                "medical": [
+                    "Les fleurs sont utilisées pour confectionner un sirop adoucissant prescrit pour traiter bronchite et quinte de toux, à utiliser sans excès car il est légèrement laxatif."
+                ],
+                "cooking": [
+                    "Les fleurs entières peuvent être cristallisées avec du sucre, elles s’utilisent en confiserie (violette de Toulouse), pour confectionner diverses sortes de bonbons, sirop, liqueur, tisanes, gelées et confitures ou encore colorer salade et mesclun."
+                ],
                 "toxic": null
             },
             "en": {
-                "title": "yarrow",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Sweet violet",
+                "family": "Violaceae.",
+                "bloom": "April to June.",
+                "height": "8 to 15cm.",
+                "habitat": "Dry meadows and hillsides, embankments, roadsides, moist and open forests, deciduous woods, copses, heaths on shallow soils, elevated areas of rocky shores.",
+                "habitatGameInfo": "Dry meadows and hillsides,<br>embankments, roadsides,<br>moist and open forests,<br>deciduous woods, copses,<br>heaths on shallow soils,<br>elevated areas<br>of rocky<br>shores.",
+                "habitatGameInfoSmaller": "1.1vw",
+                "medical": [
+                    "The flowers are used to make a softening syrup prescribed to treat bronchitis and coughing fits, to be used in moderation, as it is slightly laxative."
+                ],
+                "cooking": [
+                    "The whole flowers can be crystallised with sugar, and are used in confectionary (Toulouse violet), to make various kinds of sweets, syrup, liqueur, herbal teas, jellies and jams, and even to colour salad and mixed greens."
+                ],
                 "toxic": null
             },
             "nl": {
-                "title": "bluck",
-                "family": "Family.",
-                "bloom": "Season.",
-                "height": "... cm.",
-                "habitat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "medical": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cooking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title": "Welriekend viooltje",
+                "family": "Violaceae.",
+                "bloom": "April tot juni.",
+                "height": "8 tot 15 cm.",
+                "habitat": "Weiden en droge berghellingen, bermen, vochtige en open bossen, loofbossen, hakhout, heide op ondiepe bodems.",
+                "habitatGameInfo": "Weiden en droge berg-<br>hellingen, bermen, vochtige<br>en open bossen,<br>loofbossen, hakhout,<br>heide op ondiepe<br>bodems.",
+                "habitatGameInfoSmaller": "1.2vw",
+                "medical": [
+                    "De bloemen worden gebruikt om een verzachtende siroop te maken bij bronchitis en hoestbuien. Matig te gebruiken vanwege zijn licht laxerende werking."
+                ],
+                "cooking": [
+                    "De gehele bloemen kunnen worden gekristalliseerd met suiker en gebruikt worden in confiserie (violette de Toulouse), om verschillende soorten snoep, siroop, likeur, kruidenthee, gelei en jam te maken, of om salade en mesclun te kleuren."
+                ],
                 "toxic": null
             }
         }

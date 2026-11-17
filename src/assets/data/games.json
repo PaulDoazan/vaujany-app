@@ -4,85 +4,285 @@
             "slug": "levels",
             "backgroundColor": "#D5C389",
             "imgPresentation": "etagement.png",
+            "btnPlayBackground": "levelsBtnPlayBackground.svg",
+            "presentationDimensions": {
+                "bottom": "14.4%",
+                "imgLeft": "-12%"
+            },
             "fr": {
                 "title": "Étagement",
-                "description": "Placer les plantes dans leurs habitats naturels."
+                "description": "Placer les plantes dans leurs habitats naturels.",
+                "goal": "Objectif : placer correctement dans les cases les différents types de plantes en fonction de leur habitat naturel.",
+                "explanation": [
+                    "En montagne, la végétation <b>change en fonction de l’altitude</b>. On parle d’<b>étagement de la végétation</b>, un phénomène essentiellement dû à la baisse de la température avec l’augmentation de l’altitude, généralement d’environ <b>-1 degré tous les 200 mètres</b>. Ainsi, la montagne peut être divisée en sections horizontales."
+                ],
+                "highMountain": "la haute-montagne",
+                "over3000": "Au-delà de 3000m",
+                "subalpine": "étages subalpin et alpin",
+                "from2000": "De 2000 à 3000m",
+                "forest": "la forêt ou étage montagnard",
+                "from800": "De 800 à 1700m",
+                "valley": "la vallée ou l’étage collinéen",
+                "from0": "De 0 à 800m",
+                "congratulations": "Vous avez réussi à placer toutes les plantes dans leur habitat naturel !"
             },
             "en": {
-                "title": "Levels",
-                "description": "[...]"
+                "title": "Terracing",
+                "description": "Place the plants in their natural habitats.",
+                "goal": "Aim: Correctly place the different types of plants in the boxes according to their natural habitat.",
+                "explanation": [
+                    "In the mountains, vegetation changes depending on altitude. We are talking about terracing of vegetation, a phenomenon mainly use to the drop in temperature as altitude increases, generally of around -1 degree every 200 metres. Thus, the mountain can be divided into horizontal sections."
+                ],
+                "highMountain": "the high mountain",
+                "over3000": "Over 3000m",
+                "subalpine": "subalpine and alpine levels",
+                "from2000": "From 2000 to 3000m",
+                "forest": "the forest or mountain level",
+                "from800": "From 800 to 1700m",
+                "valley": "the valley or hilly level",
+                "from0": "From 0 to 800m",
+                "congratulations": "You have successfully placed all the plants in their natural habitat!"
             },
             "nl": {
-                "title": "Bluck",
-                "description": "[...]"
+                "title": "Vegetatiezones",
+                "description": "Plaats de planten in hun natuurlijk leefgebied.",
+                "goal": "Het doel is om de verschillende plantensoorten in de juiste vakjes te plaatsen volgens hun natuurlijk leefgebied.",
+                "explanation": [
+                    "In de bergen verandert de vegetatie naargelang de hoogte. Dit wordt vegetatiezone genoemd, hetgeen voornamelijk te wijten is aan de daling van de temperatuur naarmate de hoogte toeneemt, met ongeveer 1 graad per 200 meter. Daarom kunnen de bergen verdeeld worden in horizontale zones."
+                ],
+                "highMountain": "De nivale zone",
+                "over3000": "Boven de 3000 m",
+                "subalpine": "De subalpiene en alpiene zone",
+                "from2000": "Van 2000 tot 3000 m",
+                "forest": "Het bos of montane zone",
+                "from800": "Van 800 tot 1700 m",
+                "valley": "De vallei of de colline zone",
+                "from0": "Van 0 tot 800 m",
+                "congratulations": "Het is je gelukt om alle planten in hun natuurlijk leefgebied te plaatsen!"
             }
         },
         {
             "slug": "toxic",
             "backgroundColor": "#FFB559",
+            "btnLevelsBackground": [
+                "easy",
+                "medium",
+                "expert"
+            ],
             "imgPresentation": "toxic.png",
+            "presentationDimensions": {
+                "bottom": "24.8%",
+                "imgLeft": "-3%"
+            },
             "fr": {
                 "title": "Toxique ?",
-                "description": "Mettez vos reflex à l’épreuve pour éviter les plantes toxiques !"
+                "description": "Mettez vos reflexes à l’épreuve pour éviter les plantes toxiques !",
+                "goal": "Objectif : éliminer les 5 plantes toxiques en les plaçant dans les cases.",
+                "explanation": [
+                    "Profitez de cette expérience pour développer vos compétences en matière de sécurité en plein air."
+                ],
+                "congratulations": "Vous avez réussi à identifier toutes les plantes toxiques !"
             },
             "en": {
-                "title": "Toxic ?",
-                "description": "[...]"
+                "title": "Toxic?",
+                "description": "Put your reflexes to the test to avoid toxic plants!",
+                "goal": "Aim: Eliminate the 5 toxic plants by placing them in the boxes.",
+                "explanation": [
+                    "Use this experience to develop your outdoor safety skills."
+                ],
+                "congratulations": "You have successfully identified all the toxic plants!"
             },
             "nl": {
-                "title": "Bluck",
-                "description": "[...]"
+                "title": "Giftig?",
+                "description": "Stel je reflexen op de proef en ontwijk de giftige planten!",
+                "goal": "Het doel is om de 5 giftige planten te verwijderen door ze in de vakjes te plaatsen.",
+                "explanation": [
+                    "Dit spelletje helpt je om je vaardigheden op het gebied van veiligheid in de natuur te ontwikkelen."
+                ],
+                "congratulations": "Het is je gelukt om alle giftige planten te herkennen!"
             }
         },
         {
             "slug": "guesswho",
             "backgroundColor": "#52774E",
             "imgPresentation": "guesswho.png",
+            "btnLevelsBackground": [
+                "easy",
+                "medium",
+                "expert"
+            ],
+            "presentationDimensions": {
+                "bottom": "8.3%",
+                "imgLeft": "-3%",
+                "imgTop": "14%",
+                "scale": "1.1"
+            },
             "fr": {
                 "title": "Qui est-ce ?",
-                "description": "Quelle plante se cache derrière les indices ?"
+                "description": "Quelle plante se cache derrière les indices ?",
+                "goal": "Objectif : deviner quelle plante mystère a été choisie en posant des questions stratégiques qui vous aideront à éliminer progressivement les plantes incorrectes.",
+                "explanation": [
+                    "Cliquez sur une question pour révéler la réponse associée et ainsi <b>éliminer les plantes qui ne correspondent pas à cette réponse</b>. Continuez à poser des questions et à éliminer les plantes incorrectes jusqu’à ce qu’il ne reste que la dernière !"
+                ],
+                "examples": [
+                    "Exemple : « Est-ce que la plante est rose ? ».",
+                    "Si la réponse à la question est OUI, dans ce cas, le joueur peut retourner toutes les plantes qui ne sont pas roses en cliquant dessus. Si la réponse est NON, alors il pourra seulement retourner les plantes qui sont roses."
+                ],
+                "questions": [
+                    "Est-ce qu’elle est toxique ?",
+                    "Est-ce qu’elle est jaune ?",
+                    "Est-ce qu’elle est rose ?",
+                    "Est-ce que sa floraison est au printemps ?",
+                    "Est-ce que sa floraison est en été ?",
+                    "Est-ce qu’elle mesure moins de 5cm ?",
+                    "Est-ce qu’elle mesure entre 5cm et 20cm ?",
+                    "Est-ce qu’elle mesure entre 20cm et 50cm ?",
+                    "Est-ce qu’elle mesure plus de 50cm ?",
+                    "Est-ce qu’elle pousse en prairie subalpine ?",
+                    "Est-ce qu’elle pousse dans les bois ?"
+                ],
+                "congratulations": "Vous avez trouvé la bonne carte ! La montagne n’a plus de secrets pour vous&nbsp;!",
+                "wrong": "Vous n’avez pas trouvé la bonne carte. Découvrez vos réponses incorrectes&nbsp;."
             },
             "en": {
-                "title": "Guess who ?",
-                "description": "[...]"
+                "title": "What is it?",
+                "description": "What plant is hidden behind the clues?",
+                "goal": "Aim: Guess which mystery plant has been chosen by asking strategic questions that will help you gradually eliminate the incorrect plants.",
+                "explanation": [
+                    "Click on a question to reveal the associated answer and thereby eliminate plants that do not match that answer. Keep asking questions and eliminating incorrect plants until only the last one remains!"
+                ],
+                "examples": [
+                    "Example: \"Is the plant pink?\"",
+                    "If the answer to the question is YES, in this case the player can turn over all plants that are not pink by clicking on them. If the answer is NO, the player will only be able to turn over plants that are pink."
+                ],
+                "questions": [
+                    "Is it toxic?",
+                    "Is it yellow?",
+                    "Is it pink?",
+                    "Does it flower in spring?",
+                    "Does it flower in summer?",
+                    "Does it measure less than 5cm?",
+                    "Does it measure less than 20cm?",
+                    "Does it measure less than 50cm?",
+                    "Does it measure more than 50cm?",
+                    "Does it grow in subalpine meadows?",
+                    "Does it grow in the woods?"
+                ],
+                "congratulations": "You have found the right card! The mountain no longer has any secrets for you!",
+                "wrong": "You have not found the right card. Find out your incorrect answers."
             },
             "nl": {
-                "title": "Bluck",
-                "description": "[...]"
+                "title": "Wie is het?",
+                "description": "Welke plant verstopt zich achter de aanwijzingen?",
+                "goal": "Het doel is om te raden welke mysterieuze plant is verkozen door strategische vragen te stellen die je helpen om geleidelijk de verkeerde planten te verwijderen.",
+                "explanation": [
+                    "Klik op een vraag om het bijbehorende antwoord te onthullen en verwijder de planten die niet met dat antwoord overeenkomen. Ga door met vragen te stellen en verkeerde planten te verwijderen tot alleen de laatste overblijft!"
+                ],
+                "examples": [
+                    "Voorbeeld: \"Is het een roze plant?\"",
+                    "Als het antwoord op de vraag JA is, dan mag de speler alle planten die niet roze zijn omdraaien door erop te klikken. Als het antwoord NEE is, dan mag de speler alleen de planten omdraaien die roze zijn."
+                ],
+                "questions": [
+                    "Is hij giftig?",
+                    "Is hij geel?",
+                    "Is hij roze?",
+                    "Bloeit hij in de lente?",
+                    "Bloeit hij in de zomer?",
+                    "Is hij lager dan 5 cm?",
+                    "Is hij lager dan 20 cm?",
+                    "Is hij lager dan 50 cm?",
+                    "Is hij hoger dan 50 cm?",
+                    "Groeit hij in het bos?",
+                    "Groeit hij in een subalpiene weide?"
+                ],
+                "congratulations": "Je hebt de juiste kaart gevonden! De bergen hebben geen geheimen meer voor jou!",
+                "wrong": "Je hebt de juiste kaart niet gevonden. Ontdek je foute antwoorden."
             }
         },
         {
             "slug": "memory",
             "backgroundColor": "#E8D262",
             "imgPresentation": "memory.png",
+            "btnLevelsBackground": [
+                "easy",
+                "medium",
+                "expert"
+            ],
+            "presentationDimensions": {
+                "bottom": "17.5%",
+                "imgLeft": "-4%"
+            },
             "fr": {
                 "title": "Memory",
-                "description": "Associez l’image et sa description."
+                "description": "Associez l’image à sa description.",
+                "goal": "Objectif : trouver toutes les paires.",
+                "explanation": [
+                    "Toutes les cartes sont <b>faces cachées</b> sur la table. Retournez deux cartes. Si <b>l’image qui apparaît sur la carte correspond à sa description</b>, le joueur gagne les cartes et en retourne à nouveau deux.",
+                    "Si les deux cartes ne vont pas ensemble, elles reviennent en position cachée.",
+                    "Celui qui a une bonne mémoire <b>se souviendra de l’emplacement des cartes</b> déjà retournées et pourra les utiliser lorsqu’il en aura besoin pour former une paire."
+                ],
+                "congratulations": "Vous avez terminé le jeu avec brio&nbsp;! La montagne n’a plus de secrets pour vous&nbsp;!"
             },
             "en": {
                 "title": "Memory",
-                "description": "[...]"
+                "description": "Match the image and its description.",
+                "goal": "Aim: find all the pairs.",
+                "explanation": [
+                    "All cards are face down on the table. Turn over two cards. If the image that appears on the card matches its description, the player wins the cards and turns over two again.",
+                    "If the two cards do not match, they return to the hidden position.",
+                    "Players with a good memory will remember the location of the cards that were already turned over and can use them when needed to form a pair."
+                ],
+                "congratulations": "You have successfully completed the game! The mountain no longer has any secrets for you!"
             },
             "nl": {
-                "title": "Bluck",
-                "description": "[...]"
+                "title": "Memory",
+                "description": "Koppel de afbeelding aan zijn beschrijving.",
+                "goal": "Doel: alle setjes van 2 kaarten vinden.",
+                "explanation": [
+                    "Alle kaarten liggen met de beeldzijden naar beneden op tafel. Draai twee kaarten om. Als de afbeelding op de kaart overeenkomt met de beschrijving wint de speler de kaarten en draait hij er opnieuw twee om.",
+                    "Als de twee kaarten niet overeenkomen, worden ze weer omgedraaid.",
+                    "Als je een goed geheugen hebt, kun je de positie onthouden van de reeds omgedraaide kaarten en kun je ze gebruiken om een paar te vormen."
+                ],
+                "congratulations": "Je hebt het spelletje met succes beëindigd! De bergen hebben geen geheimen meer voor jou!"
             }
         },
         {
             "slug": "quiz",
             "backgroundColor": "#E07CAD",
             "imgPresentation": "quiz.png",
+            "btnPlayBackground": "quizBtnPlayBackground.svg",
+            "presentationDimensions": {
+                "bottom": "23.4%",
+                "imgLeft": "1%",
+                "imgTop": "9%",
+                "scale": "1.1"
+            },
             "fr": {
                 "title": "Quiz",
-                "description": "Testez vos connaissances et défiez vos amis !"
+                "description": "Testez vos connaissances et défiez vos amis !",
+                "goal": "Objectif : répondre correctement aux questions posées.",
+                "explanation": [
+                    "<b>Affrontez-vous, défiez-vous, testez-vous…</b></br>Seul où a plusieurs, répondez à une multitude de questions pour tester vos connaissances."
+                ],
+                "congratulations": "Vous avez terminé le quiz avec brio&nbsp! La montagne n’a plus de secrets pour vous&nbsp!"
             },
             "en": {
                 "title": "Quiz",
-                "description": "[...]"
+                "description": "Test your knowledge and challenge your friends!",
+                "goal": "Aim: answer the questions asked correctly.",
+                "explanation": [
+                    "<b>Compete, challenge yourself, test yourself…</b><br></b>Alone or with others, answer a multitude of questions to test your knowledge."
+                ],
+                "congratulations": "You have completed the quiz with flying colours! The mountain no longer has any secrets for you!"
             },
             "nl": {
-                "title": "Bluck",
-                "description": "[...]"
+                "title": "Quiz",
+                "description": "Test je kennis en daag je vrienden uit!",
+                "goal": "Het doel is om juist te antwoorden op de gestelde vragen.",
+                "explanation": [
+                    "<b>Ga de strijd aan, daag jezelf uit, test jezelf...</b><br></b>Beantwoord alleen of met anderen de vele vragen om je kennis te testen."
+                ],
+                "congratulations": "Je hebt de quiz met succes beëindigd! Nu hebben de bergen geen geheimen meer voor jou!"
             }
         }
     ]

@@ -1,0 +1,271 @@
+{
+    "home": {
+        "previous": null,
+        "mainClass": ".home__container",
+        "backgroundColor": "#AAB8A8",
+        "fr": {
+            "title1": "La",
+            "title2": "flore",
+            "title3": "autour",
+            "title4": "de ",
+            "title5": "Vaujany",
+            "explore": "Explorer",
+            "exploreDescription": "Explorer les fleurs de&nbsp;nos montagnes…",
+            "play": "Jouer",
+            "credits": "Crédits",
+            "photography": "Photographie",
+            "playDescription": "S’amuser… Chercher… Deviner…"
+        },
+        "en": {
+            "title1": "The",
+            "title2": "flora",
+            "title3": "around",
+            "title4": "",
+            "title5": "Vaujany",
+            "explore": "Explore",
+            "exploreDescription": "Explore the flowers of&nbsp;our mountains…",
+            "play": "Play",
+            "credits": "Credits",
+            "photography": "Photography",
+            "playDescription": "Have fun… Search… Guess"
+        },
+        "nl": {
+            "title1": "De",
+            "title2": "plantenwereld",
+            "title3": "van en rondom",
+            "title4": "",
+            "title5": "Vaujany",
+            "explore": "Ontdekken",
+            "exploreDescription": "Ontdek de planten van&nbsp;onze bergen",
+            "play": "Spelen",
+            "credits": "Credits",
+            "photography": "Fotografie",
+            "playDescription": "Plezier maken… <br>Zoeken… Raden"
+        }
+    },
+    "cancel": {
+        "fr": {
+            "yes": "Oui",
+            "no": "Non",
+            "areyousure": "Êtes-vous sûr de vouloir quitter la page ?"
+        },
+        "en": {
+            "yes": "Yes",
+            "no": "No",
+            "areyousure": "Are you sure you want to leave the page?"
+        },
+        "nl": {
+            "yes": "Ja",
+            "no": "Nee",
+            "areyousure": "Weet je zeker dat je deze pagina wilt verlaten?"
+        }
+    },
+    "explore": {
+        "previous": "home",
+        "mainClass": ".explore__container",
+        "backgroundColor": "#7AA269",
+        "fr": {
+            "explore": "Explorer"
+        },
+        "en": {
+            "explore": "Explore"
+        },
+        "nl": {
+            "explore": "Ontdekken"
+        }
+    },
+    "flowerInfos": {
+        "previous": "explore",
+        "fr": {
+            "family": "Famille",
+            "bloom": "Floraison",
+            "height": "Hauteur",
+            "habitat": "Habitat",
+            "medical": "Propriétés médicinales",
+            "cooking": "Propriétés culinaires",
+            "didYouKnow": "Le saviez-vous ?"
+        },
+        "en": {
+            "family": "Family",
+            "bloom": "Flowering",
+            "height": "Height",
+            "habitat": "Habitat",
+            "medical": "Medical use",
+            "cooking": "Culinary properties",
+            "didYouKnow": "Did you know?"
+        },
+        "nl": {
+            "family": "Familie",
+            "bloom": "Bloeiperiode",
+            "height": "Hoogte",
+            "habitat": "Leefgebied",
+            "medical": "Geneeskrachtige eigenschappen",
+            "cooking": "Culinaire eigenschappen",
+            "didYouKnow": "Wist je dit?"
+        }
+    },
+    "gamesHome": {
+        "previous": "home",
+        "mainClass": ".games__container",
+        "backgroundColor": "#A3CCED"
+    },
+    "gameInstruction": {
+        "previous": "gamesHome",
+        "mainClass": ".game__instructions__container",
+        "fr": {
+            "bravo": "Bravo !",
+            "newGame": "Nouvelle partie",
+            "rulesTitle": "Règles du jeu",
+            "play": "JOUER",
+            "levels": [
+                "FACILE",
+                "INTERMÉDIAIRE",
+                "EXPERT"
+            ]
+        },
+        "en": {
+            "bravo": "Well done!",
+            "newGame": "New Game",
+            "rulesTitle": "Rules of the game",
+            "play": "PLAY",
+            "levels": [
+                "EASY",
+                "INTERMEDIATE",
+                "EXPERT"
+            ]
+        },
+        "nl": {
+            "bravo": "Bravo!",
+            "newGame": "Nieuwe partij",
+            "rulesTitle": "Spelregels",
+            "play": "SPELEN",
+            "levels": [
+                "GEMAKKELIJK",
+                "MEDIUM",
+                "EXPERT"
+            ]
+        }
+    },
+    "quiz": {
+        "fr": {
+            "title": "Quiz",
+            "next": "Question suivante"
+        },
+        "en": {
+            "title": "Quiz",
+            "next": "Next question"
+        },
+        "nl": {
+            "title": "Quiz",
+            "next": "Volgende vraag"
+        },
+        "previous": "gameInstruction",
+        "mainClass": ".quiz__container"
+    },
+    "memory": {
+        "fr": {
+            "title": "Memory"
+        },
+        "en": {
+            "title": "Memory"
+        },
+        "nl": {
+            "title": "Memory"
+        },
+        "previous": "gameInstruction",
+        "mainClass": ".memory__container"
+    },
+    "guesswho": {
+        "fr": {
+            "title": "Qui&nbsp;est&#8209;ce&nbsp;?"
+        },
+        "en": {
+            "title": "What&nbsp;is&nbsp;it?"
+        },
+        "nl": {
+            "title": "Wie&nbsp;is&nbsp;het?"
+        },
+        "previous": "gameInstruction",
+        "mainClass": ".guesswho__container"
+    },
+    "levels": {
+        "previous": "gameInstruction",
+        "mainClass": ".levels__container",
+        "fr": {
+            "title": "Étagement",
+            "slots": [
+                {
+                    "title": "La Haute-Montagne",
+                    "height": "Au-delà de 3000m"
+                },
+                {
+                    "title": "Étages subalpin et alpin",
+                    "height": "De 2000 à 3000m"
+                },
+                {
+                    "title": "La forêt ou étage montagnard",
+                    "height": "De 800 à 1700m"
+                },
+                {
+                    "title": "La vallée ou l’étage collinéen",
+                    "height": "De 0 à 800m"
+                }
+            ]
+        },
+        "en": {
+            "title": "Terracing",
+            "slots": [
+                {
+                    "title": "the high mountain",
+                    "height": "Over 3000m"
+                },
+                {
+                    "title": "subalpine and alpine levels",
+                    "height": "From 2000 to 3000m"
+                },
+                {
+                    "title": "the forest or mountain level",
+                    "height": "From 800 to 1700m"
+                },
+                {
+                    "title": "the valley or hilly level",
+                    "height": "From 0 to 800m"
+                }
+            ]
+        },
+        "nl": {
+            "title": "Vegetatiezones",
+            "slots": [
+                {
+                    "title": "De nivale zone",
+                    "height": "Boven de 3000 m"
+                },
+                {
+                    "title": "De subalpiene en alpiene zone",
+                    "height": "Van 2000 tot 3000 m"
+                },
+                {
+                    "title": "Het bos of montane zone",
+                    "height": "Van 800 tot 1700 m"
+                },
+                {
+                    "title": "De vallei of de colline zone",
+                    "height": "Van 0 tot 800 m"
+                }
+            ]
+        }
+    },
+    "toxic": {
+        "fr": {
+            "title": "Toxique&nbsp;?"
+        },
+        "en": {
+            "title": "Toxic?"
+        },
+        "nl": {
+            "title": "Giftig?"
+        },
+        "previous": "gameInstruction",
+        "mainClass": ".toxic__container"
+    }
+}

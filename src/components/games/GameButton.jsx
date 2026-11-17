@@ -3,7 +3,6 @@ import { LangContext, NavigationContext } from '../../utils/context'
 
 export default function GameButton({ data, index }) {
     const { lang } = useContext(LangContext)
-
     const { changePage } = useContext(NavigationContext)
 
     const handleClick = () => {
@@ -16,7 +15,7 @@ export default function GameButton({ data, index }) {
     }
 
     return (
-        <div className='game__button' onTouchEnd={handleClick} style={styleGameButton}>
+        <div className='game__button' onTouchEnd={handleClick} onClick={handleClick} style={styleGameButton}>
             <img className="game__button__bg__image" src={`images/icons/${data.slug}BtnBackground.svg`} alt="" />
             <div className="game__button__text__container" style={{ width: index === 1 && '63%' }}>
                 <div className="game__button__title">

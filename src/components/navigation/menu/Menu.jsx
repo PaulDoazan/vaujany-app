@@ -3,21 +3,25 @@ import BtnLang from './BtnLang'
 import BtnHome from './BtnHome'
 import BtnBack from './BtnBack'
 import { NavigationContext } from '../../../utils/context'
-import BottomContent from './BottomContent'
+import MenuBottomImage from './MenuBottomImage'
+import MenuBottomCredit from './MenuBottomCredit'
+import MenuBottomDescription from './MenuBottomDescription'
 
-export default function Menu() {
+export default function Menu({ handleCancel, handleCredits, creditsVisible }) {
     const { currentPage } = useContext(NavigationContext)
 
     return (
         <div className="menu__container" style={{ 'backgroundColor': currentPage.backgroundColor }}>
-            <BtnHome />
-            <BtnBack />
+            <BtnHome handleCancel={handleCancel} />
+            <BtnBack handleCancel={handleCancel} />
 
             <BtnLang language={"fr"} />
             <BtnLang language={"en"} />
             <BtnLang language={"nl"} />
 
-            <BottomContent />
+            <MenuBottomImage />
+            <MenuBottomCredit handleCredits={handleCredits} creditsVisible={creditsVisible} />
+            <MenuBottomDescription />
         </div>
     )
 }

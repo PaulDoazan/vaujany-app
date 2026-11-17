@@ -1,0 +1,93 @@
+.levels__container {
+    width: 100%;
+    height: 100%;
+}
+
+.levels__container__image__background {
+    position: absolute;
+    opacity: 0;
+    top: 7.3%;
+    left: -7.5%;
+    width: 60%;
+}
+
+.levels__container__dashPoints {
+    position: absolute;
+    top: 7.3%;
+    width: 73.5%;
+}
+
+.levels__slot__description {
+    height: 14.3%;
+    width: 16.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.levels__slot__title {
+    font-family: 'Copperplate30';
+    font-size: 2vw;
+}
+
+.levels__slot__height {
+    margin-top: 0.5vh;
+    font-family: 'FuturaPTBook';
+    font-size: 1.2vw;
+}
+
+.flower__card__game__container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.flower__card__game__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    // object-position: center left;
+}
+
+.flower__card__game__title {
+    position: absolute;
+    padding: 2%;
+    transform: rotateZ(-90deg) translate(-23%, -45%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flower__card__game__title__content {
+    text-align: center;
+    font-family: 'Copperplate30';
+    font-size: 1.2vw;
+}
+
+.flower__card__game__title__latin__content {
+    width: 100%;
+    text-align: center;
+    font-family: 'Copperplate29';
+    font-size: 0.8vw;
+}
+
+// .drag-drop_levels {
+//     touch-action: none;
+// }
+
+.levels__result__container {
+    text-align: center;
+    position: absolute;
+    pointer-events: none;
+    left: 25%;
+    width: 75%;
+    height: 100%;
+    opacity: 0;
+}
+
+.levels__restart__button__image {
+    position: absolute;
+    width: 120%;
+}

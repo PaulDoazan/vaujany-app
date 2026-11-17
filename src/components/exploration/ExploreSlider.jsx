@@ -6,24 +6,6 @@ export default function ExploreSlider({ id, deltaX, carouselIsDragging, handleCu
         left: `${deltaX * 100 / maxValue.current}%`
     }
 
-    // interact(`.zone__touch-${id}`).on('down', (event) => {
-    //     if (!carouselIsDragging) {
-    //         // distance ends up as a ratio, dragZone positioned at left: 40%, width: 21% 
-    //         let ratioX = ((event.clientX / window.innerWidth) - 0.4) / 0.21
-
-    //         //if screen smaller
-    //         // let ratioX = ((event.clientX / window.innerWidth) - 0.7) / 0.105
-
-    //         if (ratioX > 1) {
-    //             ratioX = 1
-    //         } else if (ratioX < 0) {
-    //             ratioX = 0
-    //         }
-
-    //         handleCursorRatio(ratioX)
-    //     }
-    // })
-
     interact(`.zone__touch-${id}`)
         .draggable({
             listeners: {

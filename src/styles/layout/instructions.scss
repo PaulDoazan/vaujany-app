@@ -1,3 +1,101 @@
-.game__instructions {
-    
+.game__instructions__container {
+    opacity: 0;
+}
+
+.game__instructions__container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.game__instructions__image {
+    position: absolute;
+    height: 100%;
+    top: 2%;
+}
+
+.game__instructions__content {
+    position: absolute;
+    width: 24%;
+    left: 36.1%;
+}
+
+.game__instructions__title {
+    font-family: 'Copperplate30';
+    font-size: 3.5vw;
+}
+
+.game__instructions__rules__title {
+    font-family: 'Copperplate29';
+    font-size: 2.5vw;
+    margin-bottom: 5vh;
+}
+
+.game__instructions__goals {
+    font-family: 'FuturaPTDemi';
+    font-size: 1.6vw;
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+.game__instructions__explanation {
+    font-family: 'FuturaPTBook';
+    font-size: 1.6vw;
+    width: 100%;
+
+    & p:not(:last-child) {
+        margin-bottom: 3vh;
+    }
+    & b {
+        font-family: 'FuturaPTDemi';
+    }
+}
+
+.game__instructions__btn__play {
+    position: absolute;
+    right: 5%;
+    width: 20%;
+}
+
+.game__instructions__btn__play__image {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    width: 100%;
+}
+
+.game__instructions__btn__play__title {
+    position: absolute;
+    transform: translate(-50%, -150%);
+    font-size: 1.8vw;
+    color: $color-white;
+    font-family: 'FuturaPTBook';
+}
+
+.game__instructions__btn__level {
+    position: absolute;
+    right: 10%;
+    width: 15%;
+}
+
+.game__instructions__btn__level__image {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    width: 100%;
+}
+
+.game__instructions__btn__level__title {
+    position: absolute;
+    transform: translate(-50%, -150%);
+    font-size: 1.8vw;
+    font-family: 'FuturaPTBook';
+}
+
+.game__instructions__examples {
+    width: 109%;
+    font-size: 1.6vw;
+    font-family: 'FuturaPTLight';
+    color: $color-hippie-green;
+    & p {
+        margin-top: 3vh;
+    }
 }

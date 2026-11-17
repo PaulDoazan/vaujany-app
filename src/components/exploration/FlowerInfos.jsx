@@ -1,7 +1,8 @@
+import parse from 'html-react-parser'
 import React, { useContext } from 'react'
 import dataFlowers from '../../assets/data/flowers.json'
 import { LangContext } from '../../utils/context'
-import navigation_configs from '../../config/navigation_configs.json'
+import pages from '../../assets/data/pages.json'
 import DidYouKnow from './DidYouKnow'
 
 export default function FlowerInfos({ data }) {
@@ -12,12 +13,10 @@ export default function FlowerInfos({ data }) {
         e.stopPropagation()
     }
 
-    console.log(currentFlower[lang].family);
-
     return (
         <div onTouchStart={handleTouch} onTouchMove={handleTouch} onTouchEnd={handleTouch} className='flower__info__container'>
             <div className="flower__info__img__container">
-                <img src={"images/flowers/full/" + currentFlower.full} />
+                <img src={"/images/flowers/full/" + currentFlower.full} />
             </div>
             <div className="flower__infos__data__container">
                 <div className="flower__info__title">
@@ -30,67 +29,67 @@ export default function FlowerInfos({ data }) {
                     </div>
                 </div>
 
-                <div className="flower__info__caracteristics__section caracteristics__section__1">
+                <div className="flower__info__caracteristics__section caracteristics__section__1" style={{ top: currentFlower[lang].changeTopContainer && currentFlower[lang].changeTopContainer }}>
                     <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__icon"><img src="images/icons/family.svg" alt="" /></span>
+                        <span className="flower__info__icon"><img src="/images/icons/family.svg" alt="" /></span>
                     </div>
                     <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__icon"><img src="images/icons/bloom.svg" alt="" /></span>
+                        <span className="flower__info__icon"><img src="/images/icons/bloom.svg" alt="" /></span>
                     </div>
                     <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__icon"><img src="images/icons/height.svg" alt="" /></span>
+                        <span className="flower__info__icon"><img src="/images/icons/height.svg" alt="" /></span>
                     </div>
                     <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__icon"><img src="images/icons/habitat.svg" alt="" /></span>
-                    </div>
-                </div>
-
-                <div className="flower__info__caracteristics__section caracteristics__section__2">
-                    <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__real__title">{navigation_configs.flowerInfos[lang].family}</span>
-                        <span className=" flower__info__icon fake__icon"><img src="images/icons/family.svg" alt="" /></span>
-                    </div>
-                    <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__real__title">{navigation_configs.flowerInfos[lang].bloom}</span>
-                        <span className=" flower__info__icon fake__icon"><img src="images/icons/bloom.svg" alt="" /></span>
-                    </div>
-                    <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__real__title">{navigation_configs.flowerInfos[lang].height}</span>
-                        <span className=" flower__info__icon fake__icon"><img src="images/icons/height.svg" alt="" /></span>
-                    </div>
-                    <div className="flower__info__caracteristics__element">
-                        <span className="flower__info__real__title">{navigation_configs.flowerInfos[lang].habitat}</span>
-                        <span className=" flower__info__icon fake__icon"><img src="images/icons/habitat.svg" alt="" /></span>
+                        <span className="flower__info__icon"><img src="/images/icons/habitat.svg" alt="" /></span>
                     </div>
                 </div>
 
-                <div className="flower__info__caracteristics__section caracteristics__section__3">
+                <div className="flower__info__caracteristics__section caracteristics__section__2" style={{ top: currentFlower[lang].changeTopContainer && currentFlower[lang].changeTopContainer }}>
+                    <div className="flower__info__caracteristics__element">
+                        <span className="flower__info__real__title">{pages.flowerInfos[lang].family}</span>
+                        <span className=" flower__info__icon fake__icon"><img src="/images/icons/family.svg" alt="" /></span>
+                    </div>
+                    <div className="flower__info__caracteristics__element">
+                        <span className="flower__info__real__title">{pages.flowerInfos[lang].bloom}</span>
+                        <span className=" flower__info__icon fake__icon"><img src="/images/icons/bloom.svg" alt="" /></span>
+                    </div>
+                    <div className="flower__info__caracteristics__element">
+                        <span className="flower__info__real__title">{pages.flowerInfos[lang].height}</span>
+                        <span className=" flower__info__icon fake__icon"><img src="/images/icons/height.svg" alt="" /></span>
+                    </div>
+                    <div className="flower__info__caracteristics__element">
+                        <span className="flower__info__real__title">{pages.flowerInfos[lang].habitat}</span>
+                        <span className=" flower__info__icon fake__icon"><img src="/images/icons/habitat.svg" alt="" /></span>
+                    </div>
+                </div>
+
+                <div className="flower__info__caracteristics__section caracteristics__section__3" style={{ top: currentFlower[lang].changeTopContainer && currentFlower[lang].changeTopContainer }}>
                     <div className="flower__info__caracteristics__element">
                         <span className="flower__info__real__title">{currentFlower[lang].family}</span>
-                        <span className="flower__info__icon fake__icon"><img src="images/icons/family.svg" alt="" /></span>
+                        <span className="flower__info__icon fake__icon"><img src="/images/icons/family.svg" alt="" /></span>
                     </div>
-                    <div className="flower__info__caracteristics__element">
+                    <div className="flower__info__caracteristics__element bloom__caracteristics__element">
                         <span className="flower__info__real__title">{currentFlower[lang].bloom}</span>
-                        <span className="flower__info__icon fake__icon"><img src="images/icons/bloom.svg" alt="" /></span>
+                        <span className="flower__info__icon fake__icon"><img src="/images/icons/bloom.svg" alt="" /></span>
                     </div>
                     <div className="flower__info__caracteristics__element">
                         <span className="flower__info__real__title">{currentFlower[lang].height}</span>
-                        <span className="flower__info__icon fake__icon"><img src="images/icons/height.svg" alt="" /></span>
+                        <span className="flower__info__icon fake__icon"><img src="/images/icons/height.svg" alt="" /></span>
                     </div>
                     <div className="flower__info__caracteristics__element">
                         <div className="flower__info__last__element">
-                            <span className="flower__info__real__title">{currentFlower[lang].habitat}</span>
-                            <span className="flower__info__icon fake__icon"><img src="images/icons/habitat.svg" alt="" /></span>
+                            <span className="flower__info__real__title">{parse(currentFlower[lang].habitat)}</span>
+                            <span className="flower__info__icon fake__icon"><img src="/images/icons/habitat.svg" alt="" /></span>
                             {currentFlower[lang].toxic &&
                                 <div className={`flower__info__toxic__content ${currentFlower[lang].toxicParagraph && 'content__title__not__centered'}`}>
-                                    <img className="flower__info__toxic__content__img" src="images/icons/toxic.svg" alt="" />
+                                    <img className="flower__info__toxic__content__img" src="/images/icons/toxic.svg" alt="" />
                                     <div className="flower__info__toxic__content__text">
                                         <div className={`flower__info__toxic__content__title`}>
-                                            {currentFlower[lang].toxic}
+                                            {parse(currentFlower[lang].toxic)}
                                         </div>
                                         {currentFlower[lang].toxicParagraph &&
                                             <div className="flower__info__toxic__content__paragraph">
-                                                {currentFlower[lang].toxicParagraph}
+                                                {parse(currentFlower[lang].toxicParagraph)}
                                             </div>
                                         }
                                     </div>
@@ -99,18 +98,20 @@ export default function FlowerInfos({ data }) {
                         </div>
                     </div>
                 </div>
-                <div className="flower__info__specification">
+                <div className="flower__info__specification" style={{ top: currentFlower[lang].changeTopContainer && currentFlower[lang].changeTopContainer, marginTop: currentFlower[lang].changeTopContainer && "0%" }}>
                     <div className="flower__info__specification__section">
-                        <p className="flower__info__specification__title">{navigation_configs.flowerInfos[lang].medical}</p>
-                        <p className="flower__info__specification__content">{currentFlower[lang].medical}</p>
-                        <p className="flower__info__specification__content">{currentFlower[lang].medical}</p>
+                        <p className="flower__info__specification__title">{pages.flowerInfos[lang].medical}</p>
+                        {currentFlower[lang].medical.map(el => {
+                            return <p className="flower__info__specification__content">{el}</p>
+                        })}
                     </div>
-                    <div className="">
-                        <p className="flower__info__specification__title">{navigation_configs.flowerInfos[lang].cooking}</p>
-                        <p className="flower__info__specification__content">{currentFlower[lang].cooking}</p>
-                    </div>
+                    {currentFlower[lang].cooking && <div className="">
+                        <p className="flower__info__specification__title">{pages.flowerInfos[lang].cooking}</p>
+                        {currentFlower[lang].cooking.map(el => {
+                            return <p className="flower__info__specification__content">{el}</p>
+                        })}
+                    </div>}
                 </div>
-
                 {currentFlower[lang].didYouKnow &&
                     <DidYouKnow currentFlower={currentFlower} lang={lang} />
                 }

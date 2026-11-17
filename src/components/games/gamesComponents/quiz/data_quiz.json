@@ -1,0 +1,803 @@
+{
+    "question_0": {
+        "answer": [
+            2
+        ],
+        "pictures": [
+            "quiz_image_0_0.jpg"
+        ],
+        "backgroundColors": [
+            "#ECE7EC",
+            "#D5C389",
+            "#99A299"
+        ],
+        "fr": {
+            "title": "La Rhubarbe<br>des moines",
+            "paragraphs": [
+                "Lors des alpages sur les hauteurs de la montagne, les familles s’occupaient de traire les animaux qui vivaient avec eux pour produire du lait, du fromage et du beurre.",
+                "En redescendant au village à la fin de l’été, les vaujaniats utilisaient ces feuilles pour garder un aliment au frais. Lequel ?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Ils enveloppaient leurs fromages dans les feuilles de la rhubarbe des moines pour mieux les conserver. Ils pouvaient ainsi les vendre, les échanger ou se nourrir le reste de l’année."
+                ]
+            },
+            "choiceTitles": [
+                "LE LAIT",
+                "LE BEURRE",
+                "LE FROMAGE"
+            ]
+        },
+        "en": {
+            "title": "Monk’s rhubarb",
+            "paragraphs": [
+                "In summertime, when families take their livestock up to the high pastures to graze, the animals are milked to produce milk, cheese and butter.",
+                "When they come back down to the village at the end of the summer, the local Vaujaniats use these leaves to keep food cool. Which food in particular?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "They wrapped their butter in the leaves of monk's rhubarb to better preserve it. They could thereby sell it, exchange it, or eat it for the rest of the year."
+                ]
+            },
+            "choiceTitles": [
+                "MILK",
+                "BUTTER",
+                "CHEESE"
+            ]
+        },
+        "nl": {
+            "title": "Alpenzuring",
+            "paragraphs": [
+                "Ins Zomers tijdens hun verblijf in de bergen, melkten de families de dieren die met hen samenleefden om kaas en boter te maken.",
+                "Op het einde van de zomer keerden ze terug naar het dorp en gebruikten ze de bladeren van deze plant om een voedingsmiddel vers te houden. Welk voedingsmiddel?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Ze wikkelden hun boter in de bladeren van de alpenzuring om ze beter te kunnen bewaren. Op deze manier konden ze hem verkopen, verhandelen of zelf verbruiken voor de rest van het jaar."
+                ]
+            },
+            "choiceTitles": [
+                "MELK",
+                "BOTER",
+                "KAAS"
+            ]
+        }
+    },
+    "question_1": {
+        "answer": [
+            1
+        ],
+        "pictures": [
+            "quiz_image_1_0.jpg",
+            "quiz_image_1_1.jpg",
+            "quiz_image_1_2.jpg"
+        ],
+        "backgroundColors": [
+            "#D2CAB6",
+            "#DAB662",
+            "#A3CCED"
+        ],
+        "fr": {
+            "title": "le millepertuis<br>de richier",
+            "paragraphs": [
+                "Comment se prépare l’huile de millepertuis aux vertus antibactériennes et cicatrisantes&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Couper les fleurs pour les mettre dans un bocal. Les recouvrir d’huile d’olive vierge de première pression à froid. Laisser macérer au soleil 2 à 4 semaines en retournant régulièrement le bocal. Filtrer à travers un linge et presser pour extraire le jus."
+                ]
+            },
+            "choiceTitles": [
+                "EN BROYANT LES PÉTALES",
+                "EN FAISANT MACÉRER LES FLEURS",
+                "EN INFUSANT LES FEUILLES"
+            ]
+        },
+        "en": {
+            "title": "Richier's St John's Wort",
+            "paragraphs": [
+                "How is St John's Wort oil with antibacterial and healing properties prepared?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Cut the flowers to put them in a jar. Cover them with cold-pressed virgin olive oil. Leave to macerate in the sun for 2 to 4 weeks, turning the jar regularly. Filter through a cloth and squeeze to extract the juice."
+                ]
+            },
+            "choiceTitles": [
+                "BY GRINDING THE PETALS",
+                "BY MACERATING THE FLOWERS",
+                "BY INFUSING THE LEAVES"
+            ]
+        },
+        "nl": {
+            "title": "Hertshooi /<br>Sint-Janskruid",
+            "paragraphs": [
+                "Hoe maakt men Sint-Janskruidolie met zijn antibacteriële en helende eigenschappen?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Snij de bloemen en doe ze in een bokaal. Overgiet met koudgeperste extra vierge olijfolie. Sluit de bokaal en zet hem op een warme plaats.  Na 2 tot 4 weken kan je de bloemen eruit zeven: giet de inhoud van de bokaal door een neteldoek en pers goed uit. Giet de olie nu in donkere flesjes, etiketteer en bewaar koel."
+                ]
+            },
+            "bottomExplanations": "5%",
+            "choiceTitles": [
+                "Door de bloemblaadjes te pletten",
+                "Door de bloemen te laten weken",
+                "Door de bladeren te laten trekken"
+            ]
+        }
+    },
+    "question_2": {
+        "answer": [
+            0,
+            1,
+            2
+        ],
+        "pictures": [
+            "quiz_image_2_0.jpg",
+            "quiz_image_2_1.jpg",
+            "quiz_image_2_2.jpg"
+        ],
+        "backgroundColors": [
+            "#99A299",
+            "#E07CAD",
+            "#52774E"
+        ],
+        "fr": {
+            "title": "la raiponse en épi",
+            "paragraphs": [
+                "À quel légume ressemble le goût de cette plante&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Pas de mauvaise réponse, chacun y ressemble un peu ! Les tiges pas encore fleuries cuites à la vapeur se dégustent comme des asperges. La racine épaisse a une chair blanche, tendre et croquante, rappelant la saveur du radis. Les feuilles se mangent en salade."
+                ]
+            },
+            "choiceTitles": [
+                "ASPERGES",
+                "RADIS",
+                "ROQUETTE"
+            ]
+        },
+        "en": {
+            "title": "Spiked rampion",
+            "paragraphs": [
+                "What vegetable does this plant taste like?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "All the answers are correct as it resembles all three. Before they flower, the stalks can be steamed and eaten like asparagus. The thick root is white, tender and crunchy, tasting rather like radish. The young leaves can be eaten in a salad."
+                ]
+            },
+            "choiceTitles": [
+                "asparagus",
+                "radish",
+                "rocket"
+            ]
+        },
+        "nl": {
+            "title": "Witte rapunzel",
+            "paragraphs": [
+                "Aan welke groente doet de smaak van deze plant denken?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Geen verkeerd antwoord. Alles lijkt er wel een beetje op! De nog niet in bloei gekomen stengels, worden gestoomd en gegeten als asperges. De dikke wortel heeft wit, mals en knapperig vruchtvlees, en doet denken aan een radijs. De blaadjes kunnen als salade gegeten worden."
+                ]
+            },
+            "choiceTitles": [
+                "Asperges",
+                "Radijs",
+                "Rucolasalade"
+            ]
+        }
+    },
+    "question_3": {
+        "answer": [
+            0
+        ],
+        "pictures": [
+            "quiz_image_3_0.jpg",
+            "quiz_image_3_1.jpg",
+            "quiz_image_3_2.jpg"
+        ],
+        "backgroundColors": [
+            "#AAB8A8",
+            "#DAB662",
+            "#B99FBE"
+        ],
+        "fr": {
+            "title": "la gentiane jaune",
+            "paragraphs": [
+                "Dans quel milieu peut-on trouver la gentiane jaune&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Cette plante aime les espaces verts ensoleillés comme les prairies subalpines et les friches."
+                ]
+            },
+            "choiceTitles": [
+                "les prairies",
+                "les sous bois ombragés",
+                "les roches des sommets ensoleillés"
+            ]
+        },
+        "en": {
+            "title": "Yellow gentian",
+            "paragraphs": [
+                "In which environment does the yellow gentian grow?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "This plant likes sunny green areas, such as sub-alpine meadows and non-cultivated fields."
+                ]
+            },
+            "choiceTitles": [
+                "the meadows",
+                "shady undergrowth",
+                "the rocks on sunny peaks"
+            ]
+        },
+        "nl": {
+            "title": "De gele gentiaan",
+            "paragraphs": [
+                "In welk leefgebied komt de gele gentiaan voor?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Deze plant houdt van zonnige, groene gebieden zoals subalpiene weiden en braakliggende terreinen."
+                ]
+            },
+            "choiceTitles": [
+                "de weiden",
+                "de schaduwrijke ondergroei van bossen",
+                "de rotsen van zonnige bergtoppen"
+            ]
+        }
+    },
+    "question_4": {
+        "answer": [
+            2
+        ],
+        "pictures": [
+            "quiz_image_4_0.jpg"
+        ],
+        "backgroundColors": [
+            "#D2CAB6",
+            "#A3CCED",
+            "#AF5F81"
+        ],
+        "fr": {
+            "title": "l’origan vulgaire",
+            "paragraphs": [
+                "Que signifie origan en grec ancien&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Son nom s’inspire de opoc&nbsp;oros&nbsp;=&nbsp;«&nbsp;montagne&nbsp;» et yavoc&nbsp;ganos&nbsp;=&nbsp;«&nbsp;éclact, aspect riant »"
+                ]
+            },
+            "choiceTitles": [
+                "« qui a bon goût »",
+                "« qui aime l’altitude »",
+                "« qui se plaît sur la montagne »"
+            ]
+        },
+        "en": {
+            "title": "Oregano",
+            "paragraphs": [
+                "What does oregano mean in ancient Greek?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Its name comes from ὄρος oros = “mountain” and γάνος ganos = “brightness, joy”"
+                ]
+            },
+            "choiceTitles": [
+                "\"tastes good\"",
+                "\"likes altitude\"",
+                "\"likes the mountains\""
+            ]
+        },
+        "nl": {
+            "title": "Wilde oregano",
+            "paragraphs": [
+                "Wat betekent origan in oud Grieks?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Origanum is de klassieke Griekse naam welke is afgeleid van de woorden ‘Oros’ (‘Berg’) en ‘Ganos’ (‘Vreugde’) die verwijzen naar de mooie verschijning in de bergen."
+                ]
+            },
+            "choiceTitles": [
+                "\"Die een goede smaak heeft\"",
+                "\"Die van de hoogte houdt\"",
+                "\"Die van de bergen houdt\""
+            ]
+        }
+    },
+    "question_5": {
+        "answer": [
+            1
+        ],
+        "pictures": [
+            "quiz_image_5_0.jpg"
+        ],
+        "backgroundColors": [
+            "#F4F2BA",
+            "#ECE7EC",
+            "#CC9966"
+        ],
+        "fr": {
+            "title": "tussilage",
+            "paragraphs": [
+                "Quelle utilisation traditionnelle du tussilage était associée à la montagne&nbsp?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Appelé aussi Pas d’âne ou Chasse toux. On utilise la fleur et la feuille.",
+                    "Autrefois en montagne, le tussilage était utilisé en mélange dans le tabac. Aujourd’hui on l’utilise surtout en infusion et en sirop pour soigner les bronches."
+                ]
+            },
+            "choiceTitles": [
+                "en mélange dans le tabac",
+                "en pansement antiseptique",
+                "en salade"
+            ]
+        },
+        "en": {
+            "title": "Coltsfoot",
+            "paragraphs": [
+                "What traditional use of coltsfoot was associated with the mountain?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Also called donkey's foot or cough cure. We use the flower and the leaf.",
+                    "In the mountains, coltsfoot was formerly used as a mixture in tobacco. Today, it is mainly used in infusions and syrups to treat the bronchi."
+                ]
+            },
+            "choiceTitles": [
+                "mixing in tobacco",
+                "antiseptic dressings",
+                "salads"
+            ]
+        },
+        "nl": {
+            "title": "Klein hoefblad",
+            "paragraphs": [
+                "Welk traditioneel gebruik van hoefblad werd in verband gebracht met de bergen?"
+            ],
+            "bottomExplanations": "5%",
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Ook wel \"Ezelspoot\" of \"Hoestblad\" genoemd. Men gebruikt de bloem en de blaadjes.",
+                    "Vroeger in de bergen werd hoefblad vermengd met tabak. Tegenwoordig wordt ze vooral gebruikt als kruidenthee en siroop om de luchtwegen te behandelen."
+                ]
+            },
+            "choiceTitles": [
+                "vermengd met tabak",
+                "als ontsmettend verband",
+                "als salade"
+            ]
+        }
+    },
+    "question_6": {
+        "answer": [
+            0
+        ],
+        "pictures": [
+            "quiz_image_6_0.jpg"
+        ],
+        "backgroundColors": [
+            "#E8D262",
+            "#D5C389",
+            "#52774E"
+        ],
+        "toxic": true,
+        "fr": {
+            "title": "la digitale à grandes fleurs",
+            "paragraphs": [
+                "Quelle est le surnom populaire donné à la plante digitale&nbsp?"
+            ],
+            "explanation": {
+                "paragraphs": [
+                    "Appelée aussi «&nbsp;gant de sorcière&nbsp;» dans le langage populaire (la forme de ses fleurs fait penser aux bouts des doigts des gants), c’est une plante redoutable. Elle est toxique : Il est conseillé de ne pas la toucher !"
+                ]
+            },
+            "choiceTitles": [
+                "« gant de sorcière »",
+                "« gant de jardinier »",
+                "« gant de peintre »"
+            ]
+        },
+        "en": {
+            "title": "Yellow foxglove",
+            "paragraphs": [
+                "What is the popular nickname given to digitalis grandiflora?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Also popularly called \"witch's glove\" (the shape of the flowers makes you think of the fingertips of gloves), it is a formidable plant. It is toxic: it is recommended not to touch it!"
+                ]
+            },
+            "choiceTitles": [
+                "\"witch's glove\"",
+                "\"gardener's glove\"",
+                "\"painter's glove\""
+            ]
+        },
+        "nl": {
+            "title": "Grootbloemig vingerhoedskruid",
+            "paragraphs": [
+                "Wat is de populaire bijnaam van het vingerhoedskruid?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "In de volksmond ook bekend als \"heksenhandschoen\" (de vorm van de bloemen doet denken aan de vingertoppen van handschoenen). Het is een gevreesde plant en is giftig! Het is ten sterkste aangeraden om hem niet aan te raken!"
+                ]
+            },
+            "choiceTitles": [
+                "\"heksenhandschoen\"",
+                "\"tuiniershandschoen\"",
+                "\"schildershandschoen\""
+            ]
+        }
+    },
+    "question_7": {
+        "answer": [
+            0
+        ],
+        "pictures": [
+            "quiz_image_7_0.jpg",
+            "quiz_image_7_1.jpg",
+            "quiz_image_7_2.jpg"
+        ],
+        "backgroundColors": [
+            "#FFB559",
+            "#7AA269",
+            "#E8D262"
+        ],
+        "fr": {
+            "title": "l’arnica",
+            "paragraphs": [
+                "Quelle fleur est l’arnica&nbsp?"
+            ],
+            "explanation": {
+                "paragraphs": [
+                    "On la confond souvent avec d’autres fleurs pourtant ses propriétés sont uniques et réputées dans le monde pour soigner les bleus et les muscles fatigués."
+                ]
+            },
+            "choiceTitles": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "en": {
+            "title": "Arnica",
+            "paragraphs": [
+                "Which flower is arnica?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "It is often confused with other flowers, yet its properties are unique and famous world over for soothing bruises and tired muscles."
+                ]
+            },
+            "choiceTitles": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "nl": {
+            "title": "Arnica",
+            "paragraphs": [
+                "Welke bloem is de arnica?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Hij wordt vaak verward met andere bloemen.  Nochtans bezit hij unieke eigenschappen en is wereldberoemd als behandeling van kneuzingen en vermoeide spieren."
+                ]
+            },
+            "choiceTitles": [
+                "",
+                "",
+                ""
+            ]
+        }
+    },
+    "question_8": {
+        "answer": [
+            0
+        ],
+        "pictures": [
+            "quiz_image_8_0.jpg"
+        ],
+        "backgroundColors": [
+            "#FFB559",
+            "#FDFB7E",
+            "#D2CAB6"
+        ],
+        "toxic": true,
+        "fr": {
+            "title": "la digitale à grandes fleurs",
+            "paragraphs": [
+                "Cette plante est-elle…"
+            ],
+            "explanation": {
+                "paragraphs": [
+                    "Toutes les parties de cette plante sont extrêmement toxiques (fleurs, feuilles, graines, racines). Il ne faut surtout pas les ingérer.",
+                    "On lui a attribué à tort des propriétés contre la folie. Ce traitement, administré au peintre Van Gogh, lui aurait provoqué des troubles visuels, et notamment la coloration jaune de la vision, ce qui expliquerait l’utilisation massive de jaune dans ses œuvres à la fin de sa vie."
+                ]
+            },
+            "bottomExplanations": "15%",
+            "choiceTitles": [
+                "toxique",
+                "protégée",
+                "disparue"
+            ]
+        },
+        "en": {
+            "title": "The yellow foxglove",
+            "paragraphs": [
+                "Is this plant…?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "All parts of this plant are highly poisonous (flowers, leaves, seeds and roots). Never eat them."
+                ]
+            },
+            "choiceTitles": [
+                "poisonous",
+                "protected",
+                "extinct"
+            ]
+        },
+        "nl": {
+            "title": "Grootbloemig vingerhoedskruid",
+            "paragraphs": [
+                "Is deze plant…"
+            ],
+            "bottomExplanations": "30%",
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Alle delen van deze plant zijn extreem giftig (bloemen, bladeren, zaden en wortels). Je mag ze vooral niet inslikken.",
+                    "Vingerhoedskruid werd gebruikt in de behandeling van de schilder Van Gogh die aan epilepsie leed.  Dit zou hem visuele hallucinaties hebben opgeleverd, waarin de kleur geel domineerde.  Hierover is veel gespeculeerd en er bestaan vermoedens dat de giftige werking van vingerhoedskruid niet alleen verantwoordelijk was voor de psychotische symptomen, maar ook voor de prominente gele kleur in de schilderijen van Van Gogh in de laatste twee jaar voorafgaande aan zijn dood."
+                ]
+            },
+            "choiceTitles": [
+                "giftig",
+                "beschermd",
+                "uitgestorven"
+            ]
+        }
+    },
+    "question_9": {
+        "answer": [
+            0
+        ],
+        "pictures": [
+            "quiz_image_9_0.jpg"
+        ],
+        "backgroundColors": [
+            "#FFB559",
+            "#FDFB7E",
+            "#D2CAB6"
+        ],
+        "fr": {
+            "title": "gentiane jaune",
+            "paragraphs": [
+                "Appelée aussi gratte-ciel végétal, qu’indique la hauteur de cette fleur&nbsp?"
+            ],
+            "explanation": {
+                "paragraphs": [
+                    "Le clin d’œil du météorologiste : elle indique, soi-disant, la hauteur de neige de l’hiver suivant : plus elle est haute, plus le manteau blanc sera épais."
+                ]
+            },
+            "choiceTitles": [
+                "plus elle est haute,<br>plus la neige sera épaisse",
+                "plus elle est haute,<br>plus il va faire chaud",
+                "plus elle est haute,<br>plus il va pleuvoir "
+            ]
+        },
+        "en": {
+            "title": "Yellow gentian",
+            "paragraphs": [
+                "Also called a plant skyscraper. What does the height of this flower indicate?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "The meteorologist's wink: it supposedly indicates the snow depth of the following winter: the higher it is, the deeper the layer of snow will be."
+                ]
+            },
+            "choiceTitles": [
+                "The higher it is, the deeper the snow will&nbsp;be",
+                "The higher it is, the warmer it will be",
+                "The higher it is, the more it will rain"
+            ]
+        },
+        "nl": {
+            "title": "De gele gentiaan",
+            "paragraphs": [
+                "Ook wel plantaardige wolkenkrabber genoemd. Wat geeft de hoogte van deze bloem aan?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "De knipoog van de weerkundige: de Gele Gentiaan geeft zogezegd de hoeveelheid sneeuw voor de komende winter aan. Hoe hoger hij groeit, hoe dikker de sneeuwlaag zal zijn."
+                ]
+            },
+            "choiceTitles": [
+                "Hoe hoger hij is, hoe dikker de sneeuwlaag.",
+                "Hoe hoger hij is, hoe warmer het zal worden.",
+                "Hoe hoger hij is, hoe meer het zal regenen."
+            ]
+        }
+    },
+    "question_10": {
+        "answer": [
+            0
+        ],
+        "pictures": [
+            "quiz_image_10_0.jpg",
+            "quiz_image_10_1.jpg",
+            "quiz_image_10_2.jpg"
+        ],
+        "backgroundColors": [
+            "#52774E",
+            "#D5C389",
+            "#A49582"
+        ],
+        "fr": {
+            "title": "la rhubarbe des moines",
+            "paragraphs": [
+                "Quelle fleur est la rhubarbe des moines&nbsp?"
+            ],
+            "explanation": {
+                "paragraphs": [
+                    "Au Moyen Âge, ses feuilles avaient diverses utilisations. Elles étaient cuisinées pour faire des compotes, des confitures et des tartes, elles servaient de nourriture pour les cochons… Les feuilles étaient également utilisées pour emballer le beurre et le garder au frais lors de la descente de l’alpage."
+                ]
+            },
+            "bottomExplanations": "5%",
+            "choiceTitles": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "en": {
+            "title": "Monk's rhubarb",
+            "paragraphs": [
+                "What flower is monk's rhubarb?"
+            ],
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "In the Middle Ages, its leaves had various uses. They were cooked to make compotes, jams and pies, and were used as food for pigs. The leaves were also used to wrap butter and keep it fresh when descending from mountain pastures."
+                ]
+            },
+            "choiceTitles": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "nl": {
+            "title": "Alpenzuring",
+            "paragraphs": [
+                "Welke bloem is de alpenzuring?"
+            ],
+            "bottomExplanations": "3%",
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "In de Middeleeuwen werden de bladeren voor verschillende doeleinden gebruikt. Ze werden gebruikt om compote, jam en taartente maken, maar ook als varkensvoer... De bladeren dienden ook om boter in te wikkelen en koel te houden tijdens de terugkeer van de alpenweiden."
+                ]
+            },
+            "choiceTitles": [
+                "",
+                "",
+                ""
+            ]
+        }
+    },
+    "question_11": {
+        "answer": [
+            2
+        ],
+        "pictures": [
+            "quiz_image_11_0.jpg",
+            "quiz_image_11_1.jpg",
+            "quiz_image_11_2.jpg"
+        ],
+        "backgroundColors": [
+            "#ECE7EC",
+            "#DAB662",
+            "#D36D52"
+        ],
+        "fr": {
+            "title": "l’origan vulgaire",
+            "paragraphs": [
+                "Comment utilise t’on régulièrement l’origan vulgaire&nbsp?"
+            ],
+            "explanation": {
+                "paragraphs": [
+                    "Appelé aussi marjolaine des montagnes ou thé rouge.",
+                    "Son goût agréable donne de très bonnes infusions, c’est le « thé rouge » des Scandinaves. En montagne, on l’utilise régulièrement comme substitut du thé.",
+                    "Le clin d’œil du pizzaïolo : c’est sa cousine la marjolaine cultivée, qui ne pousse pas spontanément sous nos climats, qu’on étale sur nos pizzas."
+                ]
+            },
+            "bottomExplanations": "15%",
+            "choiceTitles": [
+                "en bonbon",
+                "sur une pizza",
+                "en infusion"
+            ]
+        },
+        "en": {
+            "title": "Common oregano",
+            "paragraphs": [
+                "How is common oregano regularly used?"
+            ],
+            "bottomExplanations": "15%",
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Also called mountain marjoram or red tea.",
+                    "Its pleasant taste makes very good infusions; it is the \"red tea\" of the Scandinavians. In the mountains, it is regularly used as a substitute for tea.",
+                    "The pizza maker's wink: its cousin, cultivated marjoram, which does not grow spontaneously in our climates, that we spread on our pizzas."
+                ]
+            },
+            "choiceTitles": [
+                "in sweets",
+                "on a pizza",
+                "in infusions"
+            ]
+        },
+        "nl": {
+            "title": "Wilde oregano",
+            "paragraphs": [
+                "Waarvoor wordt wilde oregano regelmatig gebruikt?"
+            ],
+            "bottomExplanations": "15%",
+            "explanation": {
+                "toxic": null,
+                "paragraphs": [
+                    "Ook wel bergmarjolein of rode thee genoemd.",
+                    "Zijn aangename smaak zorgt voor heerlijke kruidentheeën. Het is de \"rode thee\" van de Scandinaviërs. In de bergen wordt hij regelmatig gebruikt als vervanger van de klassieke thee.",
+                    "De knipoog van de pizzabakker: Het is zijn neefje, de gecultiveerde marjolein, die niet spontaan in ons klimaat groeit, die we op onze pizzas smeren."
+                ]
+            },
+            "choiceTitles": [
+                "als snoep",
+                "op een pizza",
+                "als kruidenthee"
+            ]
+        }
+    }
+}

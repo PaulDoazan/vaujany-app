@@ -1,10 +1,11 @@
-import React, { useContext, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import dataFlowers from '../../assets/data/flowers.json'
 import FlowerCard from './FlowerCard'
 import FlowerInfos from './FlowerInfos'
 import { NavigationContext } from '../../utils/context'
 import interact from 'interactjs'
 import ExploreSlider from './ExploreSlider'
+import gsap from 'gsap'
 
 export default function Explore({ id }) {
     const { currentPage } = useContext(NavigationContext)
@@ -57,8 +58,12 @@ export default function Explore({ id }) {
         setCarouselIsDragging(false)
     }
 
+    useEffect(() => {
+        gsap.fromTo('.explore__container', { opacity: 0 }, { opacity: 1, duration: 0.5 })
+    }, [])
+
     return (
-        <>
+        <div className="explore__container">
             <div className={`draggable-${id} draggable__container`} onTouchStart={handleStart} onTouchMove={handleMove} onTouchEnd={handleEnd}>
                 {dataFlowers.flowers.map((flower, index) => {
                     return <FlowerCard key={flower.slug} data={flower} index={index} isDragging={carouselIsDragging || cursorIsDragging} deltaX={deltaX} />
@@ -67,6 +72,6 @@ export default function Explore({ id }) {
             </div>
             {!currentPage.element && <ExploreSlider id={id} deltaX={deltaX} handleCursorDragging={handleCursorDragging} handleCursorRatio={handleCursorRatio} carouselIsDragging={carouselIsDragging} maxValue={maxValue} />}
             {currentPage.element && <FlowerInfos data={currentPage.element} />}
-        </>
+        </div>
     )
 }

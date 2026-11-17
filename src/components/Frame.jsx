@@ -1,18 +1,21 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import Menu from './navigation/menu/Menu'
 import Home from './Home'
 import Explore from './exploration/Explore'
 import GamesHome from './games/GamesHome'
-import { LangProvider, NavigationContext } from '../utils/context'
+import { ConfettiProvider, LangProvider, NavigationContext } from '../utils/context'
 import GameInstruction from './games/GameInstruction'
-import Memory from './games/gamesComponents/Memory'
-import Quiz from './games/gamesComponents/Quiz'
-import Toxic from './games/gamesComponents/Toxic'
-import Levels from './games/gamesComponents/Levels'
-import GuessWho from './games/gamesComponents/GuessWho'
-
+import Memory from './games/gamesComponents/memory/Memory'
+import Quiz from './games/gamesComponents/quiz/Quiz'
+import Toxic from './games/gamesComponents/toxic/Toxic'
+import Levels from './games/gamesComponents/levels/Levels'
+import GuessWho from './games/gamesComponents/guesswho/GuessWho'
+import Confettis from './games/gamesComponents/Confettis'
+import CancelPage from './navigation/menu/CancelPage'
 
 export default function Frame({ id, arrLength }) {
+    const [displayCancel, setDisplayCancel] = useState(false)
+    const [creditsVisible, setCreditsVisible] = useState(false)
     const { currentPage } = useContext(NavigationContext)
 
     let fullClass = `frame frame__${id}`
@@ -24,26 +27,39 @@ export default function Frame({ id, arrLength }) {
         fullClass += ' frame__rotate__right'
     }
 
+    const handleCancel = (value) => {
+        setDisplayCancel(value)
+    }
+
+    const handleCredits = (value) => {
+
+        setCreditsVisible(value === false ? false : !creditsVisible)
+    }
+
     return (
         <>
             <LangProvider>
                 <div className={fullClass}>
-                    <div className="frame__container">
-                        <div className="home__wrapper">
-                            {currentPage.category === 'home' && <Home />}
-                            {currentPage.category === 'explore' && <Explore id={id} />}
-                            {currentPage.category === 'gamesHome' && <GamesHome />}
-                            {currentPage.category === 'gameInstruction' && <GameInstruction />}
-                            {currentPage.category === 'memory' && <Memory />}
-                            {currentPage.category === 'quiz' && <Quiz />}
-                            {currentPage.category === 'toxic' && <Toxic />}
-                            {currentPage.category === 'levels' && <Levels />}
-                            {currentPage.category === 'guesswho' && <GuessWho />}
+                    <ConfettiProvider>
+                        <div className="frame__container">
+                            <div className="home__wrapper">
+                                {currentPage.category === 'home' && <Home creditsVisible={creditsVisible} handleCredits={handleCredits} />}
+                                {currentPage.category === 'explore' && <Explore id={id} />}
+                                {currentPage.category === 'gamesHome' && <GamesHome />}
+                                {currentPage.category === 'gameInstruction' && <GameInstruction />}
+                                {currentPage.category === 'memory' && <Memory />}
+                                {currentPage.category === 'quiz' && <Quiz />}
+                                {currentPage.category === 'toxic' && <Toxic />}
+                                {currentPage.category === 'levels' && <Levels />}
+                                {currentPage.category === 'guesswho' && <GuessWho />}
+                            </div>
+                            <Confettis canvasId={id} />
+                            {displayCancel && <CancelPage nextPage={displayCancel} handleCancel={handleCancel} />}
+                            <div className="menu__wrapper">
+                                <Menu handleCancel={handleCancel} handleCredits={handleCredits} creditsVisible={creditsVisible} />
+                            </div>
                         </div>
-                        <div className="menu__wrapper">
-                            <Menu />
-                        </div>
-                    </div>
+                    </ConfettiProvider>
                 </div>
             </LangProvider>
         </>

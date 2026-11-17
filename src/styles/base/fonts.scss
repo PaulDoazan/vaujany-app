@@ -14,7 +14,23 @@
 }
 
 @font-face {
+    font-family: "FuturaPTLight";
+    src: url("../../assets/fonts/Futura/FuturaPTLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "FuturaPTDemi";
+    src: url("../../assets/fonts/Futura/FuturaPTDemi.otf") format("opentype");
+}
+
+@font-face {
     font-family: "FuturaPTMedium";
     src: url("../../assets/fonts/Futura/FuturaPTMedium.otf") format("opentype");
+    line-height: 1.2;
+}
+
+@font-face {
+    font-family: "FuturaPTBold";
+    src: url("../../assets/fonts/Futura/FuturaPTBold.otf") format("opentype");
     line-height: 1.2;
 }

@@ -1,5 +1,6 @@
+import parse from 'html-react-parser'
 import React, { useState } from 'react'
-import navigation_configs from '../../config/navigation_configs.json'
+import pages from '../../assets/data/pages.json'
 
 export default function DidYouKnow({ currentFlower, lang }) {
     const [visible, setVisible] = useState(true)
@@ -13,7 +14,7 @@ export default function DidYouKnow({ currentFlower, lang }) {
     }
 
     return (
-        <div onTouchStart={handleClick} className="didYouKnow__wrapper" style={{
+        <div onTouchStart={handleClick} onClick={handleClick} className="didYouKnow__wrapper" style={{
             left: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.left && currentFlower[lang].didYouKnow.dimensions.left
         }}>
             <div className='didYouKnow__container' style={containerStyle}>
@@ -32,14 +33,14 @@ export default function DidYouKnow({ currentFlower, lang }) {
                     opacity: visible ? 1 : 0
                 }}>
                     {currentFlower[lang].didYouKnow.paragraphs.map((p, index) => {
-                        return <div key={index} className={`didYouKnow__paragraph didYouKnow__p__${index}`} style={{ width: index === 2 && currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.thirdParagraphWidth && currentFlower[lang].didYouKnow.dimensions.thirdParagraphWidth }}>
-                            {p}
+                        return <div key={index} className={`didYouKnow__paragraph didYouKnow__p__${index}`} style={{ width: index === 2 && currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.thirdParagraphWidth && currentFlower[lang].didYouKnow.dimensions.thirdParagraphWidth, marginTop: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.textMarginTop && currentFlower[lang].didYouKnow.dimensions.textMarginTop, fontSize: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.fontSize && currentFlower[lang].didYouKnow.dimensions.fontSize }}>
+                            {parse(p)}
                         </div>
                     })}
                 </div>
 
             </div>
-            <div className="didYouKnow__question" style={{ color: currentFlower.color === "#000" ? currentFlower.color : currentFlower.backgroundColor, left: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.questionLeft ? currentFlower[lang].didYouKnow.dimensions.questionLeft : '25vw' }}>{navigation_configs.flowerInfos[lang].didYouKnow}</div>
+            <div className="didYouKnow__question" style={{ color: currentFlower.color === "#000" ? currentFlower.color : currentFlower.backgroundColor, left: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.questionLeft ? currentFlower[lang].didYouKnow.dimensions.questionLeft : '25vw', top: currentFlower[lang].didYouKnow.dimensions && currentFlower[lang].didYouKnow.dimensions.questionTop ? currentFlower[lang].didYouKnow.dimensions.questionTop : '68vh' }}>{pages.flowerInfos[lang].didYouKnow}</div>
         </div>
     )
 }
